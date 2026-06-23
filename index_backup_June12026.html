@@ -1,0 +1,728 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <title>Production Volume</title>
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/qgis2web.css">
+    <link rel="stylesheet" href="css/L.Control.Locate.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/leaflet.photon.css">
+    <link rel="stylesheet" href="css/leaflet-measure.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap');
+
+        html, body, #map { width:100%; height:100%; padding:0; margin:0; font-family:'DM Sans','Segoe UI',sans-serif; }
+
+        #control-panel {
+            position:absolute; top:15px; right:15px; z-index:1000;
+            background:#fff; border-radius:12px;
+            box-shadow:0 2px 4px rgba(0,0,0,0.07),0 8px 28px rgba(0,0,0,0.13);
+            width:270px; max-height:calc(100vh - 80px);
+            display:flex; flex-direction:column; overflow:hidden;
+        }
+        #panel-header { padding:14px 16px 11px; border-bottom:1px solid #f0f0f0; flex-shrink:0; }
+        #panel-header h3 { margin:0 0 2px; font-size:14px; font-weight:700; color:#1a1a1a; letter-spacing:-0.01em; }
+        #panel-header p  { margin:0; font-size:10.5px; color:#555; font-weight:500; }
+
+        #tree-scroll { overflow-y:auto; flex:1; padding:8px; }
+        #tree-scroll::-webkit-scrollbar { width:4px; }
+        #tree-scroll::-webkit-scrollbar-thumb { background:#e0e0e0; border-radius:2px; }
+
+        .tree-section { margin-bottom:4px; }
+        .section-header {
+            display:flex; align-items:center; justify-content:space-between;
+            padding:7px 11px; border-radius:8px; cursor:pointer;
+            font-size:10px; font-weight:700; letter-spacing:0.07em;
+            text-transform:uppercase; color:#fff;
+            user-select:none; transition:filter 0.15s;
+            border:none; outline:none; width:100%;
+        }
+        .section-header:hover { filter:brightness(0.92); }
+        .section-header.crops     { background:linear-gradient(120deg,#1b6b45,#40a86e); }
+        .section-header.palay     { background:linear-gradient(120deg,#1b6b45,#40a86e); }
+        .section-header.fisheries { background:linear-gradient(120deg,#0d4f8c,#2a91d8); }
+        .section-header.livestock { background:linear-gradient(120deg,#7a3f00,#bf7a30); }
+        .section-header-inner { display:flex; align-items:center; gap:7px; }
+
+        .subgroup-header {
+            display:flex; align-items:center; justify-content:space-between;
+            padding:5px 10px 5px 12px; margin:2px 0; border-radius:6px; cursor:pointer;
+            font-size:11px; font-weight:600; color:#555;
+            background:#f6f6f6; user-select:none; transition:background 0.12s;
+        }
+        .subgroup-header:hover { background:#ececec; }
+
+        .tree-item {
+            display:flex; align-items:center;
+            padding:5px 10px 5px 22px; margin:1px 0;
+            border-radius:6px; cursor:pointer; font-size:12px; color:#555;
+            user-select:none; transition:background 0.1s,color 0.1s; position:relative;
+        }
+        .tree-item::before {
+            content:''; position:absolute; left:12px;
+            width:5px; height:5px; border-radius:50%;
+            background:#d0d0d0; transition:background 0.1s;
+        }
+        .tree-item:hover { background:#eef5ff; color:#1a4f8c; }
+        .tree-item:hover::before { background:#2a91d8; }
+        .tree-item.active { background:#deeeff; color:#0d4070; font-weight:600; }
+        .tree-item.active::before { background:#0d4f8c; }
+
+        .tree-children { display:none; }
+        .tree-children.open { display:block; }
+        .chevron { font-size:8px; transition:transform 0.2s; opacity:0.6; flex-shrink:0; }
+        .chevron.open { transform:rotate(90deg); }
+
+        #panel-footer { padding:9px 16px 12px; border-top:1px solid #f0f0f0; flex-shrink:0; }
+        .toggle-row { display:flex; align-items:center; gap:8px; cursor:pointer; }
+        .toggle-row input[type="checkbox"] { cursor:pointer; accent-color:#0d4f8c; }
+        .toggle-row label { font-size:12px; color:#555; cursor:pointer; font-weight:500; }
+
+        /* ── Legend ────────────────────────────────────────────────── */
+        #legend-panel {
+            position:absolute; bottom:175px; left:15px; z-index:1000;
+            background:#fff; border-radius:12px;
+            box-shadow:0 2px 4px rgba(0,0,0,0.07),0 8px 28px rgba(0,0,0,0.13);
+            width:260px; padding:12px 14px 13px; display:none;
+            animation:fadeUp 0.2s ease;
+        }
+        @keyframes fadeUp { from{opacity:0;transform:translateY(6px);}to{opacity:1;transform:translateY(0);} }
+
+        /* ── Legend collapse ───────────────────────────────────────── */
+        #legend-header {
+            display:flex; align-items:flex-start;
+            justify-content:space-between; gap:8px; margin-bottom:9px;
+        }
+        #legend-toggle {
+            background:#f5f5f5; border:none; border-radius:5px;
+            width:22px; height:22px; font-size:10px; cursor:pointer;
+            color:#888; flex-shrink:0;
+            display:flex; align-items:center; justify-content:center;
+            transition:background 0.15s, transform 0.2s; margin-top:1px;
+        }
+        #legend-toggle:hover { background:#e8e8e8; color:#444; }
+        #legend-toggle.collapsed { transform:rotate(-90deg); }
+        #legend-body {
+            transition:max-height 0.25s ease, opacity 0.2s ease;
+            max-height:500px; opacity:1; overflow:hidden;
+        }
+        #legend-body.collapsed { max-height:0; opacity:0; }
+
+        #legend-title  { font-size:11.5px; font-weight:700; color:#1a1a1a; margin-bottom:2px; }
+        #legend-avg    { font-size:10px; color:#888; font-weight:500; font-family:'DM Mono',monospace; }
+        .legend-row    { display:flex; align-items:flex-start; margin-bottom:8px; gap:9px; }
+        .legend-swatch { width:16px; height:16px; border-radius:3px; flex-shrink:0; margin-top:2px; border:1px solid rgba(0,0,0,0.10); }
+        .legend-label  { font-size:11px; font-weight:600; color:#333; line-height:1.3; }
+        /* ── Range line — shown below label ───────────────────────── */
+        .legend-range  { font-size:9.5px; color:#888; margin-top:2px; font-family:'DM Mono',monospace; line-height:1.4; }
+        .legend-count  { font-size:9px; color:#bbb; margin-top:1px; }
+
+        /* ── Leaflet controls ──────────────────────────────────────── */
+        .leaflet-control-layers { border-radius:8px!important; box-shadow:0 2px 4px rgba(0,0,0,0.07),0 4px 14px rgba(0,0,0,0.11)!important; font-size:12px; font-family:'DM Sans',sans-serif; }
+        .leaflet-control-layers-expanded { padding:9px 12px!important; font-size:12px!important; font-family:'DM Sans',sans-serif!important; border-radius:8px!important; }
+        .leaflet-popup-content-wrapper { max-width:220px; }
+        .leaflet-control-photon { display:none!important; }
+
+        /* ── Scale Bar ─────────────────────────────────────────────── */
+        .leaflet-control-scale-line {
+            font-family:'DM Mono',monospace!important; font-size:10px!important;
+            border-color:#555!important; color:#333!important;
+            background:rgba(255,255,255,0.85)!important;
+            padding:2px 5px!important; border-radius:0 0 4px 4px!important;
+            backdrop-filter:blur(4px);
+        }
+
+        /* ── Hillshade toggle ──────────────────────────────────────── */
+        .hillshade-toggle {
+            background:white; border-radius:8px; padding:7px 12px;
+            box-shadow:0 2px 4px rgba(0,0,0,0.07),0 4px 14px rgba(0,0,0,0.11);
+            font-size:12px; font-family:'DM Sans',sans-serif;
+        }
+        .hillshade-toggle label { display:flex; align-items:center; gap:6px; cursor:pointer; color:#444; font-weight:500; white-space:nowrap; }
+        .hillshade-toggle input[type="checkbox"] { accent-color:#0d4f8c; cursor:pointer; width:13px; height:13px; }
+
+        /* ── Basemap dropdown ──────────────────────────────────────── */
+        .basemap-control {
+            background:white; border-radius:8px; padding:7px 10px 8px;
+            box-shadow:0 2px 4px rgba(0,0,0,0.07),0 4px 14px rgba(0,0,0,0.11);
+            font-family:'DM Sans',sans-serif; min-width:160px;
+        }
+        .basemap-label { font-size:10px; font-weight:700; color:#aaa; letter-spacing:0.06em; text-transform:uppercase; margin-bottom:5px; }
+        .basemap-control select {
+            width:100%; border:1px solid #e8e8e8; border-radius:6px;
+            padding:5px 26px 5px 8px; font-size:12px;
+            font-family:'DM Sans',sans-serif; font-weight:500; color:#333;
+            background:#f9f9f9; cursor:pointer; outline:none;
+            appearance:none; -webkit-appearance:none;
+            background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23888' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+            background-repeat:no-repeat; background-position:right 8px center;
+        }
+        .basemap-control select:hover { border-color:#0d4f8c; background-color:#f0f7ff; }
+        .basemap-control select:focus { border-color:#0d4f8c; }
+
+        /* ── Custom Search ─────────────────────────────────────────── */
+        .custom-search-control { display:flex; align-items:center; background:white; border-radius:4px; box-shadow:0 1px 5px rgba(0,0,0,0.4); overflow:visible; position:relative; height:30px; }
+        .custom-search-btn { width:30px; height:30px; flex-shrink:0; background:white; border:none; cursor:pointer; display:flex; align-items:center; justify-content:center; font-size:16px; border-radius:4px; transition:color 0.15s; }
+        .custom-search-input { width:0; max-width:0; opacity:0; border:none; outline:none; font-size:12px; padding:0; font-family:'DM Sans',sans-serif; transition:max-width 0.25s ease,opacity 0.2s,padding 0.25s; background:transparent; }
+        .custom-search-control.open .custom-search-input { max-width:185px; width:185px; opacity:1; padding:0 8px 0 2px; }
+        .custom-search-results { position:absolute; top:34px; left:0; background:white; border-radius:6px; box-shadow:0 4px 12px rgba(0,0,0,0.15); width:240px; z-index:9999; font-size:12px; overflow:hidden; display:none; }
+        .custom-search-results.visible { display:block; }
+        .custom-search-result-item { padding:8px 12px; cursor:pointer; border-bottom:1px solid #f5f5f5; line-height:1.4; transition:background 0.1s; }
+        .custom-search-result-item:last-child { border-bottom:none; }
+        .custom-search-result-item:hover { background:#f0f7ff; }
+        .result-main { font-weight:600; color:#222; }
+        .result-sub  { font-size:10.5px; color:#999; margin-top:1px; }
+
+        /* ── Measure ───────────────────────────────────────────────── */
+        .leaflet-control-measure .leaflet-control-measure-toggle { font-size:0!important; display:flex!important; align-items:center!important; justify-content:center!important; }
+    /* ── Export Button ─────────────────────────────────────────────────────── */
+    #export-btn {
+    position: absolute; bottom: 40px; right: 15px; z-index: 1000;
+    background: #1a1a1a; color: white;
+    border: none; border-radius: 8px;
+    padding: 8px 14px; font-size: 12px; font-weight: 600;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer; display: flex; align-items: center; gap: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), 0 4px 14px rgba(0,0,0,0.15);
+    transition: background 0.15s, transform 0.1s;
+    }
+    #export-btn:hover  { background: #333; }
+    #export-btn:active { transform: scale(0.97); }
+    #export-btn.loading { opacity: 0.6; pointer-events: none; }
+
+    #legend-footnote {
+    font-size: 9px;
+    color: #aaa;
+    font-style: italic;
+    margin-top: 8px;
+    padding-top: 7px;
+    border-top: 1px solid #f0f0f0;
+    line-height: 1.4;
+    display: none;
+}
+    </style>
+</head>
+<body>
+
+<div id="control-panel">
+    <div id="panel-header">
+        <h3>🌾 Production Volume (MT) 2025</h3>
+        <p> &nbsp; Per Region</p>
+    </div>
+    <div id="tree-scroll">
+
+        <div class="tree-section">
+            <button class="section-header crops" onclick="toggleSection(this)">
+                <div class="section-header-inner"><span>🌱</span><span>Crops</span></div>
+                <span class="chevron">▶</span>
+            </button>
+            <div class="tree-children">
+                <div class="subgroup-header" onclick="toggleSection(this)"><span>Palay and Corn</span><span class="chevron">▶</span></div>
+                <div class="tree-children">
+                    <div class="tree-item" onclick="selectCrop(this,'Overall Palay Production')">Overall Palay</div>
+                    <div class="tree-item" onclick="selectCrop(this,'Irrigated Palay Production')">Irrigated Palay</div>
+                    <div class="tree-item" onclick="selectCrop(this,'Rainfed Palay Production')">Rainfed Palay</div>
+                    <div class="tree-item" onclick="selectCrop(this,'Overall Corn Production')">Overall Corn</div>
+                    <div class="tree-item" onclick="selectCrop(this,'Yellow Corn Production')">Yellow Corn</div>
+                    <div class="tree-item" onclick="selectCrop(this,'White Corn Production')">White Corn</div>
+                </div>
+                <div class="subgroup-header" onclick="toggleSection(this)"><span>Fruit Crops</span><span class="chevron">▶</span></div>
+                <div class="tree-children">
+                    <div class="tree-item" onclick="selectCrop(this,'Overall Mango Production')">Mango</div>
+                    <div class="tree-item" onclick="selectCrop(this,'Overall Banana Production')">Banana</div>
+                </div>
+                <div class="subgroup-header" onclick="toggleSection(this)"><span>Non-Food &amp; Industrial</span><span class="chevron">▶</span></div>
+                <div class="tree-children">
+                    <div class="tree-item" onclick="selectCrop(this,'Overall Coconut Production')">Coconut with Husk</div>
+                    <div class="tree-item" onclick="selectCrop(this,'Overall Sugar Production')">Sugarcane</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tree-section">
+            <button class="section-header fisheries" onclick="toggleSection(this)">
+                <div class="section-header-inner"><span>🐟</span><span>Fisheries</span></div>
+                <span class="chevron">▶</span>
+            </button>
+            <div class="tree-children">
+                <div class="tree-item" onclick="selectCrop(this,'Overall Milkfish Production')">Milkfish (Bangus)</div>
+                <div class="tree-item" onclick="selectCrop(this,'Overall Tilapia Production')">Tilapia</div>
+            </div>
+        </div>
+
+        <div class="tree-section">
+            <button class="section-header livestock" onclick="toggleSection(this)">
+                <div class="section-header-inner"><span>🐄</span><span>Livestock &amp; Poultry</span></div>
+                <span class="chevron">▶</span>
+            </button>
+            <div class="tree-children">
+                <div class="tree-item" onclick="selectCrop(this,'Overall Chicken Production')">Chicken</div>
+                <div class="tree-item" onclick="selectCrop(this,'Overall Cattle Production')">Cattle</div>
+                <div class="tree-item" onclick="selectCrop(this,'Overall Hog Production')">Hog</div>
+                <div class="tree-item" onclick="selectCrop(this,'Overall Dairy Production')">Dairy</div>
+                <div class="tree-item" onclick="selectCrop(this,'Overall Egg Production')">Eggs</div>
+            </div>
+        </div>
+
+    </div>
+    <div id="panel-footer">
+        <div class="toggle-row">
+            <input type="checkbox" id="toggle-borders" checked onchange="toggleBorders()">
+            <label for="toggle-borders">Show Administrative Boundaries</label>
+        </div>
+    </div>
+</div>
+
+<div id="legend-panel">
+    <div id="legend-header">
+        <div>
+            <div id="legend-title">Legend</div>
+            <div id="legend-avg"></div>
+        </div>
+        <button id="legend-toggle" onclick="toggleLegend()" title="Collapse legend">▼</button>
+    </div>
+    <div id="legend-body">
+    <div id="legend-items"></div>
+    <div id="legend-footnote"></div>
+</div>
+    </div>
+</div>
+ <!-- <div id="export-btn" onclick="exportMap()"> -->
+ <!-- 📥 Export Map -->
+ <!-- </div> -->
+<div id="map"></div>
+
+<script src="js/leaflet.js"></script>
+<script src="js/L.Control.Locate.min.js"></script>
+<script src="js/leaflet.photon.js"></script>
+<script src="js/leaflet-measure.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+
+<script>
+// ── 1. Map init ─────────────────────────────────────────────────────────
+var phBounds = L.latLngBounds(L.latLng(2.5,114.0), L.latLng(23.0,129.5));
+var map = L.map('map', {
+    zoomControl:false, minZoom:5, maxZoom:18,
+    maxBounds:phBounds, maxBoundsViscosity:1.0
+}).setView([12.8797,121.7740],6);
+
+L.control.zoom({ position:'topleft' }).addTo(map);
+L.control.scale({ position:'bottomright', imperial:false, maxWidth:150 }).addTo(map);
+L.control.locate({ position:'topleft', strings:{ title:'Show my location' }, flyTo:true }).addTo(map);
+new L.Control.Measure({ position:'topleft', primaryLengthUnit:'kilometers', secondaryLengthUnit:'meters', primaryAreaUnit:'sqkilometers' }).addTo(map);
+
+// ── 2. Base layers ──────────────────────────────────────────────────────
+var cartoVoyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png',{ subdomains:'abcd', maxZoom:19, attribution:'© Carto' }).addTo(map);
+var stadiaSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png',{ maxZoom:19, attribution:'© Stadia Maps' });
+var esriSatellite= L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{ maxZoom:19, attribution:'© Esri' });
+
+// ── 3. Panes ────────────────────────────────────────────────────────────
+map.createPane('hillshadePane'); map.getPane('hillshadePane').style.zIndex=240; map.getPane('hillshadePane').style.pointerEvents='none';
+map.createPane('boundaryPane');  map.getPane('boundaryPane').style.zIndex=250;  map.getPane('boundaryPane').style.pointerEvents='none';
+map.createPane('cropPane');      map.getPane('cropPane').style.zIndex=220;      map.getPane('hillshadePane').style.mixBlendMode = 'multiply';   
+
+// ── 4. Hillshade ────────────────────────────────────────────────────────
+var hillshadeOverlay = L.imageOverlay('data/Hillshade_18.png',[[4.500000668000002,116.8],[21.2,126.699999604]],{ pane:'hillshadePane', opacity: 0.85 }).addTo(map);
+
+// ── 5. Bottom-left controls ──────────────────────────────────────────────
+var HillshadeControl = L.Control.extend({
+    options: { position:'bottomleft' },
+    onAdd: function() {
+        var div = L.DomUtil.create('div','hillshade-toggle');
+        L.DomEvent.disableClickPropagation(div);
+        div.innerHTML = '<label><input type="checkbox" id="hillshade-cb" checked><span>🏔 Hillshade</span></label>';
+        div.querySelector('#hillshade-cb').addEventListener('change', function() {
+            if (this.checked) hillshadeOverlay.addTo(map);
+            else map.removeLayer(hillshadeOverlay);
+        });
+        return div;
+    }
+});
+new HillshadeControl().addTo(map);
+
+var BasemapControl = L.Control.extend({
+    options: { position:'bottomleft' },
+    onAdd: function() {
+        var div = L.DomUtil.create('div','basemap-control');
+        L.DomEvent.disableClickPropagation(div);
+        L.DomEvent.disableScrollPropagation(div);
+        div.innerHTML =
+            '<div class="basemap-label">🗺️ Basemap</div>' +
+            '<select id="basemap-select">' +
+            '<option value="carto">Carto Voyager</option>' +
+            '<option value="stadia">Stadia Smooth</option>' +
+            '<option value="esri">Esri Satellite</option>' +
+            '</select>';
+        div.querySelector('#basemap-select').addEventListener('change', function() {
+            [cartoVoyager, stadiaSmooth, esriSatellite].forEach(function(l){ if (map.hasLayer(l)) map.removeLayer(l); });
+            ({ carto:cartoVoyager, stadia:stadiaSmooth, esri:esriSatellite })[this.value].addTo(map);
+        });
+        return div;
+    }
+});
+new BasemapControl().addTo(map);
+
+// ── 6. Crop config ──────────────────────────────────────────────────────
+const cropConfig = {
+    'Overall Palay Production':    { file:'data/crop_dataOverall_Palay_Production_2025.csv',                                        palette:['#fefae8','#b7e4a8','#52c45e','#1a7a3a','#003d10'] },
+    'Irrigated Palay Production':  { file:'data/crop_dataIrrigated_Palay_Production_2025.csv',                                      palette:['#fefae8','#82dfc8','#1a9e52','#005a22','#003010'] },
+    'Rainfed Palay Production':    { file:'data/crop_dataRainfed_Palay_Production_2025.csv',                                        palette:['#fefae8','#c8ee88','#5ab858','#1a7a3a','#003d18'] },
+    'Overall Corn Production':     { file:'data/crop_dataAgristat_Database \u2014 Overall_Corn_Production_2025.csv',                palette:['#fefae8','#f2d194','#f2be22','#f2a922','#f28705'] },
+    'Yellow Corn Production':      { file:'data/crop_dataAgristat_Database \u2014 Yellow_Corn_Production_2025.csv',                 palette:['#fefae8','#fff6cb','#fff69b','#fff63b','#fae500'] },
+    'White Corn Production':       { file:'data/crop_dataAgristat_Database \u2014 White_Corn_Production_2025.csv',                  palette:['#fefae8','#fff8c3','#ffee8c','#e6d67a','#ccc160'] },
+    'Overall Mango Production':    { file:'data/crop_dataAgristat_Database \u2014 Overall_Mango_Production_2025.csv',               palette:['#fefae8','#ffe1b7','#ffc97c','#ffae3b','#ff9500'] },
+    'Overall Banana Production':   { file:'data/crop_dataAgristat_Database \u2014 Overall_Banana_Production_2025.csv',              palette:['#fefae8','#ffe783','#ffe100','#f0c000','#d8ba00'] },
+    'Overall Coconut Production':  { file:'data/crop_dataAgristat_Database \u2014 Overall_Coconut_Production_2025.csv',             palette:['#fefae8','#d7c6b6','#c5ac95','#b39274','#9e7956'] },
+    'Overall Sugar Production':    { file:'data/crop_dataAgristat_Database \u2014 Overall_Sugar_Production_2025.csv',               palette:['#fefae8','#f0c3ff','#e8a6ff','#e188ff','#d96aff'] },
+    'Overall Milkfish Production': { file:'data/crop_dataAgristat_Database \u2014 Bangus_Production_2025.csv',                     palette:['#fefae8','#99c7f5','#66b8ea','#3385ec','#0059bd'] },
+    'Overall Tilapia Production':  { file:'data/crop_dataAgristat_Database \u2014 Tilapia_Production_2025.csv',                    palette:['#fefae8','#a6bbd9','#7b9ac5','#5279b1','#28589c'] },
+    'Overall Chicken Production':  { file:'data/crop_dataAgristat_Database \u2014 Overall_Chicken_Production_2025.csv',            palette:['#fefae8','#ffe3e3','#f4bbbb','#ee8787','#d56161'] },
+    'Overall Cattle Production':   { file: 'data/crop_dataAgristat_Database \u2014 Overall_Cattle_Production_2025.csv',         palette:['#fefae8','#e8d3ca','#ceb1a3','#c49b87','#aa8472'] },
+    'Overall Hog Production':      { file:'data/crop_dataAgristat_Database \u2014 Overall_Hog_Production_2025.csv',                palette:['#fefae8','#ffd1e2','#ffa8c8','#ff8ab5','#ff5e99'] },
+    'Overall Dairy Production':    { file:'data/crop_dataAgristat_Database \u2014 Overall_Dairy_Production_2025.csv',              palette:['#fefae8','#f8efe6','#f3e7de','#e9d8c6','#e4ceb9'] },
+    'Overall Egg Production':      { file:'data/crop_dataAgristat_Database \u2014 Overall_Eggs_Production_2025.csv',               palette:['#fefae8','#fffceb','#eee8db','#cacac5','#b2abab'], footnote: '* Total of Chicken and Duck Egg Production Volume' }
+};
+
+// ── 7. Boundary layer ───────────────────────────────────────────────────
+let boundaryLayer, cropLayer, baseShapes = null;
+fetch('data/Admin_Boundary_Regional.json')
+    .then(r => r.json())
+    .then(data => {
+        baseShapes = data;
+        boundaryLayer = L.geoJson(baseShapes, {
+            pane:'boundaryPane',
+            style:{ color:'rgba(83,93,115,1.0)', weight:1, fillOpacity:0 },
+            interactive:false
+        }).addTo(map);
+    });
+
+// ── 8. AUTO-CLASSIFY ────────────────────────────────────────────────────
+function classifyRegions(cropStats) {
+    const entries = [];
+    Object.keys(cropStats).forEach(pcode => {
+        const val = parseFloat(cropStats[pcode]['2025']) || 0;
+        if (val > 0) entries.push({ pcode, val });
+    });
+    if (!entries.length) return { clsMap:{}, avg:0, noDataCount:0, rangeStrings:{}, counts:{} };
+
+    entries.sort((a,b) => a.val - b.val);
+    const n   = entries.length;
+    const avg = entries.reduce((s,e) => s + e.val, 0) / n;
+
+    const bottomCount = Math.min(3, Math.floor(n/2));
+    const topCount    = Math.min(3, n - bottomCount);
+
+    const clsMap = {};
+    entries.forEach((e,i) => {
+        let cls;
+        if      (i < bottomCount)   cls = 'low';
+        else if (i >= n - topCount) cls = 'high';
+        else if (e.val >= avg)      cls = 'medHigh';
+        else                        cls = 'medLow';
+        clsMap[e.pcode] = { cls, val:e.val };
+    });
+
+    const buckets = { low:[], medLow:[], medHigh:[], high:[] };
+    Object.values(clsMap).forEach(({ cls, val }) => buckets[cls].push(val));
+
+    const fmt = v => v.toLocaleString('en-PH',{ maximumFractionDigits:2 });
+    const rangeStr = arr => {
+        if (!arr.length) return '';
+        const mn = Math.min(...arr), mx = Math.max(...arr);
+        return mn === mx ? fmt(mn) + ' MT' : fmt(mn) + ' \u2013 ' + fmt(mx) + ' MT';
+    };
+
+    let noDataCount = 0;
+    Object.keys(cropStats).forEach(pcode => {
+        if ((parseFloat(cropStats[pcode]['2025']) || 0) === 0) noDataCount++;
+    });
+
+    return {
+        clsMap, avg, noDataCount,
+        rangeStrings:{ high:rangeStr(buckets.high), medHigh:rangeStr(buckets.medHigh), medLow:rangeStr(buckets.medLow), low:rangeStr(buckets.low) },
+        counts:{ high:buckets.high.length, medHigh:buckets.medHigh.length, medLow:buckets.medLow.length, low:buckets.low.length }
+    };
+}
+
+// ── 9. Color from class ─────────────────────────────────────────────────
+function getColor(cropName, cls) {
+    const palette = (cropConfig[cropName]||{}).palette||['#fefae8','#d0e8d0','#80c080','#309030','#106010'];
+    return palette[{noData:0,low:1,medLow:2,medHigh:3,high:4}[cls]??0];
+}
+
+// ── 10. Focus state ─────────────────────────────────────────────────────
+let focusedPcode=null, currentCropStats=null, currentCropName=null, currentClsMap={};
+
+function focusRegion(feature, layer) {
+    const pcode = feature.properties.ADM1_PCODE;
+    if (focusedPcode === pcode) { resetFocus(); return; }
+    focusedPcode = pcode;
+    map.fitBounds(layer.getBounds(),{ padding:[60,60], maxZoom:9, animate:true });
+    if (cropLayer) {
+        cropLayer.eachLayer(function(l) {
+            const fp = l.feature.properties.ADM1_PCODE;
+            const info = currentClsMap[fp];
+            const color = info ? getColor(currentCropName,info.cls) : getColor(currentCropName,'noData');
+            if (fp === pcode) { l.setStyle({ fillColor:color, fillOpacity:0.95, weight:2.5, color:'#ffffff', opacity:1 }); l.bringToFront(); }
+            else              { l.setStyle({ fillColor:'transparent', fillOpacity:0, weight:0 }); }
+        });
+    }
+    if (boundaryLayer) {
+        boundaryLayer.eachLayer(function(l) {
+            const fp = l.feature.properties.ADM1_PCODE;
+            l.setStyle(fp===pcode ? { color:'#2a91d8', weight:2.5, opacity:1 } : { color:'rgba(83,93,115,0.25)', weight:0.4, opacity:1 });
+        });
+    }
+}
+
+function resetFocus() {
+    focusedPcode = null;
+    map.flyTo([12.8797,121.7740],6,{ animate:true, duration:0.8 });
+    if (cropLayer && currentCropStats && currentCropName) {
+        cropLayer.eachLayer(function(l) {
+            const fp = l.feature.properties.ADM1_PCODE;
+            const info = currentClsMap[fp];
+            const color = info ? getColor(currentCropName,info.cls) : getColor(currentCropName,'noData');
+            l.setStyle({ fillColor:color, fillOpacity:info?0.92:0, weight:0, color:'transparent', opacity:0 });
+        });
+    }
+    if (boundaryLayer) boundaryLayer.eachLayer(l => l.setStyle({ color:'rgba(83,93,115,1.0)', weight:0.4, opacity:1 }));
+}
+map.on('click', function() { if (focusedPcode) resetFocus(); });
+
+// ── 11. Render choropleth ────────────────────────────────────────────────
+function renderMap(cropStats, cropName, clsMap) {
+    if (cropLayer) map.removeLayer(cropLayer);
+    if (!baseShapes) return;
+    focusedPcode=null; currentCropStats=cropStats; currentCropName=cropName; currentClsMap=clsMap;
+    if (boundaryLayer) boundaryLayer.eachLayer(l => l.setStyle({ color:'rgba(83,93,115,1.0)', weight:0.4, opacity:1 }));
+
+    cropLayer = L.geoJson(baseShapes, {
+        pane:'cropPane',
+        style: function(feature) {
+            const fp   = feature.properties.ADM1_PCODE;
+            const info = clsMap[fp];
+            const color= info ? getColor(cropName,info.cls) : getColor(cropName,'noData');
+            return { fillColor:color, weight:0, fillOpacity:info?0.92:0 };
+        },
+        onEachFeature: function(feature, layer) {
+            const fp   = feature.properties.ADM1_PCODE;
+            const info = clsMap[fp];
+            const val  = info ? info.val : null;
+            layer.on('mouseover', function() { if (focusedPcode && focusedPcode!==fp) return; layer.setStyle({ weight:1.5, color:'#ffffff', opacity:0.8 }); });
+            layer.on('mouseout',  function() { if (focusedPcode===fp) return; layer.setStyle({ weight:0, opacity:0 }); });
+            layer.on('click', function(e) {
+                L.DomEvent.stopPropagation(e);
+                focusRegion(feature, layer);
+                if (focusedPcode) {
+                    const clsLabel = info ? { high:'🔴 High Production', medHigh:'🟠 Medium High Production', medLow:'🟡 Medium Low Production', low:'🟢 Low Production' }[info.cls] : '⬜ No Data';
+                    let html = '<b>' + feature.properties.ADM1_EN + '</b><hr style="margin:4px 0">';
+                    html += val ? '2025: <b>' + val.toLocaleString('en-PH',{maximumFractionDigits:2}) + ' MT</b><br><small style="color:#888">' + clsLabel + '</small>' : '<i style="color:#aaa">No data</i>';
+                    layer.bindPopup(html,{ autoPan:true, autoPanPaddingTopLeft:[60,60], autoPanPaddingBottomRight:[310,60] }).openPopup();
+                }
+            });
+        }
+    }).addTo(map);
+}
+
+// ── 12. Render legend ───────────────────────────────────────────────────
+function renderLegend(cropName, classification) {
+    if (!cropConfig[cropName]) return;
+    document.getElementById('legend-title').textContent = cropName;
+    document.getElementById('legend-avg').textContent =
+        'National average: ' + classification.avg.toLocaleString('en-PH',{maximumFractionDigits:2}) + ' MT';
+    const fn   = (cropConfig[cropName] || {}).footnote || '';
+    const fnEl = document.getElementById('legend-footnote');
+    fnEl.textContent = fn;
+    fnEl.style.display = fn ? 'block' : 'none';
+
+document.getElementById('legend-panel').style.display = 'block';
+    const classes = [
+        { cls:'high',    label:'High Production',        note:'Top-Producing',         showCount:true },
+        { cls:'medHigh', label:'Medium High Production', note:'Above National average', showCount:true  },
+        { cls:'medLow',  label:'Medium Low Production',  note:'Below National average', showCount:true  },
+        { cls:'low',     label:'Low Production',         note:'Least-Producing',        showCount:true },
+        { cls:'noData',  label:'No Data',                note:'Not reported',           showCount:true }
+    ];
+
+    const el = document.getElementById('legend-items');
+    el.innerHTML = '';
+
+    classes.forEach(function(item) {
+    var cls = item.cls, label = item.label, note = item.note, showCount = item.showCount;
+    if (cls === 'noData' && classification.noDataCount === 0) return;
+
+    const color = getColor(cropName, cls);
+    
+    // FIX: Dynamically assign the count based on the class type
+    const count = (cls === 'noData') ? classification.noDataCount : classification.counts[cls];
+
+    // ── ADDED: get range string for this class ──────────────────
+    const range = classification.rangeStrings[cls] || '';
+    
+    const row = document.createElement('div');
+    row.className = 'legend-row';
+    row.innerHTML =
+    '<div class="legend-swatch" style="background:' + color + '"></div>' +
+    '<div>' +
+    '<div class="legend-label">' + label + '</div>' +
+    // Range is now shown for noData as long as 'range' exists
+    (range ? '<div class="legend-range">' + range + '</div>' : '') +
+    // Count falls back to 0 if undefined
+    '<div class="legend-count">' + note + (showCount ? ' \xB7 ' + (count !== undefined ? count : 0) + ' regions' : '') + '</div>' +
+    '</div>';
+el.appendChild(row);
+});
+document.getElementById('legend-panel').style.display = 'block';
+}
+
+// ── 13. UI interactions ─────────────────────────────────────────────────
+let activeItem = null;
+function selectCrop(el, cropName) {
+    if (activeItem === el) {
+        el.classList.remove('active'); activeItem = null;
+        if (cropLayer) { map.removeLayer(cropLayer); cropLayer = null; }
+        document.getElementById('legend-panel').style.display = 'none';
+        currentCropStats=null; currentCropName=null; currentClsMap={}; focusedPcode=null;
+        return;
+    }
+    if (activeItem) activeItem.classList.remove('active');
+    el.classList.add('active'); activeItem = el;
+    const config = cropConfig[cropName];
+    if (!config) return;
+    Papa.parse(config.file, {
+    download:true, header:true,
+        complete: function(results) {
+            const stats = {};
+            results.data.forEach(row => { if (row.ADM1_PCODE) stats[row.ADM1_PCODE] = row; });
+            const classification = classifyRegions(stats);
+            renderMap(stats, cropName, classification.clsMap);
+            renderLegend(cropName, classification);
+        },
+        error: function(err) { console.error('CSV load error for', cropName, ':', err); }
+    });
+}
+function toggleSection(el) {
+    const children = el.nextElementSibling;
+    const chevron  = el.querySelector('.chevron');
+    if (!children) return;
+    const isOpen = children.classList.toggle('open');
+    if (chevron) chevron.classList.toggle('open', isOpen);
+}
+function toggleBorders() {
+    const checked = document.getElementById('toggle-borders').checked;
+    if (checked) boundaryLayer.addTo(map); else map.removeLayer(boundaryLayer);
+}
+function toggleLegend() {
+    const body  = document.getElementById('legend-body');
+    const btn   = document.getElementById('legend-toggle');
+    const isOpen= !body.classList.contains('collapsed');
+    body.classList.toggle('collapsed', isOpen);
+    btn.classList.toggle('collapsed', isOpen);
+    btn.title = isOpen ? 'Expand legend' : 'Collapse legend';
+}
+
+// ── 14. Custom Search Control ────────────────────────────────────────────
+var SearchControl = L.Control.extend({
+    options: { position:'topleft' },
+    onAdd: function() {
+        var container = L.DomUtil.create('div','custom-search-control leaflet-bar');
+        L.DomEvent.disableClickPropagation(container);
+        L.DomEvent.disableScrollPropagation(container);
+        var btn = L.DomUtil.create('button','custom-search-btn',container);
+        btn.innerHTML='🔍'; btn.title='Search location'; btn.type='button';
+        var input = L.DomUtil.create('input','custom-search-input',container);
+        input.type='text'; input.placeholder='Search location...';
+        var results = L.DomUtil.create('div','custom-search-results',container);
+        var searchTimeout = null;
+        L.DomEvent.on(btn,'click',function(){
+            container.classList.toggle('open');
+            if (container.classList.contains('open')) input.focus();
+            else { input.value=''; results.innerHTML=''; results.classList.remove('visible'); }
+        });
+        L.DomEvent.on(input,'input',function(){
+            clearTimeout(searchTimeout);
+            var q = input.value.trim();
+            if (q.length<2){ results.innerHTML=''; results.classList.remove('visible'); return; }
+            searchTimeout = setTimeout(function(){
+                fetch('https://photon.komoot.io/api/?q='+encodeURIComponent(q)+'&limit=5')
+                    .then(r=>r.json()).then(function(data){
+                        results.innerHTML='';
+                        if (!data.features||!data.features.length){ results.classList.remove('visible'); return; }
+                        data.features.forEach(function(f){
+                            var p=f.properties, name=p.name||'', sub=[p.city,p.state,p.country].filter(Boolean).join(', ');
+                            var item=L.DomUtil.create('div','custom-search-result-item',results);
+                            item.innerHTML='<div class="result-main">'+name+'</div>'+(sub?'<div class="result-sub">'+sub+'</div>':'');
+                            L.DomEvent.on(item,'click',function(){
+                                map.fitBounds(L.geoJSON(f).getBounds());
+                                input.value=name; results.innerHTML=''; results.classList.remove('visible'); container.classList.remove('open');
+                            });
+                        });
+                        results.classList.add('visible');
+                    }).catch(function(){ results.classList.remove('visible'); });
+            },300);
+        });
+        L.DomEvent.on(document,'click',function(e){
+            if (!container.contains(e.target)){ results.innerHTML=''; results.classList.remove('visible'); }
+        });
+        return container;
+    }
+});
+new SearchControl().addTo(map);
+
+// ── 15. Fix Measure button ────────────────────────────────────────────────
+setTimeout(function(){
+    var t = document.querySelector('.leaflet-control-measure .leaflet-control-measure-toggle');
+    if (t){ t.innerHTML='📏'; t.title='Measure distances and areas'; t.style.fontSize='15px'; }
+},400);
+// ── Export map as PNG or PDF ─────────────────────────────────────────────
+function exportMap() {
+    const btn = document.getElementById('export-btn');
+    btn.classList.add('loading');
+    btn.textContent = '⏳ Exporting...';
+
+    // Ask user which format
+    const format = confirm(
+        'Click OK to export as PDF\nClick Cancel to export as PNG'
+    ) ? 'pdf' : 'png';
+
+    html2canvas(document.getElementById('map'), {
+        useCORS: true,
+        allowTaint: true,
+        scale: 2          // 2x resolution for sharpness
+    }).then(function(canvas) {
+
+        if (format === 'png') {
+            // ── PNG download ─────────────────────────────────────
+            const link = document.createElement('a');
+            link.download = 'agristat_map.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+
+        } else {
+            // ── PDF download ─────────────────────────────────────
+            const { jsPDF } = window.jspdf;
+            const pdf = new jsPDF({
+                orientation: canvas.width > canvas.height ? 'landscape' : 'portrait',
+                unit: 'px',
+                format: [canvas.width, canvas.height]
+            });
+            pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, canvas.width, canvas.height);
+            pdf.save('agristat_map.pdf');
+        }
+
+        btn.classList.remove('loading');
+        btn.innerHTML = '📥 Export Map';
+    }).catch(function(err) {
+        console.error('Export error:', err);
+        btn.classList.remove('loading');
+        btn.innerHTML = '📥 Export Map';
+    });
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+<title>Production Volume</title>
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/qgis2web.css">
+    <link rel="stylesheet" href="css/L.Control.Locate.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/leaflet.photon.css">
+    <link rel="stylesheet" href="css/leaflet-measure.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+    <div id="control-panel">
+        <div id="panel-header">
+            <h3 id="panel-title">🌾 Production Volume (MT)</h3>
+            <p>&nbsp; Per Region &nbsp;·&nbsp; <span id="header-year">2025</span></p>
+            <div id="metric-tabs">
+                <button class="metric-tab active" data-metric="volume">Volume</button>
+                <button class="metric-tab" data-metric="yield">Yield</button>
+                <button class="metric-tab" data-metric="area">Area</button>
+            </div>
+        </div>
+        <div id="tree-scroll">
+            <div class="tree-section">
+                <button class="section-header palay">
+                    <div class="section-header-inner"><span>🌾</span><span>Palay</span></div>
+                    <span class="chevron">▶</span>
+                </button>
+                <div class="tree-children">
+                    <div class="tree-item" data-crop="Overall Palay Production">Palay</div>
+                    <div class="tree-item" data-crop="Irrigated Palay Production">Irrigated Palay</div>
+                    <div class="tree-item" data-crop="Rainfed Palay Production">Rainfed Palay</div>
+                </div>
+            </div>
+            <div class="tree-section">
+                <button class="section-header corn">
+                    <div class="section-header-inner"><span>🌽</span><span>Corn</span></div>
+                    <span class="chevron">▶</span>
+                </button>
+                <div class="tree-children">
+                    <div class="tree-item" data-crop="Yellow Corn Production">Yellow Corn</div>
+                    <div class="tree-item" data-crop="White Corn Production">White Corn</div>
+                </div>
+            </div>
+            <div class="tree-section">
+                <button class="section-header fruits">
+                    <div class="section-header-inner"><span>🥭</span><span>Fruit Crops</span></div>
+                    <span class="chevron">▶</span>
+                </button>
+                <div class="tree-children">
+                    <div class="tree-item" data-crop="Overall Mango Production">Mango</div>
+                    <div class="tree-item" data-crop="Overall Banana Production">Banana</div>
+                </div>
+            </div>
+            <div class="tree-section">
+                <button class="section-header non-food">
+                    <div class="section-header-inner"><span>🥥</span><span>Non-Food &amp; Industrial</span></div>
+                    <span class="chevron">▶</span>
+                </button>
+                <div class="tree-children">
+                    <div class="tree-item" data-crop="Overall Coconut Production">Coconut with Husk</div>
+                    <div class="tree-item" data-crop="Overall Sugar Production">Sugarcane</div>
+                </div>
+            </div>
+            <div class="tree-section">
+                <button class="section-header vegetable">
+                    <div class="section-header-inner"><span>🥬</span><span>Vegetable &amp; Rootcrops</span></div>
+                    <span class="chevron">▶</span>
+                </button>
+                <div class="tree-children">
+                    <div class="tree-item" data-crop="Overall Cabbage Production">Cabbage</div>
+                    <div class="tree-item" data-crop="Overall Onion Production">Onion</div>
+                </div>
+            </div>
+            <div class="tree-section">
+                <button class="section-header fisheries">
+                    <div class="section-header-inner"><span>🐟</span><span>Fisheries</span></div>
+                    <span class="chevron">▶</span>
+                </button>
+                <div class="tree-children">
+                    <div class="tree-item" data-crop="Overall Milkfish Production">Milkfish (Bangus)</div>
+                    <div class="tree-item" data-crop="Overall Tilapia Production">Tilapia</div>
+                </div>
+            </div>
+            <div class="tree-section">
+                <button class="section-header livestock">
+                    <div class="section-header-inner"><span>🐄</span><span>Livestock &amp; Poultry</span></div>
+                    <span class="chevron">▶</span>
+                </button>
+                <div class="tree-children">
+                    <div class="tree-item" data-crop="Overall Chicken Production">Chicken</div>
+                    <div class="tree-item" data-crop="Overall Cattle Production">Cattle</div>
+                    <div class="tree-item" data-crop="Overall Hog Production">Hog</div>
+                    <div class="tree-item" data-crop="Overall Dairy Production">Dairy</div>
+                    <div class="tree-item" data-crop="Overall Egg Production">Eggs</div>
+                </div>
+            </div>
+        </div>
+        <div id="panel-footer">
+            <div class="toggle-row">
+                <input type="checkbox" id="toggle-borders" checked>
+                <label for="toggle-borders">Show Administrative Boundaries</label>
+            </div>
+            <div class="opacity-row">
+                <div class="opacity-row-header">
+                    <label>🎨 Transparency</label>
+                    <span id="opacity-value">92%</span>
+                </div>
+                <input type="range" id="opacity-slider" min="10" max="100" value="92" step="2">
+            </div>
+        </div>
+    </div>
+
+    <div id="legend-panel">
+        <div id="legend-header">
+            <div>
+                <div id="legend-title">Legend</div>
+                <div id="legend-avg"></div>
+            </div>
+            <button id="legend-toggle" title="Collapse legend">▼</button>
+        </div>
+        <div id="legend-body">
+            <div id="legend-items"></div>
+            <div id="legend-footnote"></div>
+        </div>
+    </div>
+
+    <div id="year-controller">
+        <button id="year-controller-toggle" title="Collapse">▼</button>
+        <div id="year-top-row">
+            <button id="play-btn" title="Auto-play years">▶</button>
+            <div id="year-label">2025</div>
+            <div id="year-badge">Production Year</div>
+        </div>
+        <div id="year-controller-body">
+            <div id="year-ticks-row">
+                <span class="yr-tick-label" data-yr="2021">2021</span>
+                <span class="yr-tick-label" data-yr="2022">2022</span>
+                <span class="yr-tick-label" data-yr="2023">2023</span>
+                <span class="yr-tick-label" data-yr="2024">2024</span>
+                <span class="yr-tick-label active" data-yr="2025">2025</span>
+            </div>
+            <div id="year-slider-row">
+                <input type="range" id="year-slider" min="2021" max="2025" value="2025" step="1">
+            </div>
+            <div id="year-hint">Select a crop above to explore production by year</div>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="js/leaflet.js"></script>
+    <script src="js/L.Control.Locate.min.js"></script>
+    <script src="js/leaflet.photon.js"></script>
+    <script src="js/leaflet-measure.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"
+            integrity="sha384-D/t0ZMqQW31H3az8ktEiNb39wyKnS82iFY52QPACM+IjKW3jDUhyIgh2PApRqJZs"
+            crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
