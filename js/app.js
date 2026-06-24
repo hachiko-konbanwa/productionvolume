@@ -167,6 +167,9 @@ const cropConfig = {
         file: 'data/crop_dataAgristat_Database — Overall_Banana_Production_2025.csv',
         palette: ['#fefae8', '#ffc97c', '#ffae3b', '#db7420', '#ae5209']
     },
+    'Overall Cabbage Production': {
+        palette: ['#f2f9d9', '#bf7fbf', '#993299', '#800080', '#660066']
+    },
     'Overall Coconut Production': {
         file: 'data/crop_dataAgristat_Database — Overall_Coconut_Production_2025.csv',
         palette: ['#fefae8', '#d7c6b6', '#c5ac95', '#b39274', '#9e7956']
@@ -208,13 +211,36 @@ const cropConfig = {
 
 // Provincial CSV registry — add more crops here as files become available
 const provConfig = {
-    'Irrigated Palay Production': { file: 'data/IrrigatedPalay2024onwards.csv', yieldFile: 'data/IrrigatedPalay_Yield_Provincial.csv' },
-    'Overall Palay Production': { file: 'data/Palay_ProductionVolume_Provincial.csv' },
-    'Rainfed Palay Production': { file: 'data/RainfedPalay_ProductionVolume_Provincial.csv' },
-    'Yellow Corn Production': { file: 'data/YellowCorn_ProductionVolume_Provincial.csv' },
-    'White Corn Production': { file: 'data/WhiteCorn_ProductionVolume_Provincial.csv' }
-
-
+    'Irrigated Palay Production': {
+        file: 'data/IrrigatedPalay2024onwards.csv',
+        yieldFile: 'data/IrrigatedPalay_Yield_Provincial.csv',
+        areaFile: 'data/IrrigatedPalay_Provincial_Area.xlsx'
+    },
+    'Overall Palay Production': {
+        file: 'data/Palay_ProductionVolume_Provincial.csv',
+        yieldFile: 'data/Palay_Yield_Provincial.xlsx',
+        areaFile: 'data/Palay_Provincial_Area.xlsx'
+    },
+    'Rainfed Palay Production': {
+        file: 'data/RainfedPalay_ProductionVolume_Provincial.csv',
+        yieldFile: 'data/RainfedPalay_Yield_Provincial.xlsx',
+        areaFile: 'data/Rainfed_Provincial_Area.xlsx'
+    },
+    'Yellow Corn Production': {
+        file: 'data/YellowCorn_ProductionVolume_Provincial.csv',
+        yieldFile: 'data/YellowCorn_Yield_Provincial.xlsx',
+        areaFile: 'data/YellowCorn_Provincial_Area.xlsx'
+    },
+    'White Corn Production': {
+        file: 'data/WhiteCorn_ProductionVolume_Provincial.csv',
+        yieldFile: 'data/WhiteCorn_Yield_Provincial.xlsx',
+        areaFile: 'data/WhiteCorn_Provincial_Area.xlsx'
+    },
+    'Overall Cabbage Production': {
+        file: 'data/Cabbage_Provincial_Production.xlsx',
+        yieldFile: 'data/Cabbage_Provincial_Yield.xlsx',
+        areaFile: 'data/Cabbage_Provincial_Area.xlsx'
+    }
 };
 
 // The provincial GeoJSON uses the 2024+ region pcode scheme (NIR=PH18,
@@ -245,8 +271,23 @@ function effectiveProvincePcode(adm2Pcode) {
     return (split && parseInt(currentYear) < split.since) ? split.parent : adm2Pcode;
 }
 
+function provinceRegionPcode(adm2Pcode) {
+    if (provincialShapes) {
+        const feature = provincialShapes.features.find(f => f.properties.ADM2_PCODE === adm2Pcode);
+        if (feature) return provinceParentRegion(feature.properties);
+    }
+    return adm2Pcode.substring(0, 4);
+}
+
 function getActiveMetricDef() { return METRICS.find(m => m.id === activeMetric); }
 function getActiveUnit() { return getActiveMetricDef().unit; }
+function getActiveUnitExplanation() {
+    const unit = getActiveUnit();
+    const parts = [];
+    if (unit.includes('MT')) parts.push('MT = Metric Tons');
+    if (unit.includes('HA')) parts.push('HA = Hectares');
+    return parts.join(' · ');
+}
 
 function getNationalTotal() {
     if (!currentCropStats) return 0;
@@ -784,6 +825,7 @@ function renderLegend(cropName, classification, scope, overrideAvg) {
     const fnEl = document.getElementById('legend-footnote');
     fnEl.textContent = fn;
     fnEl.style.display = fn ? 'block' : 'none';
+    document.getElementById('legend-unit-explanation').textContent = getActiveUnitExplanation();
     const classes = scopeLabel ? [
         { cls: 'peak',    label: 'Peak Production',          note: 'Top-Producing' },
         { cls: 'medHigh', label: 'Above Average Production', note: 'Above national average' },
@@ -885,11 +927,46 @@ function toggleYearController() {
 // Aggregates a provincial stats object (keyed by ADM2_PCODE) into regional
 // totals (volume/area) or averages (yield) keyed by ADM1_PCODE.
 // useAverage=true for yield (MT/HA), false/omitted for volume/area (sum provinces).
+function loadDataFile(file, complete, error) {
+    const ext = file.split('.').pop().toLowerCase();
+    if (ext === 'csv') {
+        Papa.parse(file + '?v=' + Date.now(), {
+            download: true,
+            header: true,
+            complete: complete,
+            error: error
+        });
+        return;
+    }
+    if (ext === 'xlsx' || ext === 'xls') {
+        fetch(file + '?v=' + Date.now())
+            .then(r => r.arrayBuffer())
+            .then(data => {
+                const workbook = XLSX.read(data, { type: 'array' });
+                const sheet = workbook.Sheets[workbook.SheetNames[0]];
+                const rows = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: '' });
+                if (!rows.length) return complete({ data: [] });
+                const header = rows[0].map(h => String(h).trim());
+                const dataRows = rows.slice(1).map(r => {
+                    const obj = {};
+                    header.forEach((key, idx) => {
+                        obj[key] = r[idx] == null ? '' : String(r[idx]).trim();
+                    });
+                    return obj;
+                });
+                complete({ data: dataRows });
+            })
+            .catch(error);
+        return;
+    }
+    error(new Error('Unsupported file type: ' + file));
+}
+
 function aggregateProvToRegional(provStats, useAverage) {
     const buckets = {};
     Object.values(provStats).forEach(row => {
         if (!row.ADM2_PCODE) return;
-        const rPcode = row.ADM2_PCODE.substring(0, 4);
+        const rPcode = provinceRegionPcode(row.ADM2_PCODE);
         if (!buckets[rPcode]) buckets[rPcode] = { ADM1_PCODE: rPcode, _sum: {}, _cnt: {} };
         YEARS.forEach(y => {
             const v = parseFloat(row[y]) || 0;
@@ -925,31 +1002,26 @@ function loadCropData(cropName) {
         currentCropName = cropName;
         currentProvStats = null;
 
-        Papa.parse(provFile + '?v=' + Date.now(), {
-            download: true,
-            header: true,
-            complete: function (results) {
-                const provStats = {};
-                results.data.forEach(row => {
-                    if (!row.ADM2_PCODE) return;
-                    const existing = provStats[row.ADM2_PCODE];
-                    if (!existing) { provStats[row.ADM2_PCODE] = row; return; }
-                    YEARS.forEach(y => {
-                        if (!(parseFloat(existing[y]) > 0) && parseFloat(row[y]) > 0) existing[y] = row[y];
-                    });
+        loadDataFile(provFile, function (results) {
+            const provStats = {};
+            results.data.forEach(row => {
+                if (!row.ADM2_PCODE) return;
+                const existing = provStats[row.ADM2_PCODE];
+                if (!existing) { provStats[row.ADM2_PCODE] = row; return; }
+                YEARS.forEach(y => {
+                    if (!(parseFloat(existing[y]) > 0) && parseFloat(row[y]) > 0) existing[y] = row[y];
                 });
-                currentProvStats = provStats;
-                const regionalStats = aggregateProvToRegional(provStats, metricDef.id === 'yield');
-                currentCropStats = regionalStats;
-                const classification = classifyRegions(regionalStats);
-                renderMap(regionalStats, cropName, classification.clsMap);
-                renderLegend(cropName, classification);
-                if (focusedPcode && focusedRegionName && !provincialDataLayer) {
-                    renderProvincialChoropleth(focusedPcode, focusedRegionName);
-                }
-            },
-            error: function (err) { console.error('CSV load error:', err); }
-        });
+            });
+            currentProvStats = provStats;
+            const regionalStats = aggregateProvToRegional(provStats, metricDef.id === 'yield');
+            currentCropStats = regionalStats;
+            const classification = classifyRegions(regionalStats);
+            renderMap(regionalStats, cropName, classification.clsMap);
+            renderLegend(cropName, classification);
+            if (focusedPcode && focusedRegionName && !provincialDataLayer) {
+                renderProvincialChoropleth(focusedPcode, focusedRegionName);
+            }
+        }, function (err) { console.error('Data load error:', err); });
         return;
     }
 
@@ -986,28 +1058,23 @@ function loadCropData(cropName) {
     });
 
     if (provFile) {
-        Papa.parse(provFile + '?v=' + Date.now(), {
-            download: true,
-            header: true,
-            complete: function (results) {
-                const stats = {};
-                results.data.forEach(row => {
-                    if (!row.ADM2_PCODE) return;
-                    const existing = stats[row.ADM2_PCODE];
-                    if (!existing) { stats[row.ADM2_PCODE] = row; return; }
-                    // Same province listed under two regions (NIR split):
-                    // the eras don't overlap, so take the non-zero value per year
-                    YEARS.forEach(y => {
-                        if (!(parseFloat(existing[y]) > 0) && parseFloat(row[y]) > 0) existing[y] = row[y];
-                    });
+        loadDataFile(provFile, function (results) {
+            const stats = {};
+            results.data.forEach(row => {
+                if (!row.ADM2_PCODE) return;
+                const existing = stats[row.ADM2_PCODE];
+                if (!existing) { stats[row.ADM2_PCODE] = row; return; }
+                // Same province listed under two regions (NIR split):
+                // the eras don't overlap, so take the non-zero value per year
+                YEARS.forEach(y => {
+                    if (!(parseFloat(existing[y]) > 0) && parseFloat(row[y]) > 0) existing[y] = row[y];
                 });
-                currentProvStats = stats;
-                if (focusedPcode && focusedRegionName && !provincialDataLayer) {
-                    renderProvincialChoropleth(focusedPcode, focusedRegionName);
-                }
-            },
-            error: function (err) { console.error('Provincial CSV load error:', err); }
-        });
+            });
+            currentProvStats = stats;
+            if (focusedPcode && focusedRegionName && !provincialDataLayer) {
+                renderProvincialChoropleth(focusedPcode, focusedRegionName);
+            }
+        }, function (err) { console.error('Data load error:', err); });
     }
 }
 
@@ -1049,13 +1116,26 @@ function updateMetricUI() {
     document.querySelectorAll('.metric-tab').forEach(t =>
         t.classList.toggle('active', t.dataset.metric === metricDef.id));
     document.getElementById('panel-title').textContent = '🌾 ' + metricDef.title + ' (' + metricDef.unit + ')';
+    updateTreeVisibilityForMetric(metricDef.id);
+}
+
+function updateTreeVisibilityForMetric(metricId) {
+    const hideOnMetric = metricId === 'yield' || metricId === 'area';
+    document.querySelectorAll('.section-header.fisheries, .section-header.livestock').forEach(section => {
+        const treeSection = section.closest('.tree-section');
+        if (!treeSection) return;
+        treeSection.style.display = hideOnMetric ? 'none' : '';
+    });
 }
 
 function updateMetricTabAvailability(cropName) {
     const config = cropName ? cropConfig[cropName] : null;
     document.querySelectorAll('.metric-tab').forEach(tab => {
         const metricDef = METRICS.find(m => m.id === tab.dataset.metric);
-        const available = !!(config && config[metricDef.fileKey]);
+        const available = !!(
+            (config && config[metricDef.fileKey]) ||
+            (cropName && provConfig[cropName] && provConfig[cropName][metricDef.provFileKey])
+        );
         tab.classList.toggle('unavailable', !available);
         tab.title = available ? '' : metricDef.label + ' data not yet available for this crop';
     });

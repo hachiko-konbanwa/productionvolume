@@ -278,6 +278,14 @@ body,
     margin-bottom: 9px;
 }
 
+#legend-unit-explanation {
+    margin-top: 4px;
+    font-size: 9px;
+    font-style: italic;
+    color: #888;
+    line-height: 1.4;
+}
+
 #legend-toggle {
     background: #f5f5f5;
     border: none;
