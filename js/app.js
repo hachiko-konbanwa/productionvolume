@@ -31,6 +31,7 @@ let currentProvClsMap = {};
 let provincialDataLayer = null;
 let selectedProvLayer = null;
 let playInterval = null;
+let metricLoading = false;
 
 // ── 1. Map init ──────────────────────────────────────────────────────────────
 var phBounds = L.latLngBounds(L.latLng(2.5, 114.0), L.latLng(23.0, 129.5));
@@ -1020,8 +1021,9 @@ function loadCropData(cropName) {
             if (focusedPcode && focusedRegionName && !provincialDataLayer) {
                 renderProvincialChoropleth(focusedPcode, focusedRegionName);
             }
+            finishMetricLoad();
         }, function (err) { console.error('Data load error:', err); });
-        return;
+        return; 
     }
 
     if (!file) {
@@ -1035,6 +1037,7 @@ function loadCropData(cropName) {
         const hint = document.getElementById('year-hint');
         hint.textContent = metricDef.label + ' data not yet available for this crop.';
         hint.style.display = 'block';
+        finishMetricLoad();
         return;
     }
 
@@ -1052,6 +1055,7 @@ function loadCropData(cropName) {
             const classification = classifyRegions(stats);
             renderMap(stats, cropName, classification.clsMap);
             renderLegend(cropName, classification);
+            finishMetricLoad();
         },
         error: function (err) { console.error('CSV load error:', err); }
     });
@@ -1073,6 +1077,7 @@ function loadCropData(cropName) {
             if (focusedPcode && focusedRegionName && !provincialDataLayer) {
                 renderProvincialChoropleth(focusedPcode, focusedRegionName);
             }
+            finishMetricLoad();
         }, function (err) { console.error('Data load error:', err); });
     }
 }
@@ -1108,6 +1113,30 @@ function switchMetric(metricId) {
     activeMetric = metricId;
     updateMetricUI();
     if (activeItem && currentCropName) loadCropData(currentCropName);
+}
+
+function lockOtherMetricTabs(selectedMetric) {
+    document.querySelectorAll('.metric-tab').forEach(t => {
+        if (t.dataset.metric !== selectedMetric) {
+            t.classList.add('locked');
+            t.setAttribute('aria-disabled', 'true');
+        } else {
+            t.classList.remove('locked');
+            t.removeAttribute('aria-disabled');
+        }
+    });
+}
+
+function unlockAllMetricTabs() {
+    document.querySelectorAll('.metric-tab.locked').forEach(t => {
+        t.classList.remove('locked');
+        t.removeAttribute('aria-disabled');
+    });
+}
+
+function finishMetricLoad() {
+    metricLoading = false;
+    unlockAllMetricTabs();
 }
 
 function updateMetricUI() {
@@ -1293,7 +1322,14 @@ document.querySelectorAll('.yr-tick-label').forEach(function (tick) {
 
 document.querySelectorAll('.metric-tab').forEach(function (tab) {
     tab.addEventListener('click', function () {
-        if (!this.classList.contains('unavailable')) switchMetric(this.dataset.metric);
+        if (this.classList.contains('unavailable') || this.classList.contains('locked') || metricLoading) return;
+        const metric = this.dataset.metric;
+        metricLoading = true;
+        // lock immediately so user sees other tabs disabled while load happens
+        lockOtherMetricTabs(metric);
+        switchMetric(metric);
+        // if loadCropData will not run (no active crop), finish immediately
+        if (!(activeItem && currentCropName)) finishMetricLoad();
     });
 });
 

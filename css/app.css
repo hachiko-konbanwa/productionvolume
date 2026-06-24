@@ -938,6 +938,13 @@ body,
     cursor: default;
 }
 
+.metric-tab.locked {
+    opacity: 0.45;
+    cursor: default;
+    pointer-events: none;
+    filter: grayscale(10%);
+}
+
 @media print {
     #control-panel,
     #legend-panel,
