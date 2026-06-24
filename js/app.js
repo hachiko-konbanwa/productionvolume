@@ -495,15 +495,14 @@ function classifyEntries(statsByPcode, pcodes, useTopBottom, thresholdAvg) {
         const peakSet = new Set(
             [...entries].sort((a, b) => b.val - a.val).slice(0, peakCount).map(e => e.pcode)
         );
-        // Average band: ±10% of national average
-        const bandLo = avg * 0.90;
-        const bandHi = avg * 1.10;
+        // High production when above national average, average production when exactly equal to it.
+        const tol = 1e-6;
         entries.forEach(e => {
             let cls;
-            if (peakSet.has(e.pcode))        cls = 'peak';
-            else if (e.val >= bandHi)         cls = 'high';
-            else if (e.val >= bandLo)         cls = 'average';
-            else                              cls = 'low';
+            if (peakSet.has(e.pcode))                cls = 'peak';
+            else if (e.val > avg + tol)               cls = 'high';
+            else if (Math.abs(e.val - avg) <= tol)    cls = 'average';
+            else                                      cls = 'low';
             clsMap[e.pcode] = { cls, val: e.val };
         });
     } else {
@@ -834,7 +833,7 @@ function renderLegend(cropName, classification, scope, overrideAvg) {
     ] : [
         { cls: 'peak',    label: 'Peak Production',    note: 'Top-Producing' },
         { cls: 'high',    label: 'High Production',    note: 'Above average' },
-        { cls: 'average', label: 'Average Production', note: 'Near national average' },
+        { cls: 'average', label: 'Average Production', note: 'National average' },
         { cls: 'low',     label: 'Low Production',     note: 'Below average' },
         { cls: 'noData',  label: 'No Data',            note: 'Not reported' }
     ];
