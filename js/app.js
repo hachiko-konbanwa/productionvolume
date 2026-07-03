@@ -169,7 +169,55 @@ const cropConfig = {
         palette: ['#fefae8', '#ffc97c', '#ffae3b', '#db7420', '#ae5209']
     },
     'Overall Cabbage Production': {
-        palette: ['#f2f9d9', '#bf7fbf', '#993299', '#800080', '#660066']
+        palette: ['#f2f9d9', '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Overall Carrots Production': {
+        palette: ['#f2f9d9', '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Overall Cauliflower Production': {
+        palette: ['#f2f9d9', '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Overall Broccoli Production': {
+        palette: ['#f2f9d9', '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Overall Celery Production': {
+        palette: ['#f2f9d9', '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Overall Habitsuelas Production': {
+        palette: ['#f2f9d9', '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Overall Chinese Cabbage Production': {
+        palette: ['#f2f9d9', '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Overall Chayote Production': {
+        palette: ['#f2f9d9', '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Overall Ampalaya Production': {
+        palette: ['#f2f9e8',  '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Overall Squash Production': {
+        palette: ['#fefae8',  '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Overall Okra Production': {
+        palette: ['#f2f9e8',  '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Overall Eggplant Production': {
+        palette: ['#f5f0ff', '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Overall Stringbeans Production': {
+        palette: ['#f2f9e8',  '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Overall Ube Production': {
+        palette: ['#f2f9d9', '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Red Onion Production': {
+        palette: ['#fff0f0', '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Yellow Onion Production': {
+        palette: ['#fefae8', '#bf7fbf', '#993299', '#8c198c', '#660066']
+    },
+    'Red Shallot Production': {
+        palette: ['#fff0f5', '#bf7fbf', '#993299', '#8c198c', '#660066']
     },
     'Overall Coconut Production': {
         file: 'data/crop_dataAgristat_Database — Overall_Coconut_Production_2025.csv',
@@ -241,30 +289,153 @@ const provConfig = {
         file: 'data/Cabbage_Provincial_Production.xlsx',
         yieldFile: 'data/Cabbage_Provincial_Yield.xlsx',
         areaFile: 'data/Cabbage_Provincial_Area.xlsx'
+    },
+    'Overall Carrots Production': {
+        file: 'data/Highland_Vegetable_Production_Provincial.xlsx#Carrots',
+        yieldFile: 'data/Highland_Yield_Provincial.xlsx#Carrots',
+        areaFile: 'data/Highland_Area_Provincial.xlsx#Carrots'
+    },
+    'Overall Cauliflower Production': {
+        file: 'data/Highland_Vegetable_Production_Provincial.xlsx#Cauliflower',
+        yieldFile: 'data/Highland_Yield_Provincial.xlsx#Cauliflower',
+        areaFile: 'data/Highland_Area_Provincial.xlsx#Cauliflower'
+    },
+    'Overall Celery Production': {
+        file: 'data/Highland_Vegetable_Production_Provincial.xlsx#Celery',
+        yieldFile: 'data/Highland_Yield_Provincial.xlsx#Celery',
+        areaFile: 'data/Highland_Area_Provincial.xlsx#Celery'
+    },
+    'Overall Broccoli Production': {
+        file: 'data/Highland_Vegetable_Production_Provincial.xlsx#Broccoli',
+        yieldFile: 'data/Highland_Yield_Provincial.xlsx#Broccoli',
+        areaFile: 'data/Highland_Area_Provincial.xlsx#Broccoli'
+    },
+    'Overall Habitsuelas Production': {
+        file: 'data/Highland_Vegetable_Production_Provincial.xlsx#Habitchuelas (Snap beans)',
+        yieldFile: 'data/Highland_Yield_Provincial.xlsx#Habitchuelas',
+        areaFile: 'data/Highland_Area_Provincial.xlsx#Habitchuelas'
+    },
+    'Overall Chinese Cabbage Production': {
+        file: 'data/Highland_Vegetable_Production_Provincial.xlsx#Chinese cabbage (Wongbok, Pecha',
+        yieldFile: 'data/Highland_Yield_Provincial.xlsx#Chinese Cabbage',
+        areaFile: 'data/Highland_Area_Provincial.xlsx#Chinese Cabbage'
+    },
+    'Overall Chayote Production': {
+        file: 'data/Highland_Vegetable_Production_Provincial.xlsx#Chayote fruit',
+        yieldFile: 'data/Highland_Yield_Provincial.xlsx#Chayote',
+        areaFile: 'data/Highland_Area_Provincial.xlsx#Chayote'
+    },
+    'Overall Ampalaya Production': {
+        file: 'data/Lowland_Vegetable_Production_Provincial.xlsx#AMPALAYA',
+        yieldFile: 'data/Lowland_Vegetable_Provincial_Yield.xlsx#AMPALAYA',
+        areaFile: 'data/Lowland_Vegetable_Provincial_Area.xlsx#AMPALAYA'
+    },
+    'Overall Squash Production': {
+        file: 'data/Lowland_Vegetable_Production_Provincial.xlsx#SQUASH',
+        yieldFile: 'data/Lowland_Vegetable_Provincial_Yield.xlsx#SQUASH',
+        areaFile: 'data/Lowland_Vegetable_Provincial_Area.xlsx#SQUASH'
+    },
+    'Overall Okra Production': {
+        file: 'data/Lowland_Vegetable_Production_Provincial.xlsx#OKRA',
+        yieldFile: 'data/Lowland_Vegetable_Provincial_Yield.xlsx#OKRA',
+        areaFile: 'data/Lowland_Vegetable_Provincial_Area.xlsx#OKRA'
+    },
+    'Overall Eggplant Production': {
+        file: 'data/Lowland_Vegetable_Production_Provincial.xlsx#EGGPLANT',
+        yieldFile: 'data/Lowland_Vegetable_Provincial_Yield.xlsx#EGGPLANT',
+        areaFile: 'data/Lowland_Vegetable_Provincial_Area.xlsx#EGGPLANT'
+    },
+    'Overall Stringbeans Production': {
+        file: 'data/Lowland_Vegetable_Production_Provincial.xlsx#STRINGBEANS (SITAO)',
+        yieldFile: 'data/Lowland_Vegetable_Provincial_Yield.xlsx#STRINGBEANS (SITAO)',
+        areaFile: 'data/Lowland_Vegetable_Provincial_Area.xlsx#STRINGBEANS (SITAO)'
+    },
+    'Overall Coconut Production': {
+        file: 'data/NonFoodIndustrialCrops_ProductionVolume_Provincial.xlsx#Coconut with husk',
+        yieldFile: 'data/NonFoodIndustrialCrops_Yield_Provincial.xlsx#Coconut w husk',
+        areaFile: 'data/NonFoodIndustrialCrops_Area_Provincial.xlsx#Coconut w husk'
+    },
+    'Overall Sugar Production': {
+        file: 'data/NonFoodIndustrialCrops_ProductionVolume_Provincial.xlsx#Sugarcane',
+        yieldFile: 'data/NonFoodIndustrialCrops_Yield_Provincial.xlsx#Sugarcane',
+        areaFile: 'data/NonFoodIndustrialCrops_Area_Provincial.xlsx#Sugarcane'
+    },
+    'Overall Mango Production': {
+        file: 'data/FruitCrops_ProductionVolume_Provincial.xlsx#Mango',
+        yieldFile: 'data/FruitCrops_Yield_Provincial.xlsx#Mango',
+        areaFile: 'data/FruitCrops_Area_Provincial.xlsx#Mango'
+    },
+    'Overall Banana Production': {
+        file: 'data/FruitCrops_ProductionVolume_Provincial.xlsx#Banana',
+        yieldFile: 'data/FruitCrops_Yield_Provincial.xlsx#Banana',
+        areaFile: 'data/FruitCrops_Area_Provincial.xlsx#Banana'
+    },
+    'Overall Ube Production': {
+        file: 'data/Ube_ProductionVolume_Provincial.csv',
+        yieldFile: 'data/Ube_YieldVolume_Provincial.csv',
+        areaFile: 'data/Ube_AreaVolume_Provincial.csv'
+    },
+    'Yellow Onion Production': {
+        file: 'data/Onion_ProductionVolume_Provincial.xlsx#PRODUCTION White Onion',
+        yieldFile: 'data/Onion_Yield_Provincial.xlsx#YIELD White Onion',
+        areaFile: 'data/Onion_Area_Provincial.xlsx#AREA White Onion'
+    },
+    'Red Onion Production': {
+        file: 'data/Onion_ProductionVolume_Provincial.xlsx#PRODUCTION Red Onion',
+        yieldFile: 'data/Onion_Yield_Provincial.xlsx#YIELD Red Onion',
+        areaFile: 'data/Onion_Area_Provincial.xlsx#AREA Red Onion'
+    },
+    'Red Shallot Production': {
+        file: 'data/Onion_ProductionVolume_Provincial.xlsx#PRODUCTION SIbuyas Tagalog',
+        yieldFile: 'data/Onion_Yield_Provincial.xlsx#YIELD Sibuyas Tagalog',
+        areaFile: 'data/Onion_Area_Provincial.xlsx#AREA Sibuyas Tagalog'
+    },
+    'Overall Milkfish Production': {
+        file: 'data/milkfish_productionvolume_provincial.csv'
+    },
+    'Overall Tilapia Production': {
+        file: 'data/tilapia_productionvolume_provincial.csv'
+    },
+    'Overall Hog Production': {
+        file: 'data/hog_productionvolume_provincial.csv'
+    },
+    'Overall Egg Production': {
+        file: 'data/eggs_productionvolume_provincial.csv'
+    },
+    'Overall Chicken Production': {
+        file: 'data/chicken_productionvolume_provincial.csv'
+    },
+    'Overall Cattle Production': {
+        file: 'data/cattle_productionvolume_provincial.csv'
     }
 };
 
-// The provincial GeoJSON uses the 2024+ region pcode scheme (NIR=PH18,
-// Mimaropa=PH16, BARMM=PH17, Caraga=PH15), but the pre-2024 regional
-// boundaries use the older scheme (no NIR, Mimaropa=PH17, BARMM=PH19,
-// Caraga=PH16). Translate so province-to-region matching works in any year.
-const GEO_TO_PRE2024 = { PH15: 'PH16', PH16: 'PH17', PH17: 'PH19' };
+// NIR provinces revert to R6/R7 for years < 2024.
+// Keyed by the province's PSGC ADM2 code → the pre-2024 regional PSGC code.
+const NIR_PROV_TO_PRE2024 = {
+    '1804500000': '0600000000',  // Negros Occidental → R6
+    '1804600000': '0700000000',  // Negros Oriental  → R7
+    '1806100000': '0700000000'   // Siquijor         → R7
+};
 
-// Returns the province's parent region pcode in the scheme of the
-// currently displayed regional boundaries (depends on currentYear).
+// Returns the province's parent region PSGC so it matches whichever
+// regional boundary layer is currently displayed.
 function provinceParentRegion(props) {
     if (parseInt(currentYear) >= 2024) return props.ADM1_PCODE;
     // NIR didn't exist before 2024 — its provinces revert to R6/R7,
     // which is encoded in the first 4 chars of their ADM2_PCODE
-    if (props.ADM1_PCODE === 'PH18') return props.ADM2_PCODE.substring(0, 4);
-    return GEO_TO_PRE2024[props.ADM1_PCODE] || props.ADM1_PCODE;
+    if (props.ADM1_PCODE === '1800000000') {
+        return NIR_PROV_TO_PRE2024[props.ADM2_PCODE] || props.ADM1_PCODE;
+    }
+    // All other regions use the same PSGC code in both boundary layers
+    return props.ADM1_PCODE;
 }
 
 // Areas only reported separately starting in a given year. Before that year
 // their polygon displays as part of the parent province (same color/data),
 // like the NIR provinces reverting to R6/R7.
 const PROVINCE_SPLITS = {
-    PH09074: { parent: 'PH09073', since: 2025 } // Zamboanga City ← Zamboanga del Sur
+    '0907400000': { parent: '0907300000', since: 2025 } // Zamboanga City ← Zamboanga del Sur
 };
 
 function effectiveProvincePcode(adm2Pcode) {
@@ -274,8 +445,17 @@ function effectiveProvincePcode(adm2Pcode) {
 
 function provinceRegionPcode(adm2Pcode) {
     if (provincialShapes) {
-        const feature = provincialShapes.features.find(f => f.properties.ADM2_PCODE === adm2Pcode);
+        // Fast path: PSGC format (10-digit) — direct GeoJSON match
+        let feature = provincialShapes.features.find(f => f.properties.ADM2_PCODE === adm2Pcode);
         if (feature) return provinceParentRegion(feature.properties);
+        // Compatibility path: legacy PH-format xlsx files (e.g. PH14001 → 1400100000).
+        // NIR provinces carried their pre-NIR R6/R7 codes so need explicit overrides.
+        if (/^PH\d{5}$/.test(adm2Pcode)) {
+            const nirOverride = { PH06045: '1804500000', PH07046: '1804600000', PH07061: '1806100000' };
+            const psgc = nirOverride[adm2Pcode] || (adm2Pcode.slice(2) + '00000');
+            feature = provincialShapes.features.find(f => f.properties.ADM2_PCODE === psgc);
+            if (feature) return provinceParentRegion(feature.properties);
+        }
     }
     return adm2Pcode.substring(0, 4);
 }
@@ -329,7 +509,7 @@ function buildRegionPopupHTML(regionPcode, regionName, val, info) {
     const badgeCls = info ? info.cls : null;
     const badgeColor = badgeCls ? getColor(currentCropName, badgeCls) : null;
     const badgeStyle = badgeColor
-        ? 'background:' + colorToRgba(badgeColor, 0.18) + ';color:' + darkenColor(badgeColor, 0.45) + ';border:1.5px solid ' + colorToRgba(badgeColor, 0.4)
+        ? 'background:' + badgeColor + ';color:' + contrastText(badgeColor) + ';border:1.5px solid ' + darkenColor(badgeColor, 0.82)
         : '';
 
     return '<div class="info-popup">'
@@ -361,7 +541,7 @@ function buildProvincePopupHTML(provPcode, provinceName, regionPcode, regionName
     const badgeCls = info ? info.cls : null;
     const badgeColor = badgeCls ? getColor(currentCropName, badgeCls) : null;
     const badgeStyle = badgeColor
-        ? 'background:' + colorToRgba(badgeColor, 0.18) + ';color:' + darkenColor(badgeColor, 0.45) + ';border:1.5px solid ' + colorToRgba(badgeColor, 0.4)
+        ? 'background:' + badgeColor + ';color:' + contrastText(badgeColor) + ';border:1.5px solid ' + darkenColor(badgeColor, 0.82)
         : '';
 
     return '<div class="info-popup">'
@@ -464,6 +644,14 @@ function darkenColor(hex, factor) {
     const g = Math.round(((n >> 8) & 255) * factor);
     const b = Math.round((n & 255) * factor);
     return 'rgb(' + r + ',' + g + ',' + b + ')';
+}
+
+// Returns white or dark text depending on background luminance
+function contrastText(hex) {
+    const n = parseInt(hex.slice(1), 16);
+    const r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255;
+    const lum = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+    return lum > 0.55 ? darkenColor(hex, 0.38) : '#ffffff';
 }
 
 // Drop-shadow "lift" on the selected polygon for a pseudo-3D look
@@ -928,29 +1116,56 @@ function toggleYearController() {
 // totals (volume/area) or averages (yield) keyed by ADM1_PCODE.
 // useAverage=true for yield (MT/HA), false/omitted for volume/area (sum provinces).
 function loadDataFile(file, complete, error) {
-    const ext = file.split('.').pop().toLowerCase();
+    // Sheet name may be encoded after '#': 'data/file.xlsx#SheetName'
+    const hashIdx = file.indexOf('#');
+    const sheetName = hashIdx !== -1 ? file.slice(hashIdx + 1) : null;
+    const filePath  = hashIdx !== -1 ? file.slice(0, hashIdx) : file;
+
+    const ext = filePath.split('.').pop().toLowerCase();
     if (ext === 'csv') {
-        Papa.parse(file + '?v=' + Date.now(), {
+        Papa.parse(filePath + '?v=' + Date.now(), {
             download: true,
             header: true,
-            complete: complete,
+            complete: function(results) {
+                results.data.forEach(function(row) {
+                    if (row.ADM2_PCODE && /^\d{9}$/.test(row.ADM2_PCODE)) {
+                        row.ADM2_PCODE = '0' + row.ADM2_PCODE;
+                    }
+                });
+                complete(results);
+            },
             error: error
         });
         return;
     }
     if (ext === 'xlsx' || ext === 'xls') {
-        fetch(file + '?v=' + Date.now())
+        fetch(filePath + '?v=' + Date.now())
             .then(r => r.arrayBuffer())
             .then(data => {
                 const workbook = XLSX.read(data, { type: 'array' });
-                const sheet = workbook.Sheets[workbook.SheetNames[0]];
+                const sheet = (sheetName && workbook.Sheets[sheetName])
+                    ? workbook.Sheets[sheetName]
+                    : workbook.Sheets[workbook.SheetNames[0]];
                 const rows = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: '' });
                 if (!rows.length) return complete({ data: [] });
-                const header = rows[0].map(h => String(h).trim());
+                const header = rows[0].map(h => {
+                    const s = String(h).trim();
+                    const m = s.match(/^Annual\s*\((\d{4})\)$/i);
+                    return m ? m[1] : s;
+                });
+                const nirPH = { 'PH06045': '1804500000', 'PH07046': '1804600000', 'PH07061': '1806100000' };
                 const dataRows = rows.slice(1).map(r => {
                     const obj = {};
                     header.forEach((key, idx) => {
-                        obj[key] = r[idx] == null ? '' : String(r[idx]).trim();
+                        let val = r[idx] == null ? '' : String(r[idx]).trim();
+                        if (key === 'ADM2_PCODE') {
+                            if (/^\d{9}$/.test(val)) {
+                                val = '0' + val;                           // 9-digit → 10-digit
+                            } else if (/^PH\d{5}$/.test(val)) {
+                                val = nirPH[val] || (val.slice(2) + '00000'); // PH01028 → 0102800000
+                            }
+                        }
+                        obj[key] = val;
                     });
                     return obj;
                 });
@@ -1312,6 +1527,8 @@ document.getElementById('year-slider').addEventListener('input', function () { s
 document.getElementById('tree-scroll').addEventListener('click', function (e) {
     const header = e.target.closest('.section-header');
     if (header) { toggleSection(header); return; }
+    const subHeader = e.target.closest('.sub-group-header');
+    if (subHeader) { toggleSection(subHeader); return; }
     const item = e.target.closest('.tree-item');
     if (item) selectCrop(item, item.dataset.crop);
 });

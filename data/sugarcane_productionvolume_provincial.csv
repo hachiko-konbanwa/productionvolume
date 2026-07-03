@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Sugarcane,Cordillera Administrative Region (CAR),Abra,1400100000,174.9,177.52,179.97,172.85,119.6,135.35,116.33
+Sugarcane,Cordillera Administrative Region (CAR),Apayao,1408100000,0,0,0,0,0,7.18,6.82
+Sugarcane,Cordillera Administrative Region (CAR),Benguet,1401100000,9.49,8.26,7.51,7.16,3.05,1.5,4.4
+Sugarcane,Cordillera Administrative Region (CAR),Ifugao,1402700000,12.78,14.9,14.6,15.85,16.07,10.17,1.64
+Sugarcane,Cordillera Administrative Region (CAR),Kalinga,1403200000,21950.7,21145.46,22171.56,17830.55,21428.15,15793.48,18860
+Sugarcane,Cordillera Administrative Region (CAR),Mountain Province,1404400000,762.54,841.23,863.37,829.41,775.79,701.37,537.89
+Sugarcane,Region I (Ilocos Region),Ilocos Norte,102800000,10811.82,10332.74,10538.02,10463.32,10485.56,10522.34,9798.64
+Sugarcane,Region I (Ilocos Region),Ilocos Sur,102900000,2888.11,3051.64,2998.41,3035.92,3085.78,3100.75,1397.74
+Sugarcane,Region I (Ilocos Region),La Union,103300000,2056.54,2073.64,2146.42,1989.69,1781.26,1893.03,917.06
+Sugarcane,Region I (Ilocos Region),Pangasinan,105500000,3867.26,3939.3,1906.43,1930.97,1828,1645.61,1755.94
+Sugarcane,Region II (Cagayan Valley),Batanes,200900000,2.63,1.63,0.95,0.8,3.33,3.38,1.2
+Sugarcane,Region II (Cagayan Valley),Cagayan,201500000,82674.92,102288.9,119666.7,121301.71,128389.1,150363.01,116208.73
+Sugarcane,Region II (Cagayan Valley),Isabela,203100000,236198.65,249205.56,249896.25,244441.26,239250.29,246053.71,38355.09
+Sugarcane,Region II (Cagayan Valley),Nueva Vizcaya,205000000,10.93,10.16,10.94,11.13,10.55,10.5,0
+Sugarcane,Region II (Cagayan Valley),Quirino,205700000,206.84,190.5,186.47,182.98,161.86,173.39,22.73
+Sugarcane,Region III (Central Luzon),Aurora,307700000,0,0,0,0,0,0,0
+Sugarcane,Region III (Central Luzon),Bataan,300800000,640.73,826.2,206.55,0,0,0,0
+Sugarcane,Region III (Central Luzon),Bulacan,301400000,1.3,1.2,1.15,0,0,0,0
+Sugarcane,Region III (Central Luzon),Nueva Ecija,304900000,5740,16215.5,17723.38,15476.85,16347.07,19845.26,10199.79
+Sugarcane,Region III (Central Luzon),Pampanga,305400000,68550.44,69923.54,73678.9,78502.52,78527.24,79844.07,79849.97
+Sugarcane,Region III (Central Luzon),Tarlac,306900000,340148.08,462406.26,266048.8,325341.36,242649.34,254204.24,259207.69
+Sugarcane,Region III (Central Luzon),Zambales,307100000,221.29,190.37,166.79,196.73,138.66,107.16,0.9
+Sugarcane,Region IV-A (CALABARZON),Batangas,401000000,1055580.21,1254346.65,1025370.29,790198.53,413566.57,596779.95,269788.74
+Sugarcane,Region IV-A (CALABARZON),Cavite,402100000,37751.94,72945.31,87893.57,72921.77,58206.81,73199.97,89122.66
+Sugarcane,Region IV-A (CALABARZON),Laguna,403400000,10423.26,10420,10417.92,10157.47,9141.72,16667.68,9521.49
+Sugarcane,Region IV-A (CALABARZON),Quezon,405600000,2400,3135.51,2597.6,2640,785.75,4225.02,836.42
+Sugarcane,Region IV-A (CALABARZON),Rizal,405800000,0,0,0,0,0,0,0
+Sugarcane,MIMAROPA Region,Marinduque,1704000000,0,0,0,0,0,0,0
+Sugarcane,MIMAROPA Region,Occidental Mindoro,1705100000,0,0,0,0,0,0,0
+Sugarcane,MIMAROPA Region,Oriental Mindoro,1705200000,0,0,0,0,0,1.27,0.65
+Sugarcane,MIMAROPA Region,Palawan,1705300000,0,0,0,0,0,0,0
+Sugarcane,MIMAROPA Region,City of Puerto Princesa,,0,0,0,0,0,0,0
+Sugarcane,MIMAROPA Region,Romblon,1705900000,0,0,0,0,0,0,0
+Sugarcane,Region V (Bicol Region),Albay,500500000,71605.8,66904.3,67517.34,68149.63,58582.9,46763.81,3399.82
+Sugarcane,Region V (Bicol Region),Camarines Norte,501600000,0,0,0,3.24,0,0,0.01
+Sugarcane,Region V (Bicol Region),Camarines Sur,501700000,133421,109845,104670,98794,90272.8,109681.69,36286
+Sugarcane,Region V (Bicol Region),Catanduanes,502000000,0,0,0,0,9.46,1.01,0.27
+Sugarcane,Region V (Bicol Region),Masbate,504100000,0,0,0,0,0,0,0
+Sugarcane,Region V (Bicol Region),Sorsogon,506200000,1.83,1.8,1.96,1.86,1.36,2.07,0
+Sugarcane,Region VI (Western Visayas),Aklan,600400000,0,0,0,0,0,0,0.07
+Sugarcane,Region VI (Western Visayas),Antique,600600000,59463.53,61938.35,66925.03,66928.39,67568.5,69853.97,36693.36
+Sugarcane,Region VI (Western Visayas),Capiz,601900000,383044.79,448956.04,404124.57,348439.48,241877.45,442750.29,140594.35
+Sugarcane,Region VI (Western Visayas),Guimaras,607900000,0,0,0,0,0,0,0
+Sugarcane,Region VI (Western Visayas),Iloilo,603000000,1532134.8,1416984.92,1228816.3,1167110.42,910779.11,1854371.51,779568.58
+Sugarcane,Region VI (Western Visayas),Negros Occidental,1804500000,13305037,13856643,12516731,11603901.68,0,0,0
+Sugarcane,Region VI (Western Visayas),Negros Occidental,1804500000,0,0,0,0,10058031.8,12619045.33,4237816.37
+Sugarcane,Negros Island Region (NIR),Negros Oriental,1804600000,0,0,0,0,1666876.06,2900454.6,1433025.56
+Sugarcane,Negros Island Region (NIR),Siquijor,1806100000,0,0,0,0,0,0,0
+Sugarcane,Negros Island Region (NIR),City of Bacolod,,0,0,0,0,0,0,653779.69
+Sugarcane,Region VII (Central Visayas),Bohol,701200000,0,0,0,10.43,1.35,1.49,0.02
+Sugarcane,Region VII (Central Visayas),Cebu,702200000,227823,202983,130662,84627.04,22687.63,123167.15,13289
+Sugarcane,Negros Island Region (NIR),Negros Oriental,1804600000,2143029.72,2406026.07,2127975.24,2083516.63,0,0,0
+Sugarcane,Negros Island Region (NIR),Siquijor,1806100000,0,0,0,0,0,0,0
+Sugarcane,Region VIII (Eastern Visayas),Biliran,807800000,0.25,0.31,0.32,0.39,0.25,0.27,0
+Sugarcane,Region VIII (Eastern Visayas),Eastern Samar,802600000,0.2,0.1,0.11,0.78,0.81,0.88,0.1
+Sugarcane,Region VIII (Eastern Visayas),Leyte,803700000,367145.42,310479.15,265582.19,245447.82,230808.7,292945.13,152216.41
+Sugarcane,Region VIII (Eastern Visayas),Northern Samar,804800000,0,0,0,0,0,0,0
+Sugarcane,Region VIII (Eastern Visayas),Samar,806000000,27.44,28.05,40.83,41.95,38.94,35.72,3.14
+Sugarcane,Region VIII (Eastern Visayas),Southern Leyte,806400000,0.05,0.04,0.02,0.04,0.58,1.62,0.24
+Sugarcane,Region IX (Zamboanga Peninsula),Sulu,906600000,0,0,0,0,2.25,0,0.11
+Sugarcane,Region IX (Zamboanga Peninsula),Zamboanga del Norte,907200000,7.4,5.45,3.8,3.07,3.49,3.6,1.16
+Sugarcane,Region IX (Zamboanga Peninsula),Zamboanga del Sur,907300000,5.8,6,6.06,66.67,43.87,8.84,1.9
+Sugarcane,Region IX (Zamboanga Peninsula),Zamboanga Sibugay,908300000,7.49,7.18,6.42,6.33,5.85,5.05,1.32
+Sugarcane,Region IX (Zamboanga Peninsula),City of Zamboanga,,71.34,71.71,68.94,0,0,0.05,0.05
+Sugarcane,Region X (Northern Mindanao),Bukidnon,1001300000,3207693.05,3849897.8,3583685,3084445.3,3067764.7,4733828.15,1992481.55
+Sugarcane,Region X (Northern Mindanao),Camiguin,1001800000,0,0,0,0,0,0,0
+Sugarcane,Region X (Northern Mindanao),Lanao del Norte,1003500000,0,0,0,0,0,0,0
+Sugarcane,Region X (Northern Mindanao),Misamis Occidental,1004200000,0,0,0,0.3,0.05,0.05,0.03
+Sugarcane,Region X (Northern Mindanao),Misamis Oriental,1004300000,0,0,0,0,1.94,3.71,1.54
+Sugarcane,Region XI (Davao Region),Davao de Oro,1108200000,36.94,36.46,36.43,36.45,29.69,29.47,6.67
+Sugarcane,Region XI (Davao Region),Davao del Norte,1102300000,49.14,47.93,47.86,46.17,46.21,43.46,11.07
+Sugarcane,Region XI (Davao Region),Davao del Sur,1102400000,274930.98,301507.45,249152.32,203865.63,216628.55,297131.81,210943.47
+Sugarcane,Region XI (Davao Region),Davao Occidental,1108600000,0.21,0.21,0.21,0.13,0.17,0.16,0.03
+Sugarcane,Region XI (Davao Region),Davao Oriental,1102500000,4.27,4.43,4.47,4.32,4.44,4.56,1.46
+Sugarcane,Region XI (Davao Region),City of Davao,,0,0,0,0,0,0,0
+Sugarcane,Region XII (SOCCSKSARGEN),Cotabato,1204700000,515220.75,642940.29,529531.99,552460.44,582604.38,729010.96,343577.86
+Sugarcane,Region XII (SOCCSKSARGEN),Sarangani,1208000000,52949.03,56277.33,44803.3,37230.64,23420.29,43423.35,11103.94
+Sugarcane,Region XII (SOCCSKSARGEN),Sultan Kudarat,1206500000,98725.13,93647.43,78459.86,88511.25,89429.61,287932.34,87098.24
+Sugarcane,Region XII (SOCCSKSARGEN),South Cotabato,1206300000,16783.63,16488.03,20384.85,31828.14,19322.33,56864.95,20639.46
+Sugarcane,Region XIII (Caraga),Agusan del Norte,1600200000,0.01,0.01,0.01,0.01,0.04,0.04,0
+Sugarcane,Region XIII (Caraga),Agusan del Sur,1600300000,0,0,0,0,0,8,4.09
+Sugarcane,Region XIII (Caraga),Dinagat Islands,1608500000,3.3,0.5,0,1.75,1,0,0.08
+Sugarcane,Region XIII (Caraga),Surigao del Norte,1606700000,0.76,0.42,0.38,1.86,5.31,5.05,0.44
+Sugarcane,Region XIII (Caraga),Surigao del Sur,1606800000,1.05,1.07,1.07,0.95,2.61,0.8,0.31
+Sugarcane,Region XIII (Caraga),City of Butuan,,0,0,0,0,2.19,0,0
+Sugarcane,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)3,Basilan,1900700000,0,0,0,0,0,0,0.02
+Sugarcane,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)4,Lanao del Sur,1903600000,126619.46,151969.65,141461.25,187796.61,121095.97,186862.32,78650.75
+Sugarcane,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)5,Maguindanao,,0.77,0.7,0.66,0.56,0.49,0,0
+Sugarcane,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)6,Maguindanao del Norte,1908700000,0,0,0,0,0,0.25,0
+Sugarcane,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)7,Maguindanao del Sur,1908800000,0,0,0,0,0,0,0
+Sugarcane,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)8,Sulu,906600000,0,0,0,0,0.1,0.1,0
+Sugarcane,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)9,Tawi-tawi,1907000000,10.57,9.57,9.16,8.75,2.74,4.39,3.41
