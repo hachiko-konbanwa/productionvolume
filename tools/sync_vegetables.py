@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build annual and sub-annual vegetable files from data/vegetables_long.csv.
+"""Build annual and sub-annual vegetable files from data/sources/vegetables_long.csv.
 
 Third of the family, after sync_agristat.py (palay/corn) and sync_fruits.py.
 Province resolution, HUC pinning and the collision guard are IMPORTED from

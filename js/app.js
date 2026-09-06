@@ -492,7 +492,7 @@ map.getPane('provincialPane').style.pointerEvents = 'none';
 
 // ── 4. Hillshade ─────────────────────────────────────────────────────────────
 var hillshadeOverlay = L.imageOverlay(
-    'data/Hillshade_18.png',
+    'data/boundaries/Hillshade_18.png',
     [[4.500000668000002, 116.8], [21.2, 126.699999604]],
     { pane: 'hillshadePane', opacity: 0.85 }
 ).addTo(map);
@@ -635,7 +635,7 @@ const cropConfig = {
         palette: ['#fefae8', '#fff8c3', '#ffee8c', '#e6d67a', '#ccc160']
     },
     'Overall Mango Production': {
-        file: 'data/crop_dataAgristat_Database — Overall_Mango_Production_2025.csv',
+        file: 'data/volume/mango-regional.csv',
         palette: ['#fefae8', '#ffc97c', '#ffae3b', '#db7420', '#ae5209']
     },
     'Overall Banana Production': {
@@ -873,11 +873,11 @@ const cropConfig = {
         palette: ['#fefae8', '#ffd1e2', '#ff9ec4', '#f25c94', '#c2185b']
     },
     'Overall Dairy Production': {
-        file: 'data/crop_dataAgristat_Database — Overall_Dairy_Production_2025.csv',
+        file: 'data/volume/dairy-regional.csv',
         palette: ['#fefae8', '#ffd1e2', '#ff9ec4', '#f25c94', '#c2185b']
     },
     'Overall Egg Production': {
-        file: 'data/crop_dataAgristat_Database — Overall_Eggs_Production_2025.csv',
+        file: 'data/volume/egg-regional.csv',
         palette: ['#fefae8', '#ffd1e2', '#ff9ec4', '#f25c94', '#c2185b'],
         footnote: '* Total of Chicken and Duck Egg Production Volume'
     }
@@ -886,169 +886,169 @@ const cropConfig = {
 // Provincial CSV registry — add more crops here as files become available
 const provConfig = {
     'Irrigated Palay Production': {
-        file: 'data/IrrigatedPalay2024onwards.csv',
-        yieldFile: 'data/IrrigatedPalay_Yield_Provincial.csv',
-        areaFile: 'data/conv_irrigatedpalay_area_provincial.csv'
+        file: 'data/volume/irrigated-palay.csv',
+        yieldFile: 'data/yield/irrigated-palay.csv',
+        areaFile: 'data/area/irrigated-palay.csv'
     },
     'Overall Palay Production': {
-        file: 'data/Palay_ProductionVolume_Provincial.csv',
-        yieldFile: 'data/conv_palay_yield_provincial.csv',
-        areaFile: 'data/conv_palay_area_provincial.csv'
+        file: 'data/volume/palay.csv',
+        yieldFile: 'data/yield/palay.csv',
+        areaFile: 'data/area/palay.csv'
     },
     'Rainfed Palay Production': {
-        file: 'data/RainfedPalay_ProductionVolume_Provincial.csv',
-        yieldFile: 'data/conv_rainfedpalay_yield_provincial.csv',
-        areaFile: 'data/conv_rainfedpalay_area_provincial.csv'
+        file: 'data/volume/rainfed-palay.csv',
+        yieldFile: 'data/yield/rainfed-palay.csv',
+        areaFile: 'data/area/rainfed-palay.csv'
     },
     'Overall Corn Production': {
-        file: 'data/Corn_ProductionVolume_Provincial.csv'
+        file: 'data/volume/corn.csv'
     },
     'Yellow Corn Production': {
-        file: 'data/YellowCorn_ProductionVolume_Provincial.csv',
-        yieldFile: 'data/conv_yellowcorn_yield_provincial.csv',
-        areaFile: 'data/conv_yellowcorn_area_provincial.csv'
+        file: 'data/volume/yellow-corn.csv',
+        yieldFile: 'data/yield/yellow-corn.csv',
+        areaFile: 'data/area/yellow-corn.csv'
     },
     'White Corn Production': {
-        file: 'data/WhiteCorn_ProductionVolume_Provincial.csv',
-        yieldFile: 'data/conv_whitecorn_yield_provincial.csv',
-        areaFile: 'data/conv_whitecorn_area_provincial.csv'
+        file: 'data/volume/white-corn.csv',
+        yieldFile: 'data/yield/white-corn.csv',
+        areaFile: 'data/area/white-corn.csv'
     },
     'Overall Cabbage Production': {
-        file: 'data/veg_cabbage_productionvolume_provincial.csv',
-        yieldFile: 'data/conv_cabbage_yield_provincial.csv',
-        areaFile: 'data/conv_cabbage_area_provincial.csv'
+        file: 'data/volume/cabbage.csv',
+        yieldFile: 'data/yield/cabbage.csv',
+        areaFile: 'data/area/cabbage.csv'
     },
     'Overall Lettuce Production': {
-        file: 'data/veg_lettuce_productionvolume_provincial.csv',
-        areaFile: 'data/lettuce_provincial_area.csv',
-        yieldFile: 'data/lettuce_yield_provincial.csv'
+        file: 'data/volume/lettuce.csv',
+        areaFile: 'data/area/lettuce.csv',
+        yieldFile: 'data/yield/lettuce.csv'
     },
     'Overall Bell Pepper Production': {
-        file: 'data/veg_bellpepper_productionvolume_provincial.csv',
-        areaFile: 'data/Bellpepper_provincial_area.csv',
-        yieldFile: 'data/bellpepper_yield_provincial.csv'
+        file: 'data/volume/bell-pepper.csv',
+        areaFile: 'data/area/bell-pepper.csv',
+        yieldFile: 'data/yield/bell-pepper.csv'
     },
     'Overall Chili Pepper Production': {
-        file: 'data/veg_chilipepper_productionvolume_provincial.csv',
-        areaFile: 'data/silinglabuyo_provincial_area.csv'
+        file: 'data/volume/chili-pepper.csv',
+        areaFile: 'data/area/chili-pepper.csv'
     },
     'Overall Carrots Production': {
-        file: 'data/veg_carrots_productionvolume_provincial.csv',
-        yieldFile: 'data/conv_carrots_yield_provincial.csv',
-        areaFile: 'data/conv_carrots_area_provincial.csv'
+        file: 'data/volume/carrots.csv',
+        yieldFile: 'data/yield/carrots.csv',
+        areaFile: 'data/area/carrots.csv'
     },
     'Overall Cauliflower Production': {
-        file: 'data/veg_cauliflower_productionvolume_provincial.csv',
-        yieldFile: 'data/conv_cauliflower_yield_provincial.csv',
-        areaFile: 'data/conv_cauliflower_area_provincial.csv'
+        file: 'data/volume/cauliflower.csv',
+        yieldFile: 'data/yield/cauliflower.csv',
+        areaFile: 'data/area/cauliflower.csv'
     },
     'Overall Celery Production': {
-        file: 'data/conv_celery_volume_provincial.csv',
-        yieldFile: 'data/conv_celery_yield_provincial.csv',
-        areaFile: 'data/conv_celery_area_provincial.csv'
+        file: 'data/volume/celery.csv',
+        yieldFile: 'data/yield/celery.csv',
+        areaFile: 'data/area/celery.csv'
     },
     'Overall Broccoli Production': {
-        file: 'data/conv_broccoli_volume_provincial.csv',
-        yieldFile: 'data/conv_broccoli_yield_provincial.csv',
-        areaFile: 'data/conv_broccoli_area_provincial.csv'
+        file: 'data/volume/broccoli.csv',
+        yieldFile: 'data/yield/broccoli.csv',
+        areaFile: 'data/area/broccoli.csv'
     },
     'Overall Habitsuelas Production': {
-        file: 'data/veg_habitsuelas_productionvolume_provincial.csv',
-        yieldFile: 'data/conv_habitsuelas_yield_provincial.csv',
-        areaFile: 'data/conv_habitsuelas_area_provincial.csv'
+        file: 'data/volume/habitsuelas.csv',
+        yieldFile: 'data/yield/habitsuelas.csv',
+        areaFile: 'data/area/habitsuelas.csv'
     },
     'Overall Chinese Cabbage Production': {
-        file: 'data/veg_chinesecabbage_productionvolume_provincial.csv',
-        yieldFile: 'data/conv_chinesecabbage_yield_provincial.csv',
-        areaFile: 'data/conv_chinesecabbage_area_provincial.csv'
+        file: 'data/volume/chinese-cabbage.csv',
+        yieldFile: 'data/yield/chinese-cabbage.csv',
+        areaFile: 'data/area/chinese-cabbage.csv'
     },
     'Overall Chayote Production': {
-        file: 'data/conv_chayote_volume_provincial.csv',
-        yieldFile: 'data/conv_chayote_yield_provincial.csv',
-        areaFile: 'data/conv_chayote_area_provincial.csv'
+        file: 'data/volume/chayote.csv',
+        yieldFile: 'data/yield/chayote.csv',
+        areaFile: 'data/area/chayote.csv'
     },
     'Overall Bottle Gourd Production': {
-        file: 'data/veg_bottlegourd_productionvolume_provincial.csv',
-        areaFile: 'data/upo_provincial_area.csv',
-        yieldFile: 'data/upo_yield_provincial.csv'
+        file: 'data/volume/bottle-gourd.csv',
+        areaFile: 'data/area/bottle-gourd.csv',
+        yieldFile: 'data/yield/bottle-gourd.csv'
     },
     'Overall Sponge Gourd Production': {
-        file: 'data/veg_spongegourd_productionvolume_provincial.csv',
-        areaFile: 'data/patola_provincial_area.csv',
-        yieldFile: 'data/patola_yield_provincial.csv'
+        file: 'data/volume/sponge-gourd.csv',
+        areaFile: 'data/area/sponge-gourd.csv',
+        yieldFile: 'data/yield/sponge-gourd.csv'
     },
     'Overall Tomato Production': {
-        file: 'data/veg_tomato_productionvolume_provincial.csv',
-        areaFile: 'data/kamatis_provincial_area.csv',
-        yieldFile: 'data/kamatis_yield_provincial.csv'
+        file: 'data/volume/tomato.csv',
+        areaFile: 'data/area/tomato.csv',
+        yieldFile: 'data/yield/tomato.csv'
     },
     'Overall Cucumber Production': {
-        file: 'data/veg_cucumber_productionvolume_provincial.csv',
-        areaFile: 'data/cucumber_provincial_area.csv',
-        yieldFile: 'data/cucumber_yield_provincial.csv'
+        file: 'data/volume/cucumber.csv',
+        areaFile: 'data/area/cucumber.csv',
+        yieldFile: 'data/yield/cucumber.csv'
     },
     'Overall Mushroom Production': {
-        file: 'data/veg_mushroom_productionvolume_provincial.csv'
+        file: 'data/volume/mushroom.csv'
     },
     'Overall Pechay Production': {
-        file: 'data/veg_pechay_productionvolume_provincial.csv',
-        areaFile: 'data/pechay_provincial_area.csv',
-        yieldFile: 'data/Pechay_yield_provincial.csv'
+        file: 'data/volume/pechay.csv',
+        areaFile: 'data/area/pechay.csv',
+        yieldFile: 'data/yield/pechay.csv'
     },
     'Overall Spinach Production': {
-        file: 'data/veg_spinach_productionvolume_provincial.csv',
-        areaFile: 'data/spinach_provincial_area.csv',
-        yieldFile: 'data/spinach_yield_provincial.csv'
+        file: 'data/volume/spinach.csv',
+        areaFile: 'data/area/spinach.csv',
+        yieldFile: 'data/yield/spinach.csv'
     },
     'Overall Malabar Spinach Production': {
-        file: 'data/veg_malabarspinach_productionvolume_provincial.csv',
-        areaFile: 'data/alugbati_provincial_area.csv',
-        yieldFile: 'data/alugbati_yield_provincial.csv'
+        file: 'data/volume/malabar-spinach.csv',
+        areaFile: 'data/area/malabar-spinach.csv',
+        yieldFile: 'data/yield/malabar-spinach.csv'
     },
     'Overall Moringa Production': {
-        file: 'data/veg_moringa_productionvolume_provincial.csv'
+        file: 'data/volume/moringa.csv'
     },
     'Overall Radish Production': {
-        file: 'data/veg_radish_productionvolume_provincial.csv',
-        areaFile: 'data/radish_provincial_area.csv',
-        yieldFile: 'data/radish_yield_provincial.csv'
+        file: 'data/volume/radish.csv',
+        areaFile: 'data/area/radish.csv',
+        yieldFile: 'data/yield/radish.csv'
     },
     'Overall Sweet Potato Leaves Production': {
-        file: 'data/veg_sweetpotatoleaves_productionvolume_provincial.csv'
+        file: 'data/volume/sweet-potato-leaves.csv'
     },
     'Overall Jute Mallow Production': {
-        file: 'data/veg_jutemallow_productionvolume_provincial.csv',
-        areaFile: 'data/saluyot_provincial_area.csv',
-        yieldFile: 'data/saluyot_yield_provincial.csv'
+        file: 'data/volume/jute-mallow.csv',
+        areaFile: 'data/area/jute-mallow.csv',
+        yieldFile: 'data/yield/jute-mallow.csv'
     },
     'Overall Winged Beans Production': {
-        file: 'data/veg_wingedbeans_productionvolume_provincial.csv',
-        areaFile: 'data/sigarilyas_provincial_area.csv'
+        file: 'data/volume/winged-beans.csv',
+        areaFile: 'data/area/winged-beans.csv'
     },
     'Overall Ampalaya Production': {
-        file: 'data/veg_ampalaya_productionvolume_provincial.csv',
-        yieldFile: 'data/conv_ampalaya_yield_provincial.csv',
-        areaFile: 'data/conv_ampalaya_area_provincial.csv'
+        file: 'data/volume/ampalaya.csv',
+        yieldFile: 'data/yield/ampalaya.csv',
+        areaFile: 'data/area/ampalaya.csv'
     },
     'Overall Squash Production': {
-        file: 'data/veg_squash_productionvolume_provincial.csv',
-        yieldFile: 'data/conv_squash_yield_provincial.csv',
-        areaFile: 'data/conv_squash_area_provincial.csv'
+        file: 'data/volume/squash.csv',
+        yieldFile: 'data/yield/squash.csv',
+        areaFile: 'data/area/squash.csv'
     },
     'Overall Okra Production': {
-        file: 'data/veg_okra_productionvolume_provincial.csv',
-        yieldFile: 'data/conv_okra_yield_provincial.csv',
-        areaFile: 'data/conv_okra_area_provincial.csv'
+        file: 'data/volume/okra.csv',
+        yieldFile: 'data/yield/okra.csv',
+        areaFile: 'data/area/okra.csv'
     },
     'Overall Eggplant Production': {
-        file: 'data/veg_eggplant_productionvolume_provincial.csv',
-        yieldFile: 'data/conv_eggplant_yield_provincial.csv',
-        areaFile: 'data/conv_eggplant_area_provincial.csv'
+        file: 'data/volume/eggplant.csv',
+        yieldFile: 'data/yield/eggplant.csv',
+        areaFile: 'data/area/eggplant.csv'
     },
     'Overall Stringbeans Production': {
-        file: 'data/veg_stringbeans_productionvolume_provincial.csv',
-        yieldFile: 'data/conv_stringbeans_yield_provincial.csv',
-        areaFile: 'data/conv_stringbeans_area_provincial.csv'
+        file: 'data/volume/stringbeans.csv',
+        yieldFile: 'data/yield/stringbeans.csv',
+        areaFile: 'data/area/stringbeans.csv'
     },
     'Overall Coconut Production': {
         // Area and Yield are deliberately NOT wired. The provincial area source
@@ -1068,19 +1068,19 @@ const provConfig = {
         // quarterly areas genuinely differ (Eggplant 4% of provinces repeat a
         // value, against Durian 79%), because the same land really is cropped
         // more than once a year, so there the sum is the right figure.
-        file: 'data/conv_coconut_volume_provincial.csv'
+        file: 'data/volume/coconut.csv'
     },
     'Overall Sugar Production': {
-        file: 'data/conv_sugar_volume_provincial.csv',
-        yieldFile: 'data/conv_sugar_yield_provincial.csv',
-        areaFile: 'data/conv_sugar_area_provincial.csv'
+        file: 'data/volume/sugar.csv',
+        yieldFile: 'data/yield/sugar.csv',
+        areaFile: 'data/area/sugar.csv'
     },
     'Overall Mango Production': {
         // See the Area/Yield note on Overall Coconut Production above.
         // treesFile is named *_yieldtree_* but its CONTENT is bearing-tree
         // counts (Abra 2025: 8,462), which is what treesFile wants.
-        file: 'data/conv_mango_volume_provincial.csv',
-        treesFile: 'data/mango_yieldtree_provincial.csv'
+        file: 'data/volume/mango.csv',
+        treesFile: 'data/trees/mango.csv'
     },
     'Overall Banana Production': {
         // Built from data/fruits_long.csv (all six varieties summed) rather
@@ -1091,7 +1091,7 @@ const provConfig = {
         // that fault across data/*.csv but does not write .xlsx, so the sheet
         // is still short; this file sidesteps it and matches the source exactly
         // for every year, 2026 included.
-        file: 'data/banana_overall_productionvolume_provincial.csv',
+        file: 'data/volume/banana.csv',
         // See the Area/Yield note on Overall Coconut Production above.
         //
         // treesFile is unwired too, and for a separate reason. The only
@@ -1112,12 +1112,12 @@ const provConfig = {
         // six varieties summed from fruits_long); only the tree count is not.
     },
     'Cassava Food Production': {
-        file: 'data/veg_cassavafood_productionvolume_provincial.csv'
+        file: 'data/volume/cassava-food.csv'
     },
     'Cassava Industrial Production': {
-        file: 'data/veg_cassavaindustrial_productionvolume_provincial.csv',
-        areaFile: 'data/cassava_provincial_area.csv',
-        yieldFile: 'data/cassava_yield_provincial.csv'
+        file: 'data/volume/cassava-industrial.csv',
+        areaFile: 'data/area/cassava-industrial.csv',
+        yieldFile: 'data/yield/cassava-industrial.csv'
     },
     'Overall Cassava Production': {
     // Area and Yield deliberately absent. The files that exist
@@ -1127,191 +1127,191 @@ const provConfig = {
     // 'Cassava Industrial Production' instead. No area or yield source
     // exists for food + industrial combined, and inventing one by adding
     // two published averages together would be wrong.
-        file: 'data/veg_cassava_productionvolume_provincial.csv'
+        file: 'data/volume/cassava.csv'
     },
     'Overall Sweet Potato Production': {
-        file: 'data/veg_sweetpotato_productionvolume_provincial.csv',
-        areaFile: 'data/Camote_provincial_area.csv',
-        yieldFile: 'data/camote_yield_provincial.csv'
+        file: 'data/volume/sweet-potato.csv',
+        areaFile: 'data/area/sweet-potato.csv',
+        yieldFile: 'data/yield/sweet-potato.csv'
     },
     'Overall White Potato Production': {
-        file: 'data/veg_whitepotato_productionvolume_provincial.csv',
-        areaFile: 'data/potato_provincial_area.csv',
-        yieldFile: 'data/potato_yield_provincial.csv'
+        file: 'data/volume/white-potato.csv',
+        areaFile: 'data/area/white-potato.csv',
+        yieldFile: 'data/yield/white-potato.csv'
     },
     'Overall Ube Production': {
-        file: 'data/veg_ube_productionvolume_provincial.csv',
-        yieldFile: 'data/Ube_YieldVolume_Provincial.csv',
-        areaFile: 'data/Ube_AreaVolume_Provincial.csv'
+        file: 'data/volume/ube.csv',
+        yieldFile: 'data/yield/ube.csv',
+        areaFile: 'data/area/ube.csv'
     },
     'White Onion Production': {
-        file: 'data/veg_whiteonion_productionvolume_provincial.csv',
-        yieldFile: 'data/conv_whiteonion_yield_provincial.csv',
-        areaFile: 'data/conv_whiteonion_area_provincial.csv'
+        file: 'data/volume/white-onion.csv',
+        yieldFile: 'data/yield/white-onion.csv',
+        areaFile: 'data/area/white-onion.csv'
     },
     'Red Onion Production': {
-        file: 'data/veg_redonion_productionvolume_provincial.csv',
-        yieldFile: 'data/conv_redonion_yield_provincial.csv',
-        areaFile: 'data/conv_redonion_area_provincial.csv'
+        file: 'data/volume/red-onion.csv',
+        yieldFile: 'data/yield/red-onion.csv',
+        areaFile: 'data/area/red-onion.csv'
     },
     'Overall Garlic Production': {
-        file: 'data/veg_garlic_productionvolume_provincial.csv',
-        areaFile: 'data/garlic_provincial_area.csv',
-        yieldFile: 'data/garlic_yield_provincial.csv'
+        file: 'data/volume/garlic.csv',
+        areaFile: 'data/area/garlic.csv',
+        yieldFile: 'data/yield/garlic.csv'
     },
     'Overall Ginger Production': {
-        file: 'data/veg_ginger_productionvolume_provincial.csv',
-        areaFile: 'data/ginger_provincial_area.csv',
-        yieldFile: 'data/GInger_yield_provincial.csv'
+        file: 'data/volume/ginger.csv',
+        areaFile: 'data/area/ginger.csv',
+        yieldFile: 'data/yield/ginger.csv'
     },
     'Overall Lemongrass Production': {
-        file: 'data/veg_lemongrass_productionvolume_provincial.csv',
-        areaFile: 'data/lemongrass_provincial_area.csv',
-        yieldFile: 'data/Lemongrass_yield_provincial.csv'
+        file: 'data/volume/lemongrass.csv',
+        areaFile: 'data/area/lemongrass.csv',
+        yieldFile: 'data/yield/lemongrass.csv'
     },
     'Overall Spring Onion Production': {
-        file: 'data/veg_springonion_productionvolume_provincial.csv',
-        areaFile: 'data/springonion_provincial_area.csv',
-        yieldFile: 'data/springonion_yield_provincial.csv'
+        file: 'data/volume/spring-onion.csv',
+        areaFile: 'data/area/spring-onion.csv',
+        yieldFile: 'data/yield/spring-onion.csv'
     },
     'Overall Peanut Production': {
-        file: 'data/veg_peanut_productionvolume_provincial.csv',
-        areaFile: 'data/peanut_provincial_area.csv',
-        yieldFile: 'data/peanut_yield_provincial.csv'
+        file: 'data/volume/peanut.csv',
+        areaFile: 'data/area/peanut.csv',
+        yieldFile: 'data/yield/peanut.csv'
     },
     'Red Shallot Production': {
-        file: 'data/veg_redshallot_productionvolume_provincial.csv',
-        yieldFile: 'data/conv_redshallot_yield_provincial.csv',
-        areaFile: 'data/conv_redshallot_area_provincial.csv'
+        file: 'data/volume/red-shallot.csv',
+        yieldFile: 'data/yield/red-shallot.csv',
+        areaFile: 'data/area/red-shallot.csv'
     },
     'Overall Avocado Production': {
-        file: 'data/avocado_productionvolume_provincial.csv',
-        treesFile: 'data/avocado_provincial_bearing_area.csv',
-        yieldTreeFile: 'data/avocado_yieldtree_provincial.csv'
+        file: 'data/volume/avocado.csv',
+        treesFile: 'data/trees/avocado.csv',
+        yieldTreeFile: 'data/yieldtree/avocado.csv'
     },
     'Overall Melon Production': {
-        file: 'data/melon_productionvolume_provincial.csv',
-        areaFile: 'data/melon_provincial_area.csv',
-        yieldFile: 'data/melon_yield_area_provincial.csv'
+        file: 'data/volume/melon.csv',
+        areaFile: 'data/area/melon.csv',
+        yieldFile: 'data/yield/melon.csv'
     },
     'Banana Cavendish Production': {
-        file: 'data/banana_cavendish_productionvolume_provincial.csv'
+        file: 'data/volume/banana-cavendish.csv'
     },
     'Banana Cardava Production': {
-        file: 'data/banana_cardava(saba)_productionvolume_provincial.csv',
-        treesFile: 'data/banana(saba)_provincial_bearing_area.csv',
-        yieldTreeFile: 'data/Banana(saba)_yieldtree_provincial.csv'
+        file: 'data/volume/banana-cardava.csv',
+        treesFile: 'data/trees/banana-cardava.csv',
+        yieldTreeFile: 'data/yieldtree/banana-cardava.csv'
     },
     'Overall Durian Production': {
-        file: 'data/durian_productionvolume_provincial.csv',
-        treesFile: 'data/durian_provincial_bearing_area.csv',
-        yieldTreeFile: 'data/durian_yieldtree_provincial.csv'
+        file: 'data/volume/durian.csv',
+        treesFile: 'data/trees/durian.csv',
+        yieldTreeFile: 'data/yieldtree/durian.csv'
     },
     'Overall Dragon Fruit Production': {
-        file: 'data/dragonfruit_productionvolume_provincial.csv',
-        treesFile: 'data/dragonfruit_provincial_bearing_area.csv',
-        yieldTreeFile: 'data/dragonfruit_yieldtree_provincial.csv'
+        file: 'data/volume/dragon-fruit.csv',
+        treesFile: 'data/trees/dragon-fruit.csv',
+        yieldTreeFile: 'data/yieldtree/dragon-fruit.csv'
     },
     'Overall Calamansi Production': {
-        file: 'data/calamansi_productionvolume_provincial.csv',
-        treesFile: 'data/calamansi_provincial_bearing_area.csv',
-        yieldTreeFile: 'data/calamansi_yieldtree_provincial.csv'
+        file: 'data/volume/calamansi.csv',
+        treesFile: 'data/trees/calamansi.csv',
+        yieldTreeFile: 'data/yieldtree/calamansi.csv'
     },
     'Overall Pomelo Production': {
-        file: 'data/pomelo_productionvolume_provincial.csv',
-        treesFile: 'data/pomelo_provincial_bearing_area.csv',
-        yieldTreeFile: 'data/pomelo_yieldtree_provincial.csv'
+        file: 'data/volume/pomelo.csv',
+        treesFile: 'data/trees/pomelo.csv',
+        yieldTreeFile: 'data/yieldtree/pomelo.csv'
     },
     'Overall Rambutan Production': {
-        file: 'data/rambutan_productionvolume_provincial.csv',
-        treesFile: 'data/rambutan_provincial_bearing_area.csv',
-        yieldTreeFile: 'data/rambutan_yieldtree_provincial.csv'
+        file: 'data/volume/rambutan.csv',
+        treesFile: 'data/trees/rambutan.csv',
+        yieldTreeFile: 'data/yieldtree/rambutan.csv'
     },
     'Overall Dalandan Production': {
-        file: 'data/dalandan_productionvolume_provincial.csv',
-        treesFile: 'data/dalandan_provincial_bearing_area.csv',
-        yieldTreeFile: 'data/dalandan_yieldtree_provincial.csv'
+        file: 'data/volume/dalandan.csv',
+        treesFile: 'data/trees/dalandan.csv',
+        yieldTreeFile: 'data/yieldtree/dalandan.csv'
     },
     'Overall Pineapple Production': {
-        file: 'data/pineapple_productionvolume_provincial.csv',
-        areaFile: 'data/pineapple_provincial_area.csv',
-        yieldFile: 'data/pineapple_yield_area_provincial.csv'
+        file: 'data/volume/pineapple.csv',
+        areaFile: 'data/area/pineapple.csv',
+        yieldFile: 'data/yield/pineapple.csv'
     },
     'Overall Cacao Production': {
-        file: 'data/cacao_productionvolume_provincial.csv',
-        areaFile: 'data/cacao_provincial_area.csv',
-        yieldTreeFile: 'data/cacao_provincial_yield.csv'
+        file: 'data/volume/cacao.csv',
+        areaFile: 'data/area/cacao.csv',
+        yieldTreeFile: 'data/yieldtree/cacao.csv'
     },
     'Overall Abaca Production': {
-        file: 'data/abaca_productionvolume_provincial.csv',
-        areaFile: 'data/abaca_provincial_area.csv',
-        yieldFile: 'data/abaca_provincial_yield.csv'
+        file: 'data/volume/abaca.csv',
+        areaFile: 'data/area/abaca.csv',
+        yieldFile: 'data/yield/abaca.csv'
     },
     'Overall Pinya Fiber Production': {
-        file: 'data/pineapplefiber_productionvolume_provincial.csv',
-        areaFile: 'data/pineapplefiber_provincial_area.csv',
-        yieldFile: 'data/pineapplefiber_provincial_yield.csv'
+        file: 'data/volume/pinya-fiber.csv',
+        areaFile: 'data/area/pinya-fiber.csv',
+        yieldFile: 'data/yield/pinya-fiber.csv'
     },
     'Overall Cotton Production': {
-        file: 'data/cotton_productionvolume_provincial.csv',
-        areaFile: 'data/cotton_provincial_area.csv',
-        yieldFile: 'data/cotton_provincial_yield.csv'
+        file: 'data/volume/cotton.csv',
+        areaFile: 'data/area/cotton.csv',
+        yieldFile: 'data/yield/cotton.csv'
     },
     'Overall Bariw Production': {
-        file: 'data/bariwfiber_productionvolume_provincial.csv',
-        areaFile: 'data/bariw_provincial_area.csv',
-        yieldFile: 'data/bariw_provincial_yield.csv'
+        file: 'data/volume/bariw.csv',
+        areaFile: 'data/area/bariw.csv',
+        yieldFile: 'data/yield/bariw.csv'
     },
     'Overall Salago Production': {
-        file: 'data/salago_productionvolume_provincial.csv',
-        areaFile: 'data/salago_provincial_area.csv',
-        yieldFile: 'data/salago_provincial_yield.csv'
+        file: 'data/volume/salago.csv',
+        areaFile: 'data/area/salago.csv',
+        yieldFile: 'data/yield/salago.csv'
     },
     'Overall Coir Production': {
-        file: 'data/coir_productionvolume_provincial.csv'
+        file: 'data/volume/coir.csv'
     },
     'Overall Tobacco Production': {
-        file: 'data/Tobacco_productionvolume_provincial.csv',
-        areaFile: 'data/tabacco_provincial_area.csv',
-        yieldFile: 'data/tobacco_provincial_yield.csv'
+        file: 'data/volume/tobacco.csv',
+        areaFile: 'data/area/tobacco.csv',
+        yieldFile: 'data/yield/tobacco.csv'
     },
     'Tobacco Virginia Production': {
-        file: 'data/Tobacco(Virginia)_productionvolume_provincial.csv',
-        areaFile: 'data/tabacco(virginia)_provincial_area.csv',
-        yieldFile: 'data/tobacco(virginia)_provincial_yield.csv'
+        file: 'data/volume/tobacco-virginia.csv',
+        areaFile: 'data/area/tobacco-virginia.csv',
+        yieldFile: 'data/yield/tobacco-virginia.csv'
     },
     'Tobacco Native Production': {
-        file: 'data/Tobacco(Native)_productionvolume_provincial.csv',
-        areaFile: 'data/tabacco(native)_provincial_area.csv',
-        yieldFile: 'data/tobacco(native)_provincial_yield.csv'
+        file: 'data/volume/tobacco-native.csv',
+        areaFile: 'data/area/tobacco-native.csv',
+        yieldFile: 'data/yield/tobacco-native.csv'
     },
     'Overall Pili Production': {
-        file: 'data/pili_productionvolume_provincial.csv',
-        areaFile: 'data/pili_provincial_area.csv',
-        yieldTreeFile: 'data/pili_provincial_yield.csv'
+        file: 'data/volume/pili.csv',
+        areaFile: 'data/area/pili.csv',
+        yieldTreeFile: 'data/yieldtree/pili.csv'
     },
     'Overall Asparagus Production': {
-        file: 'data/veg_asparagus_productionvolume_provincial.csv',
-        areaFile: 'data/asparagus_provincial_area.csv',
-        yieldFile: 'data/asparagus_yield_provincial.csv'
+        file: 'data/volume/asparagus.csv',
+        areaFile: 'data/area/asparagus.csv',
+        yieldFile: 'data/yield/asparagus.csv'
     },
     'Overall Milkfish Production': {
-        file: 'data/milkfish_productionvolume_provincial.csv'
+        file: 'data/volume/milkfish.csv'
     },
     'Overall Tilapia Production': {
-        file: 'data/tilapia_productionvolume_provincial.csv'
+        file: 'data/volume/tilapia.csv'
     },
     'Overall Hog Production': {
-        file: 'data/hog_productionvolume_provincial.csv'
+        file: 'data/volume/hog.csv'
     },
     'Overall Egg Production': {
-        file: 'data/eggs_productionvolume_provincial.csv'
+        file: 'data/volume/egg.csv'
     },
     'Overall Chicken Production': {
-        file: 'data/chicken_productionvolume_provincial.csv'
+        file: 'data/volume/chicken.csv'
     },
     'Overall Cattle Production': {
-        file: 'data/cattle_productionvolume_provincial.csv'
+        file: 'data/volume/cattle.csv'
     }
 };
 
@@ -1732,9 +1732,9 @@ const regionalStyle = { color: 'rgba(83,93,115,1.0)', weight: 1, fillOpacity: 0 
 // catalogue illustration both — when two of the three had arrived fine. A
 // missing 2026 vintage should cost you 2026's borders, not the atlas.
 Promise.allSettled([
-    fetch('data/Admin_Boundary_Regional.json?v=' + BOUNDARY_VERSION).then(r => r.json()),
-    fetch('data/Admin_Boundary_Regional_pre2024.json?v=' + BOUNDARY_VERSION).then(r => r.json()),
-    fetch('data/Admin_Boundary_Regional_2026.json?v=' + BOUNDARY_VERSION).then(r => r.json())
+    fetch('data/boundaries/Admin_Boundary_Regional.json?v=' + BOUNDARY_VERSION).then(r => r.json()),
+    fetch('data/boundaries/Admin_Boundary_Regional_pre2024.json?v=' + BOUNDARY_VERSION).then(r => r.json()),
+    fetch('data/boundaries/Admin_Boundary_Regional_2026.json?v=' + BOUNDARY_VERSION).then(r => r.json())
 ]).then(function (results) {
     const NAMES = ['2024-2025', 'pre-2024', '2026'];
     const failed = [];
@@ -1900,7 +1900,7 @@ let provinceFeatureIndex = null; // ADM2_PCODE → feature, saves linear scans i
 // instead of on 42 MB of polygons. This layer is still needed for the drawn
 // provincial boundaries and the province picker, both of which already handle
 // its absence.
-fetch('data/Admin_Provincial_Boundary.json?v=' + BOUNDARY_VERSION)
+fetch('data/boundaries/Admin_Provincial_Boundary.json?v=' + BOUNDARY_VERSION)
     .then(r => r.json())
     .then(data => {
         provincialShapes = data;
@@ -2482,7 +2482,7 @@ function renderMap(cropStats, cropName, clsMap) {
 // generator to the vintage this project and every data CSV join on.
 var psgcParents = null;   // pcode -> region pcode
 var psgcRegionNames = null;   // region pcode -> name
-var psgcParentsReady = fetch('data/psgc_parents_2026.json?v=' + DATA_VERSION)
+var psgcParentsReady = fetch('data/boundaries/psgc_parents_2026.json?v=' + DATA_VERSION)
     .then(function (r) {
         if (!r.ok) throw new Error('HTTP ' + r.status);
         return r.json();

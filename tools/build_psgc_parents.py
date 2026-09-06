@@ -1,4 +1,4 @@
-"""Build data/psgc_parents_2026.json — a geometry-free province/city -> region
+"""Build data/boundaries/psgc_parents_2026.json — a geometry-free province/city -> region
 parent table, taken from the published PSGC codes in the 2026 boundary drop.
 
 Why this file exists
@@ -36,7 +36,7 @@ import os
 import re
 
 SRC = 'data/admin_boundary_2026/Admin_Boundary_Provincial_NCR_HUC_2026.geojson'
-OUT = 'data/psgc_parents_2026.json'
+OUT = 'data/boundaries/psgc_parents_2026.json'
 
 # 2026 PSGC code -> the code this project (and every data CSV) actually uses.
 TO_APP = {
@@ -97,7 +97,7 @@ def main():
 
     # Every province the app can be asked about must be in here, or
     # provinceRegionPcode() drops to its prefix fallback again.
-    with open('data/Admin_Provincial_Boundary.json', encoding='utf-8-sig') as fh:
+    with open('data/boundaries/Admin_Provincial_Boundary.json', encoding='utf-8-sig') as fh:
         live = {f['properties']['ADM2_PCODE'] for f in json.load(fh)['features']}
     missing = sorted(live - set(parents))
     assert not missing, 'live boundary codes missing from the parent table: %s' % missing

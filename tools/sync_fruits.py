@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build sub-annual (quarter and semester) fruit files from data/fruits_long.csv.
+"""Build sub-annual (quarter and semester) fruit files from data/sources/fruits_long.csv.
 
 Companion to sync_agristat.py, which does the same job for Palay and Corn.
 Province resolution, HUC handling and the collision guard are IMPORTED from
@@ -26,7 +26,7 @@ VOLUME ONLY
     yield is volume/area so it cannot be derived either. Palay and corn get all
     three metrics because palay_corn_long carries area on 89.9% of rows.
 
-Usage:  python tools/sync_fruits.py [--apply] [--src data/fruits_long.csv]
+Usage:  python tools/sync_fruits.py [--apply] [--src data/sources/fruits_long.csv]
         (default is a dry run)
 """
 

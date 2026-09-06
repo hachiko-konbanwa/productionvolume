@@ -70,6 +70,10 @@ right place; they do not change what it says.
 
 ## Project rules
 
+- **`data/` is foldered by role** — `volume/ area/ yield/ trees/ yieldtree/` for the
+  214 commodity files, plus `boundaries/ sources/ raw/ subannual/`. Filenames are
+  `<commodity-slug>.csv`; the folder carries the metric, so the name does not repeat
+  it. `raw/` and `sources/` are never fetched by the app. See `data/README.md`.
 - **Bump `DATA_VERSION`** in `js/app.js` whenever any file in `data/` changes — it is the cache buster for all data requests.
 - All dynamically inserted strings must pass through `esc()` (XSS guard).
 - Every new fetch path must report failures via `showDataError()` and, if it participates in crop loading, call `finishMetricLoad()` on error too.

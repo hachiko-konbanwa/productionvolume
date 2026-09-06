@@ -5,6 +5,57 @@ Each entry: date · what changed · why (if not obvious).
 
 ## 2026-09-06
 
+### Changed — data/ reorganised by role; filenames normalised
+
+`data/` was 310 files in one flat directory, mixing three unrelated things with
+nothing to tell them apart: what the app fetches (241), what only `tools/`
+consumes (4, 58.8 MB), and original PSA downloads referenced by nothing (65).
+Filenames contradicted each other — the same concept appeared as
+`X_yield_provincial.csv` (20 files) and `X_provincial_yield.csv` (10), under
+three competing prefixes (`conv_` 55, `veg_` 41, `crop_dataAgristat` 14).
+
+Now foldered by role, with the metric in the folder rather than the filename:
+
+    IrrigatedPalay2024onwards.csv            ->  volume/irrigated-palay.csv
+    IrrigatedPalay_Yield_Provincial.csv      ->  yield/irrigated-palay.csv
+    conv_irrigatedpalay_area_provincial.csv  ->  area/irrigated-palay.csv
+
+`volume/` 85 · `area/` 57 · `yield/` 53 · `yieldtree/` 10 · `trees/` 9 ·
+`boundaries/` 6 · `sources/` 3 · `raw/` 87 · `subannual/` unchanged.
+See `data/README.md`.
+
+**How it was done safely.** One generated mapping drove both the moves and the
+config rewrite, so the two cannot disagree. All 310 files moved with `git mv`,
+so history follows the rename rather than reading as 310 deletes and 310 adds.
+215 quoted paths were rewritten in `js/app.js` from that same mapping, plus 5
+built with a `?v=` cache-buster that an exact-string match missed, and 8 paths
+across four `tools/*.py`.
+
+**Nothing was deleted.** `raw/` keeps every original workbook, including the 20
+un-prefixed files superseded by `veg_` rebuilds — those were nearly mistaken for
+live files by a substring match (`asparagus_...` matching inside
+`veg_asparagus_...`), which is why the check was tightened to exact quoted paths.
+
+**Verified against the pre-move state, not just for absence of errors:**
+
+| check | before | after |
+|---|---|---|
+| configured files missing from disk | 0 | **0** (214 checked) |
+| row audit | 268 files, 24,258 rows, 0 issues | **identical** |
+| test suite | 342 pass | **342 pass** |
+| catalogue national total | 58,229,734.02 | **58,229,734.02** |
+| commodities loaded by the catalogue | 74 | **74** |
+| console errors | 0 | **0** |
+
+Every metric was exercised in the browser through its new folder — Palay volume
+19,611,730.97 MT, area 4,728,681.54 HA, yield 4.15 MT/HA; Durian trees 5,622,753,
+yield/tree 0.013 MT/tree — all matching pre-refactor to the cent. The zero
+console errors matter most: 74 crops of fetches, and a missing file would have
+surfaced through `showDataError()`.
+
+Done on branch `refactor/data-folder-layout`, off a checkpoint commit of the
+two months of previously uncommitted work.
+
 ### Changed — Overall Banana hidden for now
 
 - **Withheld pending a usable bearing-tree file.** Its VOLUME is sound — all six

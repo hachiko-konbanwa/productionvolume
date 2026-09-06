@@ -19,7 +19,7 @@ THE BUG
         pomelo           2,253 MT of 24,264           ->  9.3%
         ... 48 volume files, 358,062 MT total, ~2% of national production
 
-    Cross-checked against data/fruits_long.csv, which carries the same cities
+    Cross-checked against data/sources/fruits_long.csv, which carries the same cities
     as ordinary rows: for all eight fruits present in both,
     (what the map shows) + (what it drops) == fruits_long, to the tonne.
 
@@ -59,7 +59,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
 DATA = os.path.join(REPO, 'data')
 
-# Name -> PSGC comes from data/psgc_parents_2026.json, which
+# Name -> PSGC comes from data/boundaries/psgc_parents_2026.json, which
 # tools/build_psgc_parents.py derives from the published boundary file
 # admin_boundary_2026/Admin_Boundary_Provincial_NCR_HUC_2026.geojson.
 #
