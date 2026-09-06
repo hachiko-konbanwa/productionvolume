@@ -10,25 +10,93 @@ body,
     font-family: 'DM Sans', 'Segoe UI', sans-serif;
 }
 
+/* qgis2web.css (a leftover from this project's original QGIS export) sets
+   `html, body, #map { overflow: hidden }`. That never mattered while the page
+   was exactly one viewport tall, but it silently blocks ALL page scrolling —
+   including the catalogue jump button's scrollIntoView() — now that
+   #catalogue-section extends past the first screen. #map itself should stay
+   overflow:hidden (it's a Leaflet container); only un-hide html/body. */
+html,
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* ── Floating map-chrome stacking order ───────────────────────────────────────
+   Each piece below was tuned independently as it was added, so the actual
+   z-index values don't read as one deliberate scale — this is that scale,
+   documented in one place instead of scattered magic numbers:
+     ~1000  Leaflet's own corner controls (zoom, attribution, etc.)
+     1060   #breadcrumb (bottom-center; only visible while a region is focused)
+     1100   #control-panel (crop panel) / #legend-panel — same tier, never overlap
+     1250   #layers-flyout
+     1300   rail tooltip chips ([data-tip]::after)
+     1900   #catalogue-jump-btn — deliberately above #control-panel's mobile
+            bottom sheet (also 1100) so the sheet can never cover its click
+     2000   #status-pill
+     3000   modals (#table-modal, #help-modal, #catalogue-table-modal, etc.)
+   Colors are also unified across the dark floating pieces (rail, breadcrumb,
+   status-pill): all share the rail's #221d3d hue rather than each having
+   picked its own dark tone over time. */
 #control-panel {
     position: absolute;
-    top: 15px;
-    right: 15px;
-    z-index: 1000;
+    /* docked beside the navigation rail (rail: 12px margin + ~46px wide),
+       like an expanded nav panel — toggled by the rail's panel button */
+    top: 12px;
+    left: 68px;
+    z-index: 1100;
     background: #fff;
     border-radius: 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07), 0 8px 28px rgba(0, 0, 0, 0.13);
     width: 270px;
     max-height: calc(100vh - 80px);
+    max-height: calc(100dvh - 80px);
     display: flex;
     flex-direction: column;
     overflow: hidden;
 }
 
+#sheet-handle {
+    display: none;
+}
+
 #panel-header {
-    padding: 14px 16px 11px;
+    padding: 14px 34px 11px 16px;
     border-bottom: 1px solid #f0f0f0;
     flex-shrink: 0;
+}
+
+#tree-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    color: #888;
+    font-size: 11px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transition: background 0.15s, color 0.15s, transform 0.2s;
+}
+
+#tree-toggle:hover {
+    background: #e8e8e8;
+    color: #444;
+}
+
+#tree-toggle.collapsed {
+    transform: rotate(-90deg);
+}
+
+#control-panel.tree-collapsed #tree-scroll {
+    display: none;
 }
 
 #panel-header h3 {
@@ -41,28 +109,142 @@ body,
 
 #panel-header p {
     margin: 0;
-    font-size: 10.5px;
+    font-size: 11px;
     color: #555;
     font-weight: 500;
+}
+
+#crop-search-row {
+    padding: 8px 12px;
+    border-bottom: 1px solid #f0f0f0;
+    flex-shrink: 0;
+}
+
+#crop-search {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 7px 10px;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    color: #333;
+    background: #f9f9f9;
+    outline: none;
+    transition: border-color 0.15s, background 0.15s;
+}
+
+#crop-search:focus {
+    border-color: #2a91d8;
+    background: #fff;
+}
+
+#tree-no-results {
+    font-size: 12px;
+    color: #999;
+    font-style: italic;
+    text-align: center;
+    padding: 14px 8px;
+}
+
+.tree-children.search-open {
+    display: block;
 }
 
 #tree-scroll {
     overflow-y: auto;
     flex: 1;
-    padding: 8px;
+    padding: 10px;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
 }
 
-#tree-scroll::-webkit-scrollbar {
-    width: 4px;
+/* The crop list and the legend are the two panels that scroll under their own
+   fixed height, so their scrollbar is the only cue that there is more below.
+   It used to be 4px of #e0e0e0 - 1.32:1 against the panel, which is invisible
+   in daylight and on a low-contrast screen. Now 10px with a visible track, and
+   a thumb at 3.64:1 against white / 3.22:1 against the track, clearing the 3:1
+   WCAG 1.4.11 bar for a non-text UI control.
+
+   Declaring ::-webkit-scrollbar at all also opts Chromium out of overlay
+   scrollbars, so the bar stays on screen instead of fading away after a scroll.
+   scrollbar-width/-color cover Firefox, which ignores the -webkit- rules. */
+#tree-scroll,
+#legend-body {
+    scrollbar-width: thin;
+    scrollbar-color: #7d8794 #eef1f5;
 }
 
-#tree-scroll::-webkit-scrollbar-thumb {
-    background: #e0e0e0;
-    border-radius: 2px;
+#tree-scroll::-webkit-scrollbar,
+#legend-body::-webkit-scrollbar {
+    width: 10px;
+}
+
+#tree-scroll::-webkit-scrollbar-track,
+#legend-body::-webkit-scrollbar-track {
+    background: #eef1f5;
+    border-radius: 5px;
+}
+
+#tree-scroll::-webkit-scrollbar-thumb,
+#legend-body::-webkit-scrollbar-thumb {
+    background: #7d8794;
+    border-radius: 5px;
+    /* Inset the thumb so it reads as sitting in the track rather than filling
+       it, without shrinking the 10px hit target the pointer actually gets. */
+    border: 2px solid #eef1f5;
+    background-clip: padding-box;
+}
+
+#tree-scroll::-webkit-scrollbar-thumb:hover,
+#legend-body::-webkit-scrollbar-thumb:hover {
+    background: #5a6472;
+    background-clip: padding-box;
 }
 
 .tree-section {
-    margin-bottom: 4px;
+    margin-bottom: 6px;
+}
+
+/* Categories the active metric can't apply to (set by updateTreeVisibilityForMetric).
+   !important so the search filter's inline display can't reveal them. */
+.tree-section.metric-hidden {
+    display: none !important;
+}
+
+/* Unpublished categories (Fruit Crops, Vegetables & Rootcrops, Non-Food &
+   Industrial): only the dimmed category header shows — crop lists and
+   sub-groups stay hidden and the header doesn't expand. Remove the class in
+   index.html to publish a category's data. */
+.tree-section.category-disabled .tree-children,
+.tree-section.category-disabled .sub-group-header {
+    display: none !important;
+}
+
+.tree-section.category-disabled .section-header {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+
+.tree-section.category-disabled .section-header .chevron {
+    display: none;
+}
+
+/* Crops removed from the published list — data/config kept, entry invisible.
+   Drop the class in index.html to bring one back. */
+.tree-item.item-hidden {
+    display: none !important;
+}
+
+/* Individual placeholder crops (no data yet) inside published categories —
+   listed but greyed and not selectable */
+.tree-item.item-disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.tree-item.item-disabled:hover {
+    background: transparent;
 }
 
 .section-header {
@@ -203,6 +385,14 @@ body,
     padding-left: 8px;
 }
 
+.tree-item:focus-visible,
+.section-header:focus-visible,
+.sub-group-header:focus-visible,
+.legend-row:focus-visible {
+    outline: 2px solid #2a91d8;
+    outline-offset: 1px;
+}
+
 .chevron {
     font-size: 8px;
     transition: transform 0.2s;
@@ -212,12 +402,6 @@ body,
 
 .chevron.open {
     transform: rotate(90deg);
-}
-
-#panel-footer {
-    padding: 9px 16px 12px;
-    border-top: 1px solid #f0f0f0;
-    flex-shrink: 0;
 }
 
 .toggle-row {
@@ -274,13 +458,15 @@ body,
 
 #legend-panel {
     position: absolute;
-    bottom: 130px;
-    left: 15px;
-    z-index: 1000;
+    /* bottom-right balances the rail + panel on the left; clears the scale
+       bar and attribution in the corner */
+    bottom: 44px;
+    right: 15px;
+    z-index: 1100;
     background: #fff;
     border-radius: 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07), 0 8px 28px rgba(0, 0, 0, 0.13);
-    width: 260px;
+    width: 278px;
     padding: 12px 14px 13px;
     display: none;
     animation: fadeUp 0.2s ease;
@@ -304,13 +490,23 @@ body,
     justify-content: space-between;
     gap: 8px;
     margin-bottom: 9px;
+    cursor: grab; /* the header doubles as the panel's drag handle (desktop) */
+    touch-action: none;
 }
 
+#legend-panel.dragging,
+#legend-panel.dragging #legend-header {
+    cursor: grabbing;
+    user-select: none;
+}
+
+/* Smallest of the header lines, and last in the hierarchy: title -> figure ->
+   average -> unit gloss. #888 was 3.54:1. */
 #legend-unit-explanation {
-    margin-top: 4px;
-    font-size: 9px;
+    margin-top: 5px;
+    font-size: 10px;
     font-style: italic;
-    color: #888;
+    color: #6b7480;
     line-height: 1.4;
 }
 
@@ -342,28 +538,53 @@ body,
 
 #legend-body {
     transition: max-height 0.25s ease, opacity 0.2s ease;
-    max-height: 500px;
+    /* Belt and braces: the row fix above removes the cause, this guarantees the
+       symptom cannot come back if a future row overflows. */
+    overflow-x: hidden;
+    /* One hairline between the header figures and the colour bands. It sits on
+       the scroll container, so it stays under the header rather than scrolling
+       away with the first band. */
+    margin-top: 9px;
+    padding-top: 9px;
+    border-top: 1px solid #eef1f5;
+    /* Measured, not guessed (Chromium, 1280x{600,720,900}): the four-band legend
+       is 223px of content, and the panel's non-body chrome — header, table
+       button, padding — is 164px, plus 44px clearing the scale bar. So the true
+       reserve is ~210px, not the 440px that was here; at a 600px-tall window
+       that floor left a 34px scroll track for a 223px list while 209px of space
+       sat unused above the panel. 300px reserved keeps ~90px of map visible
+       above the panel even at 500px tall, and the ceiling only needs to clear
+       the tallest legend (5 bands, ~280px). */
+    max-height: clamp(230px, calc(100vh - 300px), 420px);
+    max-height: clamp(230px, calc(100dvh - 300px), 420px);
     opacity: 1;
-    overflow: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
 }
 
 #legend-body.collapsed {
     max-height: 0;
     opacity: 0;
+    margin-top: 0;
+    padding-top: 0;
+    border-top-width: 0;
 }
 
 #legend-title {
-    font-size: 11.5px;
+    font-size: 12.5px;
     font-weight: 700;
     color: #1a1a1a;
     margin-bottom: 2px;
 }
 
+/* The headline figure for the current crop/metric/year. #888 scored 3.54:1 on
+   white — under AA for 11px text — so it moves to #5f6873 (5.65:1). */
 #legend-avg {
-    font-size: 10px;
-    color: #888;
+    font-size: 11px;
+    color: #5f6873;
     font-weight: 500;
     font-family: 'DM Mono', monospace;
+    line-height: 1.4;
 }
 
 .legend-row {
@@ -373,38 +594,143 @@ body,
     gap: 9px;
 }
 
+/* A flex child defaults to min-width:auto, so it refuses to shrink below its
+   content — one long monospace range then pushes the row wider than the panel
+   and #legend-body gains a horizontal scrollbar. min-width:0 lets it wrap. */
+.legend-row-text {
+    min-width: 0;
+    flex: 1;
+}
+
 .legend-swatch {
     width: 16px;
     height: 16px;
     border-radius: 3px;
     flex-shrink: 0;
     margin-top: 2px;
-    border: 1px solid rgba(0, 0, 0, 0.10);
+    /* Every crop's palette[0] is a near-white wash (#fefae8 and friends, 1.05-1.12:1
+       on this panel), so the outline is what actually makes a pale swatch a
+       visible object. At rgba(0,0,0,0.10) it was 1.25:1 and did not. */
+    border: 1px solid rgba(0, 0, 0, 0.22);
+}
+
+/* No-data is the palest of all and the one most often mistaken for empty space.
+   A solid #7d8794 outline reads 3.64:1 against the panel and 3.48:1 against the
+   fill it encloses, clearing WCAG 1.4.11's 3:1 for a graphical object. The fill
+   itself is untouched, so the swatch still matches the polygon on the map. */
+.legend-row[data-cls="noData"] .legend-swatch {
+    border-color: #7d8794;
 }
 
 .legend-label {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600;
     color: #333;
     line-height: 1.3;
 }
 
 .legend-range {
-    font-size: 9.5px;
-    color: #888;
+    font-size: 10.5px;
+    color: #5f6873;            /* was #888 — 3.54:1, under AA */
     margin-top: 2px;
     font-family: 'DM Mono', monospace;
     line-height: 1.4;
+    /* Long ranges wrap instead of widening the row. Without this the mono text
+       sets the row's minimum width and the whole panel scrolls sideways. */
+    overflow-wrap: anywhere;
 }
 
+/* This line carries the band's meaning ("above the national average - 5
+   regions"), so it cannot stay decorative grey. #bbb was 1.92:1, the worst
+   contrast in the file; #6b7480 is 4.74:1 and still reads as the quietest of
+   the three lines in the row. */
 .legend-count {
-    font-size: 9px;
-    color: #bbb;
+    font-size: 10px;
+    color: #6b7480;
     margin-top: 1px;
+    line-height: 1.35;
+}
+
+.legend-row {
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 3px 4px;
+    margin: 0 -4px 5px;
+    transition: background 0.12s;
+}
+
+.legend-row:hover {
+    background: #f4f8fd;
+}
+
+.legend-row.legend-row-active {
+    background: #e8f2fc;
+    box-shadow: inset 0 0 0 1.5px #9cc6ea;
+}
+
+#legend-ranking {
+    /* hidden for now — remove this line to bring the Top-5 list back */
+    display: none;
+    margin-top: 9px;
+    padding-top: 8px;
+    border-top: 1px solid #f0f0f0;
+}
+
+#legend-ranking-title {
+    font-size: 10px;
+    font-weight: 700;
+    color: #aaa;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 5px;
+}
+
+.rank-row {
+    display: flex;
+    align-items: baseline;
+    gap: 7px;
+    padding: 3px 4px;
+    margin: 0 -4px;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.rank-row.rank-clickable {
+    cursor: pointer;
+}
+
+.rank-row.rank-clickable:hover {
+    background: #f0f7ff;
+}
+
+.rank-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    font-weight: 700;
+    color: #2a91d8;
+    flex-shrink: 0;
+    width: 12px;
+}
+
+.rank-name {
+    flex: 1;
+    color: #444;
+    font-weight: 600;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.rank-val {
+    font-family: 'DM Mono', monospace;
+    font-size: 10.5px;
+    color: #888;
+    flex-shrink: 0;
 }
 
 #legend-footnote {
-    font-size: 9px;
+    font-size: 10px;
     color: #aaa;
     font-style: italic;
     margin-top: 8px;
@@ -440,51 +766,56 @@ body,
     backdrop-filter: blur(4px);
 }
 
-.hillshade-toggle {
-    background: white;
-    border-radius: 8px;
-    padding: 7px 12px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 14px rgba(0, 0, 0, 0.11);
-    font-size: 12px;
-    font-family: 'DM Sans', sans-serif;
+/* ── Layers flyout (opened from the nav rail) ──────────────────────────────── */
+/* display:flex below would defeat the HTML hidden attribute — restore it */
+#layers-flyout[hidden],
+#breadcrumb[hidden] {
+    display: none;
 }
 
-.hillshade-toggle label {
+#layers-flyout {
+    position: fixed;
+    left: 68px;
+    top: 300px; /* re-anchored beside the layers button by JS on open */
+    z-index: 1250;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 10px 32px rgba(0, 0, 0, 0.2);
+    width: 230px;
+    padding: 12px 14px 14px;
+    font-family: 'DM Sans', sans-serif;
     display: flex;
-    align-items: center;
-    gap: 6px;
-    cursor: pointer;
+    flex-direction: column;
+    gap: 10px;
+    animation: fadeUp 0.15s ease;
+    /* glides to its new anchor when the crop panel opens/closes */
+    transition: left 0.2s ease, top 0.2s ease;
+}
+
+.flyout-section-label {
+    font-size: 10px;
+    font-weight: 700;
+    color: #aaa;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+#layers-flyout .toggle-row label,
+#layers-flyout .opacity-row label {
+    font-size: 12px;
     color: #444;
     font-weight: 500;
-    white-space: nowrap;
+    cursor: pointer;
 }
 
-.hillshade-toggle input[type="checkbox"] {
+#layers-flyout input[type="checkbox"] {
     accent-color: #0d4f8c;
     cursor: pointer;
     width: 13px;
     height: 13px;
 }
 
-.basemap-control {
-    background: white;
-    border-radius: 8px;
-    padding: 7px 10px 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 14px rgba(0, 0, 0, 0.11);
-    font-family: 'DM Sans', sans-serif;
-    min-width: 160px;
-}
-
-.basemap-label {
-    font-size: 10px;
-    font-weight: 700;
-    color: #aaa;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-}
-
-.basemap-control select {
+#basemap-select {
     width: 100%;
     border: 1px solid #e8e8e8;
     border-radius: 6px;
@@ -503,7 +834,7 @@ body,
     background-position: right 8px center;
 }
 
-.basemap-control select:hover {
+#basemap-select:hover {
     border-color: #0d4f8c;
     background-color: #f0f7ff;
 }
@@ -625,45 +956,43 @@ body,
 }
 
 #year-controller {
-    position: absolute;
-    bottom: 28px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1000;
-    background: rgba(252, 255, 255, 0.35);
-    backdrop-filter: blur(12px) saturate(180%);
-    -webkit-backdrop-filter: blur(12px) saturate(180%);
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    border-radius: 16px;
-    padding: 10px 22px 12px;
-    width: 220px;
+    /* bottom section of the crop panel */
+    position: relative;
+    z-index: 1;
+    padding: 10px 16px 6px;
+    border-top: 1px solid #f0f0f0;
+    width: 100%;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.4);
     user-select: none;
-    transition: width 0.3s ease, padding 0.3s ease, min-width 0.3s ease;
+    box-sizing: border-box;
 }
 
 #year-controller.collapsed {
-    width: auto;
-    min-width: 160px;
-    padding: 9px 32px 9px 18px;
+    padding-bottom: 10px;
 }
 
 #year-top-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 85%;
+    width: 100%;
+}
+
+#year-badge-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
 #play-btn {
     width: 24px;
     height: 24px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.4);
+    background: #f5f5f5;
     border: 1px solid rgba(0, 0, 0, 0.12);
     color: rgba(30, 30, 30, 0.7);
     font-size: 9px;
@@ -685,20 +1014,30 @@ body,
     background: rgba(42, 145, 216, 0.5);
     border-color: rgba(91, 196, 255, 0.5);
     color: white;
+    animation: play-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes play-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(42, 145, 216, 0.35); }
+    50% { box-shadow: 0 0 0 6px rgba(42, 145, 216, 0); }
 }
 
 #year-label {
     font-family: 'DM Mono', monospace;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 700;
-    color: #111;
-    letter-spacing: 0.06em;
-    transition: color 0.2s, transform 0.2s;
+    color: #0d4f8c;
+    letter-spacing: 0.04em;
+    background: #eaf4ff;
+    padding: 3px 10px;
+    border-radius: 20px;
+    transition: color 0.2s, background 0.2s, transform 0.2s;
 }
 
 #year-label.flash {
-    color: #2a91d8;
-    transform: scale(1.12);
+    color: #fff;
+    background: #2a91d8;
+    transform: scale(1.08);
 }
 
 #year-badge {
@@ -710,9 +1049,6 @@ body,
 }
 
 #year-controller-toggle {
-    position: absolute;
-    top: 8px;
-    right: 10px;
     width: 18px;
     height: 18px;
     border-radius: 50%;
@@ -726,6 +1062,7 @@ body,
     justify-content: center;
     transition: background 0.2s, transform 0.3s, color 0.2s;
     line-height: 1;
+    flex-shrink: 0;
 }
 
 #year-controller-toggle:hover {
@@ -755,6 +1092,99 @@ body,
     margin-top: -4px;
 }
 
+#year-track {
+    position: relative;
+    width: 100%;
+    height: 26px;
+    display: flex;
+    align-items: center;
+}
+
+#year-track-base {
+    position: absolute;
+    left: 4px;
+    right: 4px;
+    height: 3px;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.12);
+}
+
+#year-track-fill {
+    position: absolute;
+    left: 4px;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #2a91d8, #5bc4ff);
+    width: 100%;
+    max-width: calc(100% - 8px);
+    box-shadow: 0 0 8px rgba(42, 145, 216, 0.5);
+    transition: width 0.3s ease;
+}
+
+#year-dots-row {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+
+.yr-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    transition: width 0.2s, height 0.2s, background 0.2s, border 0.2s, box-shadow 0.2s;
+}
+
+.yr-dot.active {
+    width: 16px;
+    height: 16px;
+    border: none;
+    background: #2a91d8;
+    box-shadow: 0 0 0 4px rgba(42, 145, 216, 0.22), 0 2px 8px rgba(42, 145, 216, 0.5);
+}
+
+#year-slider {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+#year-slider::-webkit-slider-runnable-track {
+    background: transparent;
+}
+
+#year-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+
+#year-slider::-moz-range-track {
+    background: transparent;
+    border: none;
+}
+
+#year-slider::-moz-range-thumb {
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: none;
+}
+
 #year-ticks-row {
     display: flex;
     justify-content: space-between;
@@ -782,53 +1212,40 @@ body,
     font-weight: 700;
 }
 
-#year-slider-row {
-    width: 100%;
-    padding: 0 4px;
-}
-
-#year-slider {
-    width: 100%;
-    -webkit-appearance: none;
-    appearance: none;
-    height: 3px;
-    border-radius: 2px;
-    outline: none;
-    cursor: pointer;
-    background: linear-gradient(to right, #2a91d8 0%, #2a91d8 var(--fill-pct, 100%), rgba(0, 0, 0, 0.15) var(--fill-pct, 100%), rgba(0, 0, 0, 0.15) 100%);
-}
-
-#year-slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    width: 22px;
-    height: 18px;
-    border-radius: 9px;
-    background: #2a91d8;
-    box-shadow: 0 0 0 2px rgba(42, 145, 216, 0.25), 0 0 12px rgba(42, 145, 216, 0.5);
-    cursor: pointer;
-    transition: box-shadow 0.2s, transform 0.15s;
-}
-
-#year-slider::-webkit-slider-thumb:hover {
-    box-shadow: 0 0 0 4px rgba(42, 145, 216, 0.25), 0 0 18px rgba(42, 145, 216, 0.65);
-    transform: scale(1.05);
-}
-
-#year-slider::-moz-range-thumb {
-    width: 22px;
-    height: 18px;
-    border-radius: 9px;
-    background: #2a91d8;
-    border: none;
-    box-shadow: 0 0 0 2px rgba(42, 145, 216, 0.25), 0 0 12px rgba(42, 145, 216, 0.5);
-}
-
 #year-hint {
-    font-size: 8.5px;
+    font-size: 10px;
     color: rgba(30, 30, 30, 0.45);
     font-style: italic;
     text-align: center;
     letter-spacing: 0.02em;
+}
+
+/* Partial-year warning under the timeline. Amber rather than red: the data is
+   real and worth showing, it just cannot be compared with a finished year.
+   The left rule carries the signal so the text stays legible at 10px, and the
+   colour is not the only cue — the year is bolded and the wording is explicit,
+   for anyone who cannot separate the amber from the panel. */
+#partial-year-note {
+    margin: 0 0 10px;
+    padding: 8px 10px 9px;
+    border-left: 3px solid #b45309;
+    border-radius: 4px;
+    background: rgba(180, 83, 9, 0.09);
+    color: #7c3d06;
+    font-size: 10px;
+    line-height: 1.45;
+    letter-spacing: 0.01em;
+    text-align: left;
+    /* Two long words ("comparable", "incomplete") in a 294px panel; without
+       this a narrow panel pushes them past the rounded corner instead of
+       breaking them. */
+    overflow-wrap: break-word;
+}
+
+#partial-year-note b {
+    font-weight: 700;
+    /* The year reads as a label for the sentence, not part of it */
+    margin-right: 2px;
 }
 
 #year-dots {
@@ -877,7 +1294,7 @@ body,
 }
 
 .info-popup-subtitle {
-    font-size: 10px;
+    font-size: 11px;
     color: #888;
     font-weight: 500;
     margin-bottom: 0;
@@ -901,7 +1318,7 @@ body,
 }
 
 .info-label {
-    font-size: 10.5px;
+    font-size: 11.5px;
     color: #888;
     font-weight: 500;
     flex: 1 1 120px;
@@ -910,7 +1327,7 @@ body,
 }
 
 .info-val {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
     color: #1a1a1a;
     text-align: right;
@@ -925,6 +1342,10 @@ body,
 
 .info-badge {
     display: inline-block;
+    /* .info-popup-rows is a flex column, which stretches children full-width
+       by default — without this the badge inflates into a full-width bar
+       instead of a small pill */
+    align-self: flex-start;
     margin-top: 10px;
     padding: 4px 9px;
     border-radius: 6px;
@@ -934,8 +1355,74 @@ body,
     letter-spacing: 0.01em;
 }
 
+.info-val.growth-pos {
+    color: #1a7a3a;
+}
+
+.info-val.growth-neg {
+    color: #c0392b;
+}
+
+.info-spark {
+    margin-top: 9px;
+    padding-top: 8px;
+    border-top: 1px solid #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.spark-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.spark-change {
+    font-size: 10.5px;
+    font-weight: 700;
+    font-family: 'DM Mono', monospace;
+    white-space: nowrap;
+}
+
+.spark-change.growth-pos {
+    color: #1a7a3a;
+}
+
+.spark-change.growth-neg {
+    color: #c0392b;
+}
+
+.spark-change.spark-flat {
+    color: #888;
+}
+
+/* Fills the popup rather than sitting at a fixed 130px in a 290px panel. The
+   SVG carries a viewBox, so width:100% scales it intact — including down to a
+   narrow phone, where a fixed width would have overflowed instead. */
+.spark-chart {
+    width: 100%;
+}
+
+.spark-chart svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.spark-years {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    font-family: 'DM Mono', monospace;
+    color: #aaa;
+    padding: 0 1px;
+    margin-top: 1px;
+}
+
 .info-alias {
-    font-size: 9px;
+    font-size: 10px;
     color: #aaa;
     font-style: italic;
     margin-top: 5px;
@@ -946,14 +1433,16 @@ body,
 /* ── Metric tabs ────────────────────────────────────────────────────────────── */
 #metric-tabs {
     display: flex;
-    gap: 4px;
+    gap: 3px;
     margin-top: 9px;
 }
 
 .metric-tab {
     flex: 1;
     padding: 5px 0;
-    font-size: 10px;
+    /* nudged down from 10px/0.04em — a 5th tab (Yield/Tree) means every tab
+       is ~20% narrower than when there were 4, in the same fixed-width panel */
+    font-size: 9px;
     font-weight: 700;
     font-family: 'DM Sans', sans-serif;
     border: 1.5px solid #e0e0e0;
@@ -962,7 +1451,7 @@ body,
     color: #999;
     cursor: pointer;
     transition: background 0.15s, border-color 0.15s, color 0.15s;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
 }
 
@@ -990,6 +1479,957 @@ body,
     filter: grayscale(10%);
 }
 
+@media (max-width: 640px) {
+    #control-panel {
+        top: auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        border-radius: 16px 16px 0 0;
+        max-height: calc(132px + env(safe-area-inset-bottom));
+        padding-bottom: env(safe-area-inset-bottom);
+        transition: max-height 0.3s ease;
+    }
+
+    #control-panel.sheet-expanded {
+        max-height: 75vh;
+        max-height: 75dvh;
+    }
+
+    #sheet-handle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+        width: 100%;
+        padding: 8px 0 6px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        flex-shrink: 0;
+    }
+
+    .handle-bar {
+        width: 36px;
+        height: 4px;
+        border-radius: 2px;
+        background: #ddd;
+        animation: handle-bounce 1.6s ease-in-out 1s 2;
+    }
+
+    .handle-label {
+        font-size: 10px;
+        color: #999;
+        font-weight: 500;
+    }
+
+    #control-panel.sheet-expanded .handle-label {
+        display: none;
+    }
+
+    @keyframes handle-bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(3px); }
+    }
+
+    #tree-toggle {
+        display: none;
+    }
+
+    /* measure tool is rarely used on phones — reclaim the vertical space */
+    .leaflet-control-measure {
+        display: none;
+    }
+
+    #panel-header {
+        padding: 4px 16px 11px;
+    }
+
+    #control-panel:not(.sheet-expanded) #tree-scroll,
+    #control-panel:not(.sheet-expanded) #year-controller {
+        visibility: hidden;
+        transition: visibility 0s linear 0.3s;
+    }
+
+    #control-panel.sheet-expanded #tree-scroll,
+    #control-panel.sheet-expanded #year-controller {
+        visibility: visible;
+        transition: visibility 0s linear 0s;
+    }
+
+    #legend-panel {
+        top: 15px;
+        right: 15px;
+        left: auto;
+        bottom: auto;
+        /* leave room for the zoom/search control stack on the left */
+        width: min(240px, calc(100vw - 80px));
+    }
+
+    /* the rail collapses behind a single toggle on phones */
+    .leaflet-top.leaflet-left .rail-toggle-btn {
+        display: flex;
+    }
+
+    body:not(.rail-open) .leaflet-top.leaflet-left .leaflet-control:not(.rail-toggle-btn) {
+        display: none;
+    }
+
+    /* keep the rail clear of the screen edge on narrow viewports too —
+       explicit here in case anything upstream ever narrows the gap */
+    .leaflet-top.leaflet-left {
+        margin: 14px 0 0 14px;
+    }
+
+    #breadcrumb {
+        bottom: calc(190px + env(safe-area-inset-bottom));
+    }
+
+    /* The collapsed bottom sheet (#control-panel) covers the bottom 132px of
+       the screen at z-index:1100 — sit just above it instead of underneath.
+       Stays centered on phones (unlike desktop's left:68px) since the mobile
+       crop panel is a full-width sheet, not a left-docked panel to align with. */
+    #catalogue-jump-btn {
+        bottom: calc(146px + env(safe-area-inset-bottom));
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* centered here (unlike desktop), so hover must re-include translateX */
+    #catalogue-jump-btn:hover {
+        transform: translateX(-50%) translateY(-1px);
+    }
+
+    /* top-anchored on phones — cap so it clears the bottom sheet */
+    #legend-body {
+        max-height: clamp(160px, calc(100dvh - 320px), 420px);
+    }
+
+    .leaflet-bottom.leaflet-left,
+    .leaflet-bottom.leaflet-right {
+        bottom: calc(140px + env(safe-area-inset-bottom));
+    }
+
+    /* Popups sized for phone screens */
+    .leaflet-popup-content-wrapper,
+    .info-popup {
+        min-width: 0 !important;
+    }
+
+    .leaflet-popup-content-wrapper {
+        max-width: calc(100vw - 40px) !important;
+    }
+
+    /* Bigger touch targets */
+    .section-header {
+        padding: 12px 14px;
+        font-size: 11px;
+    }
+
+    .tree-item {
+        padding: 11px 10px 11px 24px;
+        font-size: 13px;
+    }
+
+    .sub-group-header {
+        padding: 10px 10px 10px 16px;
+    }
+
+    .metric-tab {
+        padding: 10px 0;
+    }
+
+    #play-btn {
+        width: 36px;
+        height: 36px;
+        font-size: 12px;
+    }
+
+    #year-controller-toggle {
+        width: 28px;
+        height: 28px;
+        font-size: 10px;
+    }
+
+    .yr-tick-label {
+        padding: 6px 0;
+    }
+
+    .toggle-row {
+        padding: 6px 0;
+    }
+
+    .toggle-row input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+/* ── Data table modal ───────────────────────────────────────────────────────── */
+#view-table-btn {
+    width: 100%;
+    margin-top: 9px;
+    padding: 7px 0;
+    border: 1.5px solid #b0c8ee;
+    border-radius: 7px;
+    background: #eef3ff;
+    color: #1a5fa8;
+    font-size: 11.5px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+#view-table-btn:hover {
+    background: #deeaff;
+    border-color: #1a5fa8;
+}
+
+#table-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 3000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#table-modal[hidden] {
+    display: none !important;
+}
+
+#table-modal-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 20, 30, 0.45);
+    backdrop-filter: blur(2px);
+}
+
+#table-modal-card {
+    position: relative;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.28);
+    width: min(680px, 100%);
+    max-height: min(80vh, 80dvh);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: fadeUp 0.2s ease;
+    transition: width 0.2s ease, max-height 0.2s ease;
+}
+
+/* near-fullscreen mode, toggled from the header's expand button */
+#table-modal-card.expanded {
+    width: 100%;
+    height: 100%;
+    max-height: none;
+}
+
+#table-modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 14px 16px 11px;
+    border-bottom: 1px solid #f0f0f0;
+    flex-shrink: 0;
+}
+
+#table-modal-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.3;
+}
+
+#table-modal-sub {
+    font-size: 11px;
+    color: #888;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+#table-modal-actions {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    flex-shrink: 0;
+}
+
+#table-export-btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 7px;
+    background: #1a5fa8;
+    color: #fff;
+    font-size: 11.5px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s;
+}
+
+#table-export-btn:hover {
+    background: #0d4f8c;
+}
+
+#table-expand-btn {
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 7px;
+    background: #f5f5f5;
+    color: #888;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s, color 0.15s;
+}
+
+#table-expand-btn:hover {
+    background: #e8eef7;
+    color: #1a5fa8;
+}
+
+#table-expand-btn svg {
+    width: 14px;
+    height: 14px;
+}
+
+#table-close-btn {
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 7px;
+    background: #f5f5f5;
+    color: #888;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s, color 0.15s;
+}
+
+#table-close-btn:hover {
+    background: #e8e8e8;
+    color: #333;
+}
+
+#table-scroll {
+    overflow: auto;
+    overscroll-behavior: contain;
+}
+
+#data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#data-table th {
+    position: sticky;
+    top: 0;
+    background: #f7f9fc;
+    color: #556;
+    font-size: 10.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: right;
+    padding: 8px 12px;
+    border-bottom: 1.5px solid #e4e8ee;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+#data-table th:first-child {
+    text-align: left;
+}
+
+#data-table td {
+    padding: 7px 12px;
+    border-bottom: 1px solid #f3f4f6;
+    color: #333;
+}
+
+/* full grey grid lines so rows/columns are easy to trace across the wide table */
+#data-table th,
+#data-table td {
+    border: 1px solid #d9dee5;
+}
+
+#data-table td.num {
+    text-align: right;
+    font-family: 'DM Mono', monospace;
+    font-size: 11.5px;
+    white-space: nowrap;
+}
+
+#data-table tbody tr:nth-child(even) {
+    background: #fafbfd;
+}
+
+#data-table tbody tr:hover {
+    background: #f0f7ff;
+}
+
+#data-table .cur-year {
+    background: #eaf4ff;
+    color: #0d4070;
+    font-weight: 600;
+}
+
+#data-table td.growth-pos {
+    color: #1a7a3a;
+}
+
+#data-table td.growth-neg {
+    color: #c0392b;
+}
+
+#data-table .yr-note {
+    color: #aab;
+    font-size: 10px;
+}
+
+/* keep the name column visible while scrolling the wide table sideways */
+#data-table th:first-child,
+#data-table td:first-child {
+    position: sticky;
+    left: 0;
+    background: #fff;
+    z-index: 2;
+    white-space: nowrap;
+}
+
+#data-table th:first-child {
+    background: #f7f9fc;
+    z-index: 3;
+}
+
+#data-table tbody tr:nth-child(even) td:first-child {
+    background: #fafbfd;
+}
+
+#data-table tbody tr:hover td:first-child {
+    background: #f0f7ff;
+}
+
+#data-table tr.total-row td:first-child {
+    background: #f7f9fc;
+}
+
+#data-table tr.total-row td {
+    border-top: 2px solid #dde3ec;
+    font-weight: 700;
+    color: #1a1a1a;
+    background: #f7f9fc;
+}
+
+@media (max-width: 640px) {
+    #table-modal {
+        padding: 10px;
+        align-items: flex-end;
+    }
+
+    #table-modal-card {
+        max-height: 85dvh;
+        border-radius: 14px 14px 0 0;
+        width: 100%;
+    }
+}
+
+/* ── Help modal ─────────────────────────────────────────────────────────────── */
+#help-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 3000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#help-modal[hidden] {
+    display: none !important;
+}
+
+#help-modal-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 20, 30, 0.45);
+    backdrop-filter: blur(2px);
+}
+
+#help-modal-card {
+    position: relative;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.28);
+    width: min(560px, 100%);
+    max-height: min(82vh, 82dvh);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: fadeUp 0.2s ease;
+}
+
+#help-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 14px 16px 11px;
+    border-bottom: 1px solid #f0f0f0;
+    flex-shrink: 0;
+}
+
+#help-modal-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+#help-close-btn {
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 7px;
+    background: #f5f5f5;
+    color: #888;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background 0.15s, color 0.15s;
+}
+
+#help-close-btn:hover {
+    background: #e8e8e8;
+    color: #333;
+}
+
+#help-scroll {
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 4px 18px 16px;
+    font-size: 12.5px;
+    color: #333;
+    line-height: 1.5;
+}
+
+#help-scroll h3 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #0d4f8c;
+    margin: 16px 0 6px;
+}
+
+#help-scroll p,
+#help-scroll ol,
+#help-scroll ul {
+    margin: 6px 0;
+}
+
+#help-scroll li {
+    margin-bottom: 5px;
+}
+
+#help-scroll table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 6px 0;
+}
+
+#help-scroll th,
+#help-scroll td {
+    text-align: left;
+    padding: 5px 9px;
+    border: 1px solid #e4e8ee;
+    font-size: 12px;
+}
+
+#help-scroll th {
+    background: #f7f9fc;
+    color: #556;
+}
+
+.help-tip {
+    background: #eefaf0;
+    border-left: 3px solid #1a7a3a;
+    padding: 6px 10px;
+    border-radius: 0 6px 6px 0;
+}
+
+.help-btn,
+.panel-toggle-btn {
+    width: 35px;
+    height: 35px;
+    background: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: background 0.15s;
+}
+
+.help-btn:hover {
+    background: #f4f4f4;
+}
+
+/* ── Vertical navigation rail (top-left) ──────────────────────────────────────
+   All top-left controls (zoom, locate, measure, search, fullscreen, help,
+   crop-panel toggle) live in one dark rounded rail, icons stacked vertically
+   with tooltip chips to the right — no burger, tools are always visible. */
+.leaflet-top.leaflet-left {
+    pointer-events: auto;
+    background: #221d3d;
+    margin: 18px 0 0 18px;
+    padding: 9px 6px;
+    border-radius: 14px;
+    box-shadow: 0 6px 22px rgba(15, 10, 40, 0.45);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Neutralize Leaflet's per-control chrome inside the rail */
+.leaflet-top.leaflet-left .leaflet-control {
+    margin: 0;
+    clear: none;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    border-radius: 0;
+}
+
+/* Every actionable icon in the rail shares one look */
+.leaflet-top.leaflet-left .leaflet-bar a,
+.leaflet-top.leaflet-left button {
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: #efeaff;
+    border: none;
+    border-radius: 9px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+    position: relative;
+}
+
+.leaflet-top.leaflet-left .leaflet-bar a:hover,
+.leaflet-top.leaflet-left button:hover {
+    background: rgba(124, 109, 240, 0.28);
+    color: #ffffff;
+}
+
+/* Zoom +/- : bigger glyphs, no divider line */
+.leaflet-top.leaflet-left .leaflet-control-zoom a {
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: none;
+}
+
+/* Rail icons are inline SVGs (stroke: currentColor) sharing one size */
+.leaflet-top.leaflet-left svg {
+    width: 17px;
+    height: 17px;
+    display: block;
+    pointer-events: none;
+}
+
+/* The measure plugin styles its own toggle (white bg, ruler sprite, text
+   hidden via text-indent, indigo link color) — instead of fighting each rule,
+   the rail's ruler is drawn as a CSS background image (white-stroke SVG data
+   URI), which the plugin's content styling can't affect. The plugin's own
+   text stays hidden by its text-indent trick. */
+.leaflet-top.leaflet-left .leaflet-control-measure .leaflet-control-measure-toggle {
+    background-color: transparent !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23efeaff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='2' y='9' width='20' height='6' rx='1'/%3E%3Cline x1='6' y1='9' x2='6' y2='12'/%3E%3Cline x1='10' y1='9' x2='10' y2='12'/%3E%3Cline x1='14' y1='9' x2='14' y2='12'/%3E%3Cline x1='18' y1='9' x2='18' y2='12'/%3E%3C/svg%3E") !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
+    background-size: 17px 17px !important;
+    width: 34px !important;
+    height: 34px !important;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.leaflet-top.leaflet-left .leaflet-control-measure .leaflet-control-measure-toggle:hover {
+    background-color: rgba(124, 109, 240, 0.28) !important;
+}
+
+/* Measure's prompt panel flies out beside the rail instead of inflating it.
+   The plugin expands on hover and collapses on container mouseleave, so the
+   transparent left border bridges the visual gap — the pointer never leaves
+   the container while crossing to the panel. */
+.leaflet-top.leaflet-left .leaflet-control-measure {
+    position: relative;
+}
+
+.leaflet-top.leaflet-left .leaflet-control-measure .leaflet-control-measure-interaction {
+    position: absolute;
+    left: 100%;
+    top: -8px;
+    width: 240px;
+    box-sizing: border-box;
+    border-left: 12px solid transparent;
+    background: #fff;
+    background-clip: padding-box;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1), 0 10px 32px rgba(0, 0, 0, 0.2);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    z-index: 1250;
+}
+
+/* The rail collapse toggle only exists on small screens */
+.leaflet-top.leaflet-left .rail-toggle-btn {
+    display: none;
+}
+
+/* Tooltip chips (populated from each button's former title attribute) */
+.leaflet-top.leaflet-left [data-tip]:hover::after {
+    content: attr(data-tip);
+    position: absolute;
+    left: calc(100% + 12px);
+    top: 50%;
+    transform: translateY(-50%);
+    background: #4a4168;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+    z-index: 1300;
+    pointer-events: none;
+}
+
+/* Search: button sits in the rail; the input and results fly out to the right */
+.custom-search-control {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    box-shadow: none;
+    overflow: visible;
+    position: relative;
+    height: auto;
+}
+
+.custom-search-input {
+    position: absolute;
+    left: calc(100% + 10px);
+    top: 50%;
+    transform: translateY(-50%);
+    height: 32px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-search-results {
+    top: 42px;
+    left: calc(100% + 10px);
+}
+
+/* Purple "active" states, like the mock's selected nav item */
+.custom-search-control.open .custom-search-btn,
+.panel-toggle-btn.active {
+    background: #6c5ce7;
+    color: #fff;
+}
+
+.panel-toggle-btn.active:hover {
+    background: #7d6ef0;
+}
+
+/* Hide the production/crop panel when toggled off from the rail */
+body.panel-hidden #control-panel {
+    display: none;
+}
+
+/* ── Region name labels (national view) ────────────────────────────────────── */
+/* iconSize:[0,0] puts the marker's own anchor at 0,0 relative to its lat/lng
+   pixel — the child span is then centered on that point via transform,
+   independent of how wide the label text ends up being. */
+.region-label-icon {
+    background: transparent;
+    border: none;
+}
+
+.region-label-text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #fff;
+    /* halo instead of a background chip — reads over both light and dark
+       choropleth classes without covering the polygon underneath */
+    text-shadow:
+        0 0 3px rgba(0, 0, 0, 0.85),
+        0 0 3px rgba(0, 0, 0, 0.85),
+        0 1px 2px rgba(0, 0, 0, 0.9);
+    pointer-events: none;
+    user-select: none;
+}
+
+@media (max-width: 640px) {
+    .region-label-text {
+        font-size: 9.5px;
+    }
+}
+
+/* ── Breadcrumb (bottom-center) ────────────────────────────────────────────── */
+#breadcrumb {
+    position: absolute;
+    /* sits above the always-visible "Top 10 Commodities" jump button */
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1060;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Same dark hue as the nav rail (#221d3d) — previously an unrelated navy
+       (rgba(20,26,38,..)), so the two floating "dark chrome" pieces on the
+       map read as two different UI languages instead of one. */
+    background: rgba(34, 29, 61, 0.9);
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    padding: 6px 13px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
+}
+
+#breadcrumb:hover {
+    background: rgba(34, 29, 61, 0.99);
+}
+
+#breadcrumb-reset {
+    font-size: 10px;
+    opacity: 0.75;
+}
+
+/* ── Legend data-source line ───────────────────────────────────────────────── */
+#legend-source {
+    margin-top: 7px;
+    font-size: 9.5px;
+    color: #6b7480;            /* was #9aa3af — 2.55:1, well under AA */
+}
+
+@media (max-width: 640px) {
+    #help-modal {
+        padding: 10px;
+        align-items: flex-end;
+    }
+
+    #help-modal-card {
+        max-height: 85dvh;
+        border-radius: 14px 14px 0 0;
+        width: 100%;
+    }
+}
+
+/* ── Status pill (loading / error feedback) ─────────────────────────────────── */
+#status-pill {
+    position: fixed;
+    top: 14px;
+    left: 50%;
+    transform: translate(-50%, -8px);
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    max-width: min(420px, calc(100vw - 40px));
+    /* matches the rail/breadcrumb's dark hue (#221d3d) — one dark-chrome
+       color across every floating map control instead of three unrelated
+       ones tuned separately over time */
+    background: rgba(34, 29, 61, 0.9);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.35;
+    padding: 7px 14px;
+    border-radius: 20px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+#status-pill.visible {
+    opacity: 1;
+    transform: translate(-50%, 0);
+}
+
+#status-pill.error {
+    background: #b3261e;
+}
+
+#status-pill.error .status-spinner {
+    display: none;
+}
+
+.status-spinner {
+    width: 12px;
+    height: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.35);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: status-spin 0.7s linear infinite;
+    flex-shrink: 0;
+}
+
+@keyframes status-spin {
+    to { transform: rotate(360deg); }
+}
+
+@media (max-width: 640px) {
+    /* keep the pill clear of the top-right legend — dock it above the sheet */
+    #status-pill {
+        top: auto;
+        bottom: calc(150px + env(safe-area-inset-bottom));
+        transform: translate(-50%, 8px);
+    }
+
+    #status-pill.visible {
+        transform: translate(-50%, 0);
+    }
+}
+
 @media print {
     #control-panel,
     #legend-panel,
@@ -1012,3 +2452,1752 @@ body,
         height: 100vh !important;
     }
 }
+
+/* ══ Top 10 Commodities catalogue ═════════════════════════════════════════════
+   Section 1 (#map-view) pins the map + all its floating controls to exactly
+   one viewport, so their position:absolute offsets stay screen-relative
+   instead of drifting once the page grows taller than one screen. Section 2
+   (#catalogue-section) is normal document flow below it — scrolling between
+   the two is what reveals the catalogue. */
+#map-view {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+}
+
+#catalogue-jump-btn {
+    position: absolute;
+    bottom: 20px;
+    /* aligned with the nav rail's own left margin, not centered */
+    left: 18px;
+    /* Comfortably above Leaflet's own control layers (corner controls sit at
+       1000, custom panes top out at 260) so nothing in the map can steal
+       this click regardless of stacking-context quirks. */
+    z-index: 1900;
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #0d4f8c;
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    padding: 9px 18px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12.5px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(13, 79, 140, 0.4);
+    transition: background 0.15s, transform 0.15s;
+}
+
+#catalogue-jump-btn:hover {
+    background: #0a3d6e;
+    /* translateY only — the button is left-aligned (not centered) on desktop
+       now, so re-adding translateX(-50%) here (leftover from when it was
+       centered) snapped it sideways the instant the cursor touched it */
+    transform: translateY(-1px);
+}
+
+#catalogue-jump-arrow {
+    font-size: 10px;
+    animation: catalogue-bounce 1.6s ease-in-out infinite;
+}
+
+@keyframes catalogue-bounce {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(3px); }
+}
+
+#catalogue-section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    background: #f5f7fb;
+    box-sizing: border-box;
+    padding: 48px 20px 60px;
+}
+
+#catalogue-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#catalogue-back-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fff;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 999px;
+    padding: 7px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11.5px;
+    font-weight: 700;
+    color: #444;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+#catalogue-back-btn:hover {
+    background: #eef3ff;
+    border-color: #b0c8ee;
+    color: #0d4f8c;
+}
+
+#catalogue-title {
+    margin: 0 0 4px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a1a1a;
+    padding-right: 130px; /* clears the back button on narrow-ish widths */
+}
+
+#catalogue-subtitle {
+    margin: 0 0 14px;
+    font-size: 13.5px;
+    color: #777;
+    font-weight: 500;
+}
+
+#catalogue-subtitle span {
+    font-family: 'DM Mono', monospace;
+    color: #444;
+    font-weight: 600;
+}
+
+/* Secondary view actions, folded into the same strip as the area/category
+   filters (margin-left:auto pushes them to the trailing edge, a left divider
+   separates "what you're filtering by" from "other ways to view it") instead
+   of a whole extra row of controls above the map. */
+#catalogue-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-left: auto;
+    padding-left: 14px;
+    border-left: 1px solid #e5e9ee;
+    align-self: center;
+}
+
+#catalogue-view-ranking-btn,
+#catalogue-compare-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border: 1px solid #dde3ea;
+    border-radius: 8px;
+    background: #fff;
+    color: #1a5fa8;
+    font-size: 11.5px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+#catalogue-view-ranking-btn:hover,
+#catalogue-compare-btn:hover {
+    background: #f0f6fc;
+    border-color: #b8cfe6;
+}
+
+#catalogue-scope-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 14px;
+    margin-bottom: 30px;
+    padding: 16px 18px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+.catalogue-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* display:flex above has the same specificity as the browser's built-in
+   [hidden]{display:none} and loads later, so it was winning and defeating
+   the hidden attribute — Island Group/Region/Province stayed visible even
+   at the "Philippines (National)" level. Restore it. */
+.catalogue-field[hidden] {
+    display: none;
+}
+
+.catalogue-field > span {
+    font-size: 10px;
+    font-weight: 700;
+    color: #aaa;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.catalogue-field select {
+    min-width: 190px;
+    border: 1px solid #e2e6ec;
+    border-radius: 7px;
+    padding: 8px 30px 8px 10px;
+    font-size: 13px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    color: #222;
+    background: #f9fafc;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23888' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+.catalogue-field select:hover {
+    border-color: #0d4f8c;
+    background-color: #f0f7ff;
+}
+
+#catalogue-status {
+    text-align: center;
+    padding: 60px 20px;
+    color: #999;
+    font-size: 13.5px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#catalogue-status.error {
+    color: #c0392b;
+}
+
+.catalogue-empty-msg {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 40px 20px;
+    color: #999;
+    font-size: 13.5px;
+}
+
+#catalogue-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    /* without this, expanding one card stretches its whole grid row (CSS
+       grid's default align-items:stretch), leaving empty space at the
+       bottom of shorter neighboring cards */
+    align-items: start;
+}
+
+/* ── Catalogue cards ──────────────────────────────────────────────────────────
+   Collapsed by default: a colored rank banner with a circular "photo" (emoji
+   for now — swap .catalogue-photo's contents for an <img> once real photos
+   exist) overlapping it like an avatar over a cover photo, plus the name and
+   value. Clicking/pressing Enter or Space (delegated handler in app.js)
+   flips aria-expanded, which is what these rules key off to reveal the
+   description below via a max-height transition. */
+.catalogue-card {
+    position: relative;
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden; /* clips the banner's corners to the card's own rounding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), 0 6px 18px rgba(0, 0, 0, 0.07);
+    cursor: pointer;
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.catalogue-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08), 0 10px 26px rgba(0, 0, 0, 0.1);
+}
+
+.catalogue-card:focus-visible {
+    outline: 2px solid #0d4f8c;
+    outline-offset: 2px;
+}
+
+.catalogue-card-banner {
+    height: 44px;
+    background: linear-gradient(135deg, #4caf82, #2f8c63);
+    position: relative;
+    z-index: 1;
+}
+
+/* Top-3 get a little leaderboard shine on the banner itself */
+.catalogue-card.rank-1 .catalogue-card-banner { background: linear-gradient(135deg, #f7d478, #dfa62c); }
+.catalogue-card.rank-2 .catalogue-card-banner { background: linear-gradient(135deg, #e3e7ee, #b7bfcb); }
+.catalogue-card.rank-3 .catalogue-card-banner { background: linear-gradient(135deg, #edc19c, #c98f5c); }
+
+.catalogue-card.rank-1 { box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), 0 8px 22px rgba(245, 203, 92, 0.35); }
+
+.catalogue-rank {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    font-family: 'DM Mono', monospace;
+    font-weight: 700;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.95);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.catalogue-card-header {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    padding: 0 14px 12px;
+}
+
+/* Share-of-area bar. Sits in the collapsed card so ten commodities can be
+   compared by length instead of by reading ten numbers — the ranking is the
+   whole point of this grid, and a bar is the form that suits it.
+
+   ALWAYS paired with its label. A bare bar was tested and read as a progress
+   meter: green, partially filled, no caption. The number is what makes the
+   length mean something, so the two travel together and the bar never ships
+   alone. */
+.catalogue-share-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 14px 12px;
+}
+
+.catalogue-share-label {
+    flex: 0 0 auto;
+    font-size: 9.5px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: #6b7280;          /* 4.83:1 on white */
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;   /* digits line up card to card */
+}
+
+/* The track stays visible at 0 width so the row does not appear to be missing
+   an element; the fill carries the value. Height is deliberately small: this
+   supports the number, it is not the headline. */
+.catalogue-share {
+    flex: 1 1 auto;
+    height: 3px;
+    border-radius: 999px;
+    background: #eceff2;
+    overflow: hidden;
+}
+
+.catalogue-share-fill {
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #4caf82, #2c845e);
+    /* Grows on load and whenever the year or area changes. Length IS the
+       value here, so the change is worth showing rather than snapping;
+       the reduced-motion block collapses it to instant. */
+    transition: width 0.35s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* A share can round to 0.0% but still be non-zero — keep a visible sliver
+   rather than an empty track, so "tiny" reads differently from "none". */
+.catalogue-share-fill[style*="width:0.0%"] {
+    min-width: 2px;
+}
+
+.catalogue-photo {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    line-height: 1;
+    margin-top: -26px; /* half its own height — overlaps the banner above */
+    /* .catalogue-card-banner has position:relative (so the rank number can
+       anchor to it), which — per CSS stacking rules — makes it paint above
+       plain, non-positioned siblings regardless of DOM order. Without its
+       own position + higher z-index, the photo's top half (which overlaps
+       into the banner's box) was rendering BEHIND the banner instead of
+       in front of it. */
+    position: relative;
+    z-index: 2;
+    flex-shrink: 0;
+}
+
+.catalogue-card-titles {
+    flex: 1;
+    min-width: 0;
+    padding-top: 6px;
+}
+
+.catalogue-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.25;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.catalogue-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    color: #0d4f8c;
+}
+
+.catalogue-value-unit {
+    font-size: 10px;
+    font-weight: 600;
+    color: #999;
+    margin-left: 2px;
+}
+
+/* Rank movement vs. last year — a quick-glance detail next to the volume
+   figure, visible without expanding the card. Omitted entirely (see
+   renderCatalogueGrid()) when the current year is the first one in the
+   dataset, since there's nothing to compare against. */
+.catalogue-rank-delta {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 6px;
+}
+
+.catalogue-rank-delta.up { color: #2c845e; }
+.catalogue-rank-delta.down { color: #c0392b; }
+.catalogue-rank-delta.same { color: #aaa; }
+.catalogue-rank-delta.new { color: #0d6efd; }
+
+.catalogue-expand-chevron {
+    align-self: flex-start;
+    margin-top: 6px;
+    /* 3.07:1 on white — meets the 3:1 non-text minimum for a control
+       affordance. #bbb was 1.92:1, effectively invisible at low vision. */
+    color: #939393;
+    font-size: 12px;
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+}
+
+.catalogue-card[aria-expanded="true"] .catalogue-expand-chevron {
+    transform: rotate(180deg);
+}
+
+.catalogue-card-details {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0 14px;
+    transition: max-height 0.25s ease, opacity 0.2s ease, padding 0.25s ease;
+}
+
+.catalogue-card[aria-expanded="true"] .catalogue-card-details {
+    /* raised again to fit the added top-regions/top-provinces lists;
+       overflow stays auto as a safety net so content can never be silently
+       clipped even if it turns out longer than this ceiling */
+    max-height: 520px;
+    overflow-y: auto;
+    opacity: 1;
+    padding: 0 14px 16px;
+}
+
+.catalogue-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding-top: 10px;
+}
+
+.catalogue-tag {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1.6;
+    /* 4.55:1 against the #e5f4ec pill, not against white — the tint is what
+       sits behind this text, and measuring against the page background would
+       have called 3.66:1 a pass. */
+    color: #297b57;
+    background: #e5f4ec;
+    border-radius: 999px;
+    padding: 1px 10px;
+    white-space: nowrap;
+}
+
+.catalogue-tag-sub {
+    color: #6b6f76;
+    background: #eef0f2;
+}
+
+/* Marks a combined commodity (Overall Palay/Corn/Banana) whose tonnage is
+   also counted by the sub-types ranking below it. Measured against the
+   #fdf0d9 pill it actually sits on, not the page white: 5.25:1. */
+.catalogue-tag-agg {
+    color: #8a5a12;
+    background: #fdf0d9;
+}
+
+.catalogue-names {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    color: #999;
+}
+
+.catalogue-sci {
+    font-style: italic;
+}
+
+.catalogue-sci + .catalogue-local::before {
+    content: '\2022';
+    margin-right: 6px;
+}
+
+/* Year-over-year %, share of area total, yield, and a tiny 5-year trend
+   line — kept to one compact row so the added analytics don't turn the
+   expanded card into a wall of numbers. */
+.catalogue-stats-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.catalogue-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 10px;
+    font-size: 10.5px;
+    color: #888;
+}
+
+.catalogue-stat {
+    white-space: nowrap;
+}
+
+.catalogue-stat-yoy.up { color: #2c845e; font-weight: 600; }
+.catalogue-stat-yoy.down { color: #c0392b; font-weight: 600; }
+.catalogue-stat-yoy.new { color: #0d6efd; font-weight: 600; }
+
+.catalogue-spark {
+    width: 60px;
+    height: 20px;
+    flex-shrink: 0;
+}
+
+.catalogue-spark polyline {
+    fill: none;
+    stroke: #2f8c63;
+    stroke-width: 1.6;
+    vector-effect: non-scaling-stroke;
+}
+
+.catalogue-blurb {
+    font-size: 11.5px;
+    line-height: 1.5;
+    color: #777;
+    margin: 0;
+    padding-top: 8px;
+}
+
+/* "Where is this grown the most" — nationwide top 5 regions/provinces for
+   this one crop, independent of whatever area is selected in the scope bar.
+   Two columns side by side (province column simply absent for crops with no
+   provincial source, e.g. Palay/Corn/Fisheries/Livestock). */
+.catalogue-top-areas {
+    display: flex;
+    gap: 14px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.cta-col {
+    flex: 1 1 50%;
+    min-width: 0;
+}
+
+.cta-heading {
+    font-size: 9.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #767676;      /* 4.54:1 — was #aaa at 2.32:1 */
+    margin-bottom: 4px;
+}
+
+.cta-row {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+    font-size: 10.5px;
+    line-height: 1.7;
+}
+
+.cta-rank {
+    font-family: 'DM Mono', monospace;
+    font-weight: 700;
+    /* 4.54:1 — was #bbb at 1.92:1, the worst contrast in the catalogue and
+       on the one element (the rank digit) that carries the list's meaning. */
+    color: #767676;
+    flex-shrink: 0;
+}
+
+.cta-name {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #444;
+}
+
+/* ── Illustration highlight map ───────────────────────────────────────────────
+   A plain SVG rendering of the same boundary shapes the main map uses — no
+   basemap tiles, no pan/zoom interaction. renderCatalogueMap() (app.js)
+   redraws it on every scope change: the selected island/region/province is
+   filled in the brand accent color, everything else stays a muted gray, and
+   the viewBox is refit to the selected area's bounds for a "zoom in" effect. */
+#catalogue-layout {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+
+#catalogue-map-panel {
+    /* even 50/50 split with the card column (was flex:0 0 34%, which read as
+       lopsided next to the cards) */
+    flex: 1 1 50%;
+    /* soft "sea" blue so land shapes read clearly against it, instead of the
+       previous near-equal gray-on-gray contrast */
+    background: linear-gradient(160deg, #dbedf6, #cbe0ee);
+    border-radius: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05), 0 6px 18px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    position: sticky;
+    top: 20px;
+}
+
+#catalogue-map-svg {
+    width: 100%;
+    height: auto;
+    /* aspect-ratio is set inline by renderCatalogueMap() to match the actual
+       bounds being shown (a 1:1 fallback here covers the moment before the
+       first render) — without this, a wide/short area (e.g. the whole
+       country) would letterbox with a lot of dead space in a fixed square */
+    aspect-ratio: 1 / 1;
+    display: block;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.cmap-shape {
+    fill: #bfe0b8;
+    stroke: #fff;
+    /* Adjacent provinces each draw their own stroke along a shared border,
+       so the visible gap is roughly double this value — 1.1 (~2.2px
+       combined) read as thick white gaps between the many small islands.
+       0.4 keeps borders visible without carving up the archipelago. */
+    stroke-width: 0.4;
+    vector-effect: non-scaling-stroke; /* keeps border thickness constant in
+        screen pixels — a fixed stroke-width in map coordinate units would
+        look razor-thin zoomed out to the national view and absurdly thick
+        zoomed into one small province, since the viewBox scale varies by
+        orders of magnitude between those two. */
+    transition: fill 0.3s ease, stroke 0.3s ease;
+}
+
+.cmap-shape.cmap-highlight {
+    fill: #1a5fa8;
+    stroke: #ffffff;
+    stroke-width: 0.8;
+    filter: drop-shadow(0 0 3px rgba(13, 79, 140, 0.5));
+}
+
+/* Top-10 emoji markers scattered across the highlighted area — a white disc
+   behind each emoji for legibility (emoji glyphs ignore fill/stroke, so a
+   background shape is the only way to keep them readable over the blue
+   highlight fill). */
+.cmap-icon-group {
+    cursor: default;
+}
+
+.cmap-icon-bg {
+    fill: rgba(255, 255, 255, 0.92);
+    stroke: rgba(0, 0, 0, 0.1);
+    stroke-width: 0.4;
+    vector-effect: non-scaling-stroke;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+.cmap-icon {
+    pointer-events: none;
+}
+
+/* Floats over the map itself, top-center, rather than sitting below it as a
+   caption — #catalogue-map-panel's position:sticky already gives it a
+   containing block for this. */
+#catalogue-map-label {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px 14px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: center;
+    white-space: nowrap;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 999px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+    pointer-events: none;
+    z-index: 2;
+}
+
+#catalogue-content {
+    /* even 50/50 split with the map panel (was flex:1, uneven against the
+       map's old flex:0 0 34%) */
+    flex: 1 1 50%;
+    min-width: 0;
+}
+
+@media (max-width: 900px) {
+    #catalogue-layout {
+        flex-direction: column;
+    }
+
+    #catalogue-map-panel {
+        flex: none;
+        width: 100%;
+        max-width: 220px;
+        margin: 0 auto;
+        /* relative, not static — #catalogue-map-label is absolutely
+           positioned against this panel to float top-center over the map;
+           static would hand its containing block up to a much larger
+           ancestor and misplace it */
+        position: relative;
+    }
+}
+
+#catalogue-footnote {
+    margin: 36px 0 0;
+    font-size: 10.5px;
+    color: #aaa;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* ── Full ranking table modal ─────────────────────────────────────────────────
+   Same chrome pattern as #table-modal (the main map's data table) but its own
+   markup/IDs — this one lists every ranked commodity for the catalogue's
+   current scope/year, not the single crop #table-modal shows. */
+/* Coverage line under the card grid — explains an absent commodity (ranked
+   below 10, or no reported figure here) instead of leaving a short grid to
+   speak for itself. `.warn` is the partial-year state (2026). */
+#catalogue-coverage {
+    margin: 10px 2px 0;
+    font-size: 11.5px;
+    line-height: 1.5;
+    color: #667;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#catalogue-coverage.warn {
+    color: #8a5a12;
+}
+
+#catalogue-table-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 3000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#catalogue-table-modal[hidden] {
+    display: none !important;
+}
+
+#catalogue-table-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 20, 30, 0.45);
+    backdrop-filter: blur(2px);
+}
+
+#catalogue-table-card {
+    position: relative;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.28);
+    width: min(760px, 100%);
+    max-height: min(80vh, 80dvh);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: fadeUp 0.2s ease;
+}
+
+#catalogue-table-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 14px 16px 11px;
+    border-bottom: 1px solid #f0f0f0;
+    flex-shrink: 0;
+}
+
+#catalogue-table-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.3;
+}
+
+#catalogue-table-sub {
+    font-size: 11px;
+    color: #888;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+#catalogue-table-close-btn {
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 7px;
+    background: #f5f5f5;
+    color: #888;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background 0.15s, color 0.15s;
+}
+
+#catalogue-table-close-btn:hover {
+    background: #e8e8e8;
+    color: #333;
+}
+
+#catalogue-table-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border-bottom: 1px solid #f0f0f0;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+
+#catalogue-table-search {
+    flex: 1 1 160px;
+    min-width: 120px;
+    padding: 6px 10px;
+    border: 1px solid #dde3ea;
+    border-radius: 7px;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    color: #333;
+}
+
+#catalogue-table-search:focus {
+    outline: none;
+    border-color: #1a5fa8;
+}
+
+#catalogue-table-sort-group {
+    display: flex;
+    border: 1px solid #dde3ea;
+    border-radius: 7px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+#catalogue-table-sort-group button {
+    padding: 6px 12px;
+    border: none;
+    background: #fff;
+    color: #667;
+    font-size: 11.5px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+
+#catalogue-table-sort-group button + button {
+    border-left: 1px solid #dde3ea;
+}
+
+#catalogue-table-sort-group button[aria-pressed="true"] {
+    background: #1a5fa8;
+    color: #fff;
+}
+
+#catalogue-table-export-btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 7px;
+    background: #1a5fa8;
+    color: #fff;
+    font-size: 11.5px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
+    transition: background 0.15s;
+}
+
+#catalogue-table-export-btn:hover {
+    background: #0d4f8c;
+}
+
+#catalogue-table-scroll {
+    overflow: auto;
+    overscroll-behavior: contain;
+}
+
+#catalogue-ranking-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#catalogue-ranking-table th {
+    position: sticky;
+    top: 0;
+    background: #f7f9fc;
+    color: #556;
+    font-size: 10.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: right;
+    padding: 8px 10px;
+    border: 1px solid #d9dee5;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+#catalogue-ranking-table th:nth-child(3),
+#catalogue-ranking-table th:nth-child(4) {
+    text-align: left;
+}
+
+#catalogue-ranking-table td {
+    padding: 6px 10px;
+    border: 1px solid #eceff3;
+    color: #333;
+    white-space: nowrap;
+}
+
+#catalogue-ranking-table td.num {
+    text-align: right;
+    font-family: 'DM Mono', monospace;
+}
+
+#catalogue-ranking-table td.rt-tags {
+    white-space: normal;
+    font-size: 10.5px;
+    color: #888;
+}
+
+#catalogue-ranking-table tbody tr:nth-child(even) {
+    background: #fafbfc;
+}
+
+#catalogue-ranking-table tbody tr:hover {
+    background: #eef4fb;
+}
+
+#catalogue-ranking-table td.yoy-up { color: #2c845e; }
+#catalogue-ranking-table td.yoy-down { color: #c0392b; }
+#catalogue-ranking-table .rt-spark {
+    width: 50px;
+    height: 16px;
+    vertical-align: middle;
+}
+#catalogue-ranking-table .rt-spark polyline {
+    fill: none;
+    stroke: #2f8c63;
+    stroke-width: 1.8;
+    vector-effect: non-scaling-stroke;
+}
+
+@media (max-width: 640px) {
+    #catalogue-table-card {
+        max-height: min(85dvh, 85vh);
+    }
+
+    #catalogue-ranking-table {
+        font-size: 11px;
+    }
+}
+
+/* Visually hidden but present for assistive tech. Not display:none, which
+   removes it from the accessibility tree entirely — the point is that a screen
+   reader announces the page's h1 while sighted users see the panel's own
+   title. */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* ── Data coverage modal ──────────────────────────────────────────────────────
+   Same chrome as the ranking-table modal. The body is one dense matrix, so the
+   cells carry meaning by glyph as well as colour: a tick and a dash read the
+   same to a colour-blind reader and in a greyscale print. */
+#coverage-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 3000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#coverage-modal[hidden] { display: none !important; }
+
+#coverage-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 20, 30, 0.45);
+    backdrop-filter: blur(2px);
+}
+
+#coverage-card {
+    position: relative;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.28);
+    width: min(680px, 100%);
+    max-height: min(80vh, 80dvh);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: fadeUp 0.2s ease;
+}
+
+#coverage-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 14px 16px 11px;
+    border-bottom: 1px solid #f0f0f0;
+    flex-shrink: 0;
+}
+
+#coverage-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.3;
+}
+
+#coverage-sub {
+    font-size: 11.5px;
+    color: #667;
+    margin-top: 2px;
+}
+
+#coverage-close-btn {
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    line-height: 1;
+    color: #667;
+    cursor: pointer;
+    padding: 4px 6px;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+#coverage-close-btn:hover { background: #f0f2f5; color: #1a1a1a; }
+
+#coverage-toolbar {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 10px 16px;
+    border-bottom: 1px solid #f0f0f0;
+    flex-shrink: 0;
+}
+
+#coverage-note {
+    margin: 0;
+    font-size: 11.5px;
+    line-height: 1.5;
+    color: #5a6069;
+    flex: 1;
+}
+
+#coverage-toggle-btn {
+    flex-shrink: 0;
+    padding: 6px 12px;
+    border: 1px solid #dde3ea;
+    border-radius: 7px;
+    background: #fff;
+    color: #34506e;
+    font-size: 11.5px;
+    font-weight: 700;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+#coverage-toggle-btn:hover { background: #f2f6fb; }
+
+#coverage-scroll {
+    overflow: auto;
+    overscroll-behavior: contain;
+}
+
+#coverage-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#coverage-table th {
+    position: sticky;
+    top: 0;
+    background: #f7f9fc;
+    color: #556;
+    font-size: 10.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding: 8px 10px;
+    border-bottom: 1px solid #e7ebf0;
+}
+
+#coverage-table th:first-child { text-align: left; }
+
+#coverage-table td {
+    padding: 7px 10px;
+    border-bottom: 1px solid #f2f4f7;
+    text-align: center;
+}
+
+#coverage-table td:first-child { text-align: left; color: #1a1a1a; }
+
+#coverage-table tbody tr:nth-child(even) { background: #fbfcfe; }
+#coverage-table tbody tr:hover { background: #f2f6fb; }
+
+/* 5.6:1 on the row tint it sits on, and the glyph carries the meaning too. */
+#coverage-table td.cov.yes { color: #297b57; font-weight: 700; }
+#coverage-table td.cov.no  { color: #a2452f; }
+
+/* Crop lists inside the help modal's coverage explainer. */
+.help-crops {
+    color: #5a6069;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+@media (max-width: 640px) {
+    #coverage-card { max-height: min(85dvh, 85vh); }
+    #coverage-table { font-size: 11px; }
+    #coverage-toolbar { flex-direction: column; gap: 8px; }
+}
+
+/* ── Compare areas modal ──────────────────────────────────────────────────────
+   Same chrome pattern as the ranking table modal, but its body is two
+   independent columns — each an area picker plus that area's own top-5 list. */
+#catalogue-compare-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 3000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#catalogue-compare-modal[hidden] {
+    display: none !important;
+}
+
+#catalogue-compare-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 20, 30, 0.45);
+    backdrop-filter: blur(2px);
+}
+
+#catalogue-compare-card {
+    position: relative;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.28);
+    width: min(680px, 100%);
+    max-height: min(80vh, 80dvh);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    animation: fadeUp 0.2s ease;
+}
+
+#catalogue-compare-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 14px 16px;
+    border-bottom: 1px solid #f0f0f0;
+    flex-shrink: 0;
+}
+
+#catalogue-compare-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+#catalogue-compare-close-btn {
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 7px;
+    background: #f5f5f5;
+    color: #888;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: background 0.15s, color 0.15s;
+}
+
+#catalogue-compare-close-btn:hover {
+    background: #e8e8e8;
+    color: #333;
+}
+
+#catalogue-compare-body {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    overflow: auto;
+}
+
+.catalogue-compare-col {
+    flex: 1 1 50%;
+    min-width: 0;
+}
+
+.catalogue-compare-select {
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid #dde3ea;
+    border-radius: 7px;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.catalogue-compare-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.compare-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 4px;
+    border-bottom: 1px solid #f3f4f6;
+    font-size: 12px;
+}
+
+.compare-rank {
+    font-family: 'DM Mono', monospace;
+    font-weight: 700;
+    color: #aaa;
+    width: 16px;
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.compare-emoji {
+    flex-shrink: 0;
+}
+
+.compare-name {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #333;
+    font-weight: 600;
+}
+
+.compare-val {
+    flex-shrink: 0;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: #0d4f8c;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.compare-share {
+    color: #999;
+    font-weight: 500;
+}
+
+@media (max-width: 640px) {
+    #catalogue-compare-body {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 640px) {
+    #catalogue-section {
+        padding: 36px 14px 48px;
+    }
+
+    #catalogue-title {
+        font-size: 21px;
+        padding-right: 0;
+    }
+
+    #catalogue-back-btn {
+        position: static;
+        margin-bottom: 14px;
+    }
+
+    #catalogue-scope-bar {
+        gap: 10px;
+    }
+
+    /* Once the scope bar wraps to multiple lines, a left border reads as a
+       stray vertical mark rather than a divider — swap to a top border and
+       let it span the full width of its own wrapped row instead. */
+    #catalogue-toolbar {
+        margin-left: 0;
+        padding-left: 0;
+        padding-top: 10px;
+        border-left: none;
+        border-top: 1px solid #e5e9ee;
+        width: 100%;
+    }
+
+    .catalogue-field select {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #catalogue-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
+/* ── Footer ───────────────────────────────────────────────────────────────────
+   The page ended at the catalogue footnote; nothing credited the data. Dark so
+   the document has an ending, and so the two official marks sit on a ground
+   that is clearly not part of the catalogue above. */
+#pv-footer {
+    background: #1b2621;
+    color: #b9c4bf;
+    padding: 34px 0 30px;
+    font-family: 'DM Sans', 'Segoe UI', sans-serif;
+    font-size: 12.5px;
+    line-height: 1.55;
+}
+
+.pv-foot-wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 24px 48px;
+}
+
+.pv-foot-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: none;
+}
+
+/* The DA seal's outer ring and lettering are black, drawn for white paper, so
+   on this near-black ground it collapses to a floating sheaf. Bagong Pilipinas
+   is given the same disc for consistency - two official marks side by side in
+   different treatments reads as an accident. */
+.pv-foot-brand img {
+    box-sizing: border-box;   /* the disc padding is INSIDE the size */
+    width: 44px;
+    height: 44px;
+    flex: none;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.pv-foot-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    color: #f2f5f4;
+}
+
+.pv-foot-sub {
+    margin: 1px 0 0;
+    font-size: 11.5px;
+    color: #8d9b95;
+}
+
+.pv-foot-meta {
+    flex: 1 1 340px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 3px 16px;
+    align-items: baseline;
+}
+
+.pv-foot-meta dt {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #7d8b85;
+    white-space: nowrap;
+}
+
+.pv-foot-meta dd { margin: 0; color: #cdd6d2; }
+
+.pv-foot-legal {
+    max-width: 1180px;
+    margin: 26px auto 0;
+    padding: 16px 24px 0;
+    border-top: 1px solid #2b3833;
+    font-size: 11px;
+    line-height: 1.55;
+    color: #7d8b85;
+}
+
+@media (max-width: 640px) {
+    #pv-footer { padding: 26px 0 24px; }
+    .pv-foot-wrap { gap: 18px; padding: 0 16px; }
+    .pv-foot-meta { flex-basis: 100%; }
+    .pv-foot-legal { margin-top: 20px; padding: 14px 16px 0; }
+}
+
+
+/* ── Reporting-period switch (Annual / Semester / Quarter) ────────────────────
+   Sits above the timeline because it changes what the timeline MEANS, not what
+   is selected on it. Reads as a segmented control so it is obviously one choice
+   of three, not three toggles. Palette follows #year-label's blue rather than
+   the dark map chrome — this control lives inside the white crop panel. */
+#granularity-row {
+    display: flex;
+    gap: 2px;
+    width: 100%;
+    margin: 2px 0 8px;
+    padding: 2px;
+    background: #f1f3f5;
+    border-radius: 9px;
+    box-sizing: border-box;
+}
+
+.gran-btn {
+    flex: 1 1 0;
+    padding: 5px 4px;
+    border: 0;
+    border-radius: 7px;
+    background: none;
+    /* 4.6:1 on #f1f3f5 — the earlier grey was a washed-out 1.6:1 */
+    color: #566270;
+    font: inherit;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    transition: background 0.16s ease, color 0.16s ease;
+}
+
+.gran-btn:hover { background: rgba(13, 79, 140, 0.08); color: #0d4f8c; }
+
+/* Matches the selected-period pill above it, so the two read as one statement:
+   "this period, at this granularity". */
+.gran-btn.is-on {
+    background: #eaf4ff;
+    color: #0d4f8c;
+    box-shadow: 0 1px 2px rgba(13, 79, 140, 0.14);
+}
+
+/* Available in general, but not for THIS crop. Dimmed rather than removed so
+   the time options stay in the same place for every crop. */
+.gran-btn.is-unavailable {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+
+.gran-btn.is-unavailable:hover { background: none; color: #566270; }
+
+.gran-btn:focus-visible {
+    outline: 2px solid #0d4f8c;
+    outline-offset: 1px;
+}
+
+/* 'Q2 2025' is wider than '2025' and was wrapping to two lines inside the
+   pill, which shoved the whole row taller on every switch. */
+#year-label { white-space: nowrap; }
+
+/* ── The branch: periods within the selected year ─────────────────────────────
+   A quarter belongs to a year, and the control now says so: the slider picks
+   the year, this row picks what is inside it. The short connector above the
+   row is what carries that "these hang off the year" reading — without it the
+   buttons read as a second, unrelated switch. */
+#period-children {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    margin: 12px 0 2px;
+    padding-top: 9px;
+    box-sizing: border-box;
+}
+
+/* Descends from the selected year on the track above (JS sets --branch-x to
+   the same percentage the track fill uses), so the row reads as that year's
+   children rather than as a separate control. */
+#period-children::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: var(--branch-x, 50%);
+    width: 1px;
+    height: 9px;
+    background: #c4ccd4;
+    transition: left 0.2s ease;
+}
+
+.period-child {
+    min-width: 52px;
+    padding: 5px 11px;
+    border: 1px solid #dfe4e8;
+    border-radius: 8px;
+    background: #fff;
+    color: #566270;
+    font: inherit;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.period-child:hover {
+    border-color: #b9d4ee;
+    background: #f5faff;
+    color: #0d4f8c;
+}
+
+/* Same blue as the selected-period pill and the granularity switch, so the
+   three controls read as one chain: granularity -> year -> period. */
+.period-child.is-on {
+    background: #eaf4ff;
+    border-color: #b9d4ee;
+    color: #0d4f8c;
+}
+
+.period-child:focus-visible {
+    outline: 2px solid #0d4f8c;
+    outline-offset: 1px;
+}
+
+/* ── Sparkline: which point am I looking at? ──────────────────────────────────
+   A larger blue dot was the only marker for the selected period, and at 130px
+   wide across 11 points that is 3px of colour with no text anywhere near it —
+   so a chart of 2nd-semester data read as a chart about 1st semester, because
+   the only period words on it were the two end labels. This names the selected
+   period outright. Colour is never the only carrier of the meaning. */
+.spark-current {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 4px;
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #52606d;
+}
+
+.spark-current b {
+    font-weight: 700;
+    color: #1c6fa8;
+}
+
+.spark-dot {
+    flex: none;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #1c6fa8;
+    box-shadow: 0 0 0 1.5px #fff, 0 0 0 2.5px rgba(28, 111, 168, 0.28);
+}
+
+/* The chart is 130px wide, so its two end labels get ~62px each — "1st SEM
+   2021" wrapped onto two lines and pushed the caption below it out of view. */
+.spark-years span {
+    font-size: 9px;
+    white-space: nowrap;
+}
+
+/* Flowed as a sentence rather than flex items: the period name and its value
+   are one statement, and as flex children they broke mid-phrase. */
+.spark-current {
+    display: block;
+}
+
+.spark-current .spark-dot {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* The caption for a period that is deliberately absent from the chart — the
+   partial annual column. It carries no .spark-dot, because there is no dot on
+   the line to point at; the amber is the same #8a5a12 the timeline note and
+   the coverage badge already use for the partial-year state, so the three
+   places that say "this year is incomplete" say it in one colour. */
+.spark-current.spark-partial {
+    color: #8a5a12;
+}
+
+.spark-current.spark-partial b {
+    color: #6d460c;
+}
+
+
+/* Rounding caveat in the data-table header. Quiet, but present where someone
+   is actually adding a column up — that is when the question occurs to them,
+   and answering it there saves the same conversation being had by email. */
+#table-modal-note {
+    margin-top: 3px;
+    font-size: 11px;
+    line-height: 1.45;
+    color: #6b7280;      /* 4.8:1 on the header's white — passes AA */
+    max-width: 62ch;
+}
+
+@media (max-width: 640px) {
+    #table-modal-note { font-size: 10.5px; }
+}
+
+/* ── Reduced motion ────────────────────────────────────────────────────────
+   WCAG 2.3.3. Everything here is decorative or a nicety: the fade-up on the
+   catalogue cards, the play-button pulse, the mobile handle bounce, the card
+   expand, the sparkline draw, hover lifts.
+
+   Deliberately NOT set to zero. `0s` makes transitionend fire unreliably (some
+   engines skip the event when the duration is exactly zero, and a handler that
+   waits on it never runs); 0.01ms is effectively instant and still fires.
+
+   The spinner keeps turning — it signals that a fetch is still in flight, so
+   freezing it would report "stalled" when the truth is "loading". It is capped
+   to a slow, non-strobing turn instead.
+
+   Leaflet's own pan/zoom transitions are included on purpose: for a reader who
+   asked the OS for less motion, the map sliding across the viewport is exactly
+   the movement they opted out of. It jumps to the destination instead. */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        transition-delay: 0ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    /* Loading feedback has to keep moving to stay honest — but slowly, and
+       well under the 3-flashes-per-second threshold. */
+    #status-pill .status-spinner,
+    .status-spinner {
+        animation-duration: 1.6s !important;
+        animation-iteration-count: infinite !important;
+    }
+
+    /* Transform-based flourishes: land them in the resting state rather than
+       animating to it, so nothing is left mid-lift or mid-bounce. */
+    .catalogue-card:hover,
+    .catalogue-card:focus-visible {
+        transform: none !important;
+    }
+}
+
+/* The band threshold under the national figure. Same muted treatment as the
+   unit explanation beside it, so it reads as a footnote to the number above
+   rather than competing with it. */
+.legend-threshold {
+    font-size: 10.5px;
+    color: #6b7480;
+    margin-top: 2px;
+    line-height: 1.4;
+    /* Long figures wrap rather than widening the panel. */
+    overflow-wrap: anywhere;
+}
+.legend-threshold:empty { display: none; }
+
+/* Nothing here — the hairline lives on #legend-body (see above) so it stays put
+   instead of scrolling away with the first band. */

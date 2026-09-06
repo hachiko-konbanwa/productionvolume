@@ -3,30 +3,58 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
-<title>Production Volume</title>
+    <!-- No maximum-scale/user-scalable: locking zoom fails WCAG 1.4.4 and takes
+     pinch-to-zoom away from anyone who needs to enlarge the map or the
+     legend. Leaflet manages its own gestures, so page zoom is free to work. -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Philippine Agricultural Production Atlas (2021–2026)</title>
+    <meta name="description" content="Interactive map of Philippine agricultural production — volume, yield, and area harvested by region and province, 2021–2026.">
+    <meta property="og:title" content="Philippine Agricultural Production Atlas">
+    <meta property="og:description" content="Explore crop, fisheries, and livestock production across Philippine regions and provinces, 2021–2026.">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌾</text></svg>">
     <link rel="stylesheet" href="css/leaflet.css">
     <link rel="stylesheet" href="css/qgis2web.css">
     <link rel="stylesheet" href="css/L.Control.Locate.min.css">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/leaflet.photon.css">
     <link rel="stylesheet" href="css/leaflet-measure.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.css?v=2026-09-06g">
 </head>
 
 <body>
 
+    <!-- Section 1: the interactive map and all its floating controls, pinned to
+         exactly one viewport so scrolling to the catalogue below doesn't drag
+         them along (see #map-view in app.css). -->
+    <section id="map-view">
+
     <div id="control-panel">
+        <button id="sheet-handle" title="Expand panel" aria-label="Expand panel">
+            <span class="handle-bar"></span>
+            <span class="handle-label">Tap for crops &amp; settings</span>
+        </button>
+        <button id="tree-toggle" title="Collapse category list">☰</button>
         <div id="panel-header">
-            <h3 id="panel-title">🌾 Production Volume (MT)</h3>
+            <!-- The document had no h1: it began at h3 and the outline was broken for
+         a screen reader. Visually hidden because the panel already shows its
+         own title; this names the page itself. -->
+    <h1 class="sr-only">Philippine Agricultural Production Atlas</h1>
+    <h3 id="panel-title">🌾 Production Volume (MT)</h3>
             <p>&nbsp; Per Region &nbsp;·&nbsp; <span id="header-year">2025</span></p>
             <div id="metric-tabs">
                 <button class="metric-tab active" data-metric="volume">Volume</button>
                 <button class="metric-tab" data-metric="yield">Yield</button>
                 <button class="metric-tab" data-metric="area">Area</button>
+                <button class="metric-tab" data-metric="trees">Trees</button>
+                <button class="metric-tab" data-metric="yieldtree">Y/Tree</button>
             </div>
         </div>
+        <div id="crop-search-row">
+            <input id="crop-search" type="search" placeholder="🔍 Find a crop…" autocomplete="off" aria-label="Search crops">
+        </div>
         <div id="tree-scroll">
+            <div id="tree-no-results" hidden>No crops match your search.</div>
             <div class="tree-section">
                 <button class="section-header palay">
                     <div class="section-header-inner"><span>🌾</span><span>Palay</span></div>
@@ -44,6 +72,7 @@
                     <span class="chevron">▶</span>
                 </button>
                 <div class="tree-children">
+                    <div class="tree-item item-hidden" data-crop="Overall Corn Production">Corn</div>
                     <div class="tree-item" data-crop="Yellow Corn Production">Yellow Corn</div>
                     <div class="tree-item" data-crop="White Corn Production">White Corn</div>
                 </div>
@@ -54,8 +83,32 @@
                     <span class="chevron">▶</span>
                 </button>
                 <div class="tree-children">
+                    <button class="sub-group-header">
+                        <span>Banana</span>
+                        <span class="chevron">▶</span>
+                    </button>
+                    <div class="tree-children sub-children">
+                        <!-- Overall Banana is item-hidden for now. Its VOLUME is sound (all six
+                             varieties summed from fruits_long), but its only all-banana bearing-tree
+                             file puts 2025 at 276,209,633 while Banana Cardava ALONE is 303,648,834 -
+                             a subset above its parent in 67 of 87 provinces - so treesFile is already
+                             unwired and the commodity is withheld pending a replacement file.
+                             Banana Cardava stays visible and carries its own trees and yield/tree.
+                             See CHANGELOG 2026-09-06. -->
+                        <div class="tree-item item-hidden" data-crop="Overall Banana Production">Banana</div>
+                        <div class="tree-item" data-crop="Banana Cardava Production">Cardava (Saba)</div>
+                        <div class="tree-item item-hidden" data-crop="Banana Cavendish Production">Cavendish</div>
+                    </div>
+                    <div class="tree-item" data-crop="Overall Avocado Production">Avocado</div>
+                    <div class="tree-item" data-crop="Overall Calamansi Production">Calamansi</div>
+                    <div class="tree-item" data-crop="Overall Dalandan Production">Dalandan</div>
+                    <div class="tree-item" data-crop="Overall Dragon Fruit Production">Dragon Fruit</div>
+                    <div class="tree-item" data-crop="Overall Durian Production">Durian</div>
                     <div class="tree-item" data-crop="Overall Mango Production">Mango</div>
-                    <div class="tree-item" data-crop="Overall Banana Production">Banana</div>
+                    <div class="tree-item" data-crop="Overall Melon Production">Melon</div>
+                    <div class="tree-item" data-crop="Overall Pineapple Production">Pineapple</div>
+                    <div class="tree-item" data-crop="Overall Pomelo Production">Pomelo</div>
+                    <div class="tree-item" data-crop="Overall Rambutan Production">Rambutan</div>
                 </div>
             </div>
             <div class="tree-section">
@@ -64,8 +117,49 @@
                     <span class="chevron">▶</span>
                 </button>
                 <div class="tree-children">
+                    <!-- Sub-groups lead their section (see the Banana and Highland
+                         Crops groups). The fibre crops were interleaved with the
+                         tobaccos and the food crops - Silk between Cotton and
+                         Bariw, the three Agaves between Coir and Tobacco - so
+                         neither group read as one. Source order is preserved
+                         inside the group; the item-disabled entries are the
+                         fibres PSA publishes no figures for. -->
+                    <button class="sub-group-header">
+                        <span>Fibers</span>
+                        <span class="chevron">▶</span>
+                    </button>
+                    <div class="tree-children sub-children">
+                        <div class="tree-item" data-crop="Overall Abaca Production">Abaca</div>
+                        <div class="tree-item" data-crop="Overall Pinya Fiber Production">Piña</div>
+                        <div class="tree-item" data-crop="Overall Cotton Production">Cotton</div>
+                        <div class="tree-item item-disabled">Silk</div>
+                        <div class="tree-item" data-crop="Overall Bariw Production">Bariw</div>
+                        <div class="tree-item" data-crop="Overall Salago Production">Salago</div>
+                        <div class="tree-item item-disabled">Raffia</div>
+                        <div class="tree-item item-disabled">Buri</div>
+                        <div class="tree-item" data-crop="Overall Coir Production">Coir</div>
+                        <div class="tree-item item-disabled">Agave</div>
+                        <div class="tree-item item-disabled">Agave (Sisal)</div>
+                        <div class="tree-item item-disabled">Agave (Maguey)</div>
+                    </div>
+                    <!-- Overall Tobacco leads its own variants, the same shape as
+                         the Banana group. Burley is item-disabled: PSA publishes
+                         no figures for it, but it is a tobacco, so it belongs
+                         here rather than with the other record-less entries. -->
+                    <button class="sub-group-header">
+                        <span>Tobacco</span>
+                        <span class="chevron">▶</span>
+                    </button>
+                    <div class="tree-children sub-children">
+                        <div class="tree-item" data-crop="Overall Tobacco Production">Tobacco</div>
+                        <div class="tree-item" data-crop="Tobacco Virginia Production">Tobacco (Virginia)</div>
+                        <div class="tree-item item-disabled">Tobacco (Burley)</div>
+                        <div class="tree-item" data-crop="Tobacco Native Production">Tobacco (Native)</div>
+                    </div>
+                    <div class="tree-item" data-crop="Overall Cacao Production">Cacao</div>
                     <div class="tree-item" data-crop="Overall Coconut Production">Coconut with Husk</div>
-                    <div class="tree-item" data-crop="Overall Sugar Production">Sugarcane</div>
+                    <div class="tree-item" data-crop="Overall Pili Production">Pili</div>
+                    <div class="tree-item item-hidden" data-crop="Overall Sugar Production">Sugarcane</div>
                 </div>
             </div>
             <div class="tree-section">
@@ -75,21 +169,32 @@
                 </button>
                 <div class="tree-children">
                     <button class="sub-group-header">
-                        <span>🏔 Highland Crops</span>
+                        <span>Highland Crops</span>
                         <span class="chevron">▶</span>
                     </button>
                     <div class="tree-children sub-children">
                         <div class="tree-item" data-crop="Overall Cabbage Production">Cabbage</div>
                         <div class="tree-item" data-crop="Overall Carrots Production">Carrots</div>
                         <div class="tree-item" data-crop="Overall Cauliflower Production">Cauliflower</div>
-                        <div class="tree-item" data-crop="Overall Broccoli Production">Broccoli</div>
-                        <div class="tree-item" data-crop="Overall Habitsuelas Production">Habitsuelas (Baguio Beans)</div>
+                        <div class="tree-item item-hidden" data-crop="Overall Broccoli Production">Broccoli</div>
+                        <div class="tree-item" data-crop="Overall Habitsuelas Production">Habichuelas (Baguio Beans)</div>
                         <div class="tree-item" data-crop="Overall Chinese Cabbage Production">Chinese Cabbage</div>
-                        <div class="tree-item" data-crop="Overall Chayote Production">Chayote (Sayote)</div>
-                        <div class="tree-item" data-crop="Overall Celery Production">Celery</div>
+                        <div class="tree-item item-hidden" data-crop="Overall Chayote Production">Chayote (Sayote)</div>
+                        <!-- Celery stays item-hidden: its yield file is INVERTED. In all 15
+                             reporting provinces conv_celery_yield_provincial.csv holds
+                             area/volume, not volume/area - Benguet reads 0.0820 where the
+                             true yield is 12.1991 MT/HA (median error 510%). Do not remove
+                             this class until that file is replaced at source; unhiding it
+                             ships a wrong Yield map. See CHANGELOG 2026-09-06. -->
+                        <div class="tree-item item-hidden" data-crop="Overall Celery Production">Celery</div>
+                        <div class="tree-item" data-crop="Overall Asparagus Production">Asparagus</div>
+                        <div class="tree-item" data-crop="Overall Lettuce Production">Lettuce</div>
+                        <div class="tree-item" data-crop="Overall Chili Pepper Production">Chili Pepper (Siling Labuyo)</div>
+                        <div class="tree-item item-disabled">Sweet Pepper</div>
+                        <div class="tree-item" data-crop="Overall Bell Pepper Production">Bell Pepper</div>
                     </div>
                     <button class="sub-group-header">
-                        <span>🌿 Lowland Crops</span>
+                        <span>Lowland Crops</span>
                         <span class="chevron">▶</span>
                     </button>
                     <div class="tree-children sub-children">
@@ -98,17 +203,54 @@
                         <div class="tree-item" data-crop="Overall Okra Production">Okra</div>
                         <div class="tree-item" data-crop="Overall Eggplant Production">Eggplant</div>
                         <div class="tree-item" data-crop="Overall Stringbeans Production">Stringbeans (Sitao)</div>
+                        <div class="tree-item" data-crop="Overall Bottle Gourd Production">Bottle Gourd (Upo)</div>
+                        <div class="tree-item" data-crop="Overall Sponge Gourd Production">Sponge Gourd (Patola)</div>
+                        <div class="tree-item" data-crop="Overall Tomato Production">Tomato</div>
+                        <div class="tree-item" data-crop="Overall Cucumber Production">Cucumber</div>
+                        <div class="tree-item" data-crop="Overall Mushroom Production">Mushroom</div>
+                        <div class="tree-item" data-crop="Overall Pechay Production">Pechay</div>
+                        <div class="tree-item item-disabled">Upland Kangkong</div>
+                        <div class="tree-item item-disabled">Mustard Greens</div>
+                        <div class="tree-item" data-crop="Overall Spinach Production">Spinach</div>
+                        <div class="tree-item" data-crop="Overall Malabar Spinach Production">Malabar Spinach</div>
+                        <div class="tree-item" data-crop="Overall Moringa Production">Moringa (Malunggay)</div>
+                        <div class="tree-item" data-crop="Overall Radish Production">Radish</div>
+                        <div class="tree-item" data-crop="Overall Sweet Potato Leaves Production">Sweet Potato Leaves</div>
+                        <div class="tree-item" data-crop="Overall Jute Mallow Production">Jute Mallow (Saluyot)</div>
+                        <div class="tree-item" data-crop="Overall Winged Beans Production">Winged Beans</div>
                     </div>
                     <button class="sub-group-header">
-                        <span>🧅 Onion</span>
+                        <span>Root Crops</span>
                         <span class="chevron">▶</span>
                     </button>
                     <div class="tree-children sub-children">
-                        <div class="tree-item" data-crop="Red Onion Production">Red Onion</div>
-                        <div class="tree-item" data-crop="Yellow Onion Production">Yellow Onion</div>
-                        <div class="tree-item" data-crop="Red Shallot Production">Red Shallot (Sibuyas Tagalog)</div>
+                        <div class="tree-item" data-crop="Overall Ube Production">Ube</div>
+                        <div class="tree-item item-hidden" data-crop="Overall Cassava Production">Cassava</div>
+                        <div class="tree-item" data-crop="Cassava Food Production">Cassava (Food)</div>
+                        <div class="tree-item item-hidden" data-crop="Cassava Industrial Production">Cassava (Industrial)</div>
+                        <div class="tree-item" data-crop="Overall Sweet Potato Production">Sweet Potato</div>
+                        <div class="tree-item" data-crop="Overall White Potato Production">White Potato</div>
                     </div>
-                    <div class="tree-item" data-crop="Overall Ube Production">Ube</div>
+                    <button class="sub-group-header">
+                        <span>Spices</span>
+                        <span class="chevron">▶</span>
+                    </button>
+                    <div class="tree-children sub-children">
+                        <div class="tree-item" data-crop="Red Onion Production">Onion (Red Onion)</div>
+                        <div class="tree-item" data-crop="White Onion Production">Onion (Yellow Granex/White Onion)</div>
+                        <div class="tree-item" data-crop="Red Shallot Production">Onion (Red Shallots)</div>
+                        <div class="tree-item" data-crop="Overall Garlic Production">Garlic</div>
+                        <div class="tree-item" data-crop="Overall Ginger Production">Ginger (Luya)</div>
+                        <div class="tree-item" data-crop="Overall Lemongrass Production">Lemongrass (Tanglad)</div>
+                        <div class="tree-item" data-crop="Overall Spring Onion Production">Spring Onion</div>
+                    </div>
+                    <button class="sub-group-header">
+                        <span>Nuts &amp; Legumes</span>
+                        <span class="chevron">▶</span>
+                    </button>
+                    <div class="tree-children sub-children">
+                        <div class="tree-item" data-crop="Overall Peanut Production">Peanut</div>
+                    </div>
                 </div>
             </div>
             <div class="tree-section">
@@ -135,59 +277,401 @@
                 </div>
             </div>
         </div>
-        <div id="panel-footer">
-            <div class="toggle-row">
-                <input type="checkbox" id="toggle-borders" checked>
-                <label for="toggle-borders">Show Administrative Boundaries</label>
-            </div>
-            <div class="opacity-row">
-                <div class="opacity-row-header">
-                    <label>🎨 Opacity</label>
-                    <span id="opacity-value">92%</span>
+        <div id="year-controller">
+            <div id="year-top-row">
+                <button id="play-btn" title="Auto-play years">▶</button>
+                <div id="year-label">2025</div>
+                <div id="year-badge-group">
+                    <span id="year-badge">Production Year</span>
+                    <button id="year-controller-toggle" title="Collapse">▼</button>
                 </div>
-                <input type="range" id="opacity-slider" min="10" max="100" value="92" step="2">
+            </div>
+            <div id="year-controller-body">
+                <!-- Shown only on an annual year PSA has not finished
+                     publishing (2026). Sits directly under the year number,
+                     above the controls, so the caveat is read with the year
+                     rather than after the map has already been believed.
+                     role=status so it is announced when the year changes. -->
+                <div id="partial-year-note" role="status" aria-live="polite" hidden></div>
+                <!-- Annual / Semester / Quarter. Sub-annual figures are only
+                     published for Palay and Corn, so the last two grey out for
+                     every other crop rather than leading to an empty map. -->
+                <div id="granularity-row" role="tablist" aria-label="Reporting period">
+                    <button type="button" class="gran-btn is-on" role="tab"
+                            data-gran="annual" aria-selected="true">Annual</button>
+                    <button type="button" class="gran-btn" role="tab"
+                            data-gran="semester" aria-selected="false">Semester</button>
+                    <button type="button" class="gran-btn" role="tab"
+                            data-gran="quarter" aria-selected="false">Quarter</button>
+                </div>
+                <div id="year-track">
+                    <div id="year-track-base"></div>
+                    <div id="year-track-fill"></div>
+                    <!-- Dots and ticks are drawn by renderTimeline(): the list
+                         runs from 5 entries to 24 depending on granularity. -->
+                    <div id="year-dots-row"></div>
+                    <input type="range" id="year-slider" min="0" max="4" value="4" step="1"
+                           aria-label="Reporting period">
+                </div>
+                <div id="year-ticks-row"></div>
+                <!-- The branch: which semester/quarter within the selected
+                     year. Hidden on Annual, where the year IS the period. -->
+                <div id="period-children" role="tablist"
+                     aria-label="Period within the selected year" hidden></div>
+                <div id="year-hint">Select a crop to explore production by year</div>
             </div>
         </div>
     </div>
+
+    <!-- Layers flyout — opened from the nav rail's layers button -->
+    <div id="layers-flyout" hidden>
+        <div class="flyout-section-label">Basemap</div>
+        <select id="basemap-select" aria-label="Basemap style">
+            <!-- Carto is keyed (CARTO_API_KEY in js/app.js) so it renders clean.
+                 Stadia has no key, so its tiles still carry a watermark. -->
+            <option value="carto" selected>Carto Voyager</option>
+            <option value="gray">Light Gray Canvas</option>
+            <option value="esri">Esri Satellite</option>
+            <option value="osm">OpenStreetMap</option>
+            <option value="hybrid">Esri Hybrid (Satellite + Labels)</option>
+            <option value="stadia">Stadia Smooth (needs API key)</option>
+        </select>
+        <div class="toggle-row">
+            <input type="checkbox" id="hillshade-cb" checked>
+            <label for="hillshade-cb">Terrain hillshade</label>
+        </div>
+        <div class="toggle-row">
+            <input type="checkbox" id="toggle-borders" checked>
+            <label for="toggle-borders">Administrative boundaries</label>
+        </div>
+        <div class="opacity-row">
+            <div class="opacity-row-header">
+                <label>Opacity</label>
+                <span id="opacity-value">92%</span>
+            </div>
+            <input type="range" id="opacity-slider" min="10" max="100" value="92" step="2"
+                   aria-label="Layer opacity" aria-valuetext="92 percent">
+        </div>
+    </div>
+
+    <!-- Breadcrumb — shows the drill-down level, click to zoom back out -->
+    <button id="breadcrumb" hidden>
+        <span id="breadcrumb-path"></span><span id="breadcrumb-reset" aria-hidden="true">✕</span>
+    </button>
 
     <div id="legend-panel">
         <div id="legend-header">
             <div>
                 <div id="legend-title">Legend</div>
                 <div id="legend-avg"></div>
+                <!-- The threshold every band is measured against, stated as a number so
+                     "above average" cannot be read as a vague adjective. Volume only. -->
+                <div id="legend-threshold" class="legend-threshold"></div>
                 <div id="legend-unit-explanation" class="legend-unit-explanation"></div>
             </div>
             <button id="legend-toggle" title="Collapse legend">▼</button>
         </div>
         <div id="legend-body">
             <div id="legend-items"></div>
+            <div id="legend-ranking"></div>
             <div id="legend-footnote"></div>
+        </div>
+        <!-- Outside #legend-body on purpose: it is a constant attribution, not
+             content to scroll through, and inside it stole height from the bands. -->
+        <div id="legend-source">Data: Philippine Statistics Authority (PSA) · 2021–2026</div>
+        <!-- outside the collapsible body — reachable even with the legend tucked away -->
+        <button id="view-table-btn">📊 View data table</button>
+    </div>
+
+    <div id="table-modal" hidden>
+        <div id="table-modal-backdrop"></div>
+        <div id="table-modal-card" role="dialog" aria-modal="true" aria-labelledby="table-modal-title">
+            <div id="table-modal-header">
+                <div id="table-modal-heading">
+                    <div id="table-modal-title">Data table</div>
+                    <div id="table-modal-sub"></div>
+                    <div id="table-modal-note">Figures are PSA&rsquo;s, rounded to
+                        two decimals per reporting period. Details may not sum
+                        exactly to totals.</div>
+                </div>
+                <div id="table-modal-actions">
+                    <button id="table-export-btn" title="Download as CSV">⬇ Export CSV</button>
+                    <button id="table-expand-btn" title="Expand table" aria-label="Expand table"></button>
+                    <button id="table-close-btn" aria-label="Close table">✕</button>
+                </div>
+            </div>
+            <div id="table-scroll">
+                <table id="data-table"></table>
+            </div>
         </div>
     </div>
 
-    <div id="year-controller">
-        <button id="year-controller-toggle" title="Collapse">▼</button>
-        <div id="year-top-row">
-            <button id="play-btn" title="Auto-play years">▶</button>
-            <div id="year-label">2025</div>
-            <div id="year-badge">Production Year</div>
-        </div>
-        <div id="year-controller-body">
-            <div id="year-ticks-row">
-                <span class="yr-tick-label" data-yr="2021">2021</span>
-                <span class="yr-tick-label" data-yr="2022">2022</span>
-                <span class="yr-tick-label" data-yr="2023">2023</span>
-                <span class="yr-tick-label" data-yr="2024">2024</span>
-                <span class="yr-tick-label active" data-yr="2025">2025</span>
+    <div id="help-modal" hidden>
+        <div id="help-modal-backdrop"></div>
+        <div id="help-modal-card" role="dialog" aria-modal="true" aria-labelledby="help-modal-title">
+            <div id="help-modal-header">
+                <div id="help-modal-title">❓ How to use this map</div>
+                <button id="help-close-btn" aria-label="Close help">✕</button>
             </div>
-            <div id="year-slider-row">
-                <input type="range" id="year-slider" min="2021" max="2025" value="2025" step="1">
+            <div id="help-scroll">
+                <h3>🚀 Quick start</h3>
+                <ol>
+                    <li><b>Pick a crop</b> from the panel (or type in the 🔍 <i>Find a crop…</i> box). The map colors in — darker means more production.</li>
+                    <li><b>Click a region</b> to zoom in and see its provinces. Click a province for its details. Click the sea to zoom back out.</li>
+                    <li><b>Change the year</b> (2021–2026) with the timeline at the bottom of the panel, or press ▶ to animate through the years.</li>
+                </ol>
+                <p class="help-tip"><b>⚠ 2026 is a partial year.</b> PSA publishes an annual figure only once the fourth quarter closes, so 2026 shows just the part of the year reported so far — and how much that is varies by commodity. It will read far lower than 2021–2025 for reasons that have nothing to do with harvests, so don't compare it with a finished year or read a trend into it. For the periods that <i>are</i> complete, switch the timeline to <b>Quarter</b> or <b>Semester</b>, where Palay and Corn carry 2026 Q1, Q2 and 1st SEM.</p>
+
+                <h3>📏 The three measurements</h3>
+                <table>
+                    <tr><th>Tab</th><th>Meaning</th></tr>
+                    <tr><td><b>Volume</b></td><td>How much was produced (MT = metric tons, 1 MT = 1,000 kg)</td></tr>
+                    <tr><td><b>Yield</b></td><td>How productive the land is (MT per hectare)</td></tr>
+                    <tr><td><b>Area</b></td><td>How much land was harvested (HA = hectares)</td></tr>
+                    <tr><td><b>Trees</b></td><td>Number of bearing trees/hills (Mango and Banana only)</td></tr>
+                </table>
+                <!-- Filled by renderCoverageHelp() in app.js from the same
+                     metricCoverage() the Data coverage table uses, so it cannot
+                     drift from the config the way the sentence it replaced had. -->
+                <div id="help-coverage"></div>
+                <p class="help-tip">📚 Data source: Philippine Statistics Authority (PSA), production years 2021–2026.</p>
+
+                <h3>🎨 The colors</h3>
+                <p>The legend explains them: <b>Peak</b> (darkest) = top 3 producers · <b>High</b> = above national average · <b>Average / Low</b> = at or below it · <b>No Data</b> = nothing reported.</p>
+                <p class="help-tip">💡 Hover a legend row to spotlight that class on the map; click to pin the highlight.</p>
+
+                <h3>🪧 Reading the popup card</h3>
+                <p>Click any region or province: you'll see its production, its <b>% share</b>, the change vs last year (green ▲ up / red ▼ down), its <b>lowest, highest and average</b> since 2021, and a mini <b>trend chart</b> — up-slope means growing; the blue dot is the year you're viewing.</p>
+
+                <h3>📊 Get the numbers</h3>
+                <p>Click <b>📊 View data table</b> at the bottom of the legend for the full table (regions, or provinces when zoomed in). <b>⬇ Export CSV</b> downloads it ready for Excel or Google Sheets.</p>
+
+                <h3>🧭 The navigation rail (top-left)</h3>
+                <p>The dark bar holds every tool: zoom, my location, measure, place search, fullscreen, this help, the crop panel toggle, and <b>Layers</b> — where you change the background map, terrain shading, boundaries and color opacity. Hover any icon to see its name.</p>
+                <p>When zoomed into a region, a <b>breadcrumb</b> appears above the timeline ("Philippines › Region …") — click it (or press <b>Esc</b>) to zoom back out. The year timeline floats at the bottom of the map.</p>
+                <p class="help-tip">💡 The web address updates as you explore — copy it to share exactly what you're looking at (crop, year, measurement, and region).</p>
+
+                <h3>🏆 Top 10 Commodities</h3>
+                <p>Click the <b>"Top 10 Commodities ▼"</b> button at the bottom of the map (or just scroll down) for a ranked catalogue of every crop by production volume — pick Philippines, an island group, a region, or a province, and optionally a Category. It follows whichever year is selected above. <b>"▲ Back to map"</b> returns you.</p>
+                <p><b>📋 View full ranking</b> opens every ranked commodity in a table — search it, sort by Volume or Yield, or export it as CSV. <b>⇄ Compare areas</b> shows two areas' top 5 side by side.</p>
+
+                <h3>📱 On your phone</h3>
+                <p>Tap the bar at the bottom to open the crop list — it closes by itself after you pick. Swipe the handle up/down to open/close. The legend (top-right) is fully open by default — tap ▼ to tuck it away.</p>
+
+                <h3>🛟 Troubleshooting</h3>
+                <ul>
+                    <li><b>"No data"</b> — that area didn't report that crop that year. Not an error.</li>
+                    <li><b>Negros Island Region missing before 2024?</b> Correct — NIR was created in 2024; earlier years count its provinces under Western/Central Visayas.</li>
+                    <li><b>Red error message?</b> Check your internet and reload the page.</li>
+                </ul>
             </div>
-            <div id="year-hint">Select a crop above to explore production by year</div>
         </div>
+    </div>
+
+    <div id="status-pill" role="status" aria-live="polite">
+        <span class="status-spinner"></span>
+        <span id="status-text">Loading data…</span>
     </div>
 
     <div id="map"></div>
+
+    <!-- Scrolls down to the Top 10 catalogue; always visible, bottom-center -->
+    <button id="catalogue-jump-btn" title="See Top 10 Commodities" aria-label="Scroll to Top 10 Commodities">
+        <span>Top 10 Commodities</span>
+        <span id="catalogue-jump-arrow" aria-hidden="true">▼</span>
+    </button>
+
+    </section>
+
+    <!-- Section 2: Top 10 commodities catalogue, ranked by production volume
+         for whichever area (Philippines / island group / region / province)
+         and year is selected. Data is fetched lazily the first time this
+         section is opened (see ensureCatalogueData() in app.js). -->
+    <section id="catalogue-section">
+        <div id="catalogue-inner">
+            <button id="catalogue-back-btn" title="Back to map" aria-label="Back to map">▲ Back to map</button>
+            <h2 id="catalogue-title">🏆 Top 10 Commodities</h2>
+            <p id="catalogue-subtitle">Ranked by Production Volume (MT) · <span id="catalogue-year">2025</span></p>
+
+            <!-- One control strip instead of two stacked bars: area/category
+                 filters on the left, secondary view actions pushed to the
+                 right (margin-left:auto) with a divider between them. -->
+            <div id="catalogue-scope-bar">
+                <label class="catalogue-field">
+                    <span>Area</span>
+                    <select id="catalogue-level-select">
+                        <option value="national">Philippines (National)</option>
+                        <option value="island">Island Group</option>
+                        <option value="region">Region</option>
+                        <option value="province">Province</option>
+                    </select>
+                </label>
+                <label class="catalogue-field" id="catalogue-island-field" hidden>
+                    <span>Island Group</span>
+                    <select id="catalogue-island-select"></select>
+                </label>
+                <label class="catalogue-field" id="catalogue-region-field" hidden>
+                    <span>Region</span>
+                    <select id="catalogue-region-select"></select>
+                </label>
+                <label class="catalogue-field" id="catalogue-province-field" hidden>
+                    <span>Province</span>
+                    <select id="catalogue-province-select"></select>
+                </label>
+                <label class="catalogue-field">
+                    <span>Category</span>
+                    <select id="catalogue-category-select">
+                        <option value="">All Categories</option>
+                    </select>
+                </label>
+                <div id="catalogue-toolbar">
+                    <button id="catalogue-view-ranking-btn">📋 View full ranking</button>
+                    <button id="catalogue-compare-btn">⇄ Compare areas</button>
+                    <button id="coverage-btn" title="Which commodities have Volume, Area, Yield, Trees and Yield per Tree">📊 Data coverage</button>
+                </div>
+            </div>
+
+            <div id="catalogue-layout">
+                <!-- Illustration map: highlights + zooms to whichever area is
+                     selected above. Not the interactive Leaflet map — a plain
+                     SVG rendering of the same boundary shapes, redrawn by
+                     renderCatalogueMap() in app.js on every scope change. -->
+                <div id="catalogue-map-panel">
+                    <svg id="catalogue-map-svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet" aria-hidden="true"></svg>
+                    <div id="catalogue-map-label"></div>
+                </div>
+                <div id="catalogue-content">
+                    <div id="catalogue-status">Loading commodity data…</div>
+                    <div id="catalogue-grid"></div>
+                    <!-- Why a commodity you expected is not among the cards:
+                         how many ranked in total (the grid only shows 10) and
+                         how many have no figure at all for this area/year.
+                         Filled by renderCatalogueCoverageNote() in app.js. -->
+                    <p id="catalogue-coverage" hidden></p>
+                </div>
+            </div>
+            <p id="catalogue-footnote">Rankings use Production Volume (MT) and follow the year selected on the map above. Some crops (Palay, Corn, Fisheries, Livestock) only have regional-level data and can't appear in a specific province's Top 10, but do count at the region/island/national level. Nothing is excluded: the combined <b>Palay</b>, <b>Corn</b> and <b>Banana</b> figures rank alongside the sub-types they contain (Irrigated/Rainfed Palay, Yellow/White Corn, Cardava), so that tonnage deliberately appears twice in the list. Each combined row is badged <b>Combined total</b> and is left out of the "% of area total" so shares are not double-counted. Data: Philippine Statistics Authority (PSA) · 2021–2026.</p>
+        </div>
+
+        <!-- Full ranking table: every commodity with a reported value for the
+             current scope/year, not just the top 10 shown as cards. Opened
+             via #catalogue-view-ranking-btn; renderCatalogueRankingTable() in
+             app.js builds the rows. -->
+        <div id="catalogue-table-modal" hidden>
+            <div id="catalogue-table-backdrop"></div>
+            <div id="catalogue-table-card" role="dialog" aria-modal="true" aria-labelledby="catalogue-table-title">
+                <div id="catalogue-table-header">
+                    <div id="catalogue-table-heading">
+                        <div id="catalogue-table-title">Full Commodity Ranking</div>
+                        <div id="catalogue-table-sub"></div>
+                    </div>
+                    <button id="catalogue-table-close-btn" aria-label="Close ranking table">✕</button>
+                </div>
+                <div id="catalogue-table-toolbar">
+                    <input id="catalogue-table-search" type="text" placeholder="🔍 Search commodity…" aria-label="Search commodities in this table">
+                    <div id="catalogue-table-sort-group" role="group" aria-label="Sort table by">
+                        <button id="catalogue-sort-volume-btn" aria-pressed="true">Volume</button>
+                        <button id="catalogue-sort-yield-btn" aria-pressed="false">Yield</button>
+                    </div>
+                    <button id="catalogue-table-export-btn" title="Download as CSV">⬇ Export CSV</button>
+                </div>
+                <div id="catalogue-table-scroll">
+                    <table id="catalogue-ranking-table"></table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data coverage: which commodities carry which of the five metrics.
+             Built by renderCoverageMatrix() from metricCoverage(), which reads
+             cropConfig/provConfig live — there is no list to maintain here. -->
+        <div id="coverage-modal" hidden>
+            <div id="coverage-backdrop"></div>
+            <div id="coverage-card" role="dialog" aria-modal="true" aria-labelledby="coverage-title">
+                <div id="coverage-header">
+                    <div id="coverage-heading">
+                        <div id="coverage-title">📊 Data coverage</div>
+                        <div id="coverage-sub"></div>
+                    </div>
+                    <button id="coverage-close-btn" aria-label="Close data coverage">✕</button>
+                </div>
+                <div id="coverage-toolbar">
+                    <p id="coverage-note">These commodities have <b>Volume only</b> — PSA publishes no way to measure their productivity. Yield is volume ÷ area, so a crop with no Area cannot have a Yield either. <b>Tree crops are not listed here</b>: they carry Trees and Yield/Tree, which is the right measure for an orchard — use <b>Show all</b> to see them.</p>
+                    <button id="coverage-toggle-btn">Show all</button>
+                </div>
+                <div id="coverage-scroll">
+                    <table id="coverage-table"></table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Compare areas: two independent area pickers, each showing its own
+             top 5 for the current year side by side. compareAreaOptionsHtml()
+             in app.js builds the shared option list (national/island/region/
+             province) once and reuses it for both selects. -->
+        <div id="catalogue-compare-modal" hidden>
+            <div id="catalogue-compare-backdrop"></div>
+            <div id="catalogue-compare-card" role="dialog" aria-modal="true" aria-labelledby="catalogue-compare-title">
+                <div id="catalogue-compare-header">
+                    <div id="catalogue-compare-title">⇄ Compare Areas</div>
+                    <button id="catalogue-compare-close-btn" aria-label="Close compare view">✕</button>
+                </div>
+                <div id="catalogue-compare-body">
+                    <div class="catalogue-compare-col">
+                        <select id="compare-area-a" class="catalogue-compare-select" aria-label="First area to compare"></select>
+                        <div class="catalogue-compare-list" id="compare-list-a"></div>
+                    </div>
+                    <div class="catalogue-compare-col">
+                        <select id="compare-area-b" class="catalogue-compare-select" aria-label="Second area to compare"></select>
+                        <div class="catalogue-compare-list" id="compare-list-b"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Footer ────────────────────────────────────────────────────────────
+         The page previously ended at the catalogue's footnote, so the only
+         credit anywhere was Leaflet's basemap control - which says nothing
+         about whose data this is. -->
+    <footer id="pv-footer">
+        <div class="pv-foot-wrap">
+            <div class="pv-foot-brand">
+                <img src="img/da-logo-96.png" width="96" height="96"
+                     alt="Department of Agriculture" decoding="async" loading="lazy">
+                <img src="img/bagong-pilipinas-96.png" width="96" height="96"
+                     alt="Bagong Pilipinas" decoding="async" loading="lazy">
+                <img src="img/psa-logo-96.png" width="96" height="96"
+                     alt="Philippine Statistics Authority" decoding="async" loading="lazy">
+                <div>
+                    <p class="pv-foot-title">Production Atlas</p>
+                    <p class="pv-foot-sub">Philippine Agricultural Production</p>
+                </div>
+            </div>
+
+            <dl class="pv-foot-meta">
+                <dt>Data</dt>
+                <dd>Philippine Statistics Authority (PSA) &middot; 2021&ndash;2026</dd>
+                <dt>Rounding</dt>
+                <dd>Every figure is PSA&rsquo;s own, rounded to two decimals at
+                    source. Each reporting period is rounded independently, so a
+                    year&rsquo;s quarters may not add to exactly its annual
+                    total &mdash; a difference of a centavo or two on millions of
+                    metric tons. Nothing here is re-rounded or adjusted to make
+                    the columns agree.</dd>
+                <dt>Boundaries</dt>
+                <dd>PSGC-coded administrative boundaries, 18 regions &middot; 82 provinces</dd>
+                <dt>Metrics</dt>
+                <dd>Production volume, yield, and area harvested</dd>
+            </dl>
+        </div>
+
+        <p class="pv-foot-legal">
+            © 2026 Department of Agriculture &mdash; Agricultural Statistics.
+            Government statistical data. Each layer
+            states its own reference period; cite with attribution to the source
+            agency.
+        </p>
+    </footer>
 
     <script src="js/leaflet.js"></script>
     <script src="js/L.Control.Locate.min.js"></script>
@@ -196,8 +680,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"
             integrity="sha384-D/t0ZMqQW31H3az8ktEiNb39wyKnS82iFY52QPACM+IjKW3jDUhyIgh2PApRqJZs"
             crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-    <script src="js/app.js"></script>
+    <!-- XLSX parser is lazy-loaded by app.js only when an .xlsx file is first requested -->
+    <script src="js/app.js?v=2026-09-06g"></script>
 </body>
 
 </html>
