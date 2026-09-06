@@ -1212,12 +1212,36 @@ body {
     font-weight: 700;
 }
 
+/* The idle prompt ("Select a crop…"). Was rgba(30,30,30,0.45), which composites
+   to about #9a9a9a on the panel — roughly 2.8:1, under the 4.5:1 AA floor, and
+   italic at 10px made it harder still. */
 #year-hint {
-    font-size: 10px;
-    color: rgba(30, 30, 30, 0.45);
+    font-size: 11px;
+    color: #52606d;
     font-style: italic;
     text-align: center;
     letter-spacing: 0.02em;
+    line-height: 1.45;
+}
+
+/* The same element also carries the "why is this map empty" sentence, which is
+   not a passing hint — it is the only thing on screen explaining why the user
+   is looking at nothing. reportEmptyPeriod() tags it with data-empty-period, so
+   that state gets the treatment #partial-year-note already uses: a left rule,
+   a tint, and upright text at a readable weight.
+   Blue rather than amber, deliberately — the partial-year note warns that a
+   figure cannot be compared, whereas this one merely states that a series
+   starts later. Different meanings should not share a colour. */
+#year-hint[data-empty-period] {
+    margin: 2px 0 0;
+    padding: 8px 10px 9px;
+    border-left: 3px solid #2a91d8;
+    border-radius: 4px;
+    background: rgba(42, 145, 216, 0.09);
+    color: #1a4f76;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
 }
 
 /* Partial-year warning under the timeline. Amber rather than red: the data is

@@ -5,6 +5,33 @@ Each entry: date · what changed · why (if not obvious).
 
 ## 2026-09-06
 
+### Fixed — the empty-period note was too faint to read
+
+- **`#year-hint` was `rgba(30, 30, 30, 0.45)`**, which composites to about
+  `#9a9a9a` on the panel — roughly **2.8:1**, under the 4.5:1 AA floor — and
+  italic at 10px made it harder still. That element carries the sentence
+  explaining why a map is blank (*“Bearing Trees for Avocado is published from
+  2025 onwards — nothing to show for 2023”*), so it was the one thing on screen
+  the reader most needed and least able to see.
+
+- **Base hint**: 10px → 11px, colour → `#52606d`. Contrast **2.8:1 → 6.46:1**.
+
+- **The empty-period state now reads as a notice, not an aside.**
+  `reportEmptyPeriod()` already tags the element with `data-empty-period`, so
+  that state takes the treatment `#partial-year-note` established — left rule,
+  tint, upright text at weight 500, left-aligned. Contrast **8.66:1** on the
+  panel, **7.85:1** over its own tint; the rule is 3.1:1 against the tint, past
+  the 3:1 floor for a non-text element.
+
+- **Blue, not amber, deliberately.** The partial-year note warns that a figure
+  cannot be compared with a finished year. This one only says a series starts
+  later — no warning is implied, and two different meanings should not share a
+  colour.
+
+- Verified live on Avocado/Bearing Trees at 2023: the notice renders boxed and
+  legible, and scrubbing to 2025 clears the tag, drops the box, and hides the
+  element — so the styling attaches to the state, not to the element.
+
 ### Changed — data/ reorganised by role; filenames normalised
 
 `data/` was 310 files in one flat directory, mixing three unrelated things with
