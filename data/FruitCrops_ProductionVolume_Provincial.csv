@@ -31,7 +31,7 @@ Mango,MIMAROPA Region,Occidental Mindoro,1705100000,1474.68,1730.78,1686.09,1702
 Mango,MIMAROPA Region,Oriental Mindoro,1705200000,69.3,47.5,103.25,119.85,156.69,125.33,0.54
 Mango,MIMAROPA Region,Palawan,1705300000,15404.85,18280.84,17511.97,15861.68,14463.16,13575.26,60.75
 Mango,MIMAROPA Region,Romblon,1705900000,1090.01,1064.39,1109.09,1255.29,1207.57,1235.02,26.6
-Mango,MIMAROPA Region,City of Puerto Princesa,,0,0,0,0,0,0,26.56
+Mango,MIMAROPA Region,City of Puerto Princesa,1731500000,0,0,0,0,0,0,26.56
 Mango,Region V (Bicol Region),Albay,500500000,8.97,6.31,6.65,7.79,74.13,166.62,12.62
 Mango,Region V (Bicol Region),Camarines Norte,501600000,863.95,1038.85,1031.18,635.77,394.69,204.46,0.06
 Mango,Region V (Bicol Region),Camarines Sur,501700000,253.08,70.68,85.1,359.62,216.07,173.77,20.67
@@ -47,7 +47,7 @@ Mango,Region VI (Western Visayas),Negros Occidental,1804500000,12413.03,12224.54
 Mango,Region VI (Western Visayas),Negros Occidental,1804500000,0,0,0,0,12845.87,12827.81,480.41
 Mango,Negros Island Region (NIR),Negros Oriental,1804600000,0,0,0,0,41218.09,37623.42,327.17
 Mango,Negros Island Region (NIR),Siquijor,1806100000,0,0,0,0,381.68,395.58,9.03
-Mango,Negros Island Region (NIR),City of Bacolod,,0,0,0,0,0,0,0
+Mango,Negros Island Region (NIR),City of Bacolod,1830200000,0,0,0,0,0,0,0
 Mango,Region VII (Central Visayas),Bohol,701200000,9033.98,7791.71,878.41,756.23,1106.73,1255.26,232.6
 Mango,Region VII (Central Visayas),Cebu,702200000,40817.8,43348.3,36712.6,37757.72,36518.87,34635.25,701.47
 Mango,Negros Island Region (NIR),Negros Oriental,1804600000,23680.96,25843.22,22639.66,73794.46,0,0,0
@@ -62,7 +62,7 @@ Mango,Region IX (Zamboanga Peninsula),Sulu,906600000,0,0,0,0,0,0,4.32
 Mango,Region IX (Zamboanga Peninsula),Zamboanga del Norte,907200000,42707.07,40549.51,40253.54,35711.49,38415.63,16616.64,265.16
 Mango,Region IX (Zamboanga Peninsula),Zamboanga del Sur,907300000,8195.72,8521.17,8535.36,26570.27,27073.94,12820.65,2562.8
 Mango,Region IX (Zamboanga Peninsula),Zamboanga Sibugay,908300000,5776.65,6031.19,6121.09,5829.85,5793.96,4647.47,380.67
-Mango,Region IX (Zamboanga Peninsula),City of Zamboanga,,17058.6,17050.74,16925.19,0,0,10115.28,1100.53
+Mango,Region IX (Zamboanga Peninsula),City of Zamboanga,0907400000,17058.6,17050.74,16925.19,0,0,10115.28,1100.53
 Mango,Region X (Northern Mindanao),Bukidnon,1001300000,3522.61,2904.84,2766.9,3410.95,3802.41,3208.72,104.82
 Mango,Region X (Northern Mindanao),Camiguin,1001800000,217.31,199.76,213.06,103.13,143.59,222.61,6.72
 Mango,Region X (Northern Mindanao),Lanao del Norte,1003500000,6181.5,6291,6106,6213.71,6185.95,6155.1,509.35
@@ -73,7 +73,7 @@ Mango,Region XI (Davao Region),Davao del Norte,1102300000,3160.39,3093.19,3028.8
 Mango,Region XI (Davao Region),Davao del Sur,1102400000,31123.64,29408.49,28054.46,32891.41,32458.91,27267.68,1644.15
 Mango,Region XI (Davao Region),Davao Occidental,1108600000,5011.22,5103.95,5216.34,5310.94,5321.08,5343.29,485.83
 Mango,Region XI (Davao Region),Davao Oriental,1102500000,2219.92,2238.78,2190.34,2248.77,2192.94,2257.25,535.17
-Mango,Region XI (Davao Region),City of Davao,,6509.66,6431.96,6108.65,0,0,4458.3,287.78
+Mango,Region XI (Davao Region),City of Davao,1130700000,6509.66,6431.96,6108.65,0,0,4458.3,287.78
 Mango,Region XII (SOCCSKSARGEN),Cotabato,1204700000,39596.53,39417.68,37309.74,41527.09,45057.82,42849.1,1481.67
 Mango,Region XII (SOCCSKSARGEN),Sarangani,1208000000,8764.2,8595.7,8136.52,7779.6,8577.71,8091.1,1229.86
 Mango,Region XII (SOCCSKSARGEN),Sultan Kudarat,1206500000,2313.4,2042.82,1898.66,1957.69,2025.4,1959.03,360.12
@@ -83,10 +83,10 @@ Mango,Region XIII (Caraga),Agusan del Sur,1600300000,177.93,182.82,188.13,192.75
 Mango,Region XIII (Caraga),Dinagat Islands,1608500000,27.62,23.77,3.14,33.45,7.82,18.81,2.57
 Mango,Region XIII (Caraga),Surigao del Norte,1606700000,280.93,247.35,186.33,159.22,115.47,58.41,3.61
 Mango,Region XIII (Caraga),Surigao del Sur,1606800000,575.32,515.51,297.7,257.54,202.02,211.42,10.92
-Mango,Region XIII (Caraga),City of Butuan,,0,0,0,0,0,0,1.26
+Mango,Region XIII (Caraga),City of Butuan,1630400000,0,0,0,0,0,0,1.26
 Mango,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)3,Basilan,1900700000,209.73,212.27,215.9,216.25,154.51,83.9,21.38
 Mango,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)4,Lanao del Sur,1903600000,121.57,121.02,120.7,133.84,180.75,174.55,72.91
-Mango,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)5,Maguindanao,,12577.25,12979.62,13134.71,12132.85,13165.29,0,0
+Mango,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)5,Maguindanao,1908800000,12577.25,12979.62,13134.71,12132.85,13165.29,0,0
 Mango,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)6,Maguindanao del Norte,1908700000,0,0,0,0,0,8246.25,59.73
 Mango,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)7,Maguindanao del Sur,1908800000,0,0,0,0,0,7414.41,35.15
 Mango,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)8,Sulu,906600000,1696.22,1698.65,1705.18,1697.95,1710.99,1920.91,0

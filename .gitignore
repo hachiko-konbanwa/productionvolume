@@ -1,0 +1,36 @@
+# Claude Code project settings — enables plugins for this directory. Local tool
+# configuration, not project content. Remove this line if you ever want the
+# plugin set to travel with the repo.
+.claude/
+
+# Playwright MCP browser-testing artifacts: page snapshots and console logs,
+# regenerated on every run.
+.playwright-mcp/
+
+# Screenshots taken while checking the map in a browser.
+#
+# Anchored to the repo ROOT on purpose. The project's real images live in
+# css/images/ and data/ (Hillshade_18.png, the rulers/start sprites), and a
+# bare *.png would silently stop tracking them. Only loose captures dropped at
+# the top level are debris.
+/*.png
+
+# Node is not part of the build — this project has no build step — but tools
+# run here occasionally and leave this behind. Root-anchored so a lockfile that
+# legitimately belongs to a vendored dependency further down is still tracked.
+node_modules/
+/package-lock.json
+
+# Windows / OneDrive / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
+
+# Office lock files, created while a .docx or .xlsx in this repo is open
+~$*
+
+# Python bytecode
+__pycache__/
+*.pyc

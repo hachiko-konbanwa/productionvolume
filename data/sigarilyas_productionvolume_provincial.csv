@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Sigarilyas,CAR,Abra,1400100000,0.00,0.00,0.00,1.75,17.11,14.72,0.00
+Sigarilyas,CAR,Apayao,1408100000,1.24,1.40,1.72,1.44,3.49,3.68,1.76
+Sigarilyas,CAR,Benguet,1401100000,0.00,0.00,0.00,2.74,1.84,1.12,0.00
+Sigarilyas,CAR,Ifugao,1402700000,21.75,20.97,24.98,15.46,29.00,14.97,4.30
+Sigarilyas,CAR,Kalinga,1403200000,3.09,3.87,4.83,5.07,4.87,3.83,1.37
+Sigarilyas,CAR,Mountain Province,1404400000,8.54,8.39,8.58,7.90,8.31,8.22,0.00
+Sigarilyas,Region I,Ilocos Norte,0102800000,113.94,109.23,109.06,110.10,111.14,106.17,47.93
+Sigarilyas,Region I,Ilocos Sur,0102900000,30.94,30.96,33.26,31.04,24.84,32.25,10.76
+Sigarilyas,Region I,La Union,0103300000,47.74,50.28,52.62,53.80,53.15,52.61,18.25
+Sigarilyas,Region I,Pangasinan,0105500000,80.78,78.68,76.11,63.80,65.83,63.34,28.66
+Sigarilyas,Region II,Batanes,0200900000,0.74,0.52,0.42,0.53,0.61,1.71,1.91
+Sigarilyas,Region II,Cagayan,0201500000,68.14,67.15,67.07,59.12,16.65,29.55,9.28
+Sigarilyas,Region II,Isabela,0203100000,58.36,117.61,113.39,108.05,105.89,100.38,4.40
+Sigarilyas,Region II,Nueva Vizcaya,0205000000,7.46,7.52,7.93,7.35,7.76,7.95,1.89
+Sigarilyas,Region II,Quirino,0205700000,31.20,30.17,32.06,32.81,33.58,32.53,13.92
+Sigarilyas,Region III,Aurora,0307700000,0.00,0.00,0.00,1.77,15.49,19.38,8.26
+Sigarilyas,Region III,Bataan,0300800000,0.00,0.00,0.00,0.00,0.00,0.01,0.00
+Sigarilyas,Region III,Bulacan,0301400000,25.99,25.82,24.62,20.63,27.60,25.03,2.89
+Sigarilyas,Region III,Nueva Ecija,0304900000,39.48,40.50,42.15,38.76,37.54,37.76,0.50
+Sigarilyas,Region III,Pampanga,0305400000,4.15,4.13,4.08,4.05,4.04,4.06,0.00
+Sigarilyas,Region III,Tarlac,0306900000,6.47,7.12,6.99,6.34,17.96,17.63,5.20
+Sigarilyas,Region III,Zambales,0307100000,33.74,36.57,31.57,30.24,33.18,15.00,0.23
+Sigarilyas,Region IV-A,Batangas,0401000000,10.70,10.63,7.20,10.73,11.70,19.23,2.54
+Sigarilyas,Region IV-A,Cavite,0402100000,6.54,5.87,4.69,1.73,10.00,9.71,1.75
+Sigarilyas,Region IV-A,Laguna,0403400000,9.40,9.44,9.56,11.56,10.18,10.59,5.01
+Sigarilyas,Region IV-A,Quezon,0405600000,19.18,21.25,21.60,20.15,20.41,21.43,13.18
+Sigarilyas,Region IV-A,Rizal,0405800000,0.00,0.00,0.00,0.40,0.93,2.00,0.13
+Sigarilyas,MIMAROPA,Marinduque,1704000000,4.81,4.92,4.25,3.66,2.90,2.84,1.12
+Sigarilyas,MIMAROPA,Occidental Mindoro,1705100000,0.00,0.00,0.00,0.00,0.22,0.13,0.00
+Sigarilyas,MIMAROPA,Oriental Mindoro,1705200000,1.60,1.27,1.23,1.24,1.05,0.96,0.04
+Sigarilyas,MIMAROPA,Palawan,1705300000,5.04,4.77,4.32,4.06,4.06,4.16,0.89
+Sigarilyas,MIMAROPA,City of Puerto Princesa,1731500000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Sigarilyas,MIMAROPA,Romblon,1705900000,0.53,0.71,0.75,0.73,1.33,2.20,1.88
+Sigarilyas,Region V,Albay,0500500000,192.23,237.90,282.39,263.37,242.52,244.51,48.90
+Sigarilyas,Region V,Camarines Norte,0501600000,3.47,3.97,2.93,4.27,4.91,4.85,1.11
+Sigarilyas,Region V,Camarines Sur,0501700000,137.67,126.51,107.59,99.76,77.45,50.34,14.11
+Sigarilyas,Region V,Catanduanes,0502000000,10.68,10.39,6.39,3.57,4.15,3.91,0.87
+Sigarilyas,Region V,Masbate,0504100000,2.12,2.13,2.09,1.33,1.68,1.32,0.75
+Sigarilyas,Region V,Sorsogon,0506200000,44.68,39.05,30.55,20.57,17.67,20.29,5.77
+Sigarilyas,Region VI,Aklan,0600400000,12.74,12.45,11.62,11.04,11.90,16.95,9.02
+Sigarilyas,Region VI,Antique,0600600000,33.95,32.26,36.70,38.41,33.87,35.17,20.58
+Sigarilyas,Region VI,Capiz,0601900000,24.80,26.40,25.90,18.85,25.00,22.68,6.80
+Sigarilyas,Region VI,Guimaras,0607900000,10.15,13.78,17.57,18.34,20.67,22.53,5.13
+Sigarilyas,Region VI,Iloilo,0603000000,37.20,35.70,35.40,34.65,30.70,312.11,142.50
+Sigarilyas,NIR,Negros Occidental,1804500000,21.21,24.35,28.48,33.64,0.00,0.00,0.00
+Sigarilyas,NIR,Negros Occidental,1804500000,0.00,0.00,0.00,0.00,30.10,30.00,8.51
+Sigarilyas,NIR,City of Bacolod,1830200000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Sigarilyas,NIR,Negros Oriental,1804600000,0.00,0.00,0.00,0.00,20.19,19.97,14.44
+Sigarilyas,NIR,Siquijor,1806100000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Sigarilyas,Region VII,Bohol,0701200000,0.39,0.36,0.19,1.92,3.47,9.83,2.05
+Sigarilyas,Region VII,Cebu,0702200000,1.57,1.64,2.78,2.60,2.39,2.34,0.00
+Sigarilyas,NIR,Negros Oriental,1804600000,24.83,23.53,20.55,22.78,0.00,0.00,0.00
+Sigarilyas,NIR,Siquijor,1806100000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Sigarilyas,Region VIII,Biliran,0807800000,0.34,0.37,0.48,0.58,0.17,0.18,0.05
+Sigarilyas,Region VIII,Eastern Samar,0802600000,0.00,0.00,0.00,0.00,5.12,7.45,3.30
+Sigarilyas,Region VIII,Leyte,0803700000,72.90,79.15,69.40,69.18,62.23,63.09,10.31
+Sigarilyas,Region VIII,Northern Samar,0804800000,22.84,22.82,22.84,22.84,22.60,13.05,3.97
+Sigarilyas,Region VIII,Samar,0806000000,1.75,2.00,2.12,2.85,1.77,3.60,0.37
+Sigarilyas,Region VIII,Southern Leyte,0806400000,4.35,4.19,3.55,4.23,4.98,10.16,0.75
+Sigarilyas,Region IX,Sulu,0906600000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Sigarilyas,Region IX,Zamboanga del Norte,0907200000,2.78,2.60,2.35,2.22,1.64,2.01,0.58
+Sigarilyas,Region IX,Zamboanga del Sur,0907300000,17.35,17.10,12.43,10.03,15.50,9.03,0.60
+Sigarilyas,Region IX,City of Zamboanga,0907400000,5.25,5.21,5.12,0.00,0.00,0.28,0.09
+Sigarilyas,Region IX,Zamboanga Sibugay,0908300000,3.03,3.52,3.54,3.10,3.07,2.95,1.03
+Sigarilyas,Region X,Bukidnon,1001300000,1.05,1.04,1.05,1.05,1.01,1.74,0.07
+Sigarilyas,Region X,Camiguin,1001800000,1.52,1.44,1.70,2.02,2.21,2.59,0.32
+Sigarilyas,Region X,Lanao del Norte,1003500000,2.25,2.40,2.65,2.62,2.50,3.09,0.56
+Sigarilyas,Region X,Misamis Occidental,1004200000,0.93,0.94,0.89,0.87,0.87,1.19,0.41
+Sigarilyas,Region X,Misamis Oriental,1004300000,14.95,12.58,13.43,11.43,11.40,11.20,0.21
+Sigarilyas,Region XI,Davao de Oro,1108200000,1.41,1.76,1.68,2.38,2.30,2.29,0.43
+Sigarilyas,Region XI,Davao del Norte,1102300000,5.90,5.72,5.52,5.13,5.33,4.99,0.67
+Sigarilyas,Region XI,Davao del Sur,1102400000,2.85,2.79,2.74,6.29,6.02,2.65,0.40
+Sigarilyas,Region XI,City of Davao,1130700000,3.60,3.66,3.60,0.00,0.00,2.92,1.03
+Sigarilyas,Region XI,Davao Occidental,1108600000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Sigarilyas,Region XI,Davao Oriental,1102500000,3.27,1.92,1.59,0.82,0.75,0.70,0.68
+Sigarilyas,Region XII,Cotabato,1204700000,9.72,9.29,8.87,6.45,5.82,6.69,0.50
+Sigarilyas,Region XII,Sarangani,1208000000,4.13,4.24,4.26,3.34,3.51,0.28,0.16
+Sigarilyas,Region XII,Sultan Kudarat,1206500000,5.73,5.72,5.72,5.80,5.04,5.45,1.23
+Sigarilyas,Region XII,South Cotabato,1206300000,5.18,5.24,5.50,5.70,6.39,10.08,0.08
+Sigarilyas,Region XIII,Agusan del Norte,1600200000,0.99,1.00,1.03,1.00,0.94,0.95,0.04
+Sigarilyas,Region XIII,City of Butuan,1630400000,0.00,0.00,0.00,0.00,0.00,0.00,0.02
+Sigarilyas,Region XIII,Agusan del Sur,1600300000,0.94,0.86,0.92,0.88,0.71,0.71,1.00
+Sigarilyas,Region XIII,Dinagat Islands,1608500000,0.03,0.02,0.01,0.03,0.60,0.75,0.51
+Sigarilyas,Region XIII,Surigao del Norte,1606700000,0.03,0.01,0.00,1.42,0.72,3.10,3.33
+Sigarilyas,Region XIII,Surigao del Sur,1606800000,0.46,0.53,1.18,0.98,0.53,0.23,0.09
+Sigarilyas,BARMM,Basilan,1900700000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Sigarilyas,BARMM,Lanao del Sur,1903600000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Sigarilyas,BARMM,Maguindanao,1908800000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Sigarilyas,BARMM,Maguindanao del Norte,1908700000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Sigarilyas,BARMM,Maguindanao del Sur,1908800000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Sigarilyas,BARMM,Sulu,0906600000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Sigarilyas,BARMM,Tawi-tawi,1907000000,0.00,0.00,0.00,0.00,0.00,0.00,0.00

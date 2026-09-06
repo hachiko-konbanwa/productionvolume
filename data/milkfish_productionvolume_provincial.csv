@@ -57,7 +57,7 @@ Milkfish,Region IX,Sulu,0906600000,0,0,0,0,0,0
 Milkfish,Region IX,Zamboanga del Norte,0907200000,1906.08,2065.06,1196.91,599.13,1374.29,1104.14
 Milkfish,Region IX,Zamboanga del Sur,0907300000,1445.88,1276.35,2907.25,2051.04,1469.5,348.51
 Milkfish,Region IX,Zamboanga Sibugay,0908300000,1874.03,3390.1,1484.69,671.52,681.04,2517.25
-Milkfish,Region IX,City of Zamboanga,,891.76,1020.69,0,0,0,560.4
+Milkfish,Region IX,City of Zamboanga,0907400000,891.76,1020.69,0,0,0,560.4
 Milkfish,Region X,Bukidnon,1001300000,0,0,0,0,0,0
 Milkfish,Region X,Camiguin,1001800000,3.14,1.95,2.02,1.99,4.58,1.01
 Milkfish,Region X,Lanao del Norte,1003500000,5491.87,5525.09,4341.07,2161.63,2059.63,2529.97
@@ -68,7 +68,7 @@ Milkfish,Region XI,Davao del Norte,1102300000,3422.37,4689.86,2756.71,2507.85,17
 Milkfish,Region XI,Davao del Sur,1102400000,3773.21,3300.65,12488.78,13572.99,12766.83,8172.21
 Milkfish,Region XI,Davao Occidental,1108600000,6639.02,8679.8,9088.22,2732.01,3257.78,1443.27
 Milkfish,Region XI,Davao Oriental,1102500000,976.33,1283.18,521.84,240.23,266.15,156.34
-Milkfish,Region XI,City of Davao,,1363.06,1667.6,0,0,0,2066.17
+Milkfish,Region XI,City of Davao,1130700000,1363.06,1667.6,0,0,0,2066.17
 Milkfish,Region XII,Cotabato,1204700000,0,0,0,0,0,0
 Milkfish,Region XII,Sarangani,1208000000,3548.18,2909.16,1295.2,1862.46,861.78,1072.62
 Milkfish,Region XII,South Cotabato,1206300000,170.19,155.87,77.29,0.48,0,0
@@ -78,7 +78,7 @@ Milkfish,Region XIII,Agusan del Sur,1600300000,0,0,0,0.33,0,0
 Milkfish,Region XIII,Dinagat Islands,1608500000,14.88,16.82,6.86,23.26,14.93,4.84
 Milkfish,Region XIII,Surigao del Norte,1606700000,371.29,343.32,60.4,152.49,58.52,62.06
 Milkfish,Region XIII,Surigao del Sur,1606800000,1638.68,1991.08,879.95,839.89,860.08,405.28
-Milkfish,Region XIII,City of Butuan,,0,0,0,0,0,0
+Milkfish,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0
 Milkfish,BARMM,Basilan,1900700000,1723.7,1763.18,410.09,80.71,2.74,1.49
 Milkfish,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,0
 Milkfish,BARMM,Maguindanao del Norte,1908700000,9252.51,6364.18,4450.42,626.59,285.26,1828.36

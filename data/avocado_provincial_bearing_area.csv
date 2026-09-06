@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Avocado,CAR,Abra,1400100000,0,0,0,0,0,4320,1080
+Avocado,CAR,Apayao,1408100000,0,0,0,0,0,2800,700
+Avocado,CAR,Benguet,1401100000,0,0,0,0,0,32788,8197
+Avocado,CAR,Ifugao,1402700000,0,0,0,0,0,8040,2200
+Avocado,CAR,Kalinga,1403200000,0,0,0,0,0,1968,492
+Avocado,CAR,Mountain Province,1404400000,0,0,0,0,0,35800,8950
+Avocado,Region I,Ilocos Norte,0102800000,0,0,0,0,0,25327,6311
+Avocado,Region I,Ilocos Sur,0102900000,0,0,0,0,0,39028,9757
+Avocado,Region I,La Union,0103300000,0,0,0,0,0,24900,6225
+Avocado,Region I,Pangasinan,0105500000,0,0,0,0,0,6852,1680
+Avocado,Region II,Batanes,0200900000,0,0,0,0,0,1912,478
+Avocado,Region II,Cagayan,0201500000,0,0,0,0,0,110248,27567
+Avocado,Region II,Isabela,0203100000,0,0,0,0,0,122855,30695
+Avocado,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,75684,18833
+Avocado,Region II,Quirino,0205700000,0,0,0,0,0,44696,11171
+Avocado,Region III,Aurora,0307700000,0,0,0,0,0,5903,1868
+Avocado,Region III,Bataan,0300800000,0,0,0,0,0,17068,4267
+Avocado,Region III,Bulacan,0301400000,0,0,0,0,0,4600,1150
+Avocado,Region III,Nueva Ecija,0304900000,0,0,0,0,0,13800,3450
+Avocado,Region III,Pampanga,0305400000,0,0,0,0,0,2415,554
+Avocado,Region III,Tarlac,0306900000,0,0,0,0,0,10600,2650
+Avocado,Region III,Zambales,0307100000,0,0,0,0,0,15872,3968
+Avocado,Region IV-A,Batangas,0401000000,0,0,0,0,0,103600,25900
+Avocado,Region IV-A,Cavite,0402100000,0,0,0,0,0,60920,15300
+Avocado,Region IV-A,Laguna,0403400000,0,0,0,0,0,12400,3100
+Avocado,Region IV-A,Quezon,0405600000,0,0,0,0,0,11708,2927
+Avocado,Region IV-A,Rizal,0405800000,0,0,0,0,0,3805,970
+Avocado,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,5440,1360
+Avocado,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,22400,5600
+Avocado,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,2829,690
+Avocado,MIMAROPA,Palawan,1705300000,0,0,0,0,0,48934,9543
+Avocado,MIMAROPA,Romblon,1705900000,0,0,0,0,0,22932,5733
+Avocado,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0,2758
+Avocado,Region V,Albay,0500500000,0,0,0,0,0,7600,1900
+Avocado,Region V,Camarines Norte,0501600000,0,0,0,0,0,25104,6276
+Avocado,Region V,Camarines Sur,0501700000,0,0,0,0,0,72612,18153
+Avocado,Region V,Catanduanes,0502000000,0,0,0,0,0,19212,4803
+Avocado,Region V,Masbate,0504100000,0,0,0,0,0,2321,497
+Avocado,Region V,Sorsogon,0506200000,0,0,0,0,0,109645,27280
+Avocado,Region VI,Aklan,0600400000,0,0,0,0,0,28108,7027
+Avocado,Region VI,Antique,0600600000,0,0,0,0,0,19520,4880
+Avocado,Region VI,Capiz,0601900000,0,0,0,0,0,13560,3450
+Avocado,Region VI,Guimaras,0607900000,0,0,0,0,0,6000,1500
+Avocado,Region VI,Iloilo,0603000000,0,0,0,0,0,52196,13049
+Avocado,NIR,Negros Occidental,1804500000,0,0,0,0,0,0,0
+Avocado,NIR,Negros Occidental,1804500000,0,0,0,0,0,53840,13460
+Avocado,NIR,Negros Oriental,1804600000,0,0,0,0,0,32824,8206
+Avocado,NIR,Siquijor,1806100000,0,0,0,0,0,1240,310
+Avocado,NIR,City of Bacolod,1830200000,0,0,0,0,0,0,0
+Avocado,Region VII,Bohol,0701200000,0,0,0,0,0,24672,6168
+Avocado,Region VII,Cebu,0702200000,0,0,0,0,0,53440,13360
+Avocado,NIR,Negros Oriental,1804600000,0,0,0,0,0,0,0
+Avocado,NIR,Siquijor,1806100000,0,0,0,0,0,0,0
+Avocado,Region VIII,Biliran,0807800000,0,0,0,0,0,2114,489
+Avocado,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,8396,2099
+Avocado,Region VIII,Leyte,0803700000,0,0,0,0,0,22805,5710
+Avocado,Region VIII,Northern Samar,0804800000,0,0,0,0,0,800,200
+Avocado,Region VIII,Samar,0806000000,0,0,0,0,0,692,173
+Avocado,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,8254,2063
+Avocado,Region IX,Sulu,0906600000,0,0,0,0,0,0,625
+Avocado,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,107400,26850
+Avocado,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,12800,3050
+Avocado,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,8180,2045
+Avocado,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,17307,5769
+Avocado,Region X,Bukidnon,1001300000,0,0,0,0,0,21904,5476
+Avocado,Region X,Camiguin,1001800000,0,0,0,0,0,1720,430
+Avocado,Region X,Lanao del Norte,1003500000,0,0,0,0,0,23000,5800
+Avocado,Region X,Misamis Occidental,1004200000,0,0,0,0,0,6800,1700
+Avocado,Region X,Misamis Oriental,1004300000,0,0,0,0,0,12000,2900
+Avocado,Region XI,Davao de Oro,1108200000,0,0,0,0,0,6179,1709
+Avocado,Region XI,Davao del Norte,1102300000,0,0,0,0,0,18201,4546
+Avocado,Region XI,Davao del Sur,1102400000,0,0,0,0,0,9232,757
+Avocado,Region XI,Davao Occidental,1108600000,0,0,0,0,0,500,125
+Avocado,Region XI,Davao Oriental,1102500000,0,0,0,0,0,3536,884
+Avocado,Region XI,City of Davao,1130700000,0,0,0,0,0,18613,6204
+Avocado,Region XII,Cotabato,1204700000,0,0,0,0,0,20750,5250
+Avocado,Region XII,Sarangani,1208000000,0,0,0,0,0,5008,1195
+Avocado,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,5600,1400
+Avocado,Region XII,South Cotabato,1206300000,0,0,0,0,0,89540,24225
+Avocado,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,14000,2310
+Avocado,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,38645,12785
+Avocado,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,1864,466
+Avocado,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,24000,6000
+Avocado,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,22800,5700
+Avocado,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0,1190
+Avocado,BARMM,Basilan,1900700000,0,0,0,0,0,6988,1747
+Avocado,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,2980,745
+Avocado,BARMM,Maguindanao,1908800000,0,0,0,0,0,0,0
+Avocado,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,16416,4702
+Avocado,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,7560,1890
+Avocado,BARMM,Sulu,0906600000,0,0,0,0,0,2520,0
+Avocado,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,5204,1300

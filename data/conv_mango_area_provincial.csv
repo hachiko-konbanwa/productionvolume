@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Mango,Cordillera Administrative Region (CAR),Abra,1400100000,0,0,0,0,0,526.59,134.9
+Mango,Cordillera Administrative Region (CAR),Apayao,1408100000,0,0,0,0,0,536,125.3
+Mango,Cordillera Administrative Region (CAR),Benguet,1401100000,0,0,0,0,0,958.84,239.71
+Mango,Cordillera Administrative Region (CAR),Ifugao,1402700000,0,0,0,0,0,459.49,115.82
+Mango,Cordillera Administrative Region (CAR),Kalinga,1403200000,0,0,0,0,0,432,108
+Mango,Cordillera Administrative Region (CAR),Mountain Province,1404400000,0,0,0,0,0,402.65,103.63
+Mango,Region I (Ilocos Region),Ilocos Norte,0102800000,0,0,0,0,0,18995.24,4750.31
+Mango,Region I (Ilocos Region),Ilocos Sur,0102900000,0,0,0,0,0,5184,1297
+Mango,Region I (Ilocos Region),La Union,0103300000,0,0,0,0,0,9833.32,2441.03
+Mango,Region I (Ilocos Region),Pangasinan,0105500000,0,0,0,0,0,52695,10949
+Mango,Region II (Cagayan Valley),Batanes,0200900000,0,0,0,0,0,52,13
+Mango,Region II (Cagayan Valley),Cagayan,0201500000,0,0,0,0,0,9798,2449.5
+Mango,Region II (Cagayan Valley),Isabela,0203100000,0,0,0,0,0,12467.2,3116.8
+Mango,Region II (Cagayan Valley),Nueva Vizcaya,0205000000,0,0,0,0,0,15078,3769.5
+Mango,Region II (Cagayan Valley),Quirino,0205700000,0,0,0,0,0,3714.08,928.52
+Mango,Region III (Central Luzon),Aurora,0307700000,0,0,0,0,0,47.68,11.92
+Mango,Region III (Central Luzon),Bataan,0300800000,0,0,0,0,0,4140.36,1032
+Mango,Region III (Central Luzon),Bulacan,0301400000,0,0,0,0,0,35488,8872
+Mango,Region III (Central Luzon),Nueva Ecija,0304900000,0,0,0,0,0,40802.36,10200.59
+Mango,Region III (Central Luzon),Pampanga,0305400000,0,0,0,0,0,5137.85,1277.29
+Mango,Region III (Central Luzon),Tarlac,0306900000,0,0,0,0,0,13314.52,3328.63
+Mango,Region III (Central Luzon),Zambales,0307100000,0,0,0,0,0,34635.96,8658.99
+Mango,Region IV-A (CALABARZON),Batangas,0401000000,0,0,0,0,0,43217.92,10804.48
+Mango,Region IV-A (CALABARZON),Cavite,0402100000,0,0,0,0,0,4465.4,1113.35
+Mango,Region IV-A (CALABARZON),Laguna,0403400000,0,0,0,0,0,544,136
+Mango,Region IV-A (CALABARZON),Quezon,0405600000,0,0,0,0,0,2758.06,691
+Mango,Region IV-A (CALABARZON),Rizal,0405800000,0,0,0,0,0,3502.02,878.54
+Mango,MIMAROPA Region,Marinduque,1704000000,0,0,0,0,0,668,167
+Mango,MIMAROPA Region,Occidental Mindoro,1705100000,0,0,0,0,0,1506.2,376.55
+Mango,MIMAROPA Region,Oriental Mindoro,1705200000,0,0,0,0,0,770.16,192.54
+Mango,MIMAROPA Region,Palawan,1705300000,0,0,0,0,0,5721.86,1251.65
+Mango,MIMAROPA Region,Romblon,1705900000,0,0,0,0,0,3150.57,787.5
+Mango,MIMAROPA Region,City of Puerto Princesa,1731500000,0,0,0,0,0,0,42.26
+Mango,Region V (Bicol Region),Albay,0500500000,0,0,0,0,0,212.08,53.81
+Mango,Region V (Bicol Region),Camarines Norte,0501600000,0,0,0,0,0,493.8,123.45
+Mango,Region V (Bicol Region),Camarines Sur,0501700000,0,0,0,0,0,1282.56,320.64
+Mango,Region V (Bicol Region),Catanduanes,0502000000,0,0,0,0,0,78.55,19.66
+Mango,Region V (Bicol Region),Masbate,0504100000,0,0,0,0,0,5077.44,1231.71
+Mango,Region V (Bicol Region),Sorsogon,0506200000,0,0,0,0,0,943,235
+Mango,Region VI (Western Visayas),Aklan,0600400000,0,0,0,0,0,1228.86,311.34
+Mango,Region VI (Western Visayas),Antique,0600600000,0,0,0,0,0,1440.04,360.25
+Mango,Region VI (Western Visayas),Capiz,0601900000,0,0,0,0,0,316,78
+Mango,Region VI (Western Visayas),Guimaras,0607900000,0,0,0,0,0,12953.56,3243.78
+Mango,Region VI (Western Visayas),Iloilo,0603000000,0,0,0,0,0,15071,3768
+Mango,Region VI (Western Visayas),Negros Occidental,1804500000,0,0,0,0,0,0,0
+Mango,Region VI (Western Visayas),Negros Occidental,1804500000,0,0,0,0,0,11276,2819
+Mango,Negros Island Region (NIR),Negros Oriental,1804600000,0,0,0,0,0,16879.92,4219.98
+Mango,Negros Island Region (NIR),Siquijor,1806100000,0,0,0,0,0,781.5,195.5
+Mango,Negros Island Region (NIR),City of Bacolod,1830200000,0,0,0,0,0,0,0
+Mango,Region VII (Central Visayas),Bohol,0701200000,0,0,0,0,0,6211.8,1555.04
+Mango,Region VII (Central Visayas),Cebu,0702200000,0,0,0,0,0,20848.12,5212.03
+Mango,Negros Island Region (NIR),Negros Oriental,1804600000,0,0,0,0,0,0,0
+Mango,Negros Island Region (NIR),Siquijor,1806100000,0,0,0,0,0,0,0
+Mango,Region VIII (Eastern Visayas),Biliran,0807800000,0,0,0,0,0,532.68,133.17
+Mango,Region VIII (Eastern Visayas),Eastern Samar,0802600000,0,0,0,0,0,396.04,99.01
+Mango,Region VIII (Eastern Visayas),Leyte,0803700000,0,0,0,0,0,700.5,173.3
+Mango,Region VIII (Eastern Visayas),Northern Samar,0804800000,0,0,0,0,0,356.48,89.62
+Mango,Region VIII (Eastern Visayas),Samar,0806000000,0,0,0,0,0,270.52,67.63
+Mango,Region VIII (Eastern Visayas),Southern Leyte,0806400000,0,0,0,0,0,539.89,135.13
+Mango,Region IX (Zamboanga Peninsula),Sulu,0906600000,0,0,0,0,0,0,1354.02
+Mango,Region IX (Zamboanga Peninsula),Zamboanga del Norte,0907200000,0,0,0,0,0,41263.97,10315.97
+Mango,Region IX (Zamboanga Peninsula),Zamboanga del Sur,0907300000,0,0,0,0,0,7895.25,1285.75
+Mango,Region IX (Zamboanga Peninsula),Zamboanga Sibugay,0908300000,0,0,0,0,0,2252.8,563.2
+Mango,Region IX (Zamboanga Peninsula),City of Zamboanga,0907400000,0,0,0,0,0,7098,2368.19
+Mango,Region X (Northern Mindanao),Bukidnon,1001300000,0,0,0,0,0,9402.32,2350.58
+Mango,Region X (Northern Mindanao),Camiguin,1001800000,0,0,0,0,0,481.32,120.33
+Mango,Region X (Northern Mindanao),Lanao del Norte,1003500000,0,0,0,0,0,8222,2055.5
+Mango,Region X (Northern Mindanao),Misamis Occidental,1004200000,0,0,0,0,0,9400.72,2350.18
+Mango,Region X (Northern Mindanao),Misamis Oriental,1004300000,0,0,0,0,0,8071.48,2017.87
+Mango,Region XI (Davao Region),Davao de Oro,1108200000,0,0,0,0,0,1642.04,410.66
+Mango,Region XI (Davao Region),Davao del Norte,1102300000,0,0,0,0,0,6067.99,1517.3
+Mango,Region XI (Davao Region),Davao del Sur,1102400000,0,0,0,0,0,48209.13,11563.24
+Mango,Region XI (Davao Region),Davao Occidental,1108600000,0,0,0,0,0,7665.56,1916.39
+Mango,Region XI (Davao Region),Davao Oriental,1102500000,0,0,0,0,0,4954,1236
+Mango,Region XI (Davao Region),City of Davao,1130700000,0,0,0,0,0,5868.51,1956.17
+Mango,Region XII (SOCCSKSARGEN),Cotabato,1204700000,0,0,0,0,0,26272,6568
+Mango,Region XII (SOCCSKSARGEN),Sarangani,1208000000,0,0,0,0,0,16637.6,4001.36
+Mango,Region XII (SOCCSKSARGEN),Sultan Kudarat,1206500000,0,0,0,0,0,5582.68,1395.67
+Mango,Region XII (SOCCSKSARGEN),South Cotabato,1206300000,0,0,0,0,0,16408.87,4106
+Mango,Region XIII (Caraga),Agusan del Norte,1600200000,0,0,0,0,0,6902.4,1153.48
+Mango,Region XIII (Caraga),Agusan del Sur,1600300000,0,0,0,0,0,1072.76,274.38
+Mango,Region XIII (Caraga),Dinagat Islands,1608500000,0,0,0,0,0,160.44,40.11
+Mango,Region XIII (Caraga),Surigao del Norte,1606700000,0,0,0,0,0,976.32,244.08
+Mango,Region XIII (Caraga),Surigao del Sur,1606800000,0,0,0,0,0,1372,343
+Mango,Region XIII (Caraga),City of Butuan,1630400000,0,0,0,0,0,0,594.21
+Mango,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)3,Basilan,1900700000,0,0,0,0,0,386.6,99.67
+Mango,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)4,Lanao del Sur,1903600000,0,0,0,0,0,190.79,47.67
+Mango,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)5,Maguindanao,1908800000,0,0,0,0,0,0,0
+Mango,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)6,Maguindanao del Norte,1908700000,0,0,0,0,0,15815.44,4375.73
+Mango,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)7,Maguindanao del Sur,1908800000,0,0,0,0,0,11327,2831.75
+Mango,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)8,Sulu,0906600000,0,0,0,0,0,5412.08,0
+Mango,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)9,Tawi-tawi,1907000000,0,0,0,0,0,1612.54,414.49

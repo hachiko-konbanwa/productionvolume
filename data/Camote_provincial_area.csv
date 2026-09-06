@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Camote,CAR,Abra,1400100000,0,0,0,0,0,95.00,16.50
+Camote,CAR,Apayao,1408100000,0,0,0,0,0,34.04,8.60
+Camote,CAR,Benguet,1401100000,0,0,0,0,0,237.70,45.00
+Camote,CAR,Ifugao,1402700000,0,0,0,0,0,34.68,7.75
+Camote,CAR,Kalinga,1403200000,0,0,0,0,0,56.50,5.96
+Camote,CAR,Mountain Province,1404400000,0,0,0,0,0,234.46,36.46
+Camote,Region I,Ilocos Norte,0102800000,0,0,0,0,0,350.99,129.89
+Camote,Region I,Ilocos Sur,0102900000,0,0,0,0,0,348.57,137.27
+Camote,Region I,La Union,0103300000,0,0,0,0,0,574.86,140.15
+Camote,Region I,Pangasinan,0105500000,0,0,0,0,0,1471.00,922.00
+Camote,Region II,Batanes,0200900000,0,0,0,0,0,148.45,88.00
+Camote,Region II,Cagayan,0201500000,0,0,0,0,0,420.27,75.00
+Camote,Region II,Isabela,0203100000,0,0,0,0,0,38.16,26.50
+Camote,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,1318.21,204.30
+Camote,Region II,Quirino,0205700000,0,0,0,0,0,36.44,11.58
+Camote,Region III,Aurora,0307700000,0,0,0,0,0,770.77,0.82
+Camote,Region III,Bataan,0300800000,0,0,0,0,0,25.62,4.62
+Camote,Region III,Bulacan,0301400000,0,0,0,0,0,65.66,32.16
+Camote,Region III,Nueva Ecija,0304900000,0,0,0,0,0,271.04,15.25
+Camote,Region III,Pampanga,0305400000,0,0,0,0,0,704.71,204.71
+Camote,Region III,Tarlac,0306900000,0,0,0,0,0,4212.50,324.07
+Camote,Region III,Zambales,0307100000,0,0,0,0,0,917.56,143.33
+Camote,Region IV-A,Batangas,0401000000,0,0,0,0,0,95.51,10.61
+Camote,Region IV-A,Cavite,0402100000,0,0,0,0,0,127.95,46.50
+Camote,Region IV-A,Laguna,0403400000,0,0,0,0,0,177.74,48.35
+Camote,Region IV-A,Quezon,0405600000,0,0,0,0,0,3294.00,1261.00
+Camote,Region IV-A,Rizal,0405800000,0,0,0,0,0,39.45,20.00
+Camote,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,177.81,9.76
+Camote,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,494.69,2.10
+Camote,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,619.32,59.63
+Camote,MIMAROPA,Palawan,1705300000,0,0,0,0,0,816.30,355.61
+Camote,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0.00,12.03
+Camote,MIMAROPA,Romblon,1705900000,0,0,0,0,0,139.40,38.42
+Camote,Region V,Albay,0500500000,0,0,0,0,0,2193.54,380.00
+Camote,Region V,Camarines Norte,0501600000,0,0,0,0,0,302.40,1.63
+Camote,Region V,Camarines Sur,0501700000,0,0,0,0,0,2838.72,895.83
+Camote,Region V,Catanduanes,0502000000,0,0,0,0,0,1480.98,375.29
+Camote,Region V,Masbate,0504100000,0,0,0,0,0,1459.78,411.77
+Camote,Region V,Sorsogon,0506200000,0,0,0,0,0,448.32,80.00
+Camote,Region VI,Aklan,0600400000,0,0,0,0,0,412.72,36.00
+Camote,Region VI,Antique,0600600000,0,0,0,0,0,496.83,99.83
+Camote,Region VI,Capiz,0601900000,0,0,0,0,0,659.29,144.00
+Camote,Region VI,Guimaras,0607900000,0,0,0,0,0,254.86,155.00
+Camote,Region VI,Iloilo,0603000000,0,0,0,0,0,2024.49,1026.00
+Camote,NIR,Negros Occidental,1804500000,0,0,0,0,0,0.00,0
+Camote,NIR,Negros Occidental,1804500000,0,0,0,0,0,2424.00,316.00
+Camote,NIR,City of Bacolod,1830200000,0,0,0,0,0,0.00,0.00
+Camote,NIR,Negros Oriental,1804600000,0,0,0,0,0,2076.35,218.86
+Camote,NIR,Siquijor,1806100000,0,0,0,0,0,59.88,26.00
+Camote,Region VII,Bohol,0701200000,0,0,0,0,0,264.70,47.00
+Camote,Region VII,Cebu,0702200000,0,0,0,0,0,1997.60,312.58
+Camote,NIR,Negros Oriental,1804600000,0,0,0,0,0,0.00,0
+Camote,NIR,Siquijor,1806100000,0,0,0,0,0,0.00,0
+Camote,Region VIII,Biliran,0807800000,0,0,0,0,0,275.83,77.47
+Camote,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,1785.20,446.30
+Camote,Region VIII,Leyte,0803700000,0,0,0,0,0,6258.00,800.00
+Camote,Region VIII,Northern Samar,0804800000,0,0,0,0,0,7001.00,1397.00
+Camote,Region VIII,Samar,0806000000,0,0,0,0,0,1869.71,180.38
+Camote,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,1779.97,629.00
+Camote,Region IX,Sulu,0906600000,0,0,0,0,0,0.00,40.00
+Camote,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,203.45,53.00
+Camote,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,521.00,130.00
+Camote,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,295.18,98.00
+Camote,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,487.48,14.95
+Camote,Region X,Bukidnon,1001300000,0,0,0,0,0,895.51,179.19
+Camote,Region X,Camiguin,1001800000,0,0,0,0,0,121.59,43.53
+Camote,Region X,Lanao del Norte,1003500000,0,0,0,0,0,1668.00,338.00
+Camote,Region X,Misamis Occidental,1004200000,0,0,0,0,0,789.00,199.00
+Camote,Region X,Misamis Oriental,1004300000,0,0,0,0,0,258.00,61.00
+Camote,Region XI,Davao de Oro,1108200000,0,0,0,0,0,1126.89,294.96
+Camote,Region XI,Davao del Norte,1102300000,0,0,0,0,0,888.64,196.88
+Camote,Region XI,Davao del Sur,1102400000,0,0,0,0,0,522.30,111.12
+Camote,Region XI,City of Davao,1130700000,0,0,0,0,0,243.69,81.23
+Camote,Region XI,Davao Occidental,1108600000,0,0,0,0,0,380.40,27.49
+Camote,Region XI,Davao Oriental,1102500000,0,0,0,0,0,352.00,95.00
+Camote,Region XII,Cotabato,1204700000,0,0,0,0,0,585.40,90.17
+Camote,Region XII,Sarangani,1208000000,0,0,0,0,0,234.50,26.00
+Camote,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,117.00,45.00
+Camote,Region XII,South Cotabato,1206300000,0,0,0,0,0,66.09,24.67
+Camote,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,697.40,117.48
+Camote,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0.00,60.52
+Camote,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,3072.00,394.02
+Camote,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,63.70,10.56
+Camote,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,266.19,72.85
+Camote,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,4574.59,135.81
+Camote,BARMM,Basilan,1900700000,0,0,0,0,0,623.13,47.41
+Camote,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,601.00,176.20
+Camote,BARMM,Maguindanao,,0,0,0,0,0,115.44,25.83
+Camote,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,41.60,10.40
+Camote,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,73.84,15.43
+Camote,BARMM,Sulu,0906600000,0,0,0,0,0,137.67,0
+Camote,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,862.00,121.00

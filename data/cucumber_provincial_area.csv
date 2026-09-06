@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Cucumber,CAR,Abra,1400100000,0,0,0,0,0,25.45,8.00
+Cucumber,CAR,Apayao,1408100000,0,0,0,0,0,22.26,5.61
+Cucumber,CAR,Benguet,1401100000,0,0,0,0,0,290.00,100.00
+Cucumber,CAR,Ifugao,1402700000,0,0,0,0,0,63.18,36.13
+Cucumber,CAR,Kalinga,1403200000,0,0,0,0,0,0.00,0.15
+Cucumber,CAR,Mountain Province,1404400000,0,0,0,0,0,20.83,3.60
+Cucumber,Region I,Ilocos Norte,0102800000,0,0,0,0,0,49.23,9.77
+Cucumber,Region I,Ilocos Sur,0102900000,0,0,0,0,0,40.39,5.00
+Cucumber,Region I,La Union,0103300000,0,0,0,0,0,11.08,3.78
+Cucumber,Region I,Pangasinan,0105500000,0,0,0,0,0,10.25,1.10
+Cucumber,Region II,Batanes,0200900000,0,0,0,0,0,0.86,0.20
+Cucumber,Region II,Cagayan,0201500000,0,0,0,0,0,4.57,1.10
+Cucumber,Region II,Isabela,0203100000,0,0,0,0,0,2.93,0.72
+Cucumber,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,649.90,113.85
+Cucumber,Region II,Quirino,0205700000,0,0,0,0,0,5.95,3.15
+Cucumber,Region III,Aurora,0307700000,0,0,0,0,0,9.79,0.63
+Cucumber,Region III,Bataan,0300800000,0,0,0,0,0,42.44,0.58
+Cucumber,Region III,Bulacan,0301400000,0,0,0,0,0,48.85,6.80
+Cucumber,Region III,Nueva Ecija,0304900000,0,0,0,0,0,193.54,74.99
+Cucumber,Region III,Pampanga,0305400000,0,0,0,0,0,16.00,2.00
+Cucumber,Region III,Tarlac,0306900000,0,0,0,0,0,4.50,1.50
+Cucumber,Region III,Zambales,0307100000,0,0,0,0,0,6.83,0.91
+Cucumber,Region IV-A,Batangas,0401000000,0,0,0,0,0,62.62,3.99
+Cucumber,Region IV-A,Cavite,0402100000,0,0,0,0,0,42.66,3.90
+Cucumber,Region IV-A,Laguna,0403400000,0,0,0,0,0,61.05,18.23
+Cucumber,Region IV-A,Quezon,0405600000,0,0,0,0,0,78.00,25.00
+Cucumber,Region IV-A,Rizal,0405800000,0,0,0,0,0,4.23,0.80
+Cucumber,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,12.69,1.68
+Cucumber,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,15.01,3.87
+Cucumber,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,41.27,35.75
+Cucumber,MIMAROPA,Palawan,1705300000,0,0,0,0,0,40.72,12.17
+Cucumber,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0.00,8.76
+Cucumber,MIMAROPA,Romblon,1705900000,0,0,0,0,0,35.48,9.50
+Cucumber,Region V,Albay,0500500000,0,0,0,0,0,69.00,15.00
+Cucumber,Region V,Camarines Norte,0501600000,0,0,0,0,0,10.56,0.00
+Cucumber,Region V,Camarines Sur,0501700000,0,0,0,0,0,39.82,12.47
+Cucumber,Region V,Catanduanes,0502000000,0,0,0,0,0,27.01,5.89
+Cucumber,Region V,Masbate,0504100000,0,0,0,0,0,35.26,8.52
+Cucumber,Region V,Sorsogon,0506200000,0,0,0,0,0,7.00,0.24
+Cucumber,Region VI,Aklan,0600400000,0,0,0,0,0,20.09,8.53
+Cucumber,Region VI,Antique,0600600000,0,0,0,0,0,10.14,13.00
+Cucumber,Region VI,Capiz,0601900000,0,0,0,0,0,31.17,11.00
+Cucumber,Region VI,Guimaras,0607900000,0,0,0,0,0,16.45,5.45
+Cucumber,Region VI,Iloilo,0603000000,0,0,0,0,0,111.73,33.00
+Cucumber,NIR,Negros Occidental,1804500000,0,0,0,0,0,0.00,0
+Cucumber,NIR,Negros Occidental,1804500000,0,0,0,0,0,28.11,10.00
+Cucumber,NIR,City of Bacolod,1830200000,0,0,0,0,0,0.00,0.00
+Cucumber,NIR,Negros Oriental,1804600000,0,0,0,0,0,151.11,45.50
+Cucumber,NIR,Siquijor,1806100000,0,0,0,0,0,1.32,0.15
+Cucumber,Region VII,Bohol,0701200000,0,0,0,0,0,24.97,7.00
+Cucumber,Region VII,Cebu,0702200000,0,0,0,0,0,42.81,13.13
+Cucumber,NIR,Negros Oriental,1804600000,0,0,0,0,0,0.00,0
+Cucumber,NIR,Siquijor,1806100000,0,0,0,0,0,0.00,0
+Cucumber,Region VIII,Biliran,0807800000,0,0,0,0,0,6.67,1.99
+Cucumber,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,4.16,1.04
+Cucumber,Region VIII,Leyte,0803700000,0,0,0,0,0,81.70,20.50
+Cucumber,Region VIII,Northern Samar,0804800000,0,0,0,0,0,40.71,0.00
+Cucumber,Region VIII,Samar,0806000000,0,0,0,0,0,2.81,0.99
+Cucumber,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,16.94,5.34
+Cucumber,Region IX,Sulu,0906600000,0,0,0,0,0,0.00,25.00
+Cucumber,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,27.89,3.10
+Cucumber,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,83.71,12.60
+Cucumber,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,72.86,22.41
+Cucumber,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,19.87,4.15
+Cucumber,Region X,Bukidnon,1001300000,0,0,0,0,0,8.05,1.65
+Cucumber,Region X,Camiguin,1001800000,0,0,0,0,0,6.26,1.16
+Cucumber,Region X,Lanao del Norte,1003500000,0,0,0,0,0,96.75,13.50
+Cucumber,Region X,Misamis Occidental,1004200000,0,0,0,0,0,12.00,3.00
+Cucumber,Region X,Misamis Oriental,1004300000,0,0,0,0,0,117.00,15.00
+Cucumber,Region XI,Davao de Oro,1108200000,0,0,0,0,0,127.61,31.64
+Cucumber,Region XI,Davao del Norte,1102300000,0,0,0,0,0,39.18,11.74
+Cucumber,Region XI,Davao del Sur,1102400000,0,0,0,0,0,31.58,2.01
+Cucumber,Region XI,City of Davao,1130700000,0,0,0,0,0,82.26,27.42
+Cucumber,Region XI,Davao Occidental,1108600000,0,0,0,0,0,5.97,1.18
+Cucumber,Region XI,Davao Oriental,1102500000,0,0,0,0,0,20.00,4.00
+Cucumber,Region XII,Cotabato,1204700000,0,0,0,0,0,67.34,12.83
+Cucumber,Region XII,Sarangani,1208000000,0,0,0,0,0,22.36,1.50
+Cucumber,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,26.00,0.00
+Cucumber,Region XII,South Cotabato,1206300000,0,0,0,0,0,23.22,5.91
+Cucumber,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,65.20,10.76
+Cucumber,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0.00,5.54
+Cucumber,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,142.33,15.36
+Cucumber,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,4.34,0.18
+Cucumber,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,36.02,1.30
+Cucumber,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,5.97,0.33
+Cucumber,BARMM,Basilan,1900700000,0,0,0,0,0,25.22,29.33
+Cucumber,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,87.42,11.80
+Cucumber,BARMM,Maguindanao,,0,0,0,0,0,953.36,246.69
+Cucumber,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,42.40,10.60
+Cucumber,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,910.96,236.09
+Cucumber,BARMM,Sulu,0906600000,0,0,0,0,0,32.98,0
+Cucumber,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,41.00,10.75

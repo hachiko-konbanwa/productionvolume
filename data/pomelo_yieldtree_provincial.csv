@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Pomelo,CAR,Abra,1400100000,,,,,,0.01412879,0
+Pomelo,CAR,Apayao,1408100000,,,,,,0.0031037,0.00154019
+Pomelo,CAR,Benguet,1401100000,,,,,,0.018271,0.00953388
+Pomelo,CAR,Ifugao,1402700000,,,,,,0.00318654,0.00253846
+Pomelo,CAR,Kalinga,1403200000,,,,,,0.00354146,0.00170732
+Pomelo,CAR,Mountain Province,1404400000,,,,,,0.00376212,0
+Pomelo,Region I,Ilocos Norte,0102800000,,,,,,0.00532623,0.00312964
+Pomelo,Region I,Ilocos Sur,0102900000,,,,,,0.01394695,0.02426525
+Pomelo,Region I,La Union,0103300000,,,,,,0.00958899,0.00849864
+Pomelo,Region I,Pangasinan,0105500000,,,,,,0.01972307,0.02062445
+Pomelo,Region II,Batanes,0200900000,,,,,,0.00014621,0.00016606
+Pomelo,Region II,Cagayan,0201500000,,,,,,0.00436653,0.0062608
+Pomelo,Region II,Isabela,0203100000,,,,,,0.0232823,0.01215157
+Pomelo,Region II,Nueva Vizcaya,0205000000,,,,,,0.01450189,0.01726594
+Pomelo,Region II,Quirino,0205700000,,,,,,0.00827033,0.01152198
+Pomelo,Region III,Aurora,0307700000,,,,,,0.00977732,0.00260479
+Pomelo,Region III,Bataan,0300800000,,,,,,0.00355509,0.00121495
+Pomelo,Region III,Bulacan,0301400000,,,,,,0.01319222,0.00891981
+Pomelo,Region III,Nueva Ecija,0304900000,,,,,,0.00189286,0.00234286
+Pomelo,Region III,Pampanga,0305400000,,,,,,0.00437898,0.00819444
+Pomelo,Region III,Tarlac,0306900000,,,,,,0.00863014,0.00482192
+Pomelo,Region III,Zambales,0307100000,,,,,,0.00299798,0.00231777
+Pomelo,Region IV-A,Batangas,0401000000,,,,,,0.00489091,0.00078182
+Pomelo,Region IV-A,Cavite,0402100000,,,,,,0.00517442,0.01395349
+Pomelo,Region IV-A,Laguna,0403400000,,,,,,0.00527242,0.0015121
+Pomelo,Region IV-A,Quezon,0405600000,,,,,,0.0079482,0.00132615
+Pomelo,Region IV-A,Rizal,0405800000,,,,,,0.00575287,0.007
+Pomelo,MIMAROPA,Marinduque,1704000000,,,,,,0.01462632,0.00642105
+Pomelo,MIMAROPA,Occidental Mindoro,1705100000,,,,,,0.00279042,0.00935884
+Pomelo,MIMAROPA,Oriental Mindoro,1705200000,,,,,,0.00877463,0.00157292
+Pomelo,MIMAROPA,Palawan,1705300000,,,,,,0.00532968,0.00959882
+Pomelo,MIMAROPA,Romblon,1705900000,,,,,,0.01083174,0.00412046
+Pomelo,MIMAROPA,City of Puerto Princesa,1731500000,,,,,,,0.01864828
+Pomelo,Region V,Albay,0500500000,,,,,,0.01123,0.01123111
+Pomelo,Region V,Camarines Norte,0501600000,,,,,,0.05777535,0.00111888
+Pomelo,Region V,Camarines Sur,0501700000,,,,,,0.00282799,0.00241593
+Pomelo,Region V,Catanduanes,0502000000,,,,,,0.00278558,0
+Pomelo,Region V,Masbate,0504100000,,,,,,0.0300744,0.11458333
+Pomelo,Region V,Sorsogon,0506200000,,,,,,0.00316297,0.00688945
+Pomelo,Region VI,Aklan,0600400000,,,,,,0.01908403,0.00604853
+Pomelo,Region VI,Antique,0600600000,,,,,,0.00864357,0.00661673
+Pomelo,Region VI,Capiz,0601900000,,,,,,0.01156642,0.00902
+Pomelo,Region VI,Guimaras,0607900000,,,,,,0.00439727,0.0106499
+Pomelo,Region VI,Iloilo,0603000000,,,,,,0.00661522,0.00210764
+Pomelo,NIR,Negros Occidental,1804500000,,,,,,,
+Pomelo,NIR,Negros Occidental,1804500000,,,,,,0.00686514,0.00907888
+Pomelo,NIR,Negros Oriental,1804600000,,,,,,0.01429113,0.02426488
+Pomelo,NIR,Siquijor,1806100000,,,,,,0.00820408,0.0039187
+Pomelo,NIR,City of Bacolod,1830200000,,,,,,,
+Pomelo,Region VII,Bohol,0701200000,,,,,,0.00872319,0.00840081
+Pomelo,Region VII,Cebu,0702200000,,,,,,0.00506142,0.00002303
+Pomelo,NIR,Negros Oriental,1804600000,,,,,,,
+Pomelo,NIR,Siquijor,1806100000,,,,,,,
+Pomelo,Region VIII,Biliran,0807800000,,,,,,0.00245721,0.00125
+Pomelo,Region VIII,Eastern Samar,0802600000,,,,,,0.00292411,0.00133929
+Pomelo,Region VIII,Leyte,0803700000,,,,,,0.00572503,0.00090517
+Pomelo,Region VIII,Northern Samar,0804800000,,,,,,0.00066421,0.02156827
+Pomelo,Region VIII,Samar,0806000000,,,,,,0.015112,0
+Pomelo,Region VIII,Southern Leyte,0806400000,,,,,,0.02857746,0.02616901
+Pomelo,Region IX,Sulu,0906600000,,,,,,,
+Pomelo,Region IX,Zamboanga del Norte,0907200000,,,,,,0.00142243,0.00030784
+Pomelo,Region IX,Zamboanga del Sur,0907300000,,,,,,0.00556096,0.0067573
+Pomelo,Region IX,Zamboanga Sibugay,0908300000,,,,,,0.00904094,0.00062718
+Pomelo,Region IX,City of Zamboanga,0907400000,,,,,,0.0086386,0.01169765
+Pomelo,Region X,Bukidnon,1001300000,,,,,,0.00303897,0.00097602
+Pomelo,Region X,Camiguin,1001800000,,,,,,0.01263,0.01008
+Pomelo,Region X,Lanao del Norte,1003500000,,,,,,0.01727356,0.01201395
+Pomelo,Region X,Misamis Occidental,1004200000,,,,,,0.015375,0.00133
+Pomelo,Region X,Misamis Oriental,1004300000,,,,,,0.003044,0.00072267
+Pomelo,Region XI,Davao de Oro,1108200000,,,,,,0.00625,0.00121851
+Pomelo,Region XI,Davao del Norte,1102300000,,,,,,0.00710172,0.00311355
+Pomelo,Region XI,Davao del Sur,1102400000,,,,,,0.07956916,0.76852605
+Pomelo,Region XI,Davao Occidental,1108600000,,,,,,0.01413231,0.0177633
+Pomelo,Region XI,Davao Oriental,1102500000,,,,,,0.00331799,0.002995
+Pomelo,Region XI,City of Davao,1130700000,,,,,,0.00889705,0.00040938
+Pomelo,Region XII,Cotabato,1204700000,,,,,,0.016474,0.00687285
+Pomelo,Region XII,Sarangani,1208000000,,,,,,0.01950002,0.01513269
+Pomelo,Region XII,Sultan Kudarat,1206500000,,,,,,0.01491291,0.01318607
+Pomelo,Region XII,South Cotabato,1206300000,,,,,,0.01065732,0.01270786
+Pomelo,Region XIII,Agusan del Norte,1600200000,,,,,,0.00192778,0.00074074
+Pomelo,Region XIII,Agusan del Sur,1600300000,,,,,,0.00360301,0.00073418
+Pomelo,Region XIII,Dinagat Islands,1608500000,,,,,,0.00219,0
+Pomelo,Region XIII,Surigao del Norte,1606700000,,,,,,0.001324,0.007864
+Pomelo,Region XIII,Surigao del Sur,1606800000,,,,,,0.00180705,0.00057179
+Pomelo,Region XIII,City of Butuan,1630400000,,,,,,,0.00178105
+Pomelo,BARMM,Basilan,1900700000,,,,,,0.00169363,0
+Pomelo,BARMM,Lanao del Sur,1903600000,,,,,,0.03966216,0.05045045
+Pomelo,BARMM,Maguindanao,1908800000,,,,,,,
+Pomelo,BARMM,Maguindanao del Norte,1908700000,,,,,,0.00691794,0.00763359
+Pomelo,BARMM,Maguindanao del Sur,1908800000,,,,,,0.00930344,0.00954198
+Pomelo,Region IX,Sulu,0906600000,,,,,,,
+Pomelo,BARMM,Tawi-tawi,1907000000,,,,,,0.00329419,0

@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Pineapple Fiber,CAR,Abra,1400100000,0,0,0,0,0,0,0
+Pineapple Fiber,CAR,Apayao,1408100000,0,0,0,0,0,0,0
+Pineapple Fiber,CAR,Benguet,1401100000,0,0,0,0,0,0,0
+Pineapple Fiber,CAR,Ifugao,1402700000,0,0,0,0,0,0,0
+Pineapple Fiber,CAR,Kalinga,1403200000,0,0,0,0,0,0,0
+Pineapple Fiber,CAR,Mountain Province,1404400000,0,0,0,0,0,0,0
+Pineapple Fiber,Region I,Ilocos Norte,0102800000,0,0,0,0,0,0,0
+Pineapple Fiber,Region I,Ilocos Sur,0102900000,0,0,0,0,0,0,0
+Pineapple Fiber,Region I,La Union,0103300000,0,0,0,0,0,0,0
+Pineapple Fiber,Region I,Pangasinan,0105500000,0,0,0,0,0,0,0
+Pineapple Fiber,Region II,Batanes,0200900000,0,0,0,0,0,0,0
+Pineapple Fiber,Region II,Cagayan,0201500000,0,0,0,0,0,0,0
+Pineapple Fiber,Region II,Isabela,0203100000,0,0,0,0,0,0,0
+Pineapple Fiber,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,0,0
+Pineapple Fiber,Region II,Quirino,0205700000,0,0,0,0,0,0,0
+Pineapple Fiber,Region III,Aurora,0307700000,0,0,0,0,0,0,0
+Pineapple Fiber,Region III,Bataan,0300800000,0,0,0,0,0,0,0
+Pineapple Fiber,Region III,Bulacan,0301400000,0,0,0,0,0,0,0
+Pineapple Fiber,Region III,Nueva Ecija,0304900000,0,0,0,0,0,0,0
+Pineapple Fiber,Region III,Pampanga,0305400000,0,0,0,0,0,0,0
+Pineapple Fiber,Region III,Tarlac,0306900000,0,0,0,0,0,0,0
+Pineapple Fiber,Region III,Zambales,0307100000,0,0,0,0,0,0,0
+Pineapple Fiber,Region IV-A,Batangas,0401000000,0,0,0,0,0,0,0
+Pineapple Fiber,Region IV-A,Cavite,0402100000,0,0,0,0,2.45,0,0
+Pineapple Fiber,Region IV-A,Laguna,0403400000,0,0,0,0,0,0,0
+Pineapple Fiber,Region IV-A,Quezon,0405600000,0,0,0,0,0,0,0
+Pineapple Fiber,Region IV-A,Rizal,0405800000,0,0,0,0,0,0,0
+Pineapple Fiber,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,0,0
+Pineapple Fiber,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,0,0
+Pineapple Fiber,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,0,0
+Pineapple Fiber,MIMAROPA,Palawan,1705300000,0.92,1.24,0.92,30.15,28.47,29.03,1.82
+Pineapple Fiber,MIMAROPA,Romblon,1705900000,0,0,0,0,0,0,0
+Pineapple Fiber,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0,0
+Pineapple Fiber,Region V,Albay,0500500000,0,0,0,0,0,0,0
+Pineapple Fiber,Region V,Camarines Norte,0501600000,5.66,4.95,4.85,0,0,0,0
+Pineapple Fiber,Region V,Camarines Sur,0501700000,0,0,0,0,0,0,0
+Pineapple Fiber,Region V,Catanduanes,0502000000,0,0,0,0,0,0,0
+Pineapple Fiber,Region V,Masbate,0504100000,0,0,0,0,0,0,0
+Pineapple Fiber,Region V,Sorsogon,0506200000,0,0,0,0,0,0,0
+Pineapple Fiber,Region VI,Aklan,0600400000,36.31,36.21,36.45,37.47,34.41,27.50,1.39
+Pineapple Fiber,Region VI,Antique,0600600000,0,0,0,0,0,0,0
+Pineapple Fiber,Region VI,Capiz,0601900000,0,0,0,0,0,0,0
+Pineapple Fiber,Region VI,Guimaras,0607900000,0.82,1.07,1.32,1.39,1.28,1.79,0.50
+Pineapple Fiber,Region VI,Iloilo,0603000000,0,0,0,0,0,0,0
+Pineapple Fiber,NIR,Negros Occidental,1804500000,0,0,0,0,0,0,0
+Pineapple Fiber,NIR,Negros Occidental,1804500000,0,0,0,0,0.7,0.66,0.07
+Pineapple Fiber,NIR,Negros Oriental,1804600000,0,0,0,0,0,0,0
+Pineapple Fiber,NIR,Siquijor,1806100000,0,0,0,0,0,0,0
+Pineapple Fiber,NIR,City of Bacolod,1830200000,0,0,0,0,0,0,0
+Pineapple Fiber,Region VII,Bohol,0701200000,0,0,0,0,0,0,0
+Pineapple Fiber,Region VII,Cebu,0702200000,0,0,0,0,0,0,0
+Pineapple Fiber,NIR,Negros Oriental,1804600000,0,0,0,0,0,0,0
+Pineapple Fiber,NIR,Siquijor,1806100000,0,0,0,0,0,0,0
+Pineapple Fiber,Region VIII,Biliran,0807800000,0,0,0,0,0,0,0
+Pineapple Fiber,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,0,0
+Pineapple Fiber,Region VIII,Leyte,0803700000,0,0,0,0,0,0,0
+Pineapple Fiber,Region VIII,Northern Samar,0804800000,0,0,0,0,0,0,0
+Pineapple Fiber,Region VIII,Samar,0806000000,0,0,0,0,0,0,0
+Pineapple Fiber,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,0,0
+Pineapple Fiber,Region IX,Sulu,0906600000,0,0,0,0,0,0,0
+Pineapple Fiber,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,0,0
+Pineapple Fiber,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,0,0
+Pineapple Fiber,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,0,0
+Pineapple Fiber,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,0,0
+Pineapple Fiber,Region X,Bukidnon,1001300000,0,0,0,0,0,0,0
+Pineapple Fiber,Region X,Camiguin,1001800000,0,0,0,0,0,0,0
+Pineapple Fiber,Region X,Lanao del Norte,1003500000,0,0,0,0,0,0,0
+Pineapple Fiber,Region X,Misamis Occidental,1004200000,0,0,0,0,0,0,0
+Pineapple Fiber,Region X,Misamis Oriental,1004300000,0,0,0,0,0,0,0
+Pineapple Fiber,Region XI,Davao de Oro,1108200000,0,0,0,0,0,0,0
+Pineapple Fiber,Region XI,Davao del Norte,1102300000,0,0,0,0,0,0,0
+Pineapple Fiber,Region XI,Davao del Sur,1102400000,0,0,0,0,0,0,0
+Pineapple Fiber,Region XI,Davao Occidental,1108600000,0,0,0,0,0,0,0
+Pineapple Fiber,Region XI,Davao Oriental,1102500000,0,0,0,0,0,0,0
+Pineapple Fiber,Region XI,City of Davao,1130700000,0,0,0,0,0,0,0
+Pineapple Fiber,Region XII,Cotabato,1204700000,0,0,0,0,0,0,0
+Pineapple Fiber,Region XII,Sarangani,1208000000,0,0,0,0,0,0,0
+Pineapple Fiber,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,0,0
+Pineapple Fiber,Region XII,South Cotabato,1206300000,0,0,6.5,12.25,15.30,13.05,2.80
+Pineapple Fiber,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,0,0
+Pineapple Fiber,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,0,0
+Pineapple Fiber,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,0,0
+Pineapple Fiber,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,0,0
+Pineapple Fiber,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,0,0
+Pineapple Fiber,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0,0
+Pineapple Fiber,BARMM,Basilan,1900700000,0,0,0,0,0,0,0
+Pineapple Fiber,BARMM,Lanao del Sur,1903600000,0,0,0,13.5,0,56.79,0
+Pineapple Fiber,BARMM,Maguindanao,1908800000,0,0,0,0,0,0,0
+Pineapple Fiber,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,0,0
+Pineapple Fiber,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,0,0
+Pineapple Fiber,BARMM,Sulu,0906600000,0,0,0,0,0,0,0
+Pineapple Fiber,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,0,0

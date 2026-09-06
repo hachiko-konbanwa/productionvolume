@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Sitao [Stringbeans],Cordillera Administrative Region (CAR),Abra,1400100000,0,0,0,0,0,92.78,25
+Sitao [Stringbeans],Cordillera Administrative Region (CAR),Apayao,1408100000,0,0,0,0,0,21.28,4.07
+Sitao [Stringbeans],Cordillera Administrative Region (CAR),Benguet,1401100000,0,0,0,0,0,11.35,1
+Sitao [Stringbeans],Cordillera Administrative Region (CAR),Ifugao,1402700000,0,0,0,0,0,45.43,4.8
+Sitao [Stringbeans],Cordillera Administrative Region (CAR),Kalinga,1403200000,0,0,0,0,0,48.1,3
+Sitao [Stringbeans],Cordillera Administrative Region (CAR),Mountain Province,1404400000,0,0,0,0,0,9.16,0.51
+Sitao [Stringbeans],Region I (Ilocos Region),Ilocos Norte,0102800000,0,0,0,0,0,705.17,194.78
+Sitao [Stringbeans],Region I (Ilocos Region),Ilocos Sur,0102900000,0,0,0,0,0,387.3,112.61
+Sitao [Stringbeans],Region I (Ilocos Region),La Union,0103300000,0,0,0,0,0,444.28,177.83
+Sitao [Stringbeans],Region I (Ilocos Region),Pangasinan,0105500000,0,0,0,0,0,463,181
+Sitao [Stringbeans],Region II (Cagayan Valley),Batanes,0200900000,0,0,0,0,0,5.47,1.5
+Sitao [Stringbeans],Region II (Cagayan Valley),Cagayan,0201500000,0,0,0,0,0,1141.2,320
+Sitao [Stringbeans],Region II (Cagayan Valley),Isabela,0203100000,0,0,0,0,0,690.15,184.7
+Sitao [Stringbeans],Region II (Cagayan Valley),Nueva Vizcaya,0205000000,0,0,0,0,0,925.74,292.07
+Sitao [Stringbeans],Region II (Cagayan Valley),Quirino,0205700000,0,0,0,0,0,116.25,42.47
+Sitao [Stringbeans],Region III (Central Luzon),Aurora,0307700000,0,0,0,0,0,263.58,44.05
+Sitao [Stringbeans],Region III (Central Luzon),Bataan,0300800000,0,0,0,0,0,75.74,17.92
+Sitao [Stringbeans],Region III (Central Luzon),Bulacan,0301400000,0,0,0,0,0,1081.15,260
+Sitao [Stringbeans],Region III (Central Luzon),Nueva Ecija,0304900000,0,0,0,0,0,1311.22,313.06
+Sitao [Stringbeans],Region III (Central Luzon),Pampanga,0305400000,0,0,0,0,0,501.15,104.49
+Sitao [Stringbeans],Region III (Central Luzon),Tarlac,0306900000,0,0,0,0,0,58,13
+Sitao [Stringbeans],Region III (Central Luzon),Zambales,0307100000,0,0,0,0,0,21.29,8.68
+Sitao [Stringbeans],Region IV-A (CALABARZON),Batangas,0401000000,0,0,0,0,0,237.81,44.86
+Sitao [Stringbeans],Region IV-A (CALABARZON),Cavite,0402100000,0,0,0,0,0,60.38,19
+Sitao [Stringbeans],Region IV-A (CALABARZON),Laguna,0403400000,0,0,0,0,0,167,18.34
+Sitao [Stringbeans],Region IV-A (CALABARZON),Quezon,0405600000,0,0,0,0,0,1630,380.25
+Sitao [Stringbeans],Region IV-A (CALABARZON),Rizal,0405800000,0,0,0,0,0,103.34,10
+Sitao [Stringbeans],MIMAROPA Region,Marinduque,1704000000,0,0,0,0,0,54.2,15.18
+Sitao [Stringbeans],MIMAROPA Region,Occidental Mindoro,1705100000,0,0,0,0,0,305.66,17.78
+Sitao [Stringbeans],MIMAROPA Region,Oriental Mindoro,1705200000,0,0,0,0,0,214.63,66.4
+Sitao [Stringbeans],MIMAROPA Region,Palawan,1705300000,0,0,0,0,0,103.18,26.02
+Sitao [Stringbeans],MIMAROPA Region,City of Puerto Princesa,1731500000,0,0,0,0,0,0,11.4
+Sitao [Stringbeans],MIMAROPA Region,Romblon,1705900000,0,0,0,0,0,58.2,23.75
+Sitao [Stringbeans],Region V (Bicol Region),Albay,0500500000,0,0,0,0,0,882,250
+Sitao [Stringbeans],Region V (Bicol Region),Camarines Norte,0501600000,0,0,0,0,0,361.08,8.01
+Sitao [Stringbeans],Region V (Bicol Region),Camarines Sur,0501700000,0,0,0,0,0,262.25,89.75
+Sitao [Stringbeans],Region V (Bicol Region),Catanduanes,0502000000,0,0,0,0,0,23.37,8.3
+Sitao [Stringbeans],Region V (Bicol Region),Masbate,0504100000,0,0,0,0,0,375.4,95
+Sitao [Stringbeans],Region V (Bicol Region),Sorsogon,0506200000,0,0,0,0,0,98.08,15
+Sitao [Stringbeans],Region VI (Western Visayas),Aklan,0600400000,0,0,0,0,0,58.99,25
+Sitao [Stringbeans],Region VI (Western Visayas),Antique,0600600000,0,0,0,0,0,139.29,31.07
+Sitao [Stringbeans],Region VI (Western Visayas),Capiz,0601900000,0,0,0,0,0,57.38,21
+Sitao [Stringbeans],Region VI (Western Visayas),Guimaras,0607900000,0,0,0,0,0,53.15,15.14
+Sitao [Stringbeans],Region VI (Western Visayas),Iloilo,0603000000,0,0,0,0,0,343.68,86
+Sitao [Stringbeans],Region VI (Western Visayas),Negros Occidental,1804500000,0,0,0,0,0,0,0
+Sitao [Stringbeans],Region VI (Western Visayas),Negros Occidental a/,1804500000,0,0,0,0,0,497,79
+Sitao [Stringbeans],Negros Island Region (NIR),City of Bacolod,1830200000,0,0,0,0,0,0,0.02
+Sitao [Stringbeans],Negros Island Region (NIR),Negros Oriental b/,1804600000,0,0,0,0,0,258.68,27.83
+Sitao [Stringbeans],Negros Island Region (NIR),Siquijor b/,1806100000,0,0,0,0,0,6.5,0.9
+Sitao [Stringbeans],Region VII (Central Visayas),Bohol,0701200000,0,0,0,0,0,106.18,14
+Sitao [Stringbeans],Region VII (Central Visayas),Cebu,0702200000,0,0,0,0,0,346.02,50.5
+Sitao [Stringbeans],Negros Island Region (NIR),Negros Oriental,1804600000,0,0,0,0,0,0,0
+Sitao [Stringbeans],Negros Island Region (NIR),Siquijor,1806100000,0,0,0,0,0,0,0
+Sitao [Stringbeans],Region VIII (Eastern Visayas),Biliran,0807800000,0,0,0,0,0,7.61,1.55
+Sitao [Stringbeans],Region VIII (Eastern Visayas),Eastern Samar,0802600000,0,0,0,0,0,35.72,8.93
+Sitao [Stringbeans],Region VIII (Eastern Visayas),Leyte,0803700000,0,0,0,0,0,386,23
+Sitao [Stringbeans],Region VIII (Eastern Visayas),Northern Samar,0804800000,0,0,0,0,0,36.19,10.25
+Sitao [Stringbeans],Region VIII (Eastern Visayas),Samar,0806000000,0,0,0,0,0,70.4,13.39
+Sitao [Stringbeans],Region VIII (Eastern Visayas),Southern Leyte,0806400000,0,0,0,0,0,84.24,18.93
+Sitao [Stringbeans],Region IX (Zamboanga Peninsula),Sulu c/,0906600000,0,0,0,0,0,0,24.5
+Sitao [Stringbeans],Region IX (Zamboanga Peninsula),Zamboanga del Norte,0907200000,0,0,0,0,0,234.03,32
+Sitao [Stringbeans],Region IX (Zamboanga Peninsula),Zamboanga del Sur,0907300000,0,0,0,0,0,133.71,29.17
+Sitao [Stringbeans],Region IX (Zamboanga Peninsula),City of Zamboanga,0907400000,0,0,0,0,0,117.09,38.57
+Sitao [Stringbeans],Region IX (Zamboanga Peninsula),Zamboanga Sibugay,0908300000,0,0,0,0,0,130.13,79.89
+Sitao [Stringbeans],Region X (Northern Mindanao),Bukidnon,1001300000,0,0,0,0,0,67.58,12.92
+Sitao [Stringbeans],Region X (Northern Mindanao),Camiguin,1001800000,0,0,0,0,0,10.73,1.69
+Sitao [Stringbeans],Region X (Northern Mindanao),Lanao del Norte,1003500000,0,0,0,0,0,49.61,4.32
+Sitao [Stringbeans],Region X (Northern Mindanao),Misamis Occidental,1004200000,0,0,0,0,0,82,20.5
+Sitao [Stringbeans],Region X (Northern Mindanao),Misamis Oriental,1004300000,0,0,0,0,0,460,77
+Sitao [Stringbeans],Region XI (Davao Region),Davao de Oro,1108200000,0,0,0,0,0,418.62,97.1
+Sitao [Stringbeans],Region XI (Davao Region),Davao del Norte,1102300000,0,0,0,0,0,669.6,197.89
+Sitao [Stringbeans],Region XI (Davao Region),Davao del Sur,1102400000,0,0,0,0,0,1306.31,66.45
+Sitao [Stringbeans],Region XI (Davao Region),City of Davao,1130700000,0,0,0,0,0,2.2,1.1
+Sitao [Stringbeans],Region XI (Davao Region),Davao Occidental,1108600000,0,0,0,0,0,35.32,5.97
+Sitao [Stringbeans],Region XI (Davao Region),Davao Oriental,1102500000,0,0,0,0,0,130,35.17
+Sitao [Stringbeans],Region XII (SOCCSKSARGEN),Cotabato,1204700000,0,0,0,0,0,96.99,20.59
+Sitao [Stringbeans],Region XII (SOCCSKSARGEN),Sarangani,1208000000,0,0,0,0,0,111.38,10
+Sitao [Stringbeans],Region XII (SOCCSKSARGEN),Sultan Kudarat,1206500000,0,0,0,0,0,18.02,17.3
+Sitao [Stringbeans],Region XII (SOCCSKSARGEN),South Cotabato,1206300000,0,0,0,0,0,79.73,29.35
+Sitao [Stringbeans],Region XIII (Caraga),Agusan del Norte,1600200000,0,0,0,0,0,93.65,18.05
+Sitao [Stringbeans],Region XIII (Caraga),City of Butuan,1630400000,0,0,0,0,0,0,9.3
+Sitao [Stringbeans],Region XIII (Caraga),Agusan del Sur,1600300000,0,0,0,0,0,117.78,44.21
+Sitao [Stringbeans],Region XIII (Caraga),Dinagat Islands,1608500000,0,0,0,0,0,6.07,0.78
+Sitao [Stringbeans],Region XIII (Caraga),Surigao del Norte,1606700000,0,0,0,0,0,29.07,1.92
+Sitao [Stringbeans],Region XIII (Caraga),Surigao del Sur,1606800000,0,0,0,0,0,54.77,7.37
+Sitao [Stringbeans],Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)3,Basilan,1900700000,0,0,0,0,0,31,7
+Sitao [Stringbeans],Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)4,Lanao del Sur,1903600000,0,0,0,0,0,8.4,3.05
+Sitao [Stringbeans],Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)5,Maguindanao,,0,0,0,0,0,156.86,63.43
+Sitao [Stringbeans],Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)6,Maguindanao del Norte,1908700000,0,0,0,0,0,84.02,34.44
+Sitao [Stringbeans],Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)7,Maguindanao del Sur,1908800000,0,0,0,0,0,72.84,28.99
+Sitao [Stringbeans],Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)8,Sulu,0906600000,0,0,0,0,0,75.52,0
+Sitao [Stringbeans],Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)9,Tawi-tawi,1907000000,0,0,0,0,0,11.5,3

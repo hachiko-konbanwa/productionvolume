@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Banana Cavendish,CAR,Abra,1400100000,0,0,0,0,0,0,0
+Banana Cavendish,CAR,Apayao,1408100000,0,0,0,0,0,0,0
+Banana Cavendish,CAR,Benguet,1401100000,0,0,0,0,0,0,0
+Banana Cavendish,CAR,Ifugao,1402700000,0,0,0,10.45,90.74,20.25,1.1
+Banana Cavendish,CAR,Kalinga,1403200000,0,0,0,0,0,0,0
+Banana Cavendish,CAR,Mountain Province,1404400000,0,0,0,0,0,1.34,0
+Banana Cavendish,Region I,Ilocos Norte,0102800000,0,0,0,0,0,0,0
+Banana Cavendish,Region I,Ilocos Sur,0102900000,0,0,0,1.48,0.38,7.48,1.87
+Banana Cavendish,Region I,La Union,0103300000,0,0,0,0,0,0,0
+Banana Cavendish,Region I,Pangasinan,0105500000,0,0,0,0.76,0.8,0,0
+Banana Cavendish,Region II,Batanes,0200900000,0,0,0,0,0,0,0
+Banana Cavendish,Region II,Cagayan,0201500000,0,0,0,0,3.24,0,0
+Banana Cavendish,Region II,Isabela,0203100000,0,0,0,0,12.75,23.39,1.23
+Banana Cavendish,Region II,Nueva Vizcaya,0205000000,334.59,353.86,377.17,377.16,345.37,300.73,63.01
+Banana Cavendish,Region II,Quirino,0205700000,0,0,0,0,0,0,0
+Banana Cavendish,Region III,Aurora,0307700000,0,0,0,0,0,0,0
+Banana Cavendish,Region III,Bataan,0300800000,0,0,0,0,0,0,0
+Banana Cavendish,Region III,Bulacan,0301400000,0,0,0,0,0,0,0
+Banana Cavendish,Region III,Nueva Ecija,0304900000,0,0,0,0,0,0,0
+Banana Cavendish,Region III,Pampanga,0305400000,0,0,0,0,0,0,0
+Banana Cavendish,Region III,Tarlac,0306900000,0,0,0,0,0,2.64,0
+Banana Cavendish,Region III,Zambales,0307100000,0,0,0,0,0,0,0
+Banana Cavendish,Region IV-A,Batangas,0401000000,0,0,0,0,0,0,0
+Banana Cavendish,Region IV-A,Cavite,0402100000,1.6,1.45,1.82,1.67,2.86,4.99,0
+Banana Cavendish,Region IV-A,Laguna,0403400000,1035.81,540.67,967.75,537.31,370.4,0,0
+Banana Cavendish,Region IV-A,Quezon,0405600000,0,0,0,0,0,0,0
+Banana Cavendish,Region IV-A,Rizal,0405800000,0,0,0,0,0,0,0
+Banana Cavendish,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,0,0
+Banana Cavendish,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,0,0.97
+Banana Cavendish,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,0,1.41
+Banana Cavendish,MIMAROPA,Palawan,1705300000,230.7,0,0,0,0,0,0
+Banana Cavendish,MIMAROPA,Romblon,1705900000,0,0,0,3,11.55,0.03,0
+Banana Cavendish,,City of Puerto Princesa,1731500000,0,0,0,0,0,0,0
+Banana Cavendish,Region V,Albay,0500500000,0,0,0,0,3.29,7.36,0
+Banana Cavendish,Region V,Camarines Norte,0501600000,0,0,0,72.06,0,0,0
+Banana Cavendish,Region V,Camarines Sur,0501700000,0,0,0,0,1,0,0
+Banana Cavendish,Region V,Catanduanes,0502000000,0,0,0,0,9.5,5.7,0.04
+Banana Cavendish,Region V,Masbate,0504100000,0,0,0,0,0,0,0
+Banana Cavendish,Region V,Sorsogon,0506200000,0,0,0,0,0,0,0
+Banana Cavendish,Region VI,Aklan,0600400000,21.25,25.78,25.8,23.51,26.88,27.41,4.22
+Banana Cavendish,Region VI,Antique,0600600000,21.11,21.39,20.8,21.03,18.76,15.62,2.01
+Banana Cavendish,Region VI,Capiz,0601900000,12.8,15.06,16.62,17.04,16.87,13.34,2.51
+Banana Cavendish,Region VI,Guimaras,0607900000,3.58,1.17,0.92,0.81,1.17,1.19,0.11
+Banana Cavendish,Region VI,Iloilo,0603000000,1128.78,1281.11,1290.31,1206.61,1180.62,1234.19,214.95
+Banana Cavendish,NIR,Negros Occidental,1804500000,3893.48,3876.6,4307.79,4203.78,0,0,0
+Banana Cavendish,NIR,Negros Occidental,1804500000,0,0,0,0,3550.72,2806.49,197.38
+Banana Cavendish,NIR,Negros Oriental,1804600000,0,0,0,0,188.25,254.33,96.01
+Banana Cavendish,NIR,Siquijor,1806100000,0,0,0,0,16.4,17.25,4.94
+Banana Cavendish,,City of Bacolod,1830200000,0,0,0,0,0,0,0
+Banana Cavendish,Region VII,Bohol,0701200000,477.37,404.32,122.86,282.98,397.9,514.85,117.82
+Banana Cavendish,Region VII,Cebu,0702200000,35.84,36.73,31,35.73,32.74,33.88,15.2
+Banana Cavendish,NIR,Negros Oriental,1804600000,138.27,142.78,91.38,138.98,0,0,0
+Banana Cavendish,NIR,Siquijor,1806100000,10.31,17.19,16.45,20.45,0,0,0
+Banana Cavendish,Region VIII,Biliran,0807800000,0,0,0,0,5.36,0,0
+Banana Cavendish,Region VIII,Eastern Samar,0802600000,0,0,0,0.56,0.64,52.99,40
+Banana Cavendish,Region VIII,Leyte,0803700000,84.92,87.69,86.82,81.57,83.85,82.98,14.5
+Banana Cavendish,Region VIII,Northern Samar,0804800000,0,0,0,0,59.53,0,0
+Banana Cavendish,Region VIII,Samar,0806000000,0,0,0,0,0,0,0
+Banana Cavendish,Region VIII,Southern Leyte,0806400000,0,0,0,31.8,48.91,140.97,2.48
+Banana Cavendish,Region IX,Sulu,0906600000,0,0,0,0,0,0,0
+Banana Cavendish,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,37.4,74.99,19.16
+Banana Cavendish,Region IX,Zamboanga del Sur,0907300000,139.95,139.56,141.78,124.45,113.56,166.38,19.45
+Banana Cavendish,Region IX,Zamboanga Sibugay,0908300000,28.71,28.6,27.98,29.15,28.45,27.43,3.68
+Banana Cavendish,,City of Zamboanga,0907400000,0,0,0,0,0,0,0
+Banana Cavendish,Region X,Bukidnon,1001300000,1326072,1352961.43,1355214.75,1352367.08,1315932,1284256.79,320225.66
+Banana Cavendish,Region X,Camiguin,1001800000,10.76,11.79,11.21,24.05,54.95,84.88,20.81
+Banana Cavendish,Region X,Lanao del Norte,1003500000,0,0,0,0,0,0,0
+Banana Cavendish,Region X,Misamis Occidental,1004200000,458.32,483.5,535.43,531.91,529.2,539.99,320.5
+Banana Cavendish,Region X,Misamis Oriental,1004300000,11256.48,11161.53,12251.96,13652.26,11407.7,11798.7,4209.03
+Banana Cavendish,Region XI,Davao de Oro,1108200000,654373.28,654883.6,645983.71,639346.41,597151.3,595192.85,114195.66
+Banana Cavendish,Region XI,Davao del Norte,1102300000,1410504.68,1375693.56,1372683.13,1379656.49,1370909.89,1371752.65,309654.69
+Banana Cavendish,Region XI,Davao del Sur,1102400000,167890.23,169360.81,165249.48,367430.02,355592.25,221792.33,42460.79
+Banana Cavendish,Region XI,Davao Occidental,1108600000,24411.55,24630.56,25955.38,26877.12,26601.38,33127.13,9879.27
+Banana Cavendish,Region XI,Davao Oriental,1102500000,11859.48,13334.41,13118.79,12324.39,12810.68,12943.9,2844.38
+Banana Cavendish,,City of Davao,1130700000,236485.51,229428.24,213007.9,0,0,130571.62,39605.49
+Banana Cavendish,Region XII,Cotabato,1204700000,148590.81,143304.69,151530.71,151815.48,143178.55,132216.22,29695.23
+Banana Cavendish,Region XII,Sarangani,1208000000,129222,120373,113059,103367.53,100310.11,107303.73,23687.7
+Banana Cavendish,Region XII,Sultan Kudarat,1206500000,130922.88,153685.92,162150.61,175971.71,157978.27,36612.9,317.19
+Banana Cavendish,Region XII,South Cotabato,1206300000,162988.17,163837.16,159179.87,150188.53,144133.51,142376.45,34689.1
+Banana Cavendish,Region XIII,Agusan del Norte,1600200000,19674,18030,16327.39,14421,8416.15,9748.93,2171.49
+Banana Cavendish,Region XIII,Agusan del Sur,1600300000,10260.1,10299.72,9457.52,9393.37,8564,7018,3.89
+Banana Cavendish,Region XIII,Dinagat Islands,1608500000,0,0.66,0.13,14.43,17.44,19.08,0.41
+Banana Cavendish,Region XIII,Surigao del Norte,1606700000,40.6,33.45,26.01,20.96,17.19,20.25,11.22
+Banana Cavendish,Region XIII,Surigao del Sur,1606800000,91557.65,50010.26,29813.66,44441.61,71377.5,64067.78,11420.27
+Banana Cavendish,,City of Butuan,1630400000,0,0,0,0,0,0,0
+Banana Cavendish,BARMM,Basilan,1900700000,0,0,0,0,0,0,0
+Banana Cavendish,BARMM,Lanao del Sur,1903600000,657.37,657.98,658.01,659.36,664.17,730.5,609
+Banana Cavendish,,Maguindanao,1908800000,198238.55,193726,194897.28,194972,145537.9,0,0
+Banana Cavendish,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,44074.23,10500
+Banana Cavendish,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,88218.3,22000
+Banana Cavendish,Region IX,Sulu,0906600000,0,0,0,0,0,0,0
+Banana Cavendish,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,0,0

@@ -1,0 +1,88 @@
+Commodity Type,ADM2_PCODE,Province,2021Q1,2021Q2,2021Q3,2021Q4,2022Q1,2022Q2,2022Q3,2022Q4,2023Q1,2023Q2,2023Q3,2023Q4,2024Q1,2024Q2,2024Q3,2024Q4,2025Q1,2025Q2,2025Q3,2025Q4,2026Q1
+Overall Mushroom Production,0102800000,Ilocos Norte,,0.16,0.5,0.23,,0.18,0.59,0.25,,0.22,0.64,0.28,,0.23,0.59,0.27,0.51,0.56,1.2,1.54,0.64
+Overall Mushroom Production,0102900000,Ilocos Sur,,,8.0,1.85,,,10.0,1.65,,,8.85,,,,,,,,9.43,,0.2
+Overall Mushroom Production,0103300000,La Union,28.24,9.39,15.62,16.67,28.91,9.0,16.35,18.97,32.03,9.87,17.41,19.43,33.98,10.38,18.28,20.04,34.54,11.27,19.6,22.77,48.21
+Overall Mushroom Production,0105500000,Pangasinan,2.52,0.38,8.23,12.0,3.0,0.35,8.48,11.61,3.2,0.35,7.0,,3.0,0.35,6.75,,2.8,0.37,7.41,,2.74
+Overall Mushroom Production,0200900000,Batanes,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,0201500000,Cagayan,0.72,0.51,1.87,,0.97,0.58,0.7,,0.97,0.7,0.85,,1.0,0.65,0.85,0.15,1.15,0.8,1.14,0.58,1.18
+Overall Mushroom Production,0203100000,Isabela,4.47,4.03,9.04,8.63,4.58,3.34,7.44,8.72,4.84,3.8,6.8,7.5,,3.25,5.58,7.14,4.66,3.46,6.41,7.44,5.7
+Overall Mushroom Production,0205000000,Nueva Vizcaya,22.35,8.55,12.18,31.25,25.54,9.13,14.36,28.13,35.47,7.61,13.27,15.2,30.51,8.37,12.74,13.97,36.99,7.99,11.67,12.82,38.85
+Overall Mushroom Production,0205700000,Quirino,3.75,2.81,6.8,2.33,4.08,2.76,8.16,2.31,3.97,2.79,6.3,,3.45,2.2,6.55,0.03,2.42,2.12,7.0,2.31,4.3
+Overall Mushroom Production,0300800000,Bataan,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,0301400000,Bulacan,,,,,,,,,,,,,0.3,,0.1,0.35,0.3,,0.11,0.33,0.24
+Overall Mushroom Production,0304900000,Nueva Ecija,,,,,,,,,,,,,7.69,34.4,0.54,,7.09,32.18,0.37,0.35,6.26
+Overall Mushroom Production,0305400000,Pampanga,,,1.44,1.0,,,1.42,0.98,,,1.4,0.97,1.43,,1.51,3.32,1.43,0.54,1.5,3.33,1.8
+Overall Mushroom Production,0306900000,Tarlac,16.15,22.5,9.18,,17.47,20.19,4.44,,11.82,25.3,3.41,,15.25,22.66,3.85,0.7,15.9,25.35,4.31,1.49,17.67
+Overall Mushroom Production,0307100000,Zambales,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,0307700000,Aurora,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,0401000000,Batangas,1.7,,,,1.04,,,,1.09,0.56,,,,,,,,,,,1.47
+Overall Mushroom Production,0402100000,Cavite,9.67,4.0,5.33,1.03,12.09,2.5,5.69,5.8,12.41,2.13,6.1,5.98,62.69,5.64,47.29,54.55,16.42,36.19,62.5,56.1,19.76
+Overall Mushroom Production,0403400000,Laguna,3.11,,9.51,,4.98,,9.84,,5.2,,10.25,,5.78,,10.32,,,,,,6.23
+Overall Mushroom Production,0405600000,Quezon,,,,,,,,,,,,,,,0.2,,0.03,0.03,0.19,4.5,
+Overall Mushroom Production,0405800000,Rizal,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,0500500000,Albay,,,,,,,,,,,,,,,,,0.01,0.02,,0.49,0.25
+Overall Mushroom Production,0501600000,Camarines Norte,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,0501700000,Camarines Sur,,,,,,,,,,,,,,3.12,,1.41,,,,,0.14
+Overall Mushroom Production,0502000000,Catanduanes,,,,,,,,,,,,,,,,,0.09,,0.18,0.09,0.07
+Overall Mushroom Production,0504100000,Masbate,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,0506200000,Sorsogon,,,,,,,,,,,,,0.01,0.01,,,,,,,
+Overall Mushroom Production,0600400000,Aklan,0.03,0.01,,0.14,0.06,0.03,,0.12,0.06,0.04,,,0.05,,,,0.06,,,,0.06
+Overall Mushroom Production,0600600000,Antique,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,0601900000,Capiz,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,0603000000,Iloilo,0.01,0.03,0.8,0.65,0.02,0.02,1.0,0.6,0.01,0.03,1.5,0.9,0.01,0.16,1.8,1.08,0.26,0.5,2.0,2.21,0.58
+Overall Mushroom Production,0607900000,Guimaras,0.72,0.8,0.3,0.61,1.44,1.2,0.28,0.92,1.6,1.5,0.25,0.87,1.47,1.2,0.28,1.0,0.95,1.45,,0.04,1.24
+Overall Mushroom Production,0701200000,Bohol,,,,,,,,,,,0.55,,2.25,0.26,0.24,3.27,0.35,0.3,0.55,0.36,0.15
+Overall Mushroom Production,0702200000,Cebu,,,,,,,,,,,,,,,,,,0.17,,0.49,0.58
+Overall Mushroom Production,0802600000,Eastern Samar,,,,,,,,,,,,,,,,,5.09,4.99,,,
+Overall Mushroom Production,0803700000,Leyte,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,0804800000,Northern Samar,,,1.53,1.39,,,1.55,1.4,,,1.52,,,,,,,,,,
+Overall Mushroom Production,0806000000,Samar (Western Samar),0.4,0.52,1.23,0.76,0.48,0.72,1.25,1.52,0.28,0.72,,,,,,,,,,,
+Overall Mushroom Production,0806400000,Southern Leyte,,,,,,,,,,,,,,,,0.1,,,,,
+Overall Mushroom Production,0807800000,Biliran,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,0906600000,,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,0907200000,Zamboanga del Norte,,,,,,,,,,,,,,,,,,,,,0.45
+Overall Mushroom Production,0907300000,Zamboanga del Sur,,,,,,,,,,0.98,,,,,,,,,,,
+Overall Mushroom Production,0907400000,Zamboanga City,,0.96,0.82,0.55,,0.96,0.83,0.57,,,,,,,,,,0.64,0.96,1.01,1.01
+Overall Mushroom Production,0908300000,Zamboanga Sibugay,,,,,,,,,,,,,,,,,,,,,0.09
+Overall Mushroom Production,1001300000,Bukidnon,15.5,13.79,34.17,21.69,16.0,14.0,35.0,22.0,15.5,13.86,30.0,,15.4,12.0,32.0,,14.0,11.0,30.27,5.0,13.4
+Overall Mushroom Production,1001800000,Camiguin,0.03,0.03,0.06,,0.02,0.02,0.04,,0.03,0.03,,0.02,,,,0.02,,,,,
+Overall Mushroom Production,1003500000,Lanao del Norte,1.5,0.33,8.12,3.25,1.55,0.3,8.0,3.2,1.3,0.56,7.65,3.15,1.2,0.58,7.5,3.17,1.15,0.6,7.65,3.18,1.34
+Overall Mushroom Production,1004200000,Misamis Occidental,0.1,0.05,0.1,0.18,0.09,0.06,0.11,0.15,0.07,0.07,0.1,0.17,0.07,,0.1,0.17,0.06,,,0.16,0.06
+Overall Mushroom Production,1004300000,Misamis Oriental,0.75,0.8,2.2,1.9,0.72,0.85,2.0,2.0,0.7,0.8,2.2,2.0,0.7,,2.15,1.98,0.68,0.65,2.13,2.0,0.71
+Overall Mushroom Production,1102300000,Davao del Norte,2.42,6.21,14.68,1.94,2.3,5.85,30.2,1.93,2.3,5.56,32.2,1.95,2.33,5.89,41.03,1.95,2.66,6.38,40.86,1.95,2.43
+Overall Mushroom Production,1102400000,Davao del Sur,3.65,1.96,5.87,3.84,3.72,2.0,5.52,3.86,7.51,5.62,9.85,6.9,7.9,5.72,10.01,7.39,8.05,2.07,3.59,2.8,2.84
+Overall Mushroom Production,1102500000,Davao Oriental,0.22,0.1,0.31,0.13,0.16,,0.28,0.1,0.12,,0.26,,0.11,,0.24,,,,,,
+Overall Mushroom Production,1108200000,Davao de Oro (Compostela Valley),0.22,1.06,1.7,0.97,0.21,1.03,1.75,0.95,0.2,1.01,1.7,0.93,0.19,0.98,1.65,0.9,0.18,0.94,1.6,0.55,0.17
+Overall Mushroom Production,1108600000,Davao Occidental,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,1130700000,Davao City,3.8,3.5,4.07,4.32,3.86,3.55,4.42,4.5,,,,,,,,,,3.79,4.19,4.25,5.21
+Overall Mushroom Production,1204700000,Cotabato (North Cotabato),3.5,3.6,6.03,4.1,3.4,3.5,6.0,4.0,3.3,3.45,4.5,2.25,1.13,1.77,5.25,2.1,1.62,1.7,1.74,1.92,1.77
+Overall Mushroom Production,1206300000,South Cotabato,2.1,0.52,3.0,2.76,1.85,0.55,3.25,3.0,2.0,0.6,,6.69,1.67,0.72,3.55,7.35,1.9,0.83,4.5,4.6,1.68
+Overall Mushroom Production,1206500000,Sultan Kudarat,1.94,2.32,3.95,1.54,1.9,3.2,3.95,1.54,1.9,3.2,3.92,1.75,1.85,2.91,4.32,1.5,1.88,3.05,4.47,1.34,1.89
+Overall Mushroom Production,1208000000,Sarangani,0.02,0.38,0.25,0.15,0.02,0.38,0.26,0.15,0.02,0.39,0.2,,0.01,0.3,0.21,0.1,,0.1,0.05,0.06,0.06
+Overall Mushroom Production,1400100000,Abra,,,,,,,,,,,0.04,,,,,,,,0.99,,
+Overall Mushroom Production,1401100000,Benguet,26.0,19.0,9.58,15.52,25.21,18.5,10.0,17.35,24.0,13.67,9.45,17.87,22.5,13.25,9.65,18.5,25.0,,4.28,15.22,25.0
+Overall Mushroom Production,1402700000,Ifugao,,,,,,,,,,,,,,,,,,,0.07,,
+Overall Mushroom Production,1403200000,Kalinga,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,1404400000,Mountain Province,,0.65,0.25,,,0.73,0.22,,,0.94,0.11,,,0.85,0.13,,,1.11,0.07,,
+Overall Mushroom Production,1408100000,Apayao,,,,,,,,,,,,,,,,,,,0.5,,
+Overall Mushroom Production,1600200000,Agusan del Norte,31.5,31.0,35.0,37.0,32.15,31.5,36.0,35.0,28.0,25.85,35.67,34.67,26.21,25.9,25.0,33.67,28.5,28.49,27.0,27.5,18.01
+Overall Mushroom Production,1600300000,Agusan del Sur,0.16,2.6,0.6,0.36,0.15,2.8,0.65,0.4,0.16,2.83,,0.5,0.13,2.5,,,,,,,
+Overall Mushroom Production,1606700000,Surigao del Norte,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,1606800000,Surigao del Sur,0.1,0.06,0.19,,0.1,0.05,0.2,,0.11,0.04,,,,,,,,,,,
+Overall Mushroom Production,1608500000,Dinagat Islands,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,1630400000,Butuan City,,,,,,,,,,,,,,,,,,,,,9.28
+Overall Mushroom Production,1704000000,Marinduque,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,1705100000,Occidental Mindoro,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,1705200000,Oriental Mindoro,0.11,0.3,0.45,1.83,0.1,0.25,0.9,3.84,0.09,0.26,1.0,3.0,0.11,0.27,1.12,2.52,0.12,0.28,1.56,2.89,0.16
+Overall Mushroom Production,1705300000,Palawan,,,1.58,0.51,,,2.62,0.71,,,2.0,,,,2.07,,,,,,
+Overall Mushroom Production,1705900000,Romblon,,,0.02,,,,0.02,,,,0.02,,,,0.02,,,,0.02,,
+Overall Mushroom Production,1731500000,Puerto Princesa City,,,,,,,,,,,,,,,,,,,,,0.08
+Overall Mushroom Production,1804500000,Negros Occidental,,,,,,,,,,,,,,,0.01,0.01,0.13,,,,
+Overall Mushroom Production,1804600000,Negros Oriental,0.68,0.25,6.88,5.5,0.7,0.55,7.0,6.3,0.5,0.4,,5.58,0.63,0.35,6.79,4.27,0.61,0.33,6.89,4.0,0.62
+Overall Mushroom Production,1806100000,Siquijor,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,1830200000,Bacolod City,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,1900700000,Basilan,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,1903600000,Lanao del Sur,1.1,3.97,4.01,,1.09,3.97,4.02,,1.09,3.97,4.0,,1.03,,,,,,0.04,,
+Overall Mushroom Production,1907000000,Tawi-Tawi,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,1908700000,Maguindanao del Norte,,,,,,,,,,,,,,,,,,,,,
+Overall Mushroom Production,1908800000,Maguindanao del Sur,,,,,,,,,,,,,,,,,,,,,

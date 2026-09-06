@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Pomelo,CAR,Abra,1400100000,0,0,0,0,0,3168,792
+Pomelo,CAR,Apayao,1408100000,0,0,0,0,0,12440,3110
+Pomelo,CAR,Benguet,1401100000,0,0,0,0,0,7380,1845
+Pomelo,CAR,Ifugao,1402700000,0,0,0,0,0,10400,2600
+Pomelo,CAR,Kalinga,1403200000,0,0,0,0,0,8200,2050
+Pomelo,CAR,Mountain Province,1404400000,0,0,0,0,0,17320,4330
+Pomelo,Region I,Ilocos Norte,0102800000,0,0,0,0,0,18852,4713
+Pomelo,Region I,Ilocos Sur,0102900000,0,0,0,0,0,7540,1885
+Pomelo,Region I,La Union,0103300000,0,0,0,0,0,10827,3297
+Pomelo,Region I,Pangasinan,0105500000,0,0,0,0,0,4586,1137
+Pomelo,Region II,Batanes,0200900000,0,0,0,0,0,5540,1385
+Pomelo,Region II,Cagayan,0201500000,0,0,0,0,0,113880,28466
+Pomelo,Region II,Isabela,0203100000,0,0,0,0,0,79033,19753
+Pomelo,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,105449,26243
+Pomelo,Region II,Quirino,0205700000,0,0,0,0,0,53808,13443
+Pomelo,Region III,Aurora,0307700000,0,0,0,0,0,5344,1336
+Pomelo,Region III,Bataan,0300800000,0,0,0,0,0,481,107
+Pomelo,Region III,Bulacan,0301400000,0,0,0,0,0,8480,2120
+Pomelo,Region III,Nueva Ecija,0304900000,0,0,0,0,0,19600,4900
+Pomelo,Region III,Pampanga,0305400000,0,0,0,0,0,628,144
+Pomelo,Region III,Tarlac,0306900000,0,0,0,0,0,1460,365
+Pomelo,Region III,Zambales,0307100000,0,0,0,0,0,11908,2977
+Pomelo,Region IV-A,Batangas,0401000000,0,0,0,0,0,11000,2750
+Pomelo,Region IV-A,Cavite,0402100000,0,0,0,0,0,2580,645
+Pomelo,Region IV-A,Laguna,0403400000,0,0,0,0,0,8920,2480
+Pomelo,Region IV-A,Quezon,0405600000,0,0,0,0,0,48260,12065
+Pomelo,Region IV-A,Rizal,0405800000,0,0,0,0,0,1740,390
+Pomelo,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,3800,950
+Pomelo,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,11604,2901
+Pomelo,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,3958,960
+Pomelo,MIMAROPA,Palawan,1705300000,0,0,0,0,0,9676,1695
+Pomelo,MIMAROPA,Romblon,1705900000,0,0,0,0,0,4184,1046
+Pomelo,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0,725
+Pomelo,Region V,Albay,0500500000,0,0,0,0,0,9000,2250
+Pomelo,Region V,Camarines Norte,0501600000,0,0,0,0,0,2288,572
+Pomelo,Region V,Camarines Sur,0501700000,0,0,0,0,0,18080,4520
+Pomelo,Region V,Catanduanes,0502000000,0,0,0,0,0,4272,1068
+Pomelo,Region V,Masbate,0504100000,0,0,0,0,0,672,168
+Pomelo,Region V,Sorsogon,0506200000,0,0,0,0,0,17825,3935
+Pomelo,Region VI,Aklan,0600400000,0,0,0,0,0,13352,3338
+Pomelo,Region VI,Antique,0600600000,0,0,0,0,0,16020,4005
+Pomelo,Region VI,Capiz,0601900000,0,0,0,0,0,3990,1000
+Pomelo,Region VI,Guimaras,0607900000,0,0,0,0,0,3816,954
+Pomelo,Region VI,Iloilo,0603000000,0,0,0,0,0,35376,8844
+Pomelo,NIR,Negros Occidental,1804500000,0,0,0,0,0,0,0
+Pomelo,NIR,Negros Occidental,1804500000,0,0,0,0,0,7860,1965
+Pomelo,NIR,Negros Oriental,1804600000,0,0,0,0,0,6856,1714
+Pomelo,NIR,Siquijor,1806100000,0,0,0,0,0,2450,615
+Pomelo,NIR,City of Bacolod,1830200000,0,0,0,0,0,0,0
+Pomelo,Region VII,Bohol,0701200000,0,0,0,0,0,31516,7879
+Pomelo,Region VII,Cebu,0702200000,0,0,0,0,0,20840,5210
+Pomelo,NIR,Negros Oriental,1804600000,0,0,0,0,0,0,0
+Pomelo,NIR,Siquijor,1806100000,0,0,0,0,0,0,0
+Pomelo,Region VIII,Biliran,0807800000,0,0,0,0,0,818,184
+Pomelo,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,3584,896
+Pomelo,Region VIII,Leyte,0803700000,0,0,0,0,0,9310,2320
+Pomelo,Region VIII,Northern Samar,0804800000,0,0,0,0,0,2168,542
+Pomelo,Region VIII,Samar,0806000000,0,0,0,0,0,2500,625
+Pomelo,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,1420,355
+Pomelo,Region IX,Sulu,0906600000,0,0,0,0,0,0,0
+Pomelo,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,81600,20400
+Pomelo,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,7612,993
+Pomelo,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,11480,2870
+Pomelo,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,10974,3658
+Pomelo,Region X,Bukidnon,1001300000,0,0,0,0,0,16680,4170
+Pomelo,Region X,Camiguin,1001800000,0,0,0,0,0,1000,250
+Pomelo,Region X,Lanao del Norte,1003500000,0,0,0,0,0,8700,2150
+Pomelo,Region X,Misamis Occidental,1004200000,0,0,0,0,0,48000,12000
+Pomelo,Region X,Misamis Oriental,1004300000,0,0,0,0,0,30000,7500
+Pomelo,Region XI,Davao de Oro,1108200000,0,0,0,0,0,26360,6590
+Pomelo,Region XI,Davao del Norte,1102300000,0,0,0,0,0,66015,16425
+Pomelo,Region XI,Davao del Sur,1102400000,0,0,0,0,0,96973,4030
+Pomelo,Region XI,Davao Occidental,1108600000,0,0,0,0,0,15040,3760
+Pomelo,Region XI,Davao Oriental,1102500000,0,0,0,0,0,187680,46758
+Pomelo,Region XI,City of Davao,1130700000,0,0,0,0,0,242559,80853
+Pomelo,Region XII,Cotabato,1204700000,0,0,0,0,0,87300,21825
+Pomelo,Region XII,Sarangani,1208000000,0,0,0,0,0,43442,10852
+Pomelo,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,4708,1177
+Pomelo,Region XII,South Cotabato,1206300000,0,0,0,0,0,24904,6555
+Pomelo,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,7200,1188
+Pomelo,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,26822,6715
+Pomelo,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,2000,500
+Pomelo,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,5000,1250
+Pomelo,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,15600,3900
+Pomelo,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0,612
+Pomelo,BARMM,Basilan,1900700000,0,0,0,0,0,7788,1947
+Pomelo,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,888,222
+Pomelo,BARMM,Maguindanao,1908800000,0,0,0,0,0,0,0
+Pomelo,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,41920,10480
+Pomelo,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,62880,15720
+Pomelo,BARMM,Sulu,0906600000,0,0,0,0,0,0,0
+Pomelo,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,8005,2000

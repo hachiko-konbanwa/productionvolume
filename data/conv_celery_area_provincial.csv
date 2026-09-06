@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,2020,2021,2022,2023,2024,2025,2026,ADM2_PCODE
+Celery,Cordillera Administrative Region (CAR),Abra,0,0,0,0,0,0,0,1400100000
+Celery,Cordillera Administrative Region (CAR),Apayao,0,0,0,0,0,0,0,1408100000
+Celery,Cordillera Administrative Region (CAR),Benguet,0,0,0,0,0,204,50,1401100000
+Celery,Cordillera Administrative Region (CAR),Ifugao,0,0,0,0,0,12.879999999999999,3,1402700000
+Celery,Cordillera Administrative Region (CAR),Kalinga,0,0,0,0,0,0,0,1403200000
+Celery,Cordillera Administrative Region (CAR),Mountain Province,0,0,0,0,0,17.73,3.99,1404400000
+Celery,Region I (Ilocos Region),Ilocos Norte,0,0,0,0,0,0,0,0102800000
+Celery,Region I (Ilocos Region),Ilocos Sur,0,0,0,0,0,0,0,0102900000
+Celery,Region I (Ilocos Region),La Union,0,0,0,0,0,0,0,0103300000
+Celery,Region I (Ilocos Region),Pangasinan,0,0,0,0,0,0,0,0105500000
+Celery,Region II (Cagayan Valley),Batanes,0,0,0,0,0,0,0,0200900000
+Celery,Region II (Cagayan Valley),Cagayan,0,0,0,0,0,0.2,0.2,0201500000
+Celery,Region II (Cagayan Valley),Isabela,0,0,0,0,0,0,0,0203100000
+Celery,Region II (Cagayan Valley),Nueva Vizcaya,0,0,0,0,0,5.609999999999999,5.39,0205000000
+Celery,Region II (Cagayan Valley),Quirino,0,0,0,0,0,0,0,0205700000
+Celery,Region III (Central Luzon),Aurora,0,0,0,0,0,0,0,0307700000
+Celery,Region III (Central Luzon),Bataan,0,0,0,0,0,0,0,0300800000
+Celery,Region III (Central Luzon),Bulacan,0,0,0,0,0,0,0,0301400000
+Celery,Region III (Central Luzon),Nueva Ecija,0,0,0,0,0,0,0,0304900000
+Celery,Region III (Central Luzon),Pampanga,0,0,0,0,0,0,0,0305400000
+Celery,Region III (Central Luzon),Tarlac,0,0,0,0,0,0,0,0306900000
+Celery,Region III (Central Luzon),Zambales,0,0,0,0,0,0,0,0307100000
+Celery,Region IV-A (CALABARZON),Batangas,0,0,0,0,0,0,0,0401000000
+Celery,Region IV-A (CALABARZON),Cavite,0,0,0,0,0,0.01,0.1,0402100000
+Celery,Region IV-A (CALABARZON),Laguna,0,0,0,0,0,0,0,0403400000
+Celery,Region IV-A (CALABARZON),Quezon,0,0,0,0,0,0,0,0405600000
+Celery,Region IV-A (CALABARZON),Rizal,0,0,0,0,0,0,0,0405800000
+Celery,MIMAROPA Region,Marinduque,0,0,0,0,0,0,0,1704000000
+Celery,MIMAROPA Region,Occidental Mindoro,0,0,0,0,0,0,0,1705100000
+Celery,MIMAROPA Region,Oriental Mindoro,0,0,0,0,0,0,0,1705200000
+Celery,MIMAROPA Region,Palawan,0,0,0,0,0,0,0,1705300000
+Celery,MIMAROPA Region,City of Puerto Princesa,0,0,0,0,0,0,0,1731500000
+Celery,MIMAROPA Region,Romblon,0,0,0,0,0,0,0,1705900000
+Celery,Region V (Bicol Region),Albay,0,0,0,0,0,0,0,0500500000
+Celery,Region V (Bicol Region),Camarines Norte,0,0,0,0,0,0,0,0501600000
+Celery,Region V (Bicol Region),Camarines Sur,0,0,0,0,0,0,0,0501700000
+Celery,Region V (Bicol Region),Catanduanes,0,0,0,0,0,0,0,0502000000
+Celery,Region V (Bicol Region),Masbate,0,0,0,0,0,0,0,0504100000
+Celery,Region V (Bicol Region),Sorsogon,0,0,0,0,0,0,0,0506200000
+Celery,Region VI (Western Visayas),Aklan,0,0,0,0,0,0,0,0600400000
+Celery,Region VI (Western Visayas),Antique,0,0,0,0,0,0,0,0600600000
+Celery,Region VI (Western Visayas),Capiz,0,0,0,0,0,0,0,0601900000
+Celery,Region VI (Western Visayas),Guimaras,0,0,0,0,0,0,0,0607900000
+Celery,Region VI (Western Visayas),Iloilo,0,0,0,0,0,0.33999999999999997,0.05,0603000000
+Celery,Region VI (Western Visayas),Negros Occidental,0,0,0,0,0,0,0,1804500000
+Celery,Region VI (Western Visayas),Negros Occidental a/,0,0,0,0,0,0,0,1804500000
+Celery,Negros Island Region (NIR),City of Bacolod,0,0,0,0,0,0,0,1830200000
+Celery,Negros Island Region (NIR),Negros Oriental b/,0,0,0,0,0,8.55,2.3,1804600000
+Celery,Negros Island Region (NIR),Siquijor b/,0,0,0,0,0,0,0,1806100000
+Celery,Region VII (Central Visayas),Bohol,0,0,0,0,0,0,0,0701200000
+Celery,Region VII (Central Visayas),Cebu,0,0,0,0,0,2.65,0,0702200000
+Celery,Negros Island Region (NIR),Negros Oriental,0,0,0,0,0,0,0,1804600000
+Celery,Negros Island Region (NIR),Siquijor,0,0,0,0,0,0,0,1806100000
+Celery,Region VIII (Eastern Visayas),Biliran,0,0,0,0,0,0,0,0807800000
+Celery,Region VIII (Eastern Visayas),Eastern Samar,0,0,0,0,0,0,0,0802600000
+Celery,Region VIII (Eastern Visayas),Leyte,0,0,0,0,0,0,0,0803700000
+Celery,Region VIII (Eastern Visayas),Northern Samar,0,0,0,0,0,0,0,0804800000
+Celery,Region VIII (Eastern Visayas),Samar,0,0,0,0,0,0,0,0806000000
+Celery,Region VIII (Eastern Visayas),Southern Leyte,0,0,0,0,0,0,0,0806400000
+Celery,Region IX (Zamboanga Peninsula),Sulu c/,0,0,0,0,0,0,0,1906600000
+Celery,Region IX (Zamboanga Peninsula),Zamboanga del Norte,0,0,0,0,0,0,0,0907200000
+Celery,Region IX (Zamboanga Peninsula),Zamboanga del Sur,0,0,0,0,0,0,0,0907300000
+Celery,Region IX (Zamboanga Peninsula),City of Zamboanga,0,0,0,0,0,0,0,0907400000
+Celery,Region IX (Zamboanga Peninsula),Zamboanga Sibugay,0,0,0,0,0,0,0,0908300000
+Celery,Region X (Northern Mindanao),Bukidnon,0,0,0,0,0,31.330000000000002,8,1001300000
+Celery,Region X (Northern Mindanao),Camiguin,0,0,0,0,0,0,0,1001800000
+Celery,Region X (Northern Mindanao),Lanao del Norte,0,0,0,0,0,0,0,1003500000
+Celery,Region X (Northern Mindanao),Misamis Occidental,0,0,0,0,0,0,0,1004200000
+Celery,Region X (Northern Mindanao),Misamis Oriental,0,0,0,0,0,7.15,1.85,1004300000
+Celery,Region XI (Davao Region),Davao de Oro,0,0,0,0,0,0,0,1108200000
+Celery,Region XI (Davao Region),Davao del Norte,0,0,0,0,0,0,0,1102300000
+Celery,Region XI (Davao Region),Davao del Sur,0,0,0,0,0,0.35,0,1102400000
+Celery,Region XI (Davao Region),City of Davao,0,0,0,0,0,1.1400000000000001,0.38,1130700000
+Celery,Region XI (Davao Region),Davao Occidental,0,0,0,0,0,0,0,1108600000
+Celery,Region XI (Davao Region),Davao Oriental,0,0,0,0,0,0,0,1102500000
+Celery,Region XII (SOCCSKSARGEN),Cotabato,0,0,0,0,0,0.23,0.07,1204700000
+Celery,Region XII (SOCCSKSARGEN),Sarangani,0,0,0,0,0,0,0,1208000000
+Celery,Region XII (SOCCSKSARGEN),Sultan Kudarat,0,0,0,0,0,0,0,1206500000
+Celery,Region XII (SOCCSKSARGEN),South Cotabato,0,0,0,0,0,2.29,0.25,1206300000
+Celery,Region XIII (Caraga),Agusan del Norte,0,0,0,0,0,0,0,1600200000
+Celery,Region XIII (Caraga),City of Butuan,0,0,0,0,0,0,0,1630400000
+Celery,Region XIII (Caraga),Agusan del Sur,0,0,0,0,0,0,0,1600300000
+Celery,Region XIII (Caraga),Dinagat Islands,0,0,0,0,0,0,0,1608500000
+Celery,Region XIII (Caraga),Surigao del Norte,0,0,0,0,0,0,0,1606700000
+Celery,Region XIII (Caraga),Surigao del Sur,0,0,0,0,0,0,0,1606800000
+Celery,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)3,Basilan,0,0,0,0,0,0,0,1900700000
+Celery,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)4,Lanao del Sur,0,0,0,0,0,0,0,1903600000
+Celery,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)5,Maguindanao,0,0,0,0,0,0,0,1908800000
+Celery,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)6,Maguindanao del Norte,0,0,0,0,0,0,0,1908700000
+Celery,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)7,Maguindanao del Sur,0,0,0,0,0,0,0,1908800000
+Celery,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)8,Sulu,0,0,0,0,0,0,0,1906600000
+Celery,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)9,Tawi-tawi,0,0,0,0,0,0,0,1907000000

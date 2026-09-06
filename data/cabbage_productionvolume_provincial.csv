@@ -1,93 +1,93 @@
 Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
-Cabbage,Cordillera Administrative Region (CAR),Abra,PH14001,0,0,0,1.3,11.06,32.77,21.78
-Cabbage,Cordillera Administrative Region (CAR),Apayao,PH14081,0,0,0,0,0.5,1.46,0
-Cabbage,Cordillera Administrative Region (CAR),Benguet,PH14011,86820.67,81145.1,77914.71,83723.07,84069.32,88981.99,17972.92
-Cabbage,Cordillera Administrative Region (CAR),Ifugao,PH14027,542.28,614.82,648.24,657.37,1924.1,2803.74,503.5
-Cabbage,Cordillera Administrative Region (CAR),Kalinga,PH14032,5.32,6.04,6.56,6,5.1,7.2,4.17
-Cabbage,Cordillera Administrative Region (CAR),Mountain Province,PH14044,13756.1,13776.22,13371.44,13012.58,13061.77,13541.72,653.06
-Cabbage,Region I (Ilocos Region),Ilocos Norte,PH01028,166.58,160.04,169.63,175.09,162.47,223.46,394.29
-Cabbage,Region I (Ilocos Region),Ilocos Sur,PH01029,3112.87,3039.1,3053.7,3076.1,3168.6,3199.75,2119.7
-Cabbage,Region I (Ilocos Region),La Union,PH01033,0,0,0,0.65,0,2.11,0
-Cabbage,Region I (Ilocos Region),Pangasinan,PH01055,0,0,0,0,0,0,0
-Cabbage,Region II (Cagayan Valley),Batanes,PH02009,16.62,20.62,29.24,39.47,38.61,42.49,22.78
-Cabbage,Region II (Cagayan Valley),Cagayan,PH02015,566.72,608.97,671.23,841.18,842.36,877.95,811.15
-Cabbage,Region II (Cagayan Valley),Isabela,PH02031,1.85,1.6,0.63,0.48,0.3,0.25,0.12
-Cabbage,Region II (Cagayan Valley),Nueva Vizcaya,PH02050,753.5,762.88,870.35,965.95,5012.2,4506.87,1026.17
-Cabbage,Region II (Cagayan Valley),Quirino,PH02057,34.52,38.94,38.32,37.84,35.36,35.9,72
-Cabbage,Region III (Central Luzon),Aurora,PH03077,0,0,0,0,0,0,0
-Cabbage,Region III (Central Luzon),Bataan,PH03008,0,0,0,0,0,0,0
-Cabbage,Region III (Central Luzon),Bulacan,PH03014,0,0,0,0,0,0,0
-Cabbage,Region III (Central Luzon),Nueva Ecija,PH03049,0,0,0,0,0,0,0
-Cabbage,Region III (Central Luzon),Pampanga,PH03054,0,0,0,0,0,0,0
-Cabbage,Region III (Central Luzon),Tarlac,PH03069,0,0,0,0,0,0,0
-Cabbage,Region III (Central Luzon),Zambales,PH03071,0,0,0,0,0,0,0
-Cabbage,Region IV-A (CALABARZON),Batangas,PH04010,0,0,0.1,0,0,0,0
-Cabbage,Region IV-A (CALABARZON),Cavite,PH04021,0,0,0,0.13,0.13,1.31,0
-Cabbage,Region IV-A (CALABARZON),Laguna,PH04034,406.48,409.25,635.19,610.49,404.86,282.85,146.6
-Cabbage,Region IV-A (CALABARZON),Quezon,PH04056,109.73,112.68,238.02,334.46,602.13,641.83,253.66
-Cabbage,Region IV-A (CALABARZON),Rizal,PH04058,0,0,0,0.06,0.65,0.2,0
-Cabbage,MIMAROPA Region,Marinduque,PH17040,0,0,0,0,0,0,0
-Cabbage,MIMAROPA Region,Occidental Mindoro,PH17051,25.29,4.55,3.76,4.54,1.2,1.8,1.94
-Cabbage,MIMAROPA Region,Oriental Mindoro,PH17052,0,0,0,0,0,0,0
-Cabbage,MIMAROPA Region,Palawan,PH17053,0,0,0,0,0,0,0
-Cabbage,MIMAROPA Region,City of Puerto Princesa,,0,0,0,0,0,0,0
-Cabbage,MIMAROPA Region,Romblon,PH17059,0,0,0,0,0,0,0
-Cabbage,Region V (Bicol Region),Albay,PH05005,84.37,73.62,66.65,35.38,7.1,0,0
-Cabbage,Region V (Bicol Region),Camarines Norte,PH05016,0,0,0,0.36,0,0,0
-Cabbage,Region V (Bicol Region),Camarines Sur,PH05017,2.28,0.13,1.81,7.71,7.71,0.45,0
-Cabbage,Region V (Bicol Region),Catanduanes,PH05020,0,0,0,0,0,0,0
-Cabbage,Region V (Bicol Region),Masbate,PH05041,0,0,0,0,0,0,0
-Cabbage,Region V (Bicol Region),Sorsogon,PH05062,2.95,2.04,0,0,0,0,0
-Cabbage,Region VI (Western Visayas),Aklan,PH06004,0,0,0,0,0,21.5,3.62
-Cabbage,Region VI (Western Visayas),Antique,PH06006,69.91,71.31,68.03,66.58,69.1,65.38,13.26
-Cabbage,Region VI (Western Visayas),Capiz,PH06019,0,0,0,0,0,0,0
-Cabbage,Region VI (Western Visayas),Guimaras,PH06079,0,0,0,0,0,0.03,0
-Cabbage,Region VI (Western Visayas),Iloilo,PH06030,285.84,310.11,320.75,343.24,313.37,678.12,269.39
-Cabbage,Region VI (Western Visayas),Negros Occidental,,125.58,133.37,151.93,147.68,0,0,0
-Cabbage,Region VI (Western Visayas),Negros Occidental a/,PH06045,0,0,0,0,146.64,236.61,76
-Cabbage,Negros Island Region (NIR),City of Bacolod,,0,0,0,0,0,0,0
-Cabbage,Negros Island Region (NIR),Negros Oriental b/,PH07046,0,0,0,0,2670.78,1839.66,638.4
-Cabbage,Negros Island Region (NIR),Siquijor b/,PH07061,0,0,0,0,0,0,0
-Cabbage,Region VII (Central Visayas),Bohol,PH07012,87.78,70.7,65.22,92.16,59,37.08,15
-Cabbage,Region VII (Central Visayas),Cebu,PH07022,5464.74,5353.81,5906,6561.29,8489.66,8093.54,2511.47
-Cabbage,Negros Island Region (NIR),Negros Oriental,,2505.1,2570.39,2774.07,3044.36,0,0,0
-Cabbage,Negros Island Region (NIR),Siquijor,,0.27,0.36,0.18,0.02,0,0,0
-Cabbage,Region VIII (Eastern Visayas),Biliran,PH08078,25.4,30.7,40.59,5.5,4.13,0.11,0
-Cabbage,Region VIII (Eastern Visayas),Eastern Samar,PH08026,0,0,0,0,0,0,0
-Cabbage,Region VIII (Eastern Visayas),Leyte,PH08037,73.18,75.07,72.25,59.15,58.16,55.78,12.05
-Cabbage,Region VIII (Eastern Visayas),Northern Samar,PH08048,0,0,0,0,0,0,0
-Cabbage,Region VIII (Eastern Visayas),Samar,PH08060,0,0,0,8.72,8.72,0,0
-Cabbage,Region VIII (Eastern Visayas),Southern Leyte,PH08064,7.3,7.07,5.32,6.39,5.17,0.1,0.07
-Cabbage,Region IX (Zamboanga Peninsula),Sulu c/,,0,0,0,0,0,0,0
-Cabbage,Region IX (Zamboanga Peninsula),Zamboanga del Norte,PH09072,48.92,45.31,50.11,63.68,59.07,59.4,1.9
-Cabbage,Region IX (Zamboanga Peninsula),Zamboanga del Sur,PH09073,163.44,166.61,181.9,665.17,601.64,98.72,20.3
-Cabbage,Region IX (Zamboanga Peninsula),City of Zamboanga,PH09074,550.22,551.95,558.25,0,0,316.75,59.48
-Cabbage,Region IX (Zamboanga Peninsula),Zamboanga Sibugay,PH09083,10.61,11.11,11.28,10.87,10.62,10.79,1.01
-Cabbage,Region X (Northern Mindanao),Bukidnon,PH10013,6483.5,6599.15,5531.97,6057.92,6209,5983.99,267.75
-Cabbage,Region X (Northern Mindanao),Camiguin,PH10018,0.07,0.59,0.44,0.32,0.3,0.32,0.32
-Cabbage,Region X (Northern Mindanao),Lanao del Norte,PH10035,56,58.75,54.2,48.07,45.8,44.55,24.68
-Cabbage,Region X (Northern Mindanao),Misamis Occidental,PH10042,413.92,398.3,408.41,408.22,398.54,408.63,77.34
-Cabbage,Region X (Northern Mindanao),Misamis Oriental,PH10043,773.83,795.67,864.35,1052.8,816.88,818.53,107.27
-Cabbage,Region XI (Davao Region),Davao de Oro,PH11082,90.84,106.11,106.94,104.78,90.84,93.68,41.56
-Cabbage,Region XI (Davao Region),Davao del Norte,PH11023,0,0,0,0,0,0,0
-Cabbage,Region XI (Davao Region),Davao del Sur,PH11024,3357.54,3652.64,3717.58,4772.51,4695.85,4475.1,1005.77
-Cabbage,Region XI (Davao Region),City of Davao,,1204.81,1247.8,1225.25,0,0,195.01,88.82
-Cabbage,Region XI (Davao Region),Davao Occidental,PH11086,160.36,154.64,148.96,146.03,142.48,139.62,35.58
-Cabbage,Region XI (Davao Region),Davao Oriental,PH11025,0,0,0,0,0,0,0
-Cabbage,Region XII (SOCCSKSARGEN),Cotabato,PH12047,583.22,524.47,473.69,256.59,115.5,60.41,15.59
-Cabbage,Region XII (SOCCSKSARGEN),Sarangani,PH12080,8.29,7.02,5.17,2.15,0.31,0.1,0.06
-Cabbage,Region XII (SOCCSKSARGEN),Sultan Kudarat,PH12065,115.28,97.27,94.46,85.24,80.01,80.93,41.51
-Cabbage,Region XII (SOCCSKSARGEN),South Cotabato,PH12063,487.91,443.06,480.12,596.81,650.96,816.82,146.44
-Cabbage,Region XIII (Caraga),Agusan del Norte,PH16002,0,0,0.62,0,0.65,0.67,0.43
-Cabbage,Region XIII (Caraga),City of Butuan,,0,0,0,0,0,0,0.22
-Cabbage,Region XIII (Caraga),Agusan del Sur,PH16003,3.47,3.13,2.84,3.21,2.92,3.02,16.27
-Cabbage,Region XIII (Caraga),Dinagat Islands,PH16085,0.05,0.38,0.08,0,0,0,0
-Cabbage,Region XIII (Caraga),Surigao del Norte,PH16067,0,0,0,0.15,0,0,0
-Cabbage,Region XIII (Caraga),Surigao del Sur,PH16068,0,0,0,0,0,0,0
-Cabbage,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)3,Basilan,PH19007,0,0,0,0,0,0,0
-Cabbage,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)4,Lanao del Sur,PH19036,65.58,67.18,68.49,49.96,50.3,75.43,25
+Cabbage,Cordillera Administrative Region (CAR),Abra,1400100000,0,0,0,1.3,11.06,32.77,21.78
+Cabbage,Cordillera Administrative Region (CAR),Apayao,1408100000,0,0,0,0,0.5,1.46,0
+Cabbage,Cordillera Administrative Region (CAR),Benguet,1401100000,86820.67,81145.1,77914.71,83723.07,84069.32,88981.99,17972.92
+Cabbage,Cordillera Administrative Region (CAR),Ifugao,1402700000,542.28,614.82,648.24,657.37,1924.1,2803.74,503.5
+Cabbage,Cordillera Administrative Region (CAR),Kalinga,1403200000,5.32,6.04,6.56,6,5.1,7.2,4.17
+Cabbage,Cordillera Administrative Region (CAR),Mountain Province,1404400000,13756.1,13776.22,13371.44,13012.58,13061.77,13541.72,653.06
+Cabbage,Region I (Ilocos Region),Ilocos Norte,0102800000,166.58,160.04,169.63,175.09,162.47,223.46,394.29
+Cabbage,Region I (Ilocos Region),Ilocos Sur,0102900000,3112.87,3039.1,3053.7,3076.1,3168.6,3199.75,2119.7
+Cabbage,Region I (Ilocos Region),La Union,0103300000,0,0,0,0.65,0,2.11,0
+Cabbage,Region I (Ilocos Region),Pangasinan,0105500000,0,0,0,0,0,0,0
+Cabbage,Region II (Cagayan Valley),Batanes,0200900000,16.62,20.62,29.24,39.47,38.61,42.49,22.78
+Cabbage,Region II (Cagayan Valley),Cagayan,0201500000,566.72,608.97,671.23,841.18,842.36,877.95,811.15
+Cabbage,Region II (Cagayan Valley),Isabela,0203100000,1.85,1.6,0.63,0.48,0.3,0.25,0.12
+Cabbage,Region II (Cagayan Valley),Nueva Vizcaya,0205000000,753.5,762.88,870.35,965.95,5012.2,4506.87,1026.17
+Cabbage,Region II (Cagayan Valley),Quirino,0205700000,34.52,38.94,38.32,37.84,35.36,35.9,72
+Cabbage,Region III (Central Luzon),Aurora,0307700000,0,0,0,0,0,0,0
+Cabbage,Region III (Central Luzon),Bataan,0300800000,0,0,0,0,0,0,0
+Cabbage,Region III (Central Luzon),Bulacan,0301400000,0,0,0,0,0,0,0
+Cabbage,Region III (Central Luzon),Nueva Ecija,0304900000,0,0,0,0,0,0,0
+Cabbage,Region III (Central Luzon),Pampanga,0305400000,0,0,0,0,0,0,0
+Cabbage,Region III (Central Luzon),Tarlac,0306900000,0,0,0,0,0,0,0
+Cabbage,Region III (Central Luzon),Zambales,0307100000,0,0,0,0,0,0,0
+Cabbage,Region IV-A (CALABARZON),Batangas,0401000000,0,0,0.1,0,0,0,0
+Cabbage,Region IV-A (CALABARZON),Cavite,0402100000,0,0,0,0.13,0.13,1.31,0
+Cabbage,Region IV-A (CALABARZON),Laguna,0403400000,406.48,409.25,635.19,610.49,404.86,282.85,146.6
+Cabbage,Region IV-A (CALABARZON),Quezon,0405600000,109.73,112.68,238.02,334.46,602.13,641.83,253.66
+Cabbage,Region IV-A (CALABARZON),Rizal,0405800000,0,0,0,0.06,0.65,0.2,0
+Cabbage,MIMAROPA Region,Marinduque,1704000000,0,0,0,0,0,0,0
+Cabbage,MIMAROPA Region,Occidental Mindoro,1705100000,25.29,4.55,3.76,4.54,1.2,1.8,1.94
+Cabbage,MIMAROPA Region,Oriental Mindoro,1705200000,0,0,0,0,0,0,0
+Cabbage,MIMAROPA Region,Palawan,1705300000,0,0,0,0,0,0,0
+Cabbage,MIMAROPA Region,City of Puerto Princesa,1731500000,0,0,0,0,0,0,0
+Cabbage,MIMAROPA Region,Romblon,,0,0,0,0,0,0,0
+Cabbage,Region V (Bicol Region),Albay,0500500000,84.37,73.62,66.65,35.38,7.1,0,0
+Cabbage,Region V (Bicol Region),Camarines Norte,0501600000,0,0,0,0.36,0,0,0
+Cabbage,Region V (Bicol Region),Camarines Sur,0501700000,2.28,0.13,1.81,7.71,7.71,0.45,0
+Cabbage,Region V (Bicol Region),Catanduanes,0502000000,0,0,0,0,0,0,0
+Cabbage,Region V (Bicol Region),Masbate,0504100000,0,0,0,0,0,0,0
+Cabbage,Region V (Bicol Region),Sorsogon,0506200000,2.95,2.04,0,0,0,0,0
+Cabbage,Region VI (Western Visayas),Aklan,0600400000,0,0,0,0,0,21.5,3.62
+Cabbage,Region VI (Western Visayas),Antique,0600600000,69.91,71.31,68.03,66.58,69.1,65.38,13.26
+Cabbage,Region VI (Western Visayas),Capiz,0601900000,0,0,0,0,0,0,0
+Cabbage,Region VI (Western Visayas),Guimaras,0607900000,0,0,0,0,0,0.03,0
+Cabbage,Region VI (Western Visayas),Iloilo,0603000000,285.84,310.11,320.75,343.24,313.37,678.12,269.39
+Cabbage,Region VI (Western Visayas),Negros Occidental,1804500000,125.58,133.37,151.93,147.68,0,0,0
+Cabbage,Region VI (Western Visayas),Negros Occidental a/,1804500000,0,0,0,0,146.64,236.61,76
+Cabbage,Negros Island Region (NIR),City of Bacolod,1830200000,0,0,0,0,0,0,0
+Cabbage,Negros Island Region (NIR),Negros Oriental b/,1804600000,0,0,0,0,2670.78,1839.66,638.4
+Cabbage,Negros Island Region (NIR),Siquijor b/,,0,0,0,0,0,0,0
+Cabbage,Region VII (Central Visayas),Bohol,0701200000,87.78,70.7,65.22,92.16,59,37.08,15
+Cabbage,Region VII (Central Visayas),Cebu,0702200000,5464.74,5353.81,5906,6561.29,8489.66,8093.54,2511.47
+Cabbage,Negros Island Region (NIR),Negros Oriental,1804600000,2505.1,2570.39,2774.07,3044.36,0,0,0
+Cabbage,Negros Island Region (NIR),Siquijor,1806100000,0.27,0.36,0.18,0.02,0,0,0
+Cabbage,Region VIII (Eastern Visayas),Biliran,0807800000,25.4,30.7,40.59,5.5,4.13,0.11,0
+Cabbage,Region VIII (Eastern Visayas),Eastern Samar,0802600000,0,0,0,0,0,0,0
+Cabbage,Region VIII (Eastern Visayas),Leyte,0803700000,73.18,75.07,72.25,59.15,58.16,55.78,12.05
+Cabbage,Region VIII (Eastern Visayas),Northern Samar,0804800000,0,0,0,0,0,0,0
+Cabbage,Region VIII (Eastern Visayas),Samar,0806000000,0,0,0,8.72,8.72,0,0
+Cabbage,Region VIII (Eastern Visayas),Southern Leyte,0806400000,7.3,7.07,5.32,6.39,5.17,0.1,0.07
+Cabbage,Region IX (Zamboanga Peninsula),Sulu c/,0906600000,0,0,0,0,0,0,0
+Cabbage,Region IX (Zamboanga Peninsula),Zamboanga del Norte,0907200000,48.92,45.31,50.11,63.68,59.07,59.4,1.9
+Cabbage,Region IX (Zamboanga Peninsula),Zamboanga del Sur,0907300000,163.44,166.61,181.9,665.17,601.64,98.72,20.3
+Cabbage,Region IX (Zamboanga Peninsula),City of Zamboanga,0907400000,550.22,551.95,558.25,0,0,316.75,59.48
+Cabbage,Region IX (Zamboanga Peninsula),Zamboanga Sibugay,,10.61,11.11,11.28,10.87,10.62,10.79,1.01
+Cabbage,Region X (Northern Mindanao),Bukidnon,1001300000,6483.5,6599.15,5531.97,6057.92,6209,5983.99,267.75
+Cabbage,Region X (Northern Mindanao),Camiguin,1001800000,0.07,0.59,0.44,0.32,0.3,0.32,0.32
+Cabbage,Region X (Northern Mindanao),Lanao del Norte,1003500000,56,58.75,54.2,48.07,45.8,44.55,24.68
+Cabbage,Region X (Northern Mindanao),Misamis Occidental,1004200000,413.92,398.3,408.41,408.22,398.54,408.63,77.34
+Cabbage,Region X (Northern Mindanao),Misamis Oriental,1004300000,773.83,795.67,864.35,1052.8,816.88,818.53,107.27
+Cabbage,Region XI (Davao Region),Davao de Oro,1108200000,90.84,106.11,106.94,104.78,90.84,93.68,41.56
+Cabbage,Region XI (Davao Region),Davao del Norte,1102300000,0,0,0,0,0,0,0
+Cabbage,Region XI (Davao Region),Davao del Sur,1102400000,3357.54,3652.64,3717.58,4772.51,4695.85,4475.1,1005.77
+Cabbage,Region XI (Davao Region),City of Davao,1130700000,1204.81,1247.8,1225.25,0,0,195.01,88.82
+Cabbage,Region XI (Davao Region),Davao Occidental,1108600000,160.36,154.64,148.96,146.03,142.48,139.62,35.58
+Cabbage,Region XI (Davao Region),Davao Oriental,,0,0,0,0,0,0,0
+Cabbage,Region XII (SOCCSKSARGEN),Cotabato,1204700000,583.22,524.47,473.69,256.59,115.5,60.41,15.59
+Cabbage,Region XII (SOCCSKSARGEN),Sarangani,1208000000,8.29,7.02,5.17,2.15,0.31,0.1,0.06
+Cabbage,Region XII (SOCCSKSARGEN),Sultan Kudarat,1206500000,115.28,97.27,94.46,85.24,80.01,80.93,41.51
+Cabbage,Region XII (SOCCSKSARGEN),South Cotabato,1206300000,487.91,443.06,480.12,596.81,650.96,816.82,146.44
+Cabbage,Region XIII (Caraga),Agusan del Norte,1600200000,0,0,0.62,0,0.65,0.67,0.43
+Cabbage,Region XIII (Caraga),City of Butuan,1630400000,0,0,0,0,0,0,0.22
+Cabbage,Region XIII (Caraga),Agusan del Sur,1600300000,3.47,3.13,2.84,3.21,2.92,3.02,16.27
+Cabbage,Region XIII (Caraga),Dinagat Islands,1608500000,0.05,0.38,0.08,0,0,0,0
+Cabbage,Region XIII (Caraga),Surigao del Norte,1606700000,0,0,0,0.15,0,0,0
+Cabbage,Region XIII (Caraga),Surigao del Sur,,0,0,0,0,0,0,0
+Cabbage,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)3,Basilan,1900700000,0,0,0,0,0,0,0
+Cabbage,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)4,Lanao del Sur,1903600000,65.58,67.18,68.49,49.96,50.3,75.43,25
 Cabbage,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)5,Maguindanao,,172.3,160.45,140.16,104,0,234.14,162.12
-Cabbage,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)6,Maguindanao del Norte,PH19087,0,0,0,0,0,158.26,153.62
-Cabbage,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)7,Maguindanao del Sur,PH19088,0,0,0,0,0,75.88,8.5
-Cabbage,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)8,Sulu,PH19066,0,0,0,0,0,0,0
-Cabbage,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)9,Tawi-tawi,PH19070,0,0,0,0,0,0,0
+Cabbage,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)6,Maguindanao del Norte,1908700000,0,0,0,0,0,158.26,153.62
+Cabbage,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)7,Maguindanao del Sur,1908800000,0,0,0,0,0,75.88,8.5
+Cabbage,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)8,Sulu,0906600000,0,0,0,0,0,0,0
+Cabbage,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)9,Tawi-tawi,1907000000,0,0,0,0,0,0,0

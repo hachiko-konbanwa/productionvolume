@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Patola,Cordillera Administrative Region (CAR),Abra,1400100000,64.81,60.46,58.38,57.61,68.34,64.83,12.50
+Patola,Cordillera Administrative Region (CAR),Apayao,1408100000,10.46,9.92,9.54,7.70,8.97,8.60,1.51
+Patola,Cordillera Administrative Region (CAR),Benguet,1401100000,0.00,0.00,0.00,0.00,2.12,0.00,0.00
+Patola,Cordillera Administrative Region (CAR),Ifugao,1402700000,0.00,0.00,0.00,0.87,0.86,0.90,3.82
+Patola,Cordillera Administrative Region (CAR),Kalinga,1403200000,8.19,10.03,12.86,12.91,11.44,13.00,2.96
+Patola,Cordillera Administrative Region (CAR),Mountain Province,1404400000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Patola,Region I (Ilocos Region),Ilocos Norte,0102800000,730.24,719.05,728.04,727.71,715.58,1081.78,515.15
+Patola,Region I (Ilocos Region),Ilocos Sur,0102900000,184.93,186.15,177.11,208.89,189.22,198.74,112.16
+Patola,Region I (Ilocos Region),La Union,0103300000,152.84,142.16,151.34,144.78,143.78,116.82,43.77
+Patola,Region I (Ilocos Region),Pangasinan,0105500000,449.76,488.73,484.55,479.69,494.19,756.07,402.29
+Patola,Region II (Cagayan Valley),Batanes,0200900000,9.36,7.28,7.88,8.67,9.76,13.22,1.32
+Patola,Region II (Cagayan Valley),Cagayan,0201500000,1188.73,1189.07,1152.09,1188.13,1050.93,1122.90,280.10
+Patola,Region II (Cagayan Valley),Isabela,0203100000,526.66,516.46,491.82,484.61,512.97,507.78,169.70
+Patola,Region II (Cagayan Valley),Nueva Vizcaya,0205000000,172.89,160.45,169.46,173.06,169.60,168.78,13.44
+Patola,Region II (Cagayan Valley),Quirino,0205700000,62.87,52.13,57.42,55.22,50.64,54.14,4.54
+Patola,Region III (Central Luzon),Aurora,0307700000,56.43,74.80,59.34,56.14,44.85,175.15,20.04
+Patola,Region III (Central Luzon),Bataan,0300800000,5.58,5.49,6.32,6.29,5.72,6.72,2.80
+Patola,Region III (Central Luzon),Bulacan,0301400000,441.91,469.70,421.22,435.65,385.49,409.01,66.82
+Patola,Region III (Central Luzon),Nueva Ecija,0304900000,795.47,833.05,819.88,848.32,841.69,734.78,30.06
+Patola,Region III (Central Luzon),Pampanga,0305400000,271.30,301.17,315.45,309.56,319.61,337.47,121.07
+Patola,Region III (Central Luzon),Tarlac,0306900000,99.96,90.75,101.96,89.71,94.48,96.24,25.15
+Patola,Region III (Central Luzon),Zambales,0307100000,210.24,195.04,208.54,178.41,141.47,90.58,6.16
+Patola,Region IV-A (CALABARZON),Batangas,0401000000,233.42,289.95,278.66,308.39,454.85,427.66,209.60
+Patola,Region IV-A (CALABARZON),Cavite,0402100000,92.83,82.82,73.19,86.75,91.19,321.38,215.19
+Patola,Region IV-A (CALABARZON),Laguna,0403400000,92.46,87.09,77.40,72.89,82.17,74.32,29.37
+Patola,Region IV-A (CALABARZON),Quezon,0405600000,904.71,917.41,962.54,979.84,936.26,980.84,514.27
+Patola,Region IV-A (CALABARZON),Rizal,0405800000,82.87,86.31,83.71,85.98,83.62,81.26,16.55
+Patola,MIMAROPA Region,Marinduque,1704000000,45.12,47.03,47.43,46.61,41.52,29.79,7.11
+Patola,MIMAROPA Region,Occidental Mindoro,1705100000,26.47,35.07,38.89,39.90,26.48,27.81,39.13
+Patola,MIMAROPA Region,Oriental Mindoro,1705200000,25.53,15.25,18.08,10.14,13.69,20.50,3.40
+Patola,MIMAROPA Region,Palawan,1705300000,71.10,66.01,57.77,61.94,64.90,68.81,17.98
+Patola,MIMAROPA Region,City of Puerto Princesa,1731500000,0.00,0.00,0.00,0.00,0.00,0.00,4.50
+Patola,MIMAROPA Region,Romblon,1705900000,56.52,55.26,59.31,47.28,39.57,37.76,21.10
+Patola,Region V (Bicol Region),Albay,0500500000,147.19,182.77,217.01,159.41,93.02,54.41,1.99
+Patola,Region V (Bicol Region),Camarines Norte,0501600000,96.93,93.06,87.09,74.71,57.62,52.13,25.08
+Patola,Region V (Bicol Region),Camarines Sur,0501700000,394.50,454.75,468.90,297.63,240.58,113.08,16.65
+Patola,Region V (Bicol Region),Catanduanes,0502000000,15.30,14.71,14.08,8.36,7.63,166.15,7.76
+Patola,Region V (Bicol Region),Masbate,0504100000,11.65,11.68,11.65,6.22,7.29,10.85,7.27
+Patola,Region V (Bicol Region),Sorsogon,0506200000,26.54,25.91,23.10,17.01,13.16,8.37,6.04
+Patola,Region VI (Western Visayas),Aklan,0600400000,43.10,44.56,50.68,48.15,49.84,47.66,18.47
+Patola,Region VI (Western Visayas),Antique,0600600000,50.74,47.43,44.86,52.89,65.34,62.27,29.49
+Patola,Region VI (Western Visayas),Capiz,0601900000,101.23,108.30,107.21,107.88,96.21,91.28,23.35
+Patola,Region VI (Western Visayas),Guimaras,0607900000,62.23,80.14,98.31,95.85,107.76,125.09,27.31
+Patola,Region VI (Western Visayas),Iloilo,0603000000,355.94,357.23,360.50,378.94,353.68,558.96,189.59
+Patola,Region VI (Western Visayas),Negros Occidental,1804500000,478.92,497.09,483.74,510.49,0.00,0.00,0.00
+Patola,Region VI (Western Visayas),Negros Occidental,1804500000,0.00,0.00,0.00,0.00,496.84,496.76,203.53
+Patola,Negros Island Region (NIR),City of Bacolod,1830200000,0.00,0.00,0.00,0.00,0.00,0.00,0.12
+Patola,Negros Island Region (NIR),Negros Oriental,1804600000,0.00,0.00,0.00,0.00,56.43,50.92,4.05
+Patola,Negros Island Region (NIR),Siquijor,1806100000,0.00,0.00,0.00,0.00,6.45,8.63,1.07
+Patola,Region VII (Central Visayas),Bohol,0701200000,50.29,34.66,35.88,72.64,107.71,188.74,18.49
+Patola,Region VII (Central Visayas),Cebu,0702200000,173.63,160.28,161.00,168.19,184.07,158.99,17.97
+Patola,Negros Island Region (NIR),Negros Oriental,1804600000,78.35,82.87,79.86,67.21,0.00,0.00,0.00
+Patola,Negros Island Region (NIR),Siquijor,1806100000,5.48,5.65,5.42,5.31,0.00,0.00,0.00
+Patola,Region VIII (Eastern Visayas),Biliran,0807800000,3.65,4.45,5.39,5.71,5.16,5.51,2.05
+Patola,Region VIII (Eastern Visayas),Eastern Samar,0802600000,19.28,18.18,24.59,59.21,503.67,226.01,17.88
+Patola,Region VIII (Eastern Visayas),Leyte,0803700000,383.21,393.35,384.42,430.70,399.28,394.15,35.15
+Patola,Region VIII (Eastern Visayas),Northern Samar,0804800000,25.24,26.18,26.72,29.25,29.95,19.97,9.32
+Patola,Region VIII (Eastern Visayas),Samar,0806000000,26.52,32.65,35.00,47.90,50.94,53.02,7.66
+Patola,Region VIII (Eastern Visayas),Southern Leyte,0806400000,68.86,67.70,50.01,57.76,53.85,48.09,7.38
+Patola,Region IX (Zamboanga Peninsula),Sulu,0906600000,0.00,0.00,0.00,0.00,0.00,0.00,4.15
+Patola,Region IX (Zamboanga Peninsula),Zamboanga del Norte,0907200000,100.85,105.37,111.75,118.77,109.31,109.04,11.41
+Patola,Region IX (Zamboanga Peninsula),Zamboanga del Sur,0907300000,91.60,93.14,95.72,834.07,744.99,351.46,60.70
+Patola,Region IX (Zamboanga Peninsula),City of Zamboanga,0907400000,715.42,759.11,799.30,0.00,0.00,543.58,141.14
+Patola,Region IX (Zamboanga Peninsula),Zamboanga Sibugay,0908300000,33.74,33.66,29.67,29.68,32.34,29.80,3.37
+Patola,Region X (Northern Mindanao),Bukidnon,1001300000,70.71,81.57,79.50,76.71,81.50,81.79,13.20
+Patola,Region X (Northern Mindanao),Camiguin,1001800000,16.90,19.44,19.99,22.40,20.89,21.40,4.12
+Patola,Region X (Northern Mindanao),Lanao del Norte,1003500000,171.50,173.70,167.30,173.55,171.20,171.50,29.05
+Patola,Region X (Northern Mindanao),Misamis Occidental,1004200000,84.32,88.00,95.70,101.05,101.97,105.45,25.28
+Patola,Region X (Northern Mindanao),Misamis Oriental,1004300000,113.30,105.72,109.63,103.03,106.66,105.44,5.17
+Patola,Region XI (Davao Region),Davao de Oro,1108200000,171.96,171.81,163.64,161.99,155.68,155.44,27.88
+Patola,Region XI (Davao Region),Davao del Norte,1102300000,227.68,221.33,212.12,216.86,213.68,210.08,29.96
+Patola,Region XI (Davao Region),Davao del Sur,1102400000,73.39,73.68,72.32,161.31,156.96,87.35,14.36
+Patola,Region XI (Davao Region),City of Davao,1130700000,71.73,73.76,76.56,0.00,0.00,60.01,20.46
+Patola,Region XI (Davao Region),Davao Occidental,1108600000,70.42,2.60,2.78,2.05,2.54,2.53,0.57
+Patola,Region XI (Davao Region),Davao Oriental,1102500000,70.74,67.13,66.41,63.98,64.13,62.10,12.01
+Patola,Region XII (SOCCSKSARGEN),Cotabato,1204700000,67.39,58.09,54.89,53.44,67.16,54.84,10.89
+Patola,Region XII (SOCCSKSARGEN),Sarangani,1208000000,19.79,20.13,20.29,21.81,23.00,23.63,2.77
+Patola,Region XII (SOCCSKSARGEN),Sultan Kudarat,1206500000,37.22,37.85,38.91,42.03,45.85,33.36,4.94
+Patola,Region XII (SOCCSKSARGEN),South Cotabato,1206300000,37.47,43.62,49.10,52.04,58.96,68.22,27.08
+Patola,Region XIII (Caraga),Agusan del Norte,1600200000,64.00,67.24,69.58,69.44,67.30,70.64,6.95
+Patola,Region XIII (Caraga),City of Butuan,1630400000,0.00,0.00,0.00,0.00,0.00,0.00,3.58
+Patola,Region XIII (Caraga),Agusan del Sur,1600300000,596.27,565.41,564.21,470.11,483.32,495.46,6.91
+Patola,Region XIII (Caraga),Dinagat Islands,1608500000,4.36,3.90,2.94,3.99,7.92,12.31,3.78
+Patola,Region XIII (Caraga),Surigao del Norte,1606700000,17.10,17.67,16.30,13.67,16.81,44.60,9.06
+Patola,Region XIII (Caraga),Surigao del Sur,1606800000,46.54,46.26,51.75,41.18,22.16,12.12,1.21
+Patola,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)3,Basilan,1900700000,78.76,75.85,79.39,75.34,50.64,20.98,2.01
+Patola,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)4,Lanao del Sur,1903600000,158.93,158.64,158.44,122.14,35.37,61.00,23.10
+Patola,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)5,Maguindanao,,58.00,59.17,60.40,60.60,90.40,300.75,196.65
+Patola,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)6,Maguindanao del Norte,1908700000,0.00,0.00,0.00,0.00,0.00,190.62,171.44
+Patola,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)7,Maguindanao del Sur,1908800000,0.00,0.00,0.00,0.00,0.00,110.13,25.21
+Patola,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)8,Sulu,0906600000,9.37,9.55,9.55,9.84,9.68,9.75,0.00
+Patola,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)9,Tawi-tawi,1907000000,6.97,7.43,8.61,8.23,10.67,3.92,0.75

@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Rambutan,CAR,Abra,1400100000,0,0,0,0,0,142,40
+Rambutan,CAR,Apayao,1408100000,0,0,0,0,0,7260,1850
+Rambutan,CAR,Benguet,1401100000,0,0,0,0,0,1180,295
+Rambutan,CAR,Ifugao,1402700000,0,0,0,0,0,31955,7700
+Rambutan,CAR,Kalinga,1403200000,0,0,0,0,0,5950,1587
+Rambutan,CAR,Mountain Province,1404400000,0,0,0,0,0,12124,3031
+Rambutan,Region I,Ilocos Norte,0102800000,0,0,0,0,0,3712,1005
+Rambutan,Region I,Ilocos Sur,0102900000,0,0,0,0,0,10324,2581
+Rambutan,Region I,La Union,0103300000,0,0,0,0,0,1080,270
+Rambutan,Region I,Pangasinan,0105500000,0,0,0,0,0,3851,980
+Rambutan,Region II,Batanes,0200900000,0,0,0,0,0,0,0
+Rambutan,Region II,Cagayan,0201500000,0,0,0,0,0,17956,4489
+Rambutan,Region II,Isabela,0203100000,0,0,0,0,0,4005,978
+Rambutan,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,19890,5215
+Rambutan,Region II,Quirino,0205700000,0,0,0,0,0,25200,6320
+Rambutan,Region III,Aurora,0307700000,0,0,0,0,0,8892,2223
+Rambutan,Region III,Bataan,0300800000,0,0,0,0,0,291,97
+Rambutan,Region III,Bulacan,0301400000,0,0,0,0,0,17120,4280
+Rambutan,Region III,Nueva Ecija,0304900000,0,0,0,0,0,5511,1837
+Rambutan,Region III,Pampanga,0305400000,0,0,0,0,0,52,26
+Rambutan,Region III,Tarlac,0306900000,0,0,0,0,0,350,112
+Rambutan,Region III,Zambales,0307100000,0,0,0,0,0,393,75
+Rambutan,Region IV-A,Batangas,0401000000,0,0,0,0,0,64000,16000
+Rambutan,Region IV-A,Cavite,0402100000,0,0,0,0,0,13404,3351
+Rambutan,Region IV-A,Laguna,0403400000,0,0,0,0,0,263620,65630
+Rambutan,Region IV-A,Quezon,0405600000,0,0,0,0,0,54400,13600
+Rambutan,Region IV-A,Rizal,0405800000,0,0,0,0,0,9856,2464
+Rambutan,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,7200,1800
+Rambutan,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,180,45
+Rambutan,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,59252,14213
+Rambutan,MIMAROPA,Palawan,1705300000,0,0,0,0,0,8048,1487
+Rambutan,MIMAROPA,Romblon,1705900000,0,0,0,0,0,2216,554
+Rambutan,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0,525
+Rambutan,Region V,Albay,0500500000,0,0,0,0,0,5000,1250
+Rambutan,Region V,Camarines Norte,0501600000,0,0,0,0,0,11244,2811
+Rambutan,Region V,Camarines Sur,0501700000,0,0,0,0,0,2300,800
+Rambutan,Region V,Catanduanes,0502000000,0,0,0,0,0,116,39
+Rambutan,Region V,Masbate,0504100000,0,0,0,0,0,478,478
+Rambutan,Region V,Sorsogon,0506200000,0,0,0,0,0,2217,660
+Rambutan,Region VI,Aklan,0600400000,0,0,0,0,0,7504,1876
+Rambutan,Region VI,Antique,0600600000,0,0,0,0,0,520,130
+Rambutan,Region VI,Capiz,0601900000,0,0,0,0,0,5060,1265
+Rambutan,Region VI,Guimaras,0607900000,0,0,0,0,0,1320,395
+Rambutan,Region VI,Iloilo,0603000000,0,0,0,0,0,7600,1900
+Rambutan,NIR,Negros Occidental,1804500000,0,0,0,0,0,0,0
+Rambutan,NIR,Negros Occidental,1804500000,0,0,0,0,0,8600,2150
+Rambutan,NIR,Negros Oriental,1804600000,0,0,0,0,0,11040,2760
+Rambutan,NIR,Siquijor,1806100000,0,0,0,0,0,400,100
+Rambutan,NIR,City of Bacolod,1830200000,0,0,0,0,0,0,0
+Rambutan,Region VII,Bohol,0701200000,0,0,0,0,0,24284,6071
+Rambutan,Region VII,Cebu,0702200000,0,0,0,0,0,1320,330
+Rambutan,NIR,Negros Oriental,1804600000,0,0,0,0,0,0,0
+Rambutan,NIR,Siquijor,1806100000,0,0,0,0,0,0,0
+Rambutan,Region VIII,Biliran,0807800000,0,0,0,0,0,1976,457
+Rambutan,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,2880,720
+Rambutan,Region VIII,Leyte,0803700000,0,0,0,0,0,1063,265
+Rambutan,Region VIII,Northern Samar,0804800000,0,0,0,0,0,230,60
+Rambutan,Region VIII,Samar,0806000000,0,0,0,0,0,272,68
+Rambutan,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,6000,1500
+Rambutan,Region IX,Sulu,0906600000,0,0,0,0,0,0,0
+Rambutan,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,160800,40200
+Rambutan,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,6552,1238
+Rambutan,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,11100,2775
+Rambutan,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,2865,955
+Rambutan,Region X,Bukidnon,1001300000,0,0,0,0,0,50800,12700
+Rambutan,Region X,Camiguin,1001800000,0,0,0,0,0,3000,750
+Rambutan,Region X,Lanao del Norte,1003500000,0,0,0,0,0,7580,1900
+Rambutan,Region X,Misamis Occidental,1004200000,0,0,0,0,0,16400,4100
+Rambutan,Region X,Misamis Oriental,1004300000,0,0,0,0,0,22702,5623
+Rambutan,Region XI,Davao de Oro,1108200000,0,0,0,0,0,63440,15860
+Rambutan,Region XI,Davao del Norte,1102300000,0,0,0,0,0,43025,10757
+Rambutan,Region XI,Davao del Sur,1102400000,0,0,0,0,0,58458,13721
+Rambutan,Region XI,Davao Occidental,1108600000,0,0,0,0,0,13292,3323
+Rambutan,Region XI,Davao Oriental,1102500000,0,0,0,0,0,2432,608
+Rambutan,Region XI,City of Davao,1130700000,0,0,0,0,0,10722,3574
+Rambutan,Region XII,Cotabato,1204700000,0,0,0,0,0,266000,66500
+Rambutan,Region XII,Sarangani,1208000000,0,0,0,0,0,6670,1620
+Rambutan,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,62700,15675
+Rambutan,Region XII,South Cotabato,1206300000,0,0,0,0,0,78352,19600
+Rambutan,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,28800,4752
+Rambutan,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,56209,15200
+Rambutan,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,280,70
+Rambutan,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,6672,1668
+Rambutan,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,59372,14843
+Rambutan,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0,2448
+Rambutan,BARMM,Basilan,1900700000,0,0,0,0,0,4244,1061
+Rambutan,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,10080,2520
+Rambutan,BARMM,Maguindanao,1908800000,0,0,0,0,0,0,0
+Rambutan,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,28208,7052
+Rambutan,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,1056,264
+Rambutan,BARMM,Sulu,0906600000,0,0,0,0,0,0,0
+Rambutan,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,1930,490

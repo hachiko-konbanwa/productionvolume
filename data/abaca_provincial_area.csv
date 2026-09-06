@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Abaca,CAR,Abra,1400100000,0,0,0,0,0,0,0
+Abaca,CAR,Apayao,1408100000,0,0,0,0,0,0,0
+Abaca,CAR,Benguet,1401100000,0,0,0,0,0,0,0
+Abaca,CAR,Ifugao,1402700000,0,0,0,0,0,0,0
+Abaca,CAR,Kalinga,1403200000,0,0,0,0,0,0,0
+Abaca,CAR,Mountain Province,1404400000,0,0,0,0,0,0,0
+Abaca,Region I,Ilocos Norte,0102800000,0,0,0,0,0,0,0
+Abaca,Region I,Ilocos Sur,0102900000,0,0,0,0,0,0,0
+Abaca,Region I,La Union,0103300000,0,0,0,0,0,0,0
+Abaca,Region I,Pangasinan,0105500000,0,0,0,0,0,0,0
+Abaca,Region II,Batanes,0200900000,0,0,0,0,0,0,0
+Abaca,Region II,Cagayan,0201500000,0,0,0,0,0,734.44,297.22
+Abaca,Region II,Isabela,0203100000,0,0,0,0,0,0,0
+Abaca,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,0,0
+Abaca,Region II,Quirino,0205700000,0,0,0,0,0,0,0
+Abaca,Region III,Aurora,0307700000,0,0,0,0,0,1022.12,255.53
+Abaca,Region III,Bataan,0300800000,0,0,0,0,0,0,0
+Abaca,Region III,Bulacan,0301400000,0,0,0,0,0,0,0
+Abaca,Region III,Nueva Ecija,0304900000,0,0,0,0,0,0,0
+Abaca,Region III,Pampanga,0305400000,0,0,0,0,0,0,0
+Abaca,Region III,Tarlac,0306900000,0,0,0,0,0,0,0
+Abaca,Region III,Zambales,0307100000,0,0,0,0,0,0,0
+Abaca,Region IV-A,Batangas,0401000000,0,0,0,0,0,0,0
+Abaca,Region IV-A,Cavite,0402100000,0,0,0,0,0,0,0
+Abaca,Region IV-A,Laguna,0403400000,0,0,0,0,0,272.00,68.00
+Abaca,Region IV-A,Quezon,0405600000,0,0,0,0,0,1184.00,296.00
+Abaca,Region IV-A,Rizal,0405800000,0,0,0,0,0,0,0
+Abaca,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,128.00,32.00
+Abaca,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,0,0
+Abaca,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,2402.60,600.65
+Abaca,MIMAROPA,Palawan,1705300000,0,0,0,0,0,1234.08,308.52
+Abaca,MIMAROPA,Romblon,1705900000,0,0,0,0,0,0,0
+Abaca,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0,0
+Abaca,Region V,Albay,0500500000,0,0,0,0,0,20762.40,6146.84
+Abaca,Region V,Camarines Norte,0501600000,0,0,0,0,0,791.50,197.27
+Abaca,Region V,Camarines Sur,0501700000,0,0,0,0,0,27490.04,6872.68
+Abaca,Region V,Catanduanes,0502000000,0,0,0,0,0,91548.00,22887.00
+Abaca,Region V,Masbate,0504100000,0,0,0,0,0,0,0
+Abaca,Region V,Sorsogon,0506200000,0,0,0,0,0,22950.47,5861.30
+Abaca,Region VI,Aklan,0600400000,0,0,0,0,0,17509.52,4377.38
+Abaca,Region VI,Antique,0600600000,0,0,0,0,0,3520.00,880.00
+Abaca,Region VI,Capiz,0601900000,0,0,0,0,0,1032.00,258.00
+Abaca,Region VI,Guimaras,0607900000,0,0,0,0,0,0,0
+Abaca,Region VI,Iloilo,0603000000,0,0,0,0,0,4904.00,1226.00
+Abaca,NIR,Negros Occidental,1804500000,0,0,0,0,0,0,0
+Abaca,NIR,Negros Occidental,1804500000,0,0,0,0,0,210.00,50.00
+Abaca,NIR,Negros Oriental,1804600000,0,0,0,0,0,11409.72,2852.43
+Abaca,NIR,Siquijor,1806100000,0,0,0,0,0,0,0
+Abaca,NIR,City of Bacolod,1830200000,0,0,0,0,0,0,0
+Abaca,Region VII,Bohol,0701200000,0,0,0,0,0,0.04,0
+Abaca,Region VII,Cebu,0702200000,0,0,0,0,0,601.00,151.00
+Abaca,NIR,Negros Oriental,1804600000,0,0,0,0,0,0,0
+Abaca,NIR,Siquijor,1806100000,0,0,0,0,0,0,0
+Abaca,Region VIII,Biliran,0807800000,0,0,0,0,0,3996.00,999.00
+Abaca,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,1798.00,400.00
+Abaca,Region VIII,Leyte,0803700000,0,0,0,0,0,33000.00,8100.00
+Abaca,Region VIII,Northern Samar,0804800000,0,0,0,0,0,48156.00,12038.00
+Abaca,Region VIII,Samar,0806000000,0,0,0,0,0,1360.35,343.00
+Abaca,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,10890.00,2715.00
+Abaca,Region IX,Sulu,0906600000,0,0,0,0,0,0,5275.00
+Abaca,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,3738.57,935.00
+Abaca,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,1721.46,324.33
+Abaca,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,2160.00,540.00
+Abaca,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,1247.87,415.51
+Abaca,Region X,Bukidnon,1001300000,0,0,0,0,0,14624.00,3656.00
+Abaca,Region X,Camiguin,1001800000,0,0,0,0,0,109.60,27.40
+Abaca,Region X,Lanao del Norte,1003500000,0,0,0,0,0,2600.00,650.00
+Abaca,Region X,Misamis Occidental,1004200000,0,0,0,0,0,2080.00,520.00
+Abaca,Region X,Misamis Oriental,1004300000,0,0,0,0,0,3240.00,810.00
+Abaca,Region XI,Davao de Oro,1108200000,0,0,0,0,0,2471.24,626.00
+Abaca,Region XI,Davao del Norte,1102300000,0,0,0,0,0,425.09,103.34
+Abaca,Region XI,Davao del Sur,1102400000,0,0,0,0,0,2782.85,684.29
+Abaca,Region XI,Davao Occidental,1108600000,0,0,0,0,0,22932.00,5733.00
+Abaca,Region XI,Davao Oriental,1102500000,0,0,0,0,0,28060.00,7015.00
+Abaca,Region XI,City of Davao,1130700000,0,0,0,0,0,137.07,45.69
+Abaca,Region XII,Cotabato,1204700000,0,0,0,0,0,320.00,80.00
+Abaca,Region XII,Sarangani,1208000000,0,0,0,0,0,7620.00,1986.10
+Abaca,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,28.00,7.00
+Abaca,Region XII,South Cotabato,1206300000,0,0,0,0,0,16228.20,4295.00
+Abaca,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,6080.00,1003.20
+Abaca,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,15541.00,3892.00
+Abaca,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,0,0
+Abaca,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,324.00,81.00
+Abaca,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,23992.00,5998.00
+Abaca,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0,516.80
+Abaca,BARMM,Basilan,1900700000,0,0,0,0,0,200.00,50.00
+Abaca,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,9841.00,2510.00
+Abaca,BARMM,Maguindanao,1908800000,0,0,0,0,0,0,0
+Abaca,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,352.00,88.00
+Abaca,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,0,0
+Abaca,BARMM,Sulu,0906600000,0,0,0,0,0,21100.00,0
+Abaca,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,12.50,3.00

@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Ginger,CAR,Abra,1400100000,,,,,,2.19,2.89
+Ginger,CAR,Apayao,1408100000,,,,,,4.07,4.23
+Ginger,CAR,Benguet,1401100000,,,,,,9.56,12.14
+Ginger,CAR,Ifugao,1402700000,,,,,,10.28,7.12
+Ginger,CAR,Kalinga,1403200000,,,,,,6.60,8.86
+Ginger,CAR,Mountain Province,1404400000,,,,,,3.99,0.45
+Ginger,Region I,Ilocos Norte,0102800000,,,,,,6.98,7.35
+Ginger,Region I,Ilocos Sur,0102900000,,,,,,3.79,6.79
+Ginger,Region I,La Union,0103300000,,,,,,4.76,5.33
+Ginger,Region I,Pangasinan,0105500000,,,,,,4.71,3.88
+Ginger,Region II,Batanes,0200900000,,,,,,2.13,2.10
+Ginger,Region II,Cagayan,0201500000,,,,,,5.75,6.59
+Ginger,Region II,Isabela,0203100000,,,,,,6.35,7.19
+Ginger,Region II,Nueva Vizcaya,0205000000,,,,,,7.65,11.53
+Ginger,Region II,Quirino,0205700000,,,,,,8.30,8.58
+Ginger,Region III,Aurora,0307700000,,,,,,5.11,9.08
+Ginger,Region III,Bataan,0300800000,,,,,,7.46,
+Ginger,Region III,Bulacan,0301400000,,,,,,10.72,
+Ginger,Region III,Nueva Ecija,0304900000,,,,,,3.67,4.50
+Ginger,Region III,Pampanga,0305400000,,,,,,6.25,1.24
+Ginger,Region III,Tarlac,0306900000,,,,,,7.19,6.43
+Ginger,Region III,Zambales,0307100000,,,,,,7.12,21.22
+Ginger,Region IV-A,Batangas,0401000000,,,,,,2.91,3.78
+Ginger,Region IV-A,Cavite,0402100000,,,,,,7.39,7.11
+Ginger,Region IV-A,Laguna,0403400000,,,,,,5.43,0.00
+Ginger,Region IV-A,Quezon,0405600000,,,,,,10.19,13.09
+Ginger,Region IV-A,Rizal,0405800000,,,,,,4.93,13.70
+Ginger,MIMAROPA,Marinduque,1704000000,,,,,,2.91,0.22
+Ginger,MIMAROPA,Occidental Mindoro,1705100000,,,,,,4.58,8.00
+Ginger,MIMAROPA,Oriental Mindoro,1705200000,,,,,,3.22,0.27
+Ginger,MIMAROPA,Palawan,1705300000,,,,,,3.08,3.46
+Ginger,MIMAROPA,City of Puerto Princesa,1731500000,,,,,,,1.49
+Ginger,MIMAROPA,Romblon,1705900000,,,,,,8.18,7.85
+Ginger,Region V,Albay,0500500000,,,,,,0.34,0.04
+Ginger,Region V,Camarines Norte,0501600000,,,,,,200.83,1.14
+Ginger,Region V,Camarines Sur,0501700000,,,,,,3.04,2.69
+Ginger,Region V,Catanduanes,0502000000,,,,,,10.46,0.50
+Ginger,Region V,Masbate,0504100000,,,,,,1.92,8.97
+Ginger,Region V,Sorsogon,0506200000,,,,,,4.02,4.09
+Ginger,Region VI,Aklan,0600400000,,,,,,8.62,8.59
+Ginger,Region VI,Antique,0600600000,,,,,,5.77,5.71
+Ginger,Region VI,Capiz,0601900000,,,,,,6.88,6.76
+Ginger,Region VI,Guimaras,0607900000,,,,,,7.83,10.50
+Ginger,Region VI,Iloilo,0603000000,,,,,,6.96,8.03
+Ginger,NIR,Negros Occidental,1804500000,,,,,,,
+Ginger,NIR,Negros Occidental,1804500000,,,,,,11.17,12.01
+Ginger,NIR,City of Bacolod,1830200000,,,,,,,
+Ginger,NIR,Negros Oriental,1804600000,,,,,,4.96,23.33
+Ginger,NIR,Siquijor,1806100000,,,,,,6.28,7.99
+Ginger,Region VII,Bohol,0701200000,,,,,,6.20,5.57
+Ginger,Region VII,Cebu,0702200000,,,,,,4.85,4.78
+Ginger,NIR,Negros Oriental,1804600000,,,,,,,
+Ginger,NIR,Siquijor,1806100000,,,,,,,
+Ginger,Region VIII,Biliran,0807800000,,,,,,10.17,9.91
+Ginger,Region VIII,Eastern Samar,0802600000,,,,,,4.75,1.56
+Ginger,Region VIII,Leyte,0803700000,,,,,,4.05,3.84
+Ginger,Region VIII,Northern Samar,0804800000,,,,,,1.52,0.97
+Ginger,Region VIII,Samar,0806000000,,,,,,4.30,5.30
+Ginger,Region VIII,Southern Leyte,0806400000,,,,,,9.07,11.26
+Ginger,Region IX,Sulu,0906600000,,,,,,,
+Ginger,Region IX,Zamboanga del Norte,0907200000,,,,,,10.26,8.16
+Ginger,Region IX,Zamboanga del Sur,0907300000,,,,,,3.12,1.56
+Ginger,Region IX,City of Zamboanga,0907400000,,,,,,1.30,1.72
+Ginger,Region IX,Zamboanga Sibugay,0908300000,,,,,,2.85,2.98
+Ginger,Region X,Bukidnon,1001300000,,,,,,7.58,7.57
+Ginger,Region X,Camiguin,1001800000,,,,,,6.67,5.92
+Ginger,Region X,Lanao del Norte,1003500000,,,,,,3.95,3.53
+Ginger,Region X,Misamis Occidental,1004200000,,,,,,2.98,1.68
+Ginger,Region X,Misamis Oriental,1004300000,,,,,,0.77,1.67
+Ginger,Region XI,Davao de Oro,1108200000,,,,,,6.09,7.49
+Ginger,Region XI,Davao del Norte,1102300000,,,,,,2.87,3.39
+Ginger,Region XI,Davao del Sur,1102400000,,,,,,3.93,3.47
+Ginger,Region XI,City of Davao,1130700000,,,,,,24.11,3.57
+Ginger,Region XI,Davao Occidental,1108600000,,,,,,1.90,3.45
+Ginger,Region XI,Davao Oriental,1102500000,,,,,,1.07,1.27
+Ginger,Region XII,Cotabato,1204700000,,,,,,3.45,4.71
+Ginger,Region XII,Sarangani,1208000000,,,,,,3.76,7.38
+Ginger,Region XII,Sultan Kudarat,1206500000,,,,,,4.65,11.31
+Ginger,Region XII,South Cotabato,1206300000,,,,,,7.15,5.09
+Ginger,Region XIII,Agusan del Norte,1600200000,,,,,,3.88,7.44
+Ginger,Region XIII,City of Butuan,1630400000,,,,,,,7.67
+Ginger,Region XIII,Agusan del Sur,1600300000,,,,,,5.23,5.37
+Ginger,Region XIII,Dinagat Islands,1608500000,,,,,,3.02,6.60
+Ginger,Region XIII,Surigao del Norte,1606700000,,,,,,1.35,0.35
+Ginger,Region XIII,Surigao del Sur,1606800000,,,,,,0.27,0.46
+Ginger,BARMM,Basilan,1900700000,,,,,,1.02,0.10
+Ginger,BARMM,Lanao del Sur,1903600000,,,,,,7.66,8.39
+Ginger,BARMM,Maguindanao,,,,,,,2.70,2.37
+Ginger,BARMM,Maguindanao del Norte,1908700000,,,,,,8.22,18.78
+Ginger,BARMM,Maguindanao del Sur,1908800000,,,,,,2.31,1.20
+Ginger,BARMM,Sulu,0906600000,,,,,,,
+Ginger,BARMM,Tawi-tawi,1907000000,,,,,,0.49,0.35

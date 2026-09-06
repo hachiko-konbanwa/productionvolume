@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Saluyot,CAR,Abra,1400100000,0,0,0,0,0,40.00,10.00
+Saluyot,CAR,Apayao,1408100000,0,0,0,0,0,2.77,0.47
+Saluyot,CAR,Benguet,1401100000,0,0,0,0,0,0.00,0.00
+Saluyot,CAR,Ifugao,1402700000,0,0,0,0,0,0.14,2.51
+Saluyot,CAR,Kalinga,1403200000,0,0,0,0,0,1.95,0.25
+Saluyot,CAR,Mountain Province,1404400000,0,0,0,0,0,0.00,0.00
+Saluyot,Region I,Ilocos Norte,0102800000,0,0,0,0,0,70.57,16.15
+Saluyot,Region I,Ilocos Sur,0102900000,0,0,0,0,0,72.57,17.29
+Saluyot,Region I,La Union,0103300000,0,0,0,0,0,28.33,3.47
+Saluyot,Region I,Pangasinan,0105500000,0,0,0,0,0,113.27,10.00
+Saluyot,Region II,Batanes,0200900000,0,0,0,0,0,0.02,0.00
+Saluyot,Region II,Cagayan,0201500000,0,0,0,0,0,12.16,4.50
+Saluyot,Region II,Isabela,0203100000,0,0,0,0,0,53.06,11.00
+Saluyot,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,21.10,11.70
+Saluyot,Region II,Quirino,0205700000,0,0,0,0,0,6.81,1.75
+Saluyot,Region III,Aurora,0307700000,0,0,0,0,0,5.79,0.95
+Saluyot,Region III,Bataan,0300800000,0,0,0,0,0,11.30,3.22
+Saluyot,Region III,Bulacan,0301400000,0,0,0,0,0,24.44,4.09
+Saluyot,Region III,Nueva Ecija,0304900000,0,0,0,0,0,63.00,20.00
+Saluyot,Region III,Pampanga,0305400000,0,0,0,0,0,6.00,2.00
+Saluyot,Region III,Tarlac,0306900000,0,0,0,0,0,11.75,3.00
+Saluyot,Region III,Zambales,0307100000,0,0,0,0,0,1.48,1.15
+Saluyot,Region IV-A,Batangas,0401000000,0,0,0,0,0,0.00,0.00
+Saluyot,Region IV-A,Cavite,0402100000,0,0,0,0,0,0.77,0.37
+Saluyot,Region IV-A,Laguna,0403400000,0,0,0,0,0,3.19,0.75
+Saluyot,Region IV-A,Quezon,0405600000,0,0,0,0,0,0.06,0.00
+Saluyot,Region IV-A,Rizal,0405800000,0,0,0,0,0,2.93,1.07
+Saluyot,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,0.00,0.00
+Saluyot,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,0.65,0.00
+Saluyot,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,0.51,0.25
+Saluyot,MIMAROPA,Palawan,1705300000,0,0,0,0,0,3.61,1.50
+Saluyot,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0.00,0.13
+Saluyot,MIMAROPA,Romblon,1705900000,0,0,0,0,0,1.21,0.19
+Saluyot,Region V,Albay,0500500000,0,0,0,0,0,0.00,0.00
+Saluyot,Region V,Camarines Norte,0501600000,0,0,0,0,0,0.00,0.00
+Saluyot,Region V,Camarines Sur,0501700000,0,0,0,0,0,0.00,0.03
+Saluyot,Region V,Catanduanes,0502000000,0,0,0,0,0,0.00,0.01
+Saluyot,Region V,Masbate,0504100000,0,0,0,0,0,0.00,0.00
+Saluyot,Region V,Sorsogon,0506200000,0,0,0,0,0,0.01,0.00
+Saluyot,Region VI,Aklan,0600400000,0,0,0,0,0,10.39,5.05
+Saluyot,Region VI,Antique,0600600000,0,0,0,0,0,45.73,21.20
+Saluyot,Region VI,Capiz,0601900000,0,0,0,0,0,46.09,7.60
+Saluyot,Region VI,Guimaras,0607900000,0,0,0,0,0,6.75,2.40
+Saluyot,Region VI,Iloilo,0603000000,0,0,0,0,0,111.57,44.60
+Saluyot,NIR,Negros Occidental,1804500000,0,0,0,0,0,0.00,0
+Saluyot,NIR,Negros Occidental,1804500000,0,0,0,0,0,30.00,5.00
+Saluyot,NIR,City of Bacolod,1830200000,0,0,0,0,0,0.00,0.00
+Saluyot,NIR,Negros Oriental,1804600000,0,0,0,0,0,1.87,0.32
+Saluyot,NIR,Siquijor,1806100000,0,0,0,0,0,0.75,0.05
+Saluyot,Region VII,Bohol,0701200000,0,0,0,0,0,1.00,0.30
+Saluyot,Region VII,Cebu,0702200000,0,0,0,0,0,5.13,1.05
+Saluyot,NIR,Negros Oriental,1804600000,0,0,0,0,0,0.00,0
+Saluyot,NIR,Siquijor,1806100000,0,0,0,0,0,0.00,0
+Saluyot,Region VIII,Biliran,0807800000,0,0,0,0,0,0.07,0.03
+Saluyot,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,0.96,0.24
+Saluyot,Region VIII,Leyte,0803700000,0,0,0,0,0,23.64,1.23
+Saluyot,Region VIII,Northern Samar,0804800000,0,0,0,0,0,0.00,0.00
+Saluyot,Region VIII,Samar,0806000000,0,0,0,0,0,1.45,0.32
+Saluyot,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,0.60,0.08
+Saluyot,Region IX,Sulu,0906600000,0,0,0,0,0,0.00,0.00
+Saluyot,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,1.05,0.86
+Saluyot,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,11.80,3.00
+Saluyot,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,5.09,1.63
+Saluyot,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,2.16,0.25
+Saluyot,Region X,Bukidnon,1001300000,0,0,0,0,0,3.84,0.57
+Saluyot,Region X,Camiguin,1001800000,0,0,0,0,0,1.60,0.26
+Saluyot,Region X,Lanao del Norte,1003500000,0,0,0,0,0,19.16,4.50
+Saluyot,Region X,Misamis Occidental,1004200000,0,0,0,0,0,8.40,2.10
+Saluyot,Region X,Misamis Oriental,1004300000,0,0,0,0,0,31.90,5.00
+Saluyot,Region XI,Davao de Oro,1108200000,0,0,0,0,0,63.17,15.38
+Saluyot,Region XI,Davao del Norte,1102300000,0,0,0,0,0,24.45,3.97
+Saluyot,Region XI,Davao del Sur,1102400000,0,0,0,0,0,61.29,5.22
+Saluyot,Region XI,City of Davao,1130700000,0,0,0,0,0,44.28,14.76
+Saluyot,Region XI,Davao Occidental,1108600000,0,0,0,0,0,1.46,0.38
+Saluyot,Region XI,Davao Oriental,1102500000,0,0,0,0,0,2.90,0.70
+Saluyot,Region XII,Cotabato,1204700000,0,0,0,0,0,7.38,1.39
+Saluyot,Region XII,Sarangani,1208000000,0,0,0,0,0,38.50,3.60
+Saluyot,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,8.00,0.00
+Saluyot,Region XII,South Cotabato,1206300000,0,0,0,0,0,7.26,3.26
+Saluyot,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,0.64,0.00
+Saluyot,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0.00,0.00
+Saluyot,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,20.52,18.17
+Saluyot,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,0.89,0.41
+Saluyot,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,0.54,0.00
+Saluyot,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,1.43,1.27
+Saluyot,BARMM,Basilan,1900700000,0,0,0,0,0,0.00,0.00
+Saluyot,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,4.45,0.00
+Saluyot,BARMM,Maguindanao,,0,0,0,0,0,33.40,155.91
+Saluyot,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,11.80,2.95
+Saluyot,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,21.60,152.96
+Saluyot,BARMM,Sulu,0906600000,0,0,0,0,0,0.00,0
+Saluyot,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,0.00,0.00

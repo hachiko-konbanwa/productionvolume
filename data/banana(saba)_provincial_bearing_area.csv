@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Banana Saba,CAR,Abra,1400100000,0,0,0,0,0,199450,24112
+Banana Saba,CAR,Apayao,1408100000,0,0,0,0,0,322000,77000
+Banana Saba,CAR,Benguet,1401100000,0,0,0,0,0,21000,5250
+Banana Saba,CAR,Ifugao,1402700000,0,0,0,0,0,136235,45935
+Banana Saba,CAR,Kalinga,1403200000,0,0,0,0,0,969236,242309
+Banana Saba,CAR,Mountain Province,1404400000,0,0,0,0,0,101040,27385
+Banana Saba,Region I,Ilocos Norte,0102800000,0,0,0,0,0,1002614,250453
+Banana Saba,Region I,Ilocos Sur,0102900000,0,0,0,0,0,1083364,270941
+Banana Saba,Region I,La Union,0103300000,0,0,0,0,0,496343,122987
+Banana Saba,Region I,Pangasinan,0105500000,0,0,0,0,0,1924179,473296
+Banana Saba,Region II,Batanes,0200900000,0,0,0,0,0,4638,1615
+Banana Saba,Region II,Cagayan,0201500000,0,0,0,0,0,3603482,901888
+Banana Saba,Region II,Isabela,0203100000,0,0,0,0,0,11735751,2731711
+Banana Saba,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,1232212,347819
+Banana Saba,Region II,Quirino,0205700000,0,0,0,0,0,5902433,1181286
+Banana Saba,Region III,Aurora,0307700000,0,0,0,0,0,190568,47642
+Banana Saba,Region III,Bataan,0300800000,0,0,0,0,0,197891,54117
+Banana Saba,Region III,Bulacan,0301400000,0,0,0,0,0,1143400,285850
+Banana Saba,Region III,Nueva Ecija,0304900000,0,0,0,0,0,384576,96144
+Banana Saba,Region III,Pampanga,0305400000,0,0,0,0,0,332760,83190
+Banana Saba,Region III,Tarlac,0306900000,0,0,0,0,0,526540,131635
+Banana Saba,Region III,Zambales,0307100000,0,0,0,0,0,604132,151033
+Banana Saba,Region IV-A,Batangas,0401000000,0,0,0,0,0,5240120,1320013
+Banana Saba,Region IV-A,Cavite,0402100000,0,0,0,0,0,994463,248248
+Banana Saba,Region IV-A,Laguna,0403400000,0,0,0,0,0,4199700,1050800
+Banana Saba,Region IV-A,Quezon,0405600000,0,0,0,0,0,6340220,1586130
+Banana Saba,Region IV-A,Rizal,0405800000,0,0,0,0,0,856251,185451
+Banana Saba,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,493844,123461
+Banana Saba,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,599832,149958
+Banana Saba,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,4649090,725011
+Banana Saba,MIMAROPA,Palawan,1705300000,0,0,0,0,0,3600552,777148
+Banana Saba,MIMAROPA,Romblon,1705900000,0,0,0,0,0,1830425,450425
+Banana Saba,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0,122990
+Banana Saba,Region V,Albay,0500500000,0,0,0,0,0,471238,114048
+Banana Saba,Region V,Camarines Norte,0501600000,0,0,0,0,0,4067800,1016950
+Banana Saba,Region V,Camarines Sur,0501700000,0,0,0,0,0,4107216,1026804
+Banana Saba,Region V,Catanduanes,0502000000,0,0,0,0,0,388736,97184
+Banana Saba,Region V,Masbate,0504100000,0,0,0,0,0,468807,122278
+Banana Saba,Region V,Sorsogon,0506200000,0,0,0,0,0,1082420,267724
+Banana Saba,Region VI,Aklan,0600400000,0,0,0,0,0,5203500,1300800
+Banana Saba,Region VI,Antique,0600600000,0,0,0,0,0,2303712,612175
+Banana Saba,Region VI,Capiz,0601900000,0,0,0,0,0,2587600,646900
+Banana Saba,Region VI,Guimaras,0607900000,0,0,0,0,0,1016000,254000
+Banana Saba,Region VI,Iloilo,0603000000,0,0,0,0,0,9425040,2356260
+Banana Saba,NIR,Negros Occidental,1804500000,0,0,0,0,0,0,0
+Banana Saba,NIR,Negros Occidental,1804500000,0,0,0,0,0,7894400,1973600
+Banana Saba,NIR,Negros Oriental,1804600000,0,0,0,0,0,6264764,1611808
+Banana Saba,NIR,Siquijor,1806100000,0,0,0,0,0,2225960,556490
+Banana Saba,NIR,City of Bacolod,1830200000,0,0,0,0,0,0,385
+Banana Saba,Region VII,Bohol,0701200000,0,0,0,0,0,2102400,524000
+Banana Saba,Region VII,Cebu,0702200000,0,0,0,0,0,5775728,1443932
+Banana Saba,NIR,Negros Oriental,1804600000,0,0,0,0,0,0,0
+Banana Saba,NIR,Siquijor,1806100000,0,0,0,0,0,0,0
+Banana Saba,Region VIII,Biliran,0807800000,0,0,0,0,0,681930,158693
+Banana Saba,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,482056,120514
+Banana Saba,Region VIII,Leyte,0803700000,0,0,0,0,0,1937460,492100
+Banana Saba,Region VIII,Northern Samar,0804800000,0,0,0,0,0,1176780,294750
+Banana Saba,Region VIII,Samar,0806000000,0,0,0,0,0,8599028,2149757
+Banana Saba,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,1753004,438238
+Banana Saba,Region IX,Sulu,0906600000,0,0,0,0,0,0,480700
+Banana Saba,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,6648908,1662227
+Banana Saba,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,3864571,806176
+Banana Saba,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,969260,242315
+Banana Saba,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,1848438,616146
+Banana Saba,Region X,Bukidnon,1001300000,0,0,0,0,0,4553212,1138303
+Banana Saba,Region X,Camiguin,1001800000,0,0,0,0,0,816036,200000
+Banana Saba,Region X,Lanao del Norte,1003500000,0,0,0,0,0,14200000,3550000
+Banana Saba,Region X,Misamis Occidental,1004200000,0,0,0,0,0,6084000,1521000
+Banana Saba,Region X,Misamis Oriental,1004300000,0,0,0,0,0,14842128,3710532
+Banana Saba,Region XI,Davao de Oro,1108200000,0,0,0,0,0,11537796,2884449
+Banana Saba,Region XI,Davao del Norte,1102300000,0,0,0,0,0,7028493,1759269
+Banana Saba,Region XI,Davao del Sur,1102400000,0,0,0,0,0,11307650,2734063
+Banana Saba,Region XI,Davao Occidental,1108600000,0,0,0,0,0,8162372,2040593
+Banana Saba,Region XI,Davao Oriental,1102500000,0,0,0,0,0,17054568,4263642
+Banana Saba,Region XI,City of Davao,1130700000,0,0,0,0,0,829985,276662
+Banana Saba,Region XII,Cotabato,1204700000,0,0,0,0,0,15855430,3964000
+Banana Saba,Region XII,Sarangani,1208000000,0,0,0,0,0,2882065,720540
+Banana Saba,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,3812404,953101
+Banana Saba,Region XII,South Cotabato,1206300000,0,0,0,0,0,3360488,830398
+Banana Saba,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,3735112,625218
+Banana Saba,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,4364791,1100600
+Banana Saba,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,39640,8233
+Banana Saba,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,978200,251117
+Banana Saba,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,2412356,603089
+Banana Saba,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0,322082
+Banana Saba,BARMM,Basilan,1900700000,0,0,0,0,0,1986400,496600
+Banana Saba,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,1727276,431819
+Banana Saba,BARMM,Maguindanao,1908800000,0,0,0,0,0,0,0
+Banana Saba,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,8627531,2144243
+Banana Saba,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,10730144,2682536
+Banana Saba,BARMM,Sulu,0906600000,0,0,0,0,0,1922900,0
+Banana Saba,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,532760,133250

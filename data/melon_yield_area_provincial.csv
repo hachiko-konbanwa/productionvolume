@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Melon,CAR,Abra,1400100000,,,,,,1.15,0.00
+Melon,CAR,Apayao,1408100000,,,,,,,
+Melon,CAR,Benguet,1401100000,,,,,,,
+Melon,CAR,Ifugao,1402700000,,,,,,,
+Melon,CAR,Kalinga,1403200000,,,,,,,
+Melon,CAR,Mountain Province,1404400000,,,,,,,
+Melon,Region I,Ilocos Norte,0102800000,,,,,,2.45,2.51
+Melon,Region I,Ilocos Sur,0102900000,,,,,,3.38,2.84
+Melon,Region I,La Union,0103300000,,,,,,,
+Melon,Region I,Pangasinan,0105500000,,,,,,1.16,4.42
+Melon,Region II,Batanes,0200900000,,,,,,2.49,
+Melon,Region II,Cagayan,0201500000,,,,,,0.64,0.00
+Melon,Region II,Isabela,0203100000,,,,,,2.51,3.23
+Melon,Region II,Nueva Vizcaya,0205000000,,,,,,,
+Melon,Region II,Quirino,0205700000,,,,,,,15.36
+Melon,Region III,Aurora,0307700000,,,,,,,
+Melon,Region III,Bataan,0300800000,,,,,,,
+Melon,Region III,Bulacan,0301400000,,,,,,2.93,5.15
+Melon,Region III,Nueva Ecija,0304900000,,,,,,7.06,0.43
+Melon,Region III,Pampanga,0305400000,,,,,,1.72,3.07
+Melon,Region III,Tarlac,0306900000,,,,,,2.11,48.52
+Melon,Region III,Zambales,0307100000,,,,,,,46.67
+Melon,Region IV-A,Batangas,0401000000,,,,,,,
+Melon,Region IV-A,Cavite,0402100000,,,,,,,
+Melon,Region IV-A,Laguna,0403400000,,,,,,1.51,0.86
+Melon,Region IV-A,Quezon,0405600000,,,,,,,
+Melon,Region IV-A,Rizal,0405800000,,,,,,4.80,8.65
+Melon,MIMAROPA,Marinduque,1704000000,,,,,,,
+Melon,MIMAROPA,Occidental Mindoro,1705100000,,,,,,0.81,4.63
+Melon,MIMAROPA,Oriental Mindoro,1705200000,,,,,,1.02,5.45
+Melon,MIMAROPA,Palawan,1705300000,,,,,,5.85,
+Melon,MIMAROPA,Romblon,1705900000,,,,,,1.46,0.59
+Melon,MIMAROPA,City of Puerto Princesa,1731500000,,,,,,,
+Melon,Region V,Albay,0500500000,,,,,,7.48,0.00
+Melon,Region V,Camarines Norte,0501600000,,,,,,0.72,0.00
+Melon,Region V,Camarines Sur,0501700000,,,,,,1.58,0.00
+Melon,Region V,Catanduanes,0502000000,,,,,,0.74,0.00
+Melon,Region V,Masbate,0504100000,,,,,,,
+Melon,Region V,Sorsogon,0506200000,,,,,,1.49,
+Melon,Region VI,Aklan,0600400000,,,,,,4.00,0.00
+Melon,Region VI,Antique,0600600000,,,,,,3.76,4.87
+Melon,Region VI,Capiz,0601900000,,,,,,5.80,5.75
+Melon,Region VI,Guimaras,0607900000,,,,,,2.05,50.00
+Melon,Region VI,Iloilo,0603000000,,,,,,8.89,21.45
+Melon,NIR,Negros Occidental,1804500000,,,,,,,
+Melon,NIR,Negros Occidental,1804500000,,,,,,9.49,0.00
+Melon,NIR,Negros Oriental,1804600000,,,,,,,
+Melon,NIR,Siquijor,1806100000,,,,,,,
+Melon,NIR,City of Bacolod,1830200000,,,,,,,
+Melon,Region VII,Bohol,0701200000,,,,,,,
+Melon,Region VII,Cebu,0702200000,,,,,,15.00,15.02
+Melon,NIR,Negros Oriental,1804600000,,,,,,,
+Melon,NIR,Siquijor,1806100000,,,,,,,
+Melon,Region VIII,Biliran,0807800000,,,,,,,
+Melon,Region VIII,Eastern Samar,0802600000,,,,,,0.00,0.00
+Melon,Region VIII,Leyte,0803700000,,,,,,0.00,0.00
+Melon,Region VIII,Northern Samar,0804800000,,,,,,,
+Melon,Region VIII,Samar,0806000000,,,,,,,
+Melon,Region VIII,Southern Leyte,0806400000,,,,,,0.00,0.00
+Melon,Region IX,Sulu,0906600000,,,,,,,
+Melon,Region IX,Zamboanga del Norte,0907200000,,,,,,,
+Melon,Region IX,Zamboanga del Sur,0907300000,,,,,,0.31,0.00
+Melon,Region IX,Zamboanga Sibugay,0908300000,,,,,,,
+Melon,Region IX,City of Zamboanga,0907400000,,,,,,0.00,0.00
+Melon,Region X,Bukidnon,1001300000,,,,,,2.13,
+Melon,Region X,Camiguin,1001800000,,,,,,,
+Melon,Region X,Lanao del Norte,1003500000,,,,,,0.53,1.08
+Melon,Region X,Misamis Occidental,1004200000,,,,,,,
+Melon,Region X,Misamis Oriental,1004300000,,,,,,9.12,26.65
+Melon,Region XI,Davao de Oro,1108200000,,,,,,3.70,0.79
+Melon,Region XI,Davao del Norte,1102300000,,,,,,,
+Melon,Region XI,Davao del Sur,1102400000,,,,,,3.82,6.81
+Melon,Region XI,Davao Occidental,1108600000,,,,,,,
+Melon,Region XI,Davao Oriental,1102500000,,,,,,0.88,
+Melon,Region XI,City of Davao,1130700000,,,,,,6.49,7.04
+Melon,Region XII,Cotabato,1204700000,,,,,,1.21,0.55
+Melon,Region XII,Sarangani,1208000000,,,,,,1.45,1.89
+Melon,Region XII,Sultan Kudarat,1206500000,,,,,,5.54,3.16
+Melon,Region XII,South Cotabato,1206300000,,,,,,2.85,1.89
+Melon,Region XIII,Agusan del Norte,1600200000,,,,,,,
+Melon,Region XIII,Agusan del Sur,1600300000,,,,,,,
+Melon,Region XIII,Dinagat Islands,1608500000,,,,,,,
+Melon,Region XIII,Surigao del Norte,1606700000,,,,,,,
+Melon,Region XIII,Surigao del Sur,1606800000,,,,,,,
+Melon,Region XIII,City of Butuan,1630400000,,,,,,,
+Melon,BARMM,Basilan,1900700000,,,,,,,
+Melon,BARMM,Lanao del Sur,1903600000,,,,,,,
+Melon,BARMM,Maguindanao,1908800000,,,,,,,
+Melon,BARMM,Maguindanao del Norte,1908700000,,,,,,,
+Melon,BARMM,Maguindanao del Sur,1908800000,,,,,,,
+Melon,Region IX,Sulu,0906600000,,,,,,,
+Melon,BARMM,Tawi-tawi,1907000000,,,,,,,

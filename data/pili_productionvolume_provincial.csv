@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Pili Nut,CAR,Abra,1400100000,0,0,0,0,0,0,0
+Pili Nut,CAR,Apayao,1408100000,0,0,0,0,0,0,0
+Pili Nut,CAR,Benguet,1401100000,0,0,0,0,0,0,0
+Pili Nut,CAR,Ifugao,1402700000,0,0,0,0,0,0,0
+Pili Nut,CAR,Kalinga,1403200000,0,0,0,0,0,0,0
+Pili Nut,CAR,Mountain Province,1404400000,0,0,0,0,0,0,0
+Pili Nut,Region I,Ilocos Norte,0102800000,0,0,0,0,0,0,0
+Pili Nut,Region I,Ilocos Sur,0102900000,0,0,0,0,0,0,0
+Pili Nut,Region I,La Union,0103300000,0,0,0,0,0,0,0
+Pili Nut,Region I,Pangasinan,0105500000,0,0,0,0,0,0,0
+Pili Nut,Region II,Batanes,0200900000,0,0,0,0,0,0,0
+Pili Nut,Region II,Cagayan,0201500000,0,0,0,0,0,0,0
+Pili Nut,Region II,Isabela,0203100000,0,0,0,0,0.08,0.08,0
+Pili Nut,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,0,0
+Pili Nut,Region II,Quirino,0205700000,0,0,0,0,0,0,0
+Pili Nut,Region III,Aurora,0307700000,0,0,0,0,5.86,0,0.42
+Pili Nut,Region III,Bataan,0300800000,0,0,0,0,0,0,0
+Pili Nut,Region III,Bulacan,0301400000,0,0,0,0,0,0,0
+Pili Nut,Region III,Nueva Ecija,0304900000,0,0,0,0,0,0,0
+Pili Nut,Region III,Pampanga,0305400000,0,0,0,0,0,0,0
+Pili Nut,Region III,Tarlac,0306900000,0,0,0,0,0,0,0
+Pili Nut,Region III,Zambales,0307100000,0,0,0,0,0,0,0
+Pili Nut,Region IV-A,Batangas,0401000000,0,0,0,0,0,0,0
+Pili Nut,Region IV-A,Cavite,0402100000,0,0,0,0,0,0,0
+Pili Nut,Region IV-A,Laguna,0403400000,0.8,0.8,0.7,0.65,0.63,0.62,0
+Pili Nut,Region IV-A,Quezon,0405600000,21.35,20.88,20.34,27.58,39.78,37.31,12.19
+Pili Nut,Region IV-A,Rizal,0405800000,0,0,0,0,0.08,0.07,0.01
+Pili Nut,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,0,0
+Pili Nut,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,0,0
+Pili Nut,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,0,0
+Pili Nut,MIMAROPA,Palawan,1705300000,2.07,2.12,1.93,1.89,1.76,1.68,0.45
+Pili Nut,MIMAROPA,Romblon,1705900000,0,0,0,0,0,0.7,0.05
+Pili Nut,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0,0.06
+Pili Nut,Region V,Albay,0500500000,1681.79,1533.03,1695.82,1734.35,1629.28,932.03,445.26
+Pili Nut,Region V,Camarines Norte,0501600000,49.66,33.07,33.99,27.7,34.47,36.22,1.49
+Pili Nut,Region V,Camarines Sur,0501700000,341.11,302.08,340.86,362.06,316.54,311.62,30.52
+Pili Nut,Region V,Catanduanes,0502000000,9.51,6.31,8.43,8.43,9.07,7.78,0.57
+Pili Nut,Region V,Masbate,0504100000,1.66,1.62,1.6,1.6,0.9,0.84,0
+Pili Nut,Region V,Sorsogon,0506200000,3328.29,3056.49,2718.22,2804.61,2355.95,2265.56,281.29
+Pili Nut,Region VI,Aklan,0600400000,0.08,0.07,0.06,0.02,0,0,0
+Pili Nut,Region VI,Antique,0600600000,0,0,0,0,0,0,0
+Pili Nut,Region VI,Capiz,0601900000,0,0,0,0,0,0,0
+Pili Nut,Region VI,Guimaras,0607900000,0.26,0.21,0.28,0.25,0.26,0.41,0.09
+Pili Nut,Region VI,Iloilo,0603000000,0,0,0,0,0,0.1,0.01
+Pili Nut,NIR,Negros Occidental,1804500000,24.5,14.4,11.4,8.56,0,0,0
+Pili Nut,NIR,Negros Occidental,1804500000,0,0,0,0,7.04,5.75,0.9
+Pili Nut,NIR,Negros Oriental,1804600000,0,0,0,0,0.26,0.27,0
+Pili Nut,NIR,Siquijor,1806100000,0,0,0,0,0,0,0
+Pili Nut,NIR,City of Bacolod,1830200000,0,0,0,0,0,0,0
+Pili Nut,Region VII,Bohol,0701200000,0,0,0,0,0,0,0
+Pili Nut,Region VII,Cebu,0702200000,0,0,0,0,0,0,0
+Pili Nut,NIR,Negros Oriental,1804600000,0.31,0.32,0.25,0.2,0,0,0
+Pili Nut,NIR,Siquijor,1806100000,0,0,0,0,0,0,0
+Pili Nut,Region VIII,Biliran,0807800000,0,0,0,0,0.02,0,0
+Pili Nut,Region VIII,Eastern Samar,0802600000,8.07,8.82,8.85,11.3,11.76,11.59,0.29
+Pili Nut,Region VIII,Leyte,0803700000,1.72,1.88,1.88,1.61,1.59,1.65,0.04
+Pili Nut,Region VIII,Northern Samar,0804800000,769.75,771.5,774.15,778.75,781.35,766.2,343
+Pili Nut,Region VIII,Samar,0806000000,80.77,95.64,106.37,120.44,119.08,76.98,0
+Pili Nut,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,0,0
+Pili Nut,Region IX,Sulu,0906600000,0,0,0,0,0,0,0
+Pili Nut,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,0,0
+Pili Nut,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,0,0
+Pili Nut,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,0,0
+Pili Nut,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,0,0
+Pili Nut,Region X,Bukidnon,1001300000,0.35,0.35,0.35,0.33,0.31,0,0
+Pili Nut,Region X,Camiguin,1001800000,0,0,0,0,0,0,0
+Pili Nut,Region X,Lanao del Norte,1003500000,1.15,1.06,1.01,0.94,0.93,0.58,0
+Pili Nut,Region X,Misamis Occidental,1004200000,0,0,0,0,0,0,0
+Pili Nut,Region X,Misamis Oriental,1004300000,0,0,0,0,0,0,0
+Pili Nut,Region XI,Davao de Oro,1108200000,1.24,1.19,1.16,1.08,1.02,0.98,0.17
+Pili Nut,Region XI,Davao del Norte,1102300000,1.03,1.07,1.1,1.06,1.05,1.44,2.3
+Pili Nut,Region XI,Davao del Sur,1102400000,3.7,4.01,4.04,4.85,4.6,3.59,0.7
+Pili Nut,Region XI,Davao Occidental,1108600000,0,0,0,0,0,0,0
+Pili Nut,Region XI,Davao Oriental,1102500000,0,0,0,0,0,0,0
+Pili Nut,Region XI,City of Davao,1130700000,1.87,2.13,1.94,0,0,0.62,0.2
+Pili Nut,Region XII,Cotabato,1204700000,0.45,0.4,0.34,0.25,0.2,0.16,0.03
+Pili Nut,Region XII,Sarangani,1208000000,0,0,0,0,0,0,0
+Pili Nut,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,0,0
+Pili Nut,Region XII,South Cotabato,1206300000,0,0,0,0,0,0,0
+Pili Nut,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,0,0
+Pili Nut,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,0,0
+Pili Nut,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,0,0
+Pili Nut,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,0,0
+Pili Nut,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,0,0
+Pili Nut,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0,0
+Pili Nut,BARMM,Basilan,1900700000,0,0,0,0,0,0,0
+Pili Nut,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,0,0
+Pili Nut,BARMM,Maguindanao,1908800000,0,0,0,0,0,0,0
+Pili Nut,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,0,0
+Pili Nut,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,0,0
+Pili Nut,Region IX,Sulu,0906600000,0,0,0,0,0,0,0
+Pili Nut,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,0,0

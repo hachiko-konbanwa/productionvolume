@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Calamansi,CAR,Abra,1400100000,,,,,,0.004079,0.003889
+Calamansi,CAR,Apayao,1408100000,,,,,,0.001500,0.001427
+Calamansi,CAR,Benguet,1401100000,,,,,,0.009671,0.029672
+Calamansi,CAR,Ifugao,1402700000,,,,,,0.000849,0.000091
+Calamansi,CAR,Kalinga,1403200000,,,,,,0.000699,0.000389
+Calamansi,CAR,Mountain Province,1404400000,,,,,,0.002326,0.000580
+Calamansi,Region I,Ilocos Norte,0102800000,,,,,,0.001836,0.001987
+Calamansi,Region I,Ilocos Sur,0102900000,,,,,,0.004421,0.002000
+Calamansi,Region I,La Union,0103300000,,,,,,0.002742,0.000412
+Calamansi,Region I,Pangasinan,0105500000,,,,,,0.001114,0.002061
+Calamansi,Region II,Batanes,0200900000,,,,,,0.000094,0.000042
+Calamansi,Region II,Cagayan,0201500000,,,,,,0.002564,0.001117
+Calamansi,Region II,Isabela,0203100000,,,,,,0.001353,0.000701
+Calamansi,Region II,Nueva Vizcaya,0205000000,,,,,,0.002673,0.001999
+Calamansi,Region II,Quirino,0205700000,,,,,,0.000977,0.000194
+Calamansi,Region III,Aurora,0307700000,,,,,,0.001045,0.000208
+Calamansi,Region III,Bataan,0300800000,,,,,,0.000838,0.000353
+Calamansi,Region III,Bulacan,0301400000,,,,,,0.003535,0.004635
+Calamansi,Region III,Nueva Ecija,0304900000,,,,,,0.007026,0.005571
+Calamansi,Region III,Pampanga,0305400000,,,,,,0.007061,0.001159
+Calamansi,Region III,Tarlac,0306900000,,,,,,0.003331,0.002642
+Calamansi,Region III,Zambales,0307100000,,,,,,0.001482,0.000276
+Calamansi,Region IV-A,Batangas,0401000000,,,,,,0.001676,0.000386
+Calamansi,Region IV-A,Cavite,0402100000,,,,,,0.001203,0.000115
+Calamansi,Region IV-A,Laguna,0403400000,,,,,,0.000468,0.000454
+Calamansi,Region IV-A,Quezon,0405600000,,,,,,0.007397,0.006842
+Calamansi,Region IV-A,Rizal,0405800000,,,,,,0.004928,0.003549
+Calamansi,MIMAROPA,Marinduque,1704000000,,,,,,0.002238,0.002218
+Calamansi,MIMAROPA,Occidental Mindoro,1705100000,,,,,,0.001248,0.000956
+Calamansi,MIMAROPA,Oriental Mindoro,1705200000,,,,,,0.003784,0.000546
+Calamansi,MIMAROPA,Palawan,1705300000,,,,,,0.002474,0.001178
+Calamansi,MIMAROPA,Romblon,1705900000,,,,,,0.001415,0.001181
+Calamansi,MIMAROPA,City of Puerto Princesa,1731500000,,,,,,,0.005000
+Calamansi,Region V,Albay,0500500000,,,,,,0.001222,0.002073
+Calamansi,Region V,Camarines Norte,0501600000,,,,,,0.001714,0.000064
+Calamansi,Region V,Camarines Sur,0501700000,,,,,,0.002597,0.001634
+Calamansi,Region V,Catanduanes,0502000000,,,,,,0.000746,0.000274
+Calamansi,Region V,Masbate,0504100000,,,,,,0.003932,0.002070
+Calamansi,Region V,Sorsogon,0506200000,,,,,,0.002003,0.000222
+Calamansi,Region VI,Aklan,0600400000,,,,,,0.003512,0.001136
+Calamansi,Region VI,Antique,0600600000,,,,,,0.004081,0.004706
+Calamansi,Region VI,Capiz,0601900000,,,,,,0.004087,0.003400
+Calamansi,Region VI,Guimaras,0607900000,,,,,,0.001682,0.002818
+Calamansi,Region VI,Iloilo,0603000000,,,,,,0.003337,0.003448
+Calamansi,NIR,Negros Occidental,1804500000,,,,,,,
+Calamansi,NIR,Negros Occidental,1804500000,,,,,,0.001736,0.004176
+Calamansi,NIR,Negros Oriental,1804600000,,,,,,0.001279,0.001254
+Calamansi,NIR,Siquijor,1806100000,,,,,,0.005053,0.006085
+Calamansi,NIR,City of Bacolod,1830200000,,,,,,,0.003714
+Calamansi,Region VII,Bohol,0701200000,,,,,,0.002188,0.001512
+Calamansi,Region VII,Cebu,0702200000,,,,,,0.003044,0.001188
+Calamansi,NIR,Negros Oriental,1804600000,,,,,,,
+Calamansi,NIR,Siquijor,1806100000,,,,,,,
+Calamansi,Region VIII,Biliran,0807800000,,,,,,0.003957,0.002024
+Calamansi,Region VIII,Eastern Samar,0802600000,,,,,,0.002950,0.001376
+Calamansi,Region VIII,Leyte,0803700000,,,,,,0.012368,0.010106
+Calamansi,Region VIII,Northern Samar,0804800000,,,,,,0.005136,0.004487
+Calamansi,Region VIII,Samar,0806000000,,,,,,0.003902,0.002900
+Calamansi,Region VIII,Southern Leyte,0806400000,,,,,,0.002041,0.001496
+Calamansi,Region IX,Sulu,0906600000,,,,,,,0.005651
+Calamansi,Region IX,Zamboanga del Norte,0907200000,,,,,,0.001101,0.000301
+Calamansi,Region IX,Zamboanga del Sur,0907300000,,,,,,0.006459,0.007886
+Calamansi,Region IX,Zamboanga Sibugay,0908300000,,,,,,0.006120,0.001576
+Calamansi,Region IX,City of Zamboanga,0907400000,,,,,,0.001979,0.002254
+Calamansi,Region X,Bukidnon,1001300000,,,,,,0.007737,0.006238
+Calamansi,Region X,Camiguin,1001800000,,,,,,0.001796,0.000862
+Calamansi,Region X,Lanao del Norte,1003500000,,,,,,0.002387,0.000982
+Calamansi,Region X,Misamis Occidental,1004200000,,,,,,0.006321,0.004871
+Calamansi,Region X,Misamis Oriental,1004300000,,,,,,0.000953,0.000489
+Calamansi,Region XI,Davao de Oro,1108200000,,,,,,0.004362,0.003627
+Calamansi,Region XI,Davao del Norte,1102300000,,,,,,0.002112,0.001634
+Calamansi,Region XI,Davao del Sur,1102400000,,,,,,0.002846,0.002133
+Calamansi,Region XI,Davao Occidental,1108600000,,,,,,0.001914,0.001217
+Calamansi,Region XI,Davao Oriental,1102500000,,,,,,0.001814,0.001806
+Calamansi,Region XI,City of Davao,1130700000,,,,,,0.003216,0.002133
+Calamansi,Region XII,Cotabato,1204700000,,,,,,0.005170,0.006938
+Calamansi,Region XII,Sarangani,1208000000,,,,,,0.009064,0.007455
+Calamansi,Region XII,Sultan Kudarat,1206500000,,,,,,0.003064,0.001882
+Calamansi,Region XII,South Cotabato,1206300000,,,,,,0.001088,0.000834
+Calamansi,Region XIII,Agusan del Norte,1600200000,,,,,,0.003257,0.002641
+Calamansi,Region XIII,Agusan del Sur,1600300000,,,,,,0.002329,0.000508
+Calamansi,Region XIII,Dinagat Islands,1608500000,,,,,,0.000307,0.000493
+Calamansi,Region XIII,Surigao del Norte,1606700000,,,,,,0.000671,0.000272
+Calamansi,Region XIII,Surigao del Sur,1606800000,,,,,,0.000632,0.000587
+Calamansi,Region XIII,City of Butuan,1630400000,,,,,,,0.002640
+Calamansi,BARMM,Basilan,1900700000,,,,,,0.009482,0.004704
+Calamansi,BARMM,Lanao del Sur,1903600000,,,,,,0.003348,0.002492
+Calamansi,BARMM,Maguindanao,1908800000,,,,,,,
+Calamansi,BARMM,Maguindanao del Norte,1908700000,,,,,,0.006431,0.003686
+Calamansi,BARMM,Maguindanao del Sur,1908800000,,,,,,0.017378,0.020748
+Calamansi,Region IX,Sulu,0906600000,,,,,,0.006802,
+Calamansi,BARMM,Tawi-tawi,1907000000,,,,,,0.010957,0.008909

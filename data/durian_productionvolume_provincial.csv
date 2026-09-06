@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Durian,CAR,Abra,1400100000,0,0,0,0,0,0,0
+Durian,CAR,Apayao,1408100000,0,0,0,0,1.45,1.99,0
+Durian,CAR,Benguet,1401100000,0,0,0,0,0,0,0
+Durian,CAR,Ifugao,1402700000,0,0,0,2.27,4.51,3.75,0
+Durian,CAR,Kalinga,1403200000,0,0,0,0,0,0,0
+Durian,CAR,Mountain Province,1404400000,0,0,0,0,0,0,0
+Durian,Region I,Ilocos Norte,0102800000,0,0,0,0,0,0,0
+Durian,Region I,Ilocos Sur,0102900000,1.45,1.67,1.8,0.4,0,0,0
+Durian,Region I,La Union,0103300000,0,0,0,0,0,0,0
+Durian,Region I,Pangasinan,0105500000,0,0,0,0,0,0,0
+Durian,Region II,Batanes,0200900000,0,0,0,0,0,0,0
+Durian,Region II,Cagayan,0201500000,0,0,0,0,0,0,0
+Durian,Region II,Isabela,0203100000,0,0,0,0,0,0,0
+Durian,Region II,Nueva Vizcaya,0205000000,42.75,43.69,45.43,50.44,50.24,46.26,0.57
+Durian,Region II,Quirino,0205700000,0,0,0,0.2,0.2,0.4,0
+Durian,Region III,Aurora,0307700000,1.74,1.51,1.82,0.98,0.8,0.39,0
+Durian,Region III,Bataan,0300800000,0,0,0,0,0,0.05,0
+Durian,Region III,Bulacan,0301400000,0,0,0,0,0,0,0
+Durian,Region III,Nueva Ecija,0304900000,0,0,0,0,0,0,0
+Durian,Region III,Pampanga,0305400000,0,0,0,0,0,0,0
+Durian,Region III,Tarlac,0306900000,0,0,0,0,0,0,0
+Durian,Region III,Zambales,0307100000,0,0,0,0,0,0,0
+Durian,Region IV-A,Batangas,0401000000,0.12,0.11,0.83,3.71,2.68,3.58,0
+Durian,Region IV-A,Cavite,0402100000,0,0,0,0,0.12,0.16,0
+Durian,Region IV-A,Laguna,0403400000,59.23,61.48,71.03,69.72,176.21,125.62,0.35
+Durian,Region IV-A,Quezon,0405600000,0,0,0,0.09,4.05,4.62,8.29
+Durian,Region IV-A,Rizal,0405800000,0,0,0,0,0,14.05,6.21
+Durian,MIMAROPA,Marinduque,1704000000,0,0,0,0.87,0.53,0,0
+Durian,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,0,0
+Durian,MIMAROPA,Oriental Mindoro,1705200000,2.34,2.21,2.79,3.15,4.13,2.47,10.08
+Durian,MIMAROPA,Palawan,1705300000,9.24,18.19,15.65,7.22,10.66,10.63,0
+Durian,MIMAROPA,Romblon,1705900000,0,0,0,0,0,0,0
+Durian,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0,14.75
+Durian,Region V,Albay,0500500000,0,0,0,0,0,0,0
+Durian,Region V,Camarines Norte,0501600000,0,0,0,0,0,0,0
+Durian,Region V,Camarines Sur,0501700000,0,0,0,0,0.04,0.04,0
+Durian,Region V,Catanduanes,0502000000,0,0,0,0,0,0,0
+Durian,Region V,Masbate,0504100000,0,0,0,0,0,0,0
+Durian,Region V,Sorsogon,0506200000,0,0,0,0,0,0,0
+Durian,Region VI,Aklan,0600400000,0.17,0.15,0.12,0.31,1.6,0.59,0
+Durian,Region VI,Antique,0600600000,0,0,0,0,0,0.45,0
+Durian,Region VI,Capiz,0601900000,0,0,0,0,0.12,0.23,0.03
+Durian,Region VI,Guimaras,0607900000,0.01,0.05,0.05,0.05,0.03,0.02,0
+Durian,Region VI,Iloilo,0603000000,2.85,2.78,2.65,2.69,0.06,1.49,0
+Durian,NIR,Negros Occidental,1804500000,185,170.5,166.04,138.94,0,0,0
+Durian,NIR,Negros Occidental,1804500000,0,0,0,0,141.18,148.71,2
+Durian,NIR,Negros Oriental,1804600000,0,0,0,0,6.72,5.26,0
+Durian,NIR,Siquijor,1806100000,0,0,0,0,0,0,0
+Durian,NIR,City of Bacolod,1830200000,0,0,0,0,0,0,0
+Durian,Region VII,Bohol,0701200000,6.3,2.96,2.01,13.32,5.62,2.93,1.18
+Durian,Region VII,Cebu,0702200000,0.43,0.4,0.3,0.4,0.3,0.3,0
+Durian,NIR,Negros Oriental,1804600000,6.41,4.54,2.6,4.2,0,0,0
+Durian,NIR,Siquijor,1806100000,0,0,0,0.4,0,0,0
+Durian,Region VIII,Biliran,0807800000,2,0,0.5,0.05,0.03,0.03,0
+Durian,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,0,0
+Durian,Region VIII,Leyte,0803700000,2.08,2.07,2.04,2.09,2.91,2.17,0.43
+Durian,Region VIII,Northern Samar,0804800000,0,0,0,0,0,0,0
+Durian,Region VIII,Samar,0806000000,0,0.07,0,0,0,0,0
+Durian,Region VIII,Southern Leyte,0806400000,5.64,5.2,3.38,3.75,4.74,6,1.24
+Durian,Region IX,Sulu,0906600000,0,0,0,0,0,0,4783.77
+Durian,Region IX,Zamboanga del Norte,0907200000,1498.59,522.85,151.48,1626.9,1803.11,21.95,13.1
+Durian,Region IX,Zamboanga del Sur,0907300000,216.54,235.66,233.36,304.63,309.31,170.71,0.86
+Durian,Region IX,Zamboanga Sibugay,0908300000,758.08,698.37,785.17,706.89,709.59,7.04,1.14
+Durian,Region IX,City of Zamboanga,0907400000,159.64,148.04,151.44,0,0,0,8.63
+Durian,Region X,Bukidnon,1001300000,713.68,839.42,787.5,684.33,687.13,330.23,9.47
+Durian,Region X,Camiguin,1001800000,48.96,43.13,50.87,16.27,50.26,28.01,0.01
+Durian,Region X,Lanao del Norte,1003500000,1031.25,1048.7,1083.9,1146.2,1148,1149.5,136
+Durian,Region X,Misamis Occidental,1004200000,140.8,134,129.62,143,156.42,155.56,5.12
+Durian,Region X,Misamis Oriental,1004300000,138.99,130.8,97.79,365.11,323.88,320.24,6.61
+Durian,Region XI,Davao de Oro,1108200000,349.89,202.87,329.21,787.2,3744.95,1043.63,137.21
+Durian,Region XI,Davao del Norte,1102300000,14785.93,14522.4,14189.76,14815.11,14754.31,14563.64,4.16
+Durian,Region XI,Davao del Sur,1102400000,815.42,799.66,788.3,44404.51,45502.31,5527.64,1328.16
+Durian,Region XI,Davao Occidental,1108600000,552.21,553.23,554.68,255.96,545.04,531.67,85.24
+Durian,Region XI,Davao Oriental,1102500000,64.64,60.66,64.41,68.56,74.68,71.19,4.29
+Durian,Region XI,City of Davao,1130700000,44107.76,41145.05,42722.35,0,0,39830.24,3099.04
+Durian,Region XII,Cotabato,1204700000,3163.78,2772.38,2081.14,2353.95,2487.86,1797.14,242.66
+Durian,Region XII,Sarangani,1208000000,94.05,94.21,97.9,112.3,195.93,185.94,3.33
+Durian,Region XII,Sultan Kudarat,1206500000,28.56,21.49,20.94,152.77,437.96,193.45,107.69
+Durian,Region XII,South Cotabato,1206300000,574.18,556.68,542.43,609.37,782.8,828.41,130.65
+Durian,Region XIII,Agusan del Norte,1600200000,380.65,360.62,334.21,359.4,362.98,361.1,2.12
+Durian,Region XIII,Agusan del Sur,1600300000,1756.27,1652.05,1731,1903.62,1835.38,1828.15,912.99
+Durian,Region XIII,Dinagat Islands,1608500000,1.1,1.07,0,0,0,0,0
+Durian,Region XIII,Surigao del Norte,1606700000,1.87,1.33,3.8,0.95,5.39,1.89,0.61
+Durian,Region XIII,Surigao del Sur,1606800000,452.91,464.6,386.4,239.7,246.17,207.68,80.11
+Durian,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0,1.09
+Durian,BARMM,Basilan,1900700000,12.02,0,0,46.09,96.08,90.14,10.93
+Durian,BARMM,Lanao del Sur,1903600000,67.22,66.38,65.48,242.3,750.42,630.43,52
+Durian,BARMM,Maguindanao,1908800000,520.24,525.2,527.19,528.08,734.49,0,0
+Durian,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,475.13,137.86
+Durian,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,514.46,190
+Durian,Region IX,Sulu,0906600000,6053,5949,5929,6100,6500,0,0
+Durian,BARMM,Tawi-tawi,1907000000,0,0,0,6.14,12,2.24,15.6

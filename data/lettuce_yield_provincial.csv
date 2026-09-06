@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Lettuce,CAR,Abra,1400100000,,,,,,5.60,
+Lettuce,CAR,Apayao,1408100000,,,,,,,
+Lettuce,CAR,Benguet,1401100000,,,,,,13.93,16.95
+Lettuce,CAR,Ifugao,1402700000,,,,,,,
+Lettuce,CAR,Kalinga,1403200000,,,,,,0.20,0.00
+Lettuce,CAR,Mountain Province,1404400000,,,,,,4.00,5.26
+Lettuce,Region I,Ilocos Norte,0102800000,,,,,,1.67,
+Lettuce,Region I,Ilocos Sur,0102900000,,,,,,,
+Lettuce,Region I,La Union,0103300000,,,,,,,
+Lettuce,Region I,Pangasinan,0105500000,,,,,,0.30,1.00
+Lettuce,Region II,Batanes,0200900000,,,,,,2.63,2.55
+Lettuce,Region II,Cagayan,0201500000,,,,,,0.40,9.89
+Lettuce,Region II,Isabela,0203100000,,,,,,2.57,5.58
+Lettuce,Region II,Nueva Vizcaya,0205000000,,,,,,1.14,7.98
+Lettuce,Region II,Quirino,0205700000,,,,,,,
+Lettuce,Region III,Aurora,0307700000,,,,,,,
+Lettuce,Region III,Bataan,0300800000,,,,,,1.28,3.56
+Lettuce,Region III,Bulacan,0301400000,,,,,,3.89,36.67
+Lettuce,Region III,Nueva Ecija,0304900000,,,,,,0.00,
+Lettuce,Region III,Pampanga,0305400000,,,,,,0.45,0.30
+Lettuce,Region III,Tarlac,0306900000,,,,,,0.00,
+Lettuce,Region III,Zambales,0307100000,,,,,,2.23,4.84
+Lettuce,Region IV-A,Batangas,0401000000,,,,,,7.73,6.83
+Lettuce,Region IV-A,Cavite,0402100000,,,,,,12.95,16.78
+Lettuce,Region IV-A,Laguna,0403400000,,,,,,16.14,11.92
+Lettuce,Region IV-A,Quezon,0405600000,,,,,,3.07,4.10
+Lettuce,Region IV-A,Rizal,0405800000,,,,,,9.01,10.72
+Lettuce,MIMAROPA,Marinduque,1704000000,,,,,,6.61,5.00
+Lettuce,MIMAROPA,Occidental Mindoro,1705100000,,,,,,,
+Lettuce,MIMAROPA,Oriental Mindoro,1705200000,,,,,,1.90,0.00
+Lettuce,MIMAROPA,Palawan,1705300000,,,,,,,
+Lettuce,MIMAROPA,City of Puerto Princesa,1731500000,,,,,,,2.04
+Lettuce,MIMAROPA,Romblon,1705900000,,,,,,,1.50
+Lettuce,Region V,Albay,0500500000,,,,,,1.11,0.00
+Lettuce,Region V,Camarines Norte,0501600000,,,,,,,
+Lettuce,Region V,Camarines Sur,0501700000,,,,,,6.33,10.38
+Lettuce,Region V,Catanduanes,0502000000,,,,,,2.00,3.00
+Lettuce,Region V,Masbate,0504100000,,,,,,1.10,
+Lettuce,Region V,Sorsogon,0506200000,,,,,,19.56,19.67
+Lettuce,Region VI,Aklan,0600400000,,,,,,3.50,4.58
+Lettuce,Region VI,Antique,0600600000,,,,,,16.44,6.78
+Lettuce,Region VI,Capiz,0601900000,,,,,,2.84,2.50
+Lettuce,Region VI,Guimaras,0607900000,,,,,,11.78,36.90
+Lettuce,Region VI,Iloilo,0603000000,,,,,,4.53,2.77
+Lettuce,NIR,Negros Occidental,1804500000,,,,,,,
+Lettuce,NIR,Negros Occidental,1804500000,,,,,,2.17,3.64
+Lettuce,NIR,City of Bacolod,1830200000,,,,,,,6.13
+Lettuce,NIR,Negros Oriental,1804600000,,,,,,6.68,15.01
+Lettuce,NIR,Siquijor,1806100000,,,,,,10.50,
+Lettuce,Region VII,Bohol,0701200000,,,,,,3.79,3.06
+Lettuce,Region VII,Cebu,0702200000,,,,,,3.69,7.30
+Lettuce,NIR,Negros Oriental,1804600000,,,,,,,
+Lettuce,NIR,Siquijor,1806100000,,,,,,,
+Lettuce,Region VIII,Biliran,0807800000,,,,,,3.23,3.58
+Lettuce,Region VIII,Eastern Samar,0802600000,,,,,,,
+Lettuce,Region VIII,Leyte,0803700000,,,,,,1.57,0.51
+Lettuce,Region VIII,Northern Samar,0804800000,,,,,,0.58,
+Lettuce,Region VIII,Samar,0806000000,,,,,,0.00,7.00
+Lettuce,Region VIII,Southern Leyte,0806400000,,,,,,0.25,0.09
+Lettuce,Region IX,Sulu,0906600000,,,,,,,
+Lettuce,Region IX,Zamboanga del Norte,0907200000,,,,,,1.55,1.80
+Lettuce,Region IX,Zamboanga del Sur,0907300000,,,,,,0.54,0.93
+Lettuce,Region IX,City of Zamboanga,0907400000,,,,,,57.67,31.80
+Lettuce,Region IX,Zamboanga Sibugay,0908300000,,,,,,,
+Lettuce,Region X,Bukidnon,1001300000,,,,,,10.95,8.62
+Lettuce,Region X,Camiguin,1001800000,,,,,,2.53,0.73
+Lettuce,Region X,Lanao del Norte,1003500000,,,,,,0.16,0.33
+Lettuce,Region X,Misamis Occidental,1004200000,,,,,,7.39,25.00
+Lettuce,Region X,Misamis Oriental,1004300000,,,,,,6.45,1.95
+Lettuce,Region XI,Davao de Oro,1108200000,,,,,,,
+Lettuce,Region XI,Davao del Norte,1102300000,,,,,,,79.87
+Lettuce,Region XI,Davao del Sur,1102400000,,,,,,4.98,4.70
+Lettuce,Region XI,City of Davao,1130700000,,,,,,8.85,8.78
+Lettuce,Region XI,Davao Occidental,1108600000,,,,,,,
+Lettuce,Region XI,Davao Oriental,1102500000,,,,,,,
+Lettuce,Region XII,Cotabato,1204700000,,,,,,1.48,0.51
+Lettuce,Region XII,Sarangani,1208000000,,,,,,,
+Lettuce,Region XII,Sultan Kudarat,1206500000,,,,,,,
+Lettuce,Region XII,South Cotabato,1206300000,,,,,,3.60,3.96
+Lettuce,Region XIII,Agusan del Norte,1600200000,,,,,,2.29,3.00
+Lettuce,Region XIII,City of Butuan,1630400000,,,,,,,2.00
+Lettuce,Region XIII,Agusan del Sur,1600300000,,,,,,,
+Lettuce,Region XIII,Dinagat Islands,1608500000,,,,,,7.00,6.67
+Lettuce,Region XIII,Surigao del Norte,1606700000,,,,,,4.59,1.50
+Lettuce,Region XIII,Surigao del Sur,1606800000,,,,,,39.67,38.00
+Lettuce,BARMM,Basilan,1900700000,,,,,,,
+Lettuce,BARMM,Lanao del Sur,1903600000,,,,,,,
+Lettuce,BARMM,Maguindanao,,,,,,,272.00,5.93
+Lettuce,BARMM,Maguindanao del Norte,1908700000,,,,,,438.50,671.71
+Lettuce,BARMM,Maguindanao del Sur,1908800000,,,,,,77.75,4.21
+Lettuce,BARMM,Sulu,0906600000,,,,,,,
+Lettuce,BARMM,Tawi-tawi,1907000000,,,,,,,

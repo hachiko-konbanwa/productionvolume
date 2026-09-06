@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Coconut (w/ husk),Cordillera Administrative Region (CAR),Abra,1400100000,188.72,179.25,182.53,181.95,153.85,209.34,49.03
+Coconut (w/ husk),Cordillera Administrative Region (CAR),Apayao,1408100000,333.09,343.87,347.6,335.25,335,326.08,86.88
+Coconut (w/ husk),Cordillera Administrative Region (CAR),Benguet,1401100000,15.82,16.77,18.9,19.56,18.5,18.37,7.26
+Coconut (w/ husk),Cordillera Administrative Region (CAR),Ifugao,1402700000,196.27,228.25,284.38,297.68,312.51,250.48,48.05
+Coconut (w/ husk),Cordillera Administrative Region (CAR),Kalinga,1403200000,137.59,145.5,156.99,180.07,180.58,204.78,11.75
+Coconut (w/ husk),Cordillera Administrative Region (CAR),Mountain Province,1404400000,152.64,151,143.18,133.79,142.88,132.6,43.18
+Coconut (w/ husk),Region I (Ilocos Region),Ilocos Norte,0102800000,5866.11,5947.88,6048.54,6168.36,6218.71,6172.35,1427.76
+Coconut (w/ husk),Region I (Ilocos Region),Ilocos Sur,0102900000,5023.53,5354.11,6258.99,6207.17,6242.82,6215.1,1196.63
+Coconut (w/ husk),Region I (Ilocos Region),La Union,0103300000,2630.41,2587.13,2708,2738.72,2764.19,2731.33,631.79
+Coconut (w/ husk),Region I (Ilocos Region),Pangasinan,0105500000,30492.38,30439.82,32211.37,33345.6,34024.82,36043.06,8362.15
+Coconut (w/ husk),Region II (Cagayan Valley),Batanes,0200900000,692.83,695.37,306.88,458.27,475.54,297.71,74.74
+Coconut (w/ husk),Region II (Cagayan Valley),Cagayan,0201500000,38293.95,42383.36,43939.29,46395.99,43400.92,41349.95,7856.64
+Coconut (w/ husk),Region II (Cagayan Valley),Isabela,0203100000,29240.31,29364.49,29472.95,29542.44,29196.55,28424.9,6319.58
+Coconut (w/ husk),Region II (Cagayan Valley),Nueva Vizcaya,0205000000,7829.32,7662.66,7658.86,8055.42,7692.54,7787.42,2466.16
+Coconut (w/ husk),Region II (Cagayan Valley),Quirino,0205700000,2660.12,2557.7,2737.25,2922.55,2747.56,2563.7,672.52
+Coconut (w/ husk),Region III (Central Luzon),Aurora,0307700000,105350.65,94212.57,94493.5,86634.53,81250.01,46288.8,4702.74
+Coconut (w/ husk),Region III (Central Luzon),Bataan,0300800000,3652.58,3828.44,4269.47,3366.59,3426.13,3521.93,539.25
+Coconut (w/ husk),Region III (Central Luzon),Bulacan,0301400000,548.62,510.54,496.08,502.6,487.55,506.44,117.1
+Coconut (w/ husk),Region III (Central Luzon),Nueva Ecija,0304900000,865,900.94,914.95,965.32,890.1,764.72,309.8
+Coconut (w/ husk),Region III (Central Luzon),Pampanga,0305400000,215.89,208.65,202.02,198.65,193.71,194.29,69.66
+Coconut (w/ husk),Region III (Central Luzon),Tarlac,0306900000,598.57,622.06,635.85,632.06,661.42,640.77,113
+Coconut (w/ husk),Region III (Central Luzon),Zambales,0307100000,608.24,573.06,466.06,504.12,429.83,364.12,101.75
+Coconut (w/ husk),Region IV-A (CALABARZON),Batangas,0401000000,79145.42,75083.05,71975.82,75549.2,77900.37,75789.82,25538.24
+Coconut (w/ husk),Region IV-A (CALABARZON),Cavite,0402100000,34857.68,38741.56,41868.1,39097.66,34277.78,43797.8,7621.1
+Coconut (w/ husk),Region IV-A (CALABARZON),Laguna,0403400000,80017.87,87985.83,95271.02,94854.86,98649.63,97801.03,24967.31
+Coconut (w/ husk),Region IV-A (CALABARZON),Quezon,0405600000,1298277.19,1306999.59,1318966.76,1335707.1,1270090.33,1292504.95,204991.36
+Coconut (w/ husk),Region IV-A (CALABARZON),Rizal,0405800000,768.49,772.21,816.15,1235.33,2625.54,8813.99,2609.76
+Coconut (w/ husk),MIMAROPA Region,Marinduque,1704000000,61589.02,56758.69,64960.33,62565.14,56171.01,54656.5,9089.42
+Coconut (w/ husk),MIMAROPA Region,Occidental Mindoro,1705100000,14351.56,16257.78,18243.94,17070.81,14981.51,14581.74,1835.69
+Coconut (w/ husk),MIMAROPA Region,Oriental Mindoro,1705200000,46539.65,49920.84,58611.11,57409.28,70953.1,81710.27,7431.42
+Coconut (w/ husk),MIMAROPA Region,Palawan,1705300000,430283.74,460294.11,530123.45,424730.3,421452.19,433723.98,43092.09
+Coconut (w/ husk),MIMAROPA Region,City of Puerto Princesa,1731500000,206604.96,220125.93,233983.69,235085.96,237310.52,230389.4,63694.48
+Coconut (w/ husk),MIMAROPA Region,Romblon,1705900000,0,0,0,0,170863.92,0,3586.6
+Coconut (w/ husk),Region V (Bicol Region),Albay,0500500000,105257.54,107102.21,139681.24,156992.72,144931.6,119713.5,22370.66
+Coconut (w/ husk),Region V (Bicol Region),Camarines Norte,0501600000,273847.62,240416.92,267160.76,183827.09,171727.69,128719.06,18599.31
+Coconut (w/ husk),Region V (Bicol Region),Camarines Sur,0501700000,316238.86,283004.1,337169.94,329429.53,321174.97,330086.6,72095.5
+Coconut (w/ husk),Region V (Bicol Region),Catanduanes,0502000000,4260.27,3006.12,4097.8,3790.97,4043.57,2922.99,7.62
+Coconut (w/ husk),Region V (Bicol Region),Masbate,0504100000,346771.5,375480.41,408139.51,411668.19,423765.28,371440.16,68105.1
+Coconut (w/ husk),Region V (Bicol Region),Sorsogon,0506200000,104481.62,102190.31,105484.11,98979.06,88308.04,80737.78,12245.22
+Coconut (w/ husk),Region VI (Western Visayas),Aklan,0600400000,52209.76,58965.84,63884.63,59987.84,60501.57,54175.55,16293.51
+Coconut (w/ husk),Region VI (Western Visayas),Antique,0600600000,137118.16,147266.4,143762.39,138888.3,136452.29,124173.17,39120.81
+Coconut (w/ husk),Region VI (Western Visayas),Capiz,0601900000,93138.76,101238.86,111840.41,115719.03,116739.73,122962.84,31532.92
+Coconut (w/ husk),Region VI (Western Visayas),Guimaras,0607900000,38744.04,40865.83,42679.3,43884.29,43537.45,36991.57,9697.03
+Coconut (w/ husk),Region VI (Western Visayas),Iloilo,0603000000,63580.2,69998.21,77360.55,83652.43,83155.91,86149.43,18360.4
+Coconut (w/ husk),Region VI (Western Visayas),Negros Occidental,1804500000,136796,136349,136884,137626.6,0,0,0
+Coconut (w/ husk),Region VI (Western Visayas),Negros Occidental,1804500000,0,0,0,0,136122.92,136613.95,32000
+Coconut (w/ husk),Negros Island Region (NIR),Negros Oriental,1804600000,0,0,0,0,139079.97,115884.67,11224.1
+Coconut (w/ husk),Negros Island Region (NIR),Siquijor,1806100000,0,0,0,0,9170.47,8884.39,1701.13
+Coconut (w/ husk),Negros Island Region (NIR),City of Bacolod,1830200000,0,0,0,0,7420.66,0,0.9
+Coconut (w/ husk),Region VII (Central Visayas),Bohol,0701200000,134651.52,131842.92,74773.17,127853.98,141009.92,134731.35,30459.22
+Coconut (w/ husk),Region VII (Central Visayas),Cebu,0702200000,109274.6,112754,86300,101223.28,90153.32,89261.09,14366.73
+Coconut (w/ husk),Negros Island Region (NIR),Negros Oriental,1804600000,136238.7,158322.16,130737.81,172761.95,0,0,0
+Coconut (w/ husk),Negros Island Region (NIR),Siquijor,1806100000,8378.59,8777.75,8236.11,8446.46,0,0,0
+Coconut (w/ husk),Region VIII (Eastern Visayas),Biliran,0807800000,48909,51955.83,52473.95,54928.7,50410.95,46956.4,9186.58
+Coconut (w/ husk),Region VIII (Eastern Visayas),Eastern Samar,0802600000,157159.75,151168.64,155688.59,194356.88,203890.67,199778.68,39316.14
+Coconut (w/ husk),Region VIII (Eastern Visayas),Leyte,0803700000,216786.63,222743.55,234663.83,239627.94,238894.02,239305,34425.7
+Coconut (w/ husk),Region VIII (Eastern Visayas),Northern Samar,0804800000,261521.75,261506.54,261960.81,264631.33,265188.49,265215.58,38260.56
+Coconut (w/ husk),Region VIII (Eastern Visayas),Samar,0806000000,286649.5,298614.5,319923.85,340979.31,336882.56,331224.22,89901.17
+Coconut (w/ husk),Region VIII (Eastern Visayas),Southern Leyte,0806400000,128623.67,129786.34,89955.76,94552.87,94398.6,78211.46,7830.16
+Coconut (w/ husk),Region IX (Zamboanga Peninsula),Sulu,0906600000,0,0,0,0,641050.65,0,44218.22
+Coconut (w/ husk),Region IX (Zamboanga Peninsula),Zamboanga del Norte,0907200000,842183.4,860773.61,845328.38,854564.05,845332.62,852799.86,205463.82
+Coconut (w/ husk),Region IX (Zamboanga Peninsula),Zamboanga del Sur,0907300000,483955.17,508623.38,540281.94,719983.45,713493.32,531684.89,116113.44
+Coconut (w/ husk),Region IX (Zamboanga Peninsula),Zamboanga Sibugay,0908300000,233304.96,245153.47,269543.99,272932.8,261109.64,260762,61905.16
+Coconut (w/ husk),Region IX (Zamboanga Peninsula),City of Zamboanga,0907400000,186592.91,186144.53,190254,0,0,143056.58,38933.58
+Coconut (w/ husk),Region X (Northern Mindanao),Bukidnon,1001300000,48605.14,49712.67,51881.03,52821.3,49337.62,45307,12259.87
+Coconut (w/ husk),Region X (Northern Mindanao),Camiguin,1001800000,96528.02,100713.89,96082.78,98690.24,94133.73,89939.23,24114.55
+Coconut (w/ husk),Region X (Northern Mindanao),Lanao del Norte,1003500000,581036,581036,581354,583078,583928,584902.5,138877.67
+Coconut (w/ husk),Region X (Northern Mindanao),Misamis Occidental,1004200000,564124.93,564747.79,564716.96,568848.46,567590.19,587330.38,123450.85
+Coconut (w/ husk),Region X (Northern Mindanao),Misamis Oriental,1004300000,568485.71,568693.9,578115.17,585321.82,513627.31,522881.88,128243.26
+Coconut (w/ husk),Region XI (Davao Region),Davao de Oro,1108200000,183190.17,182925.03,183378.19,181040.37,180942.17,182884.22,45958.56
+Coconut (w/ husk),Region XI (Davao Region),Davao del Norte,1102300000,216388.87,210606.66,213351.71,211511.28,211502,220012.49,53239.17
+Coconut (w/ husk),Region XI (Davao Region),Davao del Sur,1102400000,231029.82,231455.37,239812.58,539400.15,532950.76,344029.09,74306.76
+Coconut (w/ husk),Region XI (Davao Region),Davao Occidental,1108600000,405438.07,412739.44,417973.05,415713.05,416668,433301.69,97551.67
+Coconut (w/ husk),Region XI (Davao Region),Davao Oriental,1102500000,660674.28,660301.15,658040.56,640120.75,627428.83,637799.57,159483.2
+Coconut (w/ husk),Region XI (Davao Region),City of Davao,1130700000,265975.52,285213.96,299869.09,0,0,179770.32,70019.74
+Coconut (w/ husk),Region XII (SOCCSKSARGEN),Cotabato,1204700000,186811.28,193292.34,199817.02,204022.6,188210.13,175522.07,40128.41
+Coconut (w/ husk),Region XII (SOCCSKSARGEN),Sarangani,1208000000,573086.52,600582.17,597375.64,594068.38,576860.36,576134.41,154550.95
+Coconut (w/ husk),Region XII (SOCCSKSARGEN),Sultan Kudarat,1206500000,229431.5,233453.51,241875.25,225127.04,203881.79,211038.59,60243.81
+Coconut (w/ husk),Region XII (SOCCSKSARGEN),South Cotabato,1206300000,173316.34,186367.21,190952.22,200561.72,193546.4,210513.36,50658.25
+Coconut (w/ husk),Region XIII (Caraga),Agusan del Norte,1600200000,161140,168560.04,155135,163805.5,164108.9,168569.37,31223.08
+Coconut (w/ husk),Region XIII (Caraga),Agusan del Sur,1600300000,47046.08,44437.65,44608.55,45165.96,43957.29,50219.24,13992.38
+Coconut (w/ husk),Region XIII (Caraga),Dinagat Islands,1608500000,8973.97,8616.29,3060.96,3822.77,5999.47,6644.45,3192.7
+Coconut (w/ husk),Region XIII (Caraga),Surigao del Norte,1606700000,139259.53,131753.93,57441.4,52451.69,65693.83,89419.12,19449.86
+Coconut (w/ husk),Region XIII (Caraga),Surigao del Sur,1606800000,407704.87,403748.6,416475.87,377693.75,377077.22,375142.89,92889.77
+Coconut (w/ husk),Region XIII (Caraga),City of Butuan,1630400000,0,0,0,0,283895.76,0,16084.62
+Coconut (w/ husk),Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)3,Basilan,1900700000,37344.12,37775.95,38118.28,38239.49,34716.87,38048.47,4690.11
+Coconut (w/ husk),Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)4,Lanao del Sur,1903600000,188858.5,188862.08,188858.25,184091.65,186828.66,187543.09,47345
+Coconut (w/ husk),Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)5,Maguindanao,1908800000,771635.78,786021.45,795742.89,793226.09,679399.16,0,0
+Coconut (w/ husk),Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)6,Maguindanao del Norte,1908700000,0,0,0,0,0,220429.06,58789.95
+Coconut (w/ husk),Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)7,Maguindanao del Sur,1908800000,0,0,0,0,0,569948.38,113446.81
+Coconut (w/ husk),Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)8,Sulu,0906600000,215724,216367.4,216531.02,216533,215921,214724.41,0
+Coconut (w/ husk),Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)9,Tawi-tawi,1907000000,134411,133405,133550,132892,132316,131145,33870

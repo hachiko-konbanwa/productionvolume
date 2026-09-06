@@ -57,7 +57,7 @@ Tilapia,Region IX,Sulu,0906600000,0,0,0,0,0,0
 Tilapia,Region IX,Zamboanga del Norte,0907200000,83.82,66.59,41.19,25.79,22.14,8.89
 Tilapia,Region IX,Zamboanga del Sur,0907300000,998.55,347.17,402.44,555.79,595.01,317.77
 Tilapia,Region IX,Zamboanga Sibugay,0908300000,2.62,12.33,154.06,34.64,50.9,39.98
-Tilapia,Region IX,City of Zamboanga,,11.19,10.74,0,0,0,30.19
+Tilapia,Region IX,City of Zamboanga,0907400000,11.19,10.74,0,0,0,30.19
 Tilapia,Region X,Bukidnon,1001300000,1571.04,505.4,498.55,259.59,345.46,451.54
 Tilapia,Region X,Camiguin,1001800000,16.07,31.02,3,3.6,13.77,2.1
 Tilapia,Region X,Lanao del Norte,1003500000,1066.86,1161.22,3917.22,3904.88,3411.19,3569.59
@@ -68,7 +68,7 @@ Tilapia,Region XI,Davao del Norte,1102300000,200.45,260.76,518.73,619.47,85.37,2
 Tilapia,Region XI,Davao del Sur,1102400000,1782.33,2090.99,287.55,214.2,123.52,78.25
 Tilapia,Region XI,Davao Occidental,1108600000,275.51,449.33,29.44,48.5,12.97,158.16
 Tilapia,Region XI,Davao Oriental,1102500000,30.12,5.99,21.93,18.15,26.04,97.13
-Tilapia,Region XI,City of Davao,,64.12,28.28,0,0,0,167.58
+Tilapia,Region XI,City of Davao,1130700000,64.12,28.28,0,0,0,167.58
 Tilapia,Region XII,Cotabato,1204700000,4204.77,4901.27,5656.5,2727.09,3145.18,2361.17
 Tilapia,Region XII,Sarangani,1208000000,2147.94,3254.07,3886.14,3700.73,4333.55,4840.06
 Tilapia,Region XII,South Cotabato,1206300000,1914.29,1354.97,1536.36,1901.04,3755.36,1956.66
@@ -78,7 +78,7 @@ Tilapia,Region XIII,Agusan del Sur,1600300000,288.1,223.59,228.04,230.53,272.85,
 Tilapia,Region XIII,Dinagat Islands,1608500000,0.92,2.92,7.46,3.93,19.69,19.93
 Tilapia,Region XIII,Surigao del Norte,1606700000,233.07,162.89,107.57,220.49,96.98,82.9
 Tilapia,Region XIII,Surigao del Sur,1606800000,100.06,155.84,165.25,200.51,140.64,56.5
-Tilapia,Region XIII,City of Butuan,,0,0,0,0,0,0
+Tilapia,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0
 Tilapia,BARMM,Basilan,1900700000,0.72,1.62,0.04,4.19,2.59,0.34
 Tilapia,BARMM,Lanao del Sur,1903600000,406.82,580.59,441.5,921.52,1096.54,1300.51
 Tilapia,BARMM,Maguindanao del Norte,1908700000,18991.48,30208.16,30157.43,7196.53,5135.15,7124.18

@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Broccoli,Cordillera Administrative Region (CAR),Abra,1400100000,0,0,0,0,0,0,0
+Broccoli,Cordillera Administrative Region (CAR),Apayao,1408100000,0,0,0,0,0,0,0
+Broccoli,Cordillera Administrative Region (CAR),Benguet,1401100000,0,0,0,0,0,16.932612752721617,16.02357894736842
+Broccoli,Cordillera Administrative Region (CAR),Ifugao,1402700000,0,0,0,0,0,0,0
+Broccoli,Cordillera Administrative Region (CAR),Kalinga,1403200000,0,0,0,0,0,0,0
+Broccoli,Cordillera Administrative Region (CAR),Mountain Province,1404400000,0,0,0,0,0,4.60246913580247,3.6521739130434785
+Broccoli,Region I (Ilocos Region),Ilocos Norte,0102800000,0,0,0,0,0,0,0
+Broccoli,Region I (Ilocos Region),Ilocos Sur,0102900000,0,0,0,0,0,0,0
+Broccoli,Region I (Ilocos Region),La Union,0103300000,0,0,0,0,0,0,0
+Broccoli,Region I (Ilocos Region),Pangasinan,0105500000,0,0,0,0,0,0,0
+Broccoli,Region II (Cagayan Valley),Batanes,0200900000,0,0,0,0,0,3.2666666666666666,2.16
+Broccoli,Region II (Cagayan Valley),Cagayan,0201500000,0,0,0,0,0,0,0
+Broccoli,Region II (Cagayan Valley),Isabela,0203100000,0,0,0,0,0,0,0
+Broccoli,Region II (Cagayan Valley),Nueva Vizcaya,0205000000,0,0,0,0,0,1.1528792750657701,6.8999999999999995
+Broccoli,Region II (Cagayan Valley),Quirino,0205700000,0,0,0,0,0,0,0
+Broccoli,Region III (Central Luzon),Aurora,0307700000,0,0,0,0,0,0,0
+Broccoli,Region III (Central Luzon),Bataan,0300800000,0,0,0,0,0,0,0
+Broccoli,Region III (Central Luzon),Bulacan,0301400000,0,0,0,0,0,0,0
+Broccoli,Region III (Central Luzon),Nueva Ecija,0304900000,0,0,0,0,0,0,0
+Broccoli,Region III (Central Luzon),Pampanga,0305400000,0,0,0,0,0,0,0
+Broccoli,Region III (Central Luzon),Tarlac,0306900000,0,0,0,0,0,0,0
+Broccoli,Region III (Central Luzon),Zambales,0307100000,0,0,0,0,0,0,0
+Broccoli,Region IV-A (CALABARZON),Batangas,0401000000,0,0,0,0,0,0,0
+Broccoli,Region IV-A (CALABARZON),Cavite,0402100000,0,0,0,0,0,1.25,0
+Broccoli,Region IV-A (CALABARZON),Laguna,0403400000,0,0,0,0,0,0,0
+Broccoli,Region IV-A (CALABARZON),Quezon,0405600000,0,0,0,0,0,0,0
+Broccoli,Region IV-A (CALABARZON),Rizal,0405800000,0,0,0,0,0,0,0
+Broccoli,MIMAROPA Region,Marinduque,1704000000,0,0,0,0,0,0,0
+Broccoli,MIMAROPA Region,Occidental Mindoro,1705100000,0,0,0,0,0,0,0
+Broccoli,MIMAROPA Region,Oriental Mindoro,1705200000,0,0,0,0,0,0,0
+Broccoli,MIMAROPA Region,Palawan,1705300000,0,0,0,0,0,0,0
+Broccoli,MIMAROPA Region,City of Puerto Princesa,1731500000,0,0,0,0,0,0,0
+Broccoli,MIMAROPA Region,Romblon,1705900000,0,0,0,0,0,0,0
+Broccoli,Region V (Bicol Region),Albay,0500500000,0,0,0,0,0,0,0
+Broccoli,Region V (Bicol Region),Camarines Norte,0501600000,0,0,0,0,0,0,0
+Broccoli,Region V (Bicol Region),Camarines Sur,0501700000,0,0,0,0,0,0,0
+Broccoli,Region V (Bicol Region),Catanduanes,0502000000,0,0,0,0,0,0,0
+Broccoli,Region V (Bicol Region),Masbate,0504100000,0,0,0,0,0,0,0
+Broccoli,Region V (Bicol Region),Sorsogon,0506200000,0,0,0,0,0,0,0
+Broccoli,Region VI (Western Visayas),Aklan,0600400000,0,0,0,0,0,0,0
+Broccoli,Region VI (Western Visayas),Antique,0600600000,0,0,0,0,0,0,0
+Broccoli,Region VI (Western Visayas),Capiz,0601900000,0,0,0,0,0,0,0
+Broccoli,Region VI (Western Visayas),Guimaras,0607900000,0,0,0,0,0,0,0
+Broccoli,Region VI (Western Visayas),Iloilo,0603000000,0,0,0,0,0,4.280943025540275,3.3533333333333335
+Broccoli,Region VI (Western Visayas),Negros Occidental,1804500000,0,0,0,0,0,0,0
+Broccoli,Region VI (Western Visayas),Negros Occidental,1804500000,0,0,0,0,0,0,0
+Broccoli,Negros Island Region (NIR),City of Bacolod,1830200000,0,0,0,0,0,0,0
+Broccoli,Negros Island Region (NIR),Negros Oriental,1804600000,0,0,0,0,0,5.5354107648725215,14.333333333333334
+Broccoli,Negros Island Region (NIR),Siquijor,1806100000,0,0,0,0,0,0,0
+Broccoli,Region VII (Central Visayas),Bohol,0701200000,0,0,0,0,0,3,0
+Broccoli,Region VII (Central Visayas),Cebu,0702200000,0,0,0,0,0,0,0
+Broccoli,Negros Island Region (NIR),Negros Oriental,1804600000,0,0,0,0,0,0,0
+Broccoli,Negros Island Region (NIR),Siquijor,1806100000,0,0,0,0,0,0,0
+Broccoli,Region VIII (Eastern Visayas),Biliran,0807800000,0,0,0,0,0,0,0
+Broccoli,Region VIII (Eastern Visayas),Eastern Samar,0802600000,0,0,0,0,0,0,0
+Broccoli,Region VIII (Eastern Visayas),Leyte,0803700000,0,0,0,0,0,0,0
+Broccoli,Region VIII (Eastern Visayas),Northern Samar,0804800000,0,0,0,0,0,0,0
+Broccoli,Region VIII (Eastern Visayas),Samar,0806000000,0,0,0,0,0,0,0
+Broccoli,Region VIII (Eastern Visayas),Southern Leyte,0806400000,0,0,0,0,0,0,0
+Broccoli,Region IX (Zamboanga Peninsula),Sulu,0906600000,0,0,0,0,0,0,0
+Broccoli,Region IX (Zamboanga Peninsula),Zamboanga del Norte,0907200000,0,0,0,0,0,0,0
+Broccoli,Region IX (Zamboanga Peninsula),Zamboanga del Sur,0907300000,0,0,0,0,0,0,0
+Broccoli,Region IX (Zamboanga Peninsula),City of Zamboanga,0907400000,0,0,0,0,0,0,0
+Broccoli,Region IX (Zamboanga Peninsula),Zamboanga Sibugay,0908300000,0,0,0,0,0,0,0
+Broccoli,Region X (Northern Mindanao),Bukidnon,1001300000,0,0,0,0,0,7.369639129138086,6.140170174652933
+Broccoli,Region X (Northern Mindanao),Camiguin,1001800000,0,0,0,0,0,0,0
+Broccoli,Region X (Northern Mindanao),Lanao del Norte,1003500000,0,0,0,0,0,0,0
+Broccoli,Region X (Northern Mindanao),Misamis Occidental,1004200000,0,0,0,0,0,0,0
+Broccoli,Region X (Northern Mindanao),Misamis Oriental,1004300000,0,0,0,0,0,4.159793814432989,2.291666666666667
+Broccoli,Region XI (Davao Region),Davao de Oro,1108200000,0,0,0,0,0,0,0
+Broccoli,Region XI (Davao Region),Davao del Norte,1102300000,0,0,0,0,0,0,0
+Broccoli,Region XI (Davao Region),Davao del Sur,1102400000,0,0,0,0,0,4.688888888888888,0
+Broccoli,Region XI (Davao Region),City of Davao,1130700000,0,0,0,0,0,3.808743169398907,1.1530054644808743
+Broccoli,Region XI (Davao Region),Davao Occidental,1108600000,0,0,0,0,0,0,0
+Broccoli,Region XI (Davao Region),Davao Oriental,1102500000,0,0,0,0,0,0,0
+Broccoli,Region XII (SOCCSKSARGEN),Cotabato,1204700000,0,0,0,0,0,0,0
+Broccoli,Region XII (SOCCSKSARGEN),Sarangani,1208000000,0,0,0,0,0,0,0
+Broccoli,Region XII (SOCCSKSARGEN),Sultan Kudarat,1206500000,0,0,0,0,0,0,0
+Broccoli,Region XII (SOCCSKSARGEN),South Cotabato,1206300000,0,0,0,0,0,1.0552380952380953,0.8959276018099548
+Broccoli,Region XIII (Caraga),Agusan del Norte,1600200000,0,0,0,0,0,0,0
+Broccoli,Region XIII (Caraga),City of Butuan,1630400000,0,0,0,0,0,0,0
+Broccoli,Region XIII (Caraga),Agusan del Sur,1600300000,0,0,0,0,0,0,0
+Broccoli,Region XIII (Caraga),Dinagat Islands,1608500000,0,0,0,0,0,0,0
+Broccoli,Region XIII (Caraga),Surigao del Norte,1606700000,0,0,0,0,0,0,0
+Broccoli,Region XIII (Caraga),Surigao del Sur,1606800000,0,0,0,0,0,0,0
+Broccoli,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)3,Basilan,1900700000,0,0,0,0,0,0,0
+Broccoli,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)4,Lanao del Sur,1903600000,0,0,0,0,0,5.502985074626865,0
+Broccoli,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)5,Maguindanao,1908800000,0,0,0,0,0,0,0
+Broccoli,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)6,Maguindanao del Norte,1908700000,0,0,0,0,0,0,0
+Broccoli,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)7,Maguindanao del Sur,1908800000,0,0,0,0,0,0,0
+Broccoli,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)8,Sulu,0906600000,0,0,0,0,0,0,0
+Broccoli,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)9,Tawi-tawi,1907000000,0,0,0,0,0,0,0

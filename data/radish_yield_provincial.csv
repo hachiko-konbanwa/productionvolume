@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Radish,CAR,Abra,1400100000,,,,,,2.50,
+Radish,CAR,Apayao,1408100000,,,,,,,
+Radish,CAR,Benguet,1401100000,,,,,,13.47,16.65
+Radish,CAR,Ifugao,1402700000,,,,,,,
+Radish,CAR,Kalinga,1403200000,,,,,,,
+Radish,CAR,Mountain Province,1404400000,,,,,,13.97,6.27
+Radish,Region I,Ilocos Norte,0102800000,,,,,,,
+Radish,Region I,Ilocos Sur,0102900000,,,,,,,
+Radish,Region I,La Union,0103300000,,,,,,,
+Radish,Region I,Pangasinan,0105500000,,,,,,3.84,7.02
+Radish,Region II,Batanes,0200900000,,,,,,1.30,1.29
+Radish,Region II,Cagayan,0201500000,,,,,,5.82,11.23
+Radish,Region II,Isabela,0203100000,,,,,,3.93,3.78
+Radish,Region II,Nueva Vizcaya,0205000000,,,,,,6.29,7.89
+Radish,Region II,Quirino,0205700000,,,,,,0.53,
+Radish,Region III,Aurora,0307700000,,,,,,,
+Radish,Region III,Bataan,0300800000,,,,,,,
+Radish,Region III,Bulacan,0301400000,,,,,,8.52,8.82
+Radish,Region III,Nueva Ecija,0304900000,,,,,,3.78,2.45
+Radish,Region III,Pampanga,0305400000,,,,,,4.19,5.60
+Radish,Region III,Tarlac,0306900000,,,,,,3.42,5.92
+Radish,Region III,Zambales,0307100000,,,,,,,
+Radish,Region IV-A,Batangas,0401000000,,,,,,2.93,3.18
+Radish,Region IV-A,Cavite,0402100000,,,,,,7.10,5.56
+Radish,Region IV-A,Laguna,0403400000,,,,,,5.87,12.37
+Radish,Region IV-A,Quezon,0405600000,,,,,,2.86,2.06
+Radish,Region IV-A,Rizal,0405800000,,,,,,3.37,3.71
+Radish,MIMAROPA,Marinduque,1704000000,,,,,,,
+Radish,MIMAROPA,Occidental Mindoro,1705100000,,,,,,3.06,7.71
+Radish,MIMAROPA,Oriental Mindoro,1705200000,,,,,,3.87,
+Radish,MIMAROPA,Palawan,1705300000,,,,,,2.96,2.48
+Radish,MIMAROPA,City of Puerto Princesa,1731500000,,,,,,,
+Radish,MIMAROPA,Romblon,1705900000,,,,,,3.40,3.30
+Radish,Region V,Albay,0500500000,,,,,,2.28,0.28
+Radish,Region V,Camarines Norte,0501600000,,,,,,,
+Radish,Region V,Camarines Sur,0501700000,,,,,,4.93,
+Radish,Region V,Catanduanes,0502000000,,,,,,7.50,3.43
+Radish,Region V,Masbate,0504100000,,,,,,,
+Radish,Region V,Sorsogon,0506200000,,,,,,2.97,3.00
+Radish,Region VI,Aklan,0600400000,,,,,,6.15,3.18
+Radish,Region VI,Antique,0600600000,,,,,,5.68,11.97
+Radish,Region VI,Capiz,0601900000,,,,,,6.31,6.02
+Radish,Region VI,Guimaras,0607900000,,,,,,9.70,9.24
+Radish,Region VI,Iloilo,0603000000,,,,,,10.67,7.82
+Radish,NIR,Negros Occidental,1804500000,,,,,,,
+Radish,NIR,Negros Occidental,1804500000,,,,,,6.30,6.00
+Radish,NIR,City of Bacolod,1830200000,,,,,,,
+Radish,NIR,Negros Oriental,1804600000,,,,,,7.90,4.82
+Radish,NIR,Siquijor,1806100000,,,,,,,
+Radish,Region VII,Bohol,0701200000,,,,,,1.68,
+Radish,Region VII,Cebu,0702200000,,,,,,4.92,6.81
+Radish,NIR,Negros Oriental,1804600000,,,,,,,
+Radish,NIR,Siquijor,1806100000,,,,,,,
+Radish,Region VIII,Biliran,0807800000,,,,,,,
+Radish,Region VIII,Eastern Samar,0802600000,,,,,,,
+Radish,Region VIII,Leyte,0803700000,,,,,,1.04,63.00
+Radish,Region VIII,Northern Samar,0804800000,,,,,,,
+Radish,Region VIII,Samar,0806000000,,,,,,,
+Radish,Region VIII,Southern Leyte,0806400000,,,,,,1.65,0.00
+Radish,Region IX,Sulu,0906600000,,,,,,,
+Radish,Region IX,Zamboanga del Norte,0907200000,,,,,,2.56,0.21
+Radish,Region IX,Zamboanga del Sur,0907300000,,,,,,7.14,5.25
+Radish,Region IX,City of Zamboanga,0907400000,,,,,,5.65,4.58
+Radish,Region IX,Zamboanga Sibugay,0908300000,,,,,,5.19,4.26
+Radish,Region X,Bukidnon,1001300000,,,,,,11.69,8.70
+Radish,Region X,Camiguin,1001800000,,,,,,,
+Radish,Region X,Lanao del Norte,1003500000,,,,,,1.87,0.44
+Radish,Region X,Misamis Occidental,1004200000,,,,,,,
+Radish,Region X,Misamis Oriental,1004300000,,,,,,7.42,1.82
+Radish,Region XI,Davao de Oro,1108200000,,,,,,3.65,1.92
+Radish,Region XI,Davao del Norte,1102300000,,,,,,5.47,5.54
+Radish,Region XI,Davao del Sur,1102400000,,,,,,3.94,4.87
+Radish,Region XI,City of Davao,1130700000,,,,,,4.09,4.53
+Radish,Region XI,Davao Occidental,1108600000,,,,,,5.56,5.86
+Radish,Region XI,Davao Oriental,1102500000,,,,,,5.98,1.63
+Radish,Region XII,Cotabato,1204700000,,,,,,1.68,2.59
+Radish,Region XII,Sarangani,1208000000,,,,,,2.31,2.58
+Radish,Region XII,Sultan Kudarat,1206500000,,,,,,8.50,3.97
+Radish,Region XII,South Cotabato,1206300000,,,,,,9.92,4.99
+Radish,Region XIII,Agusan del Norte,1600200000,,,,,,0.73,2.17
+Radish,Region XIII,City of Butuan,1630400000,,,,,,,2.17
+Radish,Region XIII,Agusan del Sur,1600300000,,,,,,,
+Radish,Region XIII,Dinagat Islands,1608500000,,,,,,,
+Radish,Region XIII,Surigao del Norte,1606700000,,,,,,,
+Radish,Region XIII,Surigao del Sur,1606800000,,,,,,,
+Radish,BARMM,Basilan,1900700000,,,,,,0.27,0.00
+Radish,BARMM,Lanao del Sur,1903600000,,,,,,,
+Radish,BARMM,Maguindanao,,,,,,,1.38,3.35
+Radish,BARMM,Maguindanao del Norte,1908700000,,,,,,1.20,3.71
+Radish,BARMM,Maguindanao del Sur,1908800000,,,,,,1.95,2.16
+Radish,BARMM,Sulu,0906600000,,,,,,1.02,
+Radish,BARMM,Tawi-tawi,1907000000,,,,,,,

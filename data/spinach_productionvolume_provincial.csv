@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Spinach,CAR,Abra,1400100000,0.22,0.24,0.22,0.38,0.30,1.36,0.00
+Spinach,CAR,Apayao,1408100000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,CAR,Benguet,1401100000,85.00,98.10,100.64,81.60,80.75,115.15,30.69
+Spinach,CAR,Ifugao,1402700000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,CAR,Kalinga,1403200000,3.47,4.47,5.16,4.28,3.64,3.30,0.00
+Spinach,CAR,Mountain Province,1404400000,0.09,0.08,0.09,0.08,0.06,1.67,0.00
+Spinach,Region I,Ilocos Norte,0102800000,0.00,0.00,0.00,0.00,0.00,0.01,0.00
+Spinach,Region I,Ilocos Sur,0102900000,0.00,0.00,0.00,2.26,0.02,0.06,0.00
+Spinach,Region I,La Union,0103300000,2.35,2.40,2.54,2.58,2.29,2.27,0.57
+Spinach,Region I,Pangasinan,0105500000,1.99,1.87,2.33,1.10,1.09,0.88,0.07
+Spinach,Region II,Batanes,0200900000,1.30,1.29,1.39,0.98,1.27,1.12,0.72
+Spinach,Region II,Cagayan,0201500000,18.49,20.07,20.95,22.99,19.71,23.26,3.05
+Spinach,Region II,Isabela,0203100000,55.97,47.33,44.41,41.45,35.74,35.69,9.48
+Spinach,Region II,Nueva Vizcaya,0205000000,46.69,46.30,51.44,55.22,45.80,51.17,17.33
+Spinach,Region II,Quirino,0205700000,6.64,6.67,7.74,8.46,7.72,8.38,1.27
+Spinach,Region III,Aurora,0307700000,0.00,0.00,0.00,0.03,1.64,0.41,0.86
+Spinach,Region III,Bataan,0300800000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region III,Bulacan,0301400000,0.00,0.00,0.00,0.00,10.06,10.97,0.43
+Spinach,Region III,Nueva Ecija,0304900000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region III,Pampanga,0305400000,11.40,11.67,12.10,12.88,13.66,13.44,7.17
+Spinach,Region III,Tarlac,0306900000,21.21,20.59,18.93,18.26,19.30,14.52,4.33
+Spinach,Region III,Zambales,0307100000,0.00,0.00,0.00,4.48,10.60,10.32,1.44
+Spinach,Region IV-A,Batangas,0401000000,0.00,0.00,0.00,0.00,0.19,0.00,0.00
+Spinach,Region IV-A,Cavite,0402100000,0.00,0.00,0.00,39.59,42.11,43.82,2.85
+Spinach,Region IV-A,Laguna,0403400000,0.00,0.00,0.00,0.00,1.99,2.00,0.00
+Spinach,Region IV-A,Quezon,0405600000,0.00,0.00,0.00,0.00,0.26,0.22,0.00
+Spinach,Region IV-A,Rizal,0405800000,0.00,0.00,0.00,0.00,0.22,0.33,0.00
+Spinach,MIMAROPA,Marinduque,1704000000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,MIMAROPA,Occidental Mindoro,1705100000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,MIMAROPA,Oriental Mindoro,1705200000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,MIMAROPA,Palawan,1705300000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,MIMAROPA,City of Puerto Princesa,1731500000,0.00,0.00,0.00,0.00,0.00,0.00,0.10
+Spinach,MIMAROPA,Romblon,1705900000,0.00,0.00,0.00,0.28,0.25,4.05,3.52
+Spinach,Region V,Albay,0500500000,0.00,0.00,0.00,0.00,0.00,2.01,0.00
+Spinach,Region V,Camarines Norte,0501600000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region V,Camarines Sur,0501700000,0.00,0.00,0.00,0.00,0.00,0.02,0.00
+Spinach,Region V,Catanduanes,0502000000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region V,Masbate,0504100000,0.00,0.00,0.00,0.28,0.00,0.00,0.00
+Spinach,Region V,Sorsogon,0506200000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region VI,Aklan,0600400000,0.03,0.03,0.05,0.04,0.04,0.00,0.00
+Spinach,Region VI,Antique,0600600000,64.47,60.95,60.90,59.85,17.90,0.10,0.00
+Spinach,Region VI,Capiz,0601900000,133.20,141.70,140.75,104.78,0.00,0.00,0.00
+Spinach,Region VI,Guimaras,0607900000,0.00,0.00,0.00,0.00,0.00,0.12,0.00
+Spinach,Region VI,Iloilo,0603000000,35.55,36.95,37.20,38.15,14.64,0.00,0.00
+Spinach,NIR,Negros Occidental,1804500000,22.54,26.16,28.15,42.46,0.00,0.00,0.00
+Spinach,NIR,Negros Occidental,1804500000,0.00,0.00,0.00,0.00,14.93,0.00,0.00
+Spinach,NIR,City of Bacolod,1830200000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,NIR,Negros Oriental,1804600000,0.00,0.00,0.00,0.00,20.20,23.30,0.49
+Spinach,NIR,Siquijor,1806100000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region VII,Bohol,0701200000,0.00,0.00,0.00,0.12,0.00,0.00,0.00
+Spinach,Region VII,Cebu,0702200000,31.62,30.90,32.30,31.61,26.01,29.49,6.25
+Spinach,NIR,Negros Oriental,1804600000,36.63,34.75,35.40,30.55,0.00,0.00,0.00
+Spinach,NIR,Siquijor,1806100000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region VIII,Biliran,0807800000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region VIII,Eastern Samar,0802600000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region VIII,Leyte,0803700000,0.00,0.00,0.00,0.18,2.87,1.86,0.34
+Spinach,Region VIII,Northern Samar,0804800000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region VIII,Samar,0806000000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region VIII,Southern Leyte,0806400000,0.00,0.00,0.00,0.00,0.02,0.00,0.00
+Spinach,Region IX,Sulu,0906600000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region IX,Zamboanga del Norte,0907200000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region IX,Zamboanga del Sur,0907300000,0.02,0.03,0.03,0.00,0.03,2.32,0.00
+Spinach,Region IX,City of Zamboanga,0907400000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region IX,Zamboanga Sibugay,0908300000,0.00,0.00,0.00,0.00,0.01,0.01,0.00
+Spinach,Region X,Bukidnon,1001300000,1.56,1.55,1.48,10.32,13.04,12.93,3.04
+Spinach,Region X,Camiguin,1001800000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region X,Lanao del Norte,1003500000,6.00,5.60,5.30,5.20,5.07,5.16,4.41
+Spinach,Region X,Misamis Occidental,1004200000,0.00,0.00,0.00,0.00,1.60,1.61,0.34
+Spinach,Region X,Misamis Oriental,1004300000,16.16,15.37,15.82,14.33,14.50,15.91,3.00
+Spinach,Region XI,Davao de Oro,1108200000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region XI,Davao del Norte,1102300000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,Region XI,Davao del Sur,1102400000,3.39,3.34,3.31,26.68,27.08,5.15,0.25
+Spinach,Region XI,City of Davao,1130700000,23.70,23.54,23.52,0.00,0.00,20.04,2.17
+Spinach,Region XI,Davao Occidental,1108600000,0.14,0.12,0.13,0.12,0.04,0.04,0.02
+Spinach,Region XI,Davao Oriental,1102500000,0.84,0.94,0.82,0.94,0.91,0.83,0.17
+Spinach,Region XII,Cotabato,1204700000,12.42,12.86,12.55,10.36,10.93,8.67,0.74
+Spinach,Region XII,Sarangani,1208000000,2.07,2.11,2.11,2.33,2.27,0.34,0.31
+Spinach,Region XII,Sultan Kudarat,1206500000,8.03,8.11,8.14,8.02,7.46,7.26,2.28
+Spinach,Region XII,South Cotabato,1206300000,11.80,12.32,13.28,14.86,7.48,6.76,0.00
+Spinach,Region XIII,Agusan del Norte,1600200000,0.00,0.00,0.00,0.00,0.10,0.13,0.03
+Spinach,Region XIII,City of Butuan,1630400000,0.00,0.00,0.00,0.00,0.00,0.00,0.02
+Spinach,Region XIII,Agusan del Sur,1600300000,0.00,0.00,0.00,0.00,0.00,12.28,0.48
+Spinach,Region XIII,Dinagat Islands,1608500000,0.00,0.00,0.00,0.00,0.00,0.06,0.00
+Spinach,Region XIII,Surigao del Norte,1606700000,0.00,0.00,0.00,0.20,0.28,1.48,1.38
+Spinach,Region XIII,Surigao del Sur,1606800000,0.00,0.00,0.00,0.00,0.17,0.00,0.00
+Spinach,BARMM,Basilan,1900700000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,BARMM,Lanao del Sur,1903600000,0.00,0.00,0.00,0.00,0.58,0.19,0.00
+Spinach,BARMM,Maguindanao,1908800000,7.35,7.55,7.66,7.69,7.94,47.13,10.00
+Spinach,BARMM,Maguindanao del Norte,1908700000,0.00,0.00,0.00,0.00,0.00,47.13,10.00
+Spinach,BARMM,Maguindanao del Sur,1908800000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,BARMM,Sulu,0906600000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Spinach,BARMM,Tawi-tawi,1907000000,0.00,0.00,0.00,0.00,0.00,0.00,0.00

@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Calamansi,CAR,Abra,1400100000,0,0,0,0,0,19544,4886
+Calamansi,CAR,Apayao,1408100000,0,0,0,0,0,37348,9316
+Calamansi,CAR,Benguet,1401100000,0,0,0,0,0,20000,5000
+Calamansi,CAR,Ifugao,1402700000,0,0,0,0,0,21180,5295
+Calamansi,CAR,Kalinga,1403200000,0,0,0,0,0,33820,8455
+Calamansi,CAR,Mountain Province,1404400000,0,0,0,0,0,6280,1570
+Calamansi,Region I,Ilocos Norte,0102800000,0,0,0,0,0,180580,45145
+Calamansi,Region I,Ilocos Sur,0102900000,0,0,0,0,0,170492,42498
+Calamansi,Region I,La Union,0103300000,0,0,0,0,0,256612,64153
+Calamansi,Region I,Pangasinan,0105500000,0,0,0,0,0,968190,224241
+Calamansi,Region II,Batanes,0200900000,0,0,0,0,0,24029,6011
+Calamansi,Region II,Cagayan,0201500000,0,0,0,0,0,980080,245025
+Calamansi,Region II,Isabela,0203100000,0,0,0,0,0,1250416,307891
+Calamansi,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,143201,35380
+Calamansi,Region II,Quirino,0205700000,0,0,0,0,0,152956,38239
+Calamansi,Region III,Aurora,0307700000,0,0,0,0,0,159784,39946
+Calamansi,Region III,Bataan,0300800000,0,0,0,0,0,122971,37717
+Calamansi,Region III,Bulacan,0301400000,0,0,0,0,0,243100,60775
+Calamansi,Region III,Nueva Ecija,0304900000,0,0,0,0,0,917520,233524
+Calamansi,Region III,Pampanga,0305400000,0,0,0,0,0,144309,35947
+Calamansi,Region III,Tarlac,0306900000,0,0,0,0,0,145900,36500
+Calamansi,Region III,Zambales,0307100000,0,0,0,0,0,219840,54960
+Calamansi,Region IV-A,Batangas,0401000000,0,0,0,0,0,1093484,273321
+Calamansi,Region IV-A,Cavite,0402100000,0,0,0,0,0,174978,43740
+Calamansi,Region IV-A,Laguna,0403400000,0,0,0,0,0,690600,172650
+Calamansi,Region IV-A,Quezon,0405600000,0,0,0,0,0,1156356,287964
+Calamansi,Region IV-A,Rizal,0405800000,0,0,0,0,0,139600,34900
+Calamansi,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,15200,3800
+Calamansi,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,153120,38280
+Calamansi,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,9516284,2379071
+Calamansi,MIMAROPA,Palawan,1705300000,0,0,0,0,0,312852,65403
+Calamansi,MIMAROPA,Romblon,1705900000,0,0,0,0,0,73827,18450
+Calamansi,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0,12810
+Calamansi,Region V,Albay,0500500000,0,0,0,0,0,63924,15000
+Calamansi,Region V,Camarines Norte,0501600000,0,0,0,0,0,97636,24409
+Calamansi,Region V,Camarines Sur,0501700000,0,0,0,0,0,199116,49779
+Calamansi,Region V,Catanduanes,0502000000,0,0,0,0,0,7308,1827
+Calamansi,Region V,Masbate,0504100000,0,0,0,0,0,21138,5696
+Calamansi,Region V,Sorsogon,0506200000,0,0,0,0,0,177751,44371
+Calamansi,Region VI,Aklan,0600400000,0,0,0,0,0,118700,29600
+Calamansi,Region VI,Antique,0600600000,0,0,0,0,0,16140,4035
+Calamansi,Region VI,Capiz,0601900000,0,0,0,0,0,35480,8900
+Calamansi,Region VI,Guimaras,0607900000,0,0,0,0,0,1182200,295550
+Calamansi,Region VI,Iloilo,0603000000,0,0,0,0,0,507600,126900
+Calamansi,NIR,Negros Occidental,1804500000,0,0,0,0,0,0,0
+Calamansi,NIR,Negros Occidental,1804500000,0,0,0,0,0,30680,7670
+Calamansi,NIR,Negros Oriental,1804600000,0,0,0,0,0,173400,43350
+Calamansi,NIR,Siquijor,1806100000,0,0,0,0,0,10880,2720
+Calamansi,NIR,City of Bacolod,1830200000,0,0,0,0,0,0,70
+Calamansi,Region VII,Bohol,0701200000,0,0,0,0,0,74196,18549
+Calamansi,Region VII,Cebu,0702200000,0,0,0,0,0,172184,43046
+Calamansi,NIR,Negros Oriental,1804600000,0,0,0,0,0,0,0
+Calamansi,NIR,Siquijor,1806100000,0,0,0,0,0,0,0
+Calamansi,Region VIII,Biliran,0807800000,0,0,0,0,0,10988,2747
+Calamansi,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,46040,11510
+Calamansi,Region VIII,Leyte,0803700000,0,0,0,0,0,128768,32655
+Calamansi,Region VIII,Northern Samar,0804800000,0,0,0,0,0,28425,7800
+Calamansi,Region VIII,Samar,0806000000,0,0,0,0,0,15008,3752
+Calamansi,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,26098,6524
+Calamansi,Region IX,Sulu,0906600000,0,0,0,0,0,0,14050
+Calamansi,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,351500,87875
+Calamansi,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,101354,18341
+Calamansi,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,1462140,365535
+Calamansi,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,80864,27296
+Calamansi,Region X,Bukidnon,1001300000,0,0,0,0,0,84490,21130
+Calamansi,Region X,Camiguin,1001800000,0,0,0,0,0,14252,3563
+Calamansi,Region X,Lanao del Norte,1003500000,0,0,0,0,0,602000,150500
+Calamansi,Region X,Misamis Occidental,1004200000,0,0,0,0,0,33480,8370
+Calamansi,Region X,Misamis Oriental,1004300000,0,0,0,0,0,141110,35201
+Calamansi,Region XI,Davao de Oro,1108200000,0,0,0,0,0,495812,123953
+Calamansi,Region XI,Davao del Norte,1102300000,0,0,0,0,0,2259878,564789
+Calamansi,Region XI,Davao del Sur,1102400000,0,0,0,0,0,242654,55122
+Calamansi,Region XI,Davao Occidental,1108600000,0,0,0,0,0,13148,3187
+Calamansi,Region XI,Davao Oriental,1102500000,0,0,0,0,0,76400,18892
+Calamansi,Region XI,City of Davao,1130700000,0,0,0,0,0,66498,22166
+Calamansi,Region XII,Cotabato,1204700000,0,0,0,0,0,404570,101150
+Calamansi,Region XII,Sarangani,1208000000,0,0,0,0,0,67145,16230
+Calamansi,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,296688,74172
+Calamansi,Region XII,South Cotabato,1206300000,0,0,0,0,0,633520,166967
+Calamansi,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,57180,9653
+Calamansi,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,2100375,525950
+Calamansi,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,12000,3000
+Calamansi,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,40112,10028
+Calamansi,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,85604,21401
+Calamansi,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0,4973
+Calamansi,BARMM,Basilan,1900700000,0,0,0,0,0,7700,1890
+Calamansi,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,29604,7401
+Calamansi,BARMM,Maguindanao,1908800000,0,0,0,0,0,0,0
+Calamansi,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,91382,25594
+Calamansi,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,87600,21900
+Calamansi,Region IX,Sulu,0906600000,0,0,0,0,0,56330,0
+Calamansi,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,17950,3960

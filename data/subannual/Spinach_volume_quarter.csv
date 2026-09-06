@@ -1,0 +1,88 @@
+Commodity Type,ADM2_PCODE,Province,2021Q1,2021Q2,2021Q3,2021Q4,2022Q1,2022Q2,2022Q3,2022Q4,2023Q1,2023Q2,2023Q3,2023Q4,2024Q1,2024Q2,2024Q3,2024Q4,2025Q1,2025Q2,2025Q3,2025Q4,2026Q1
+Overall Spinach Production,0102800000,Ilocos Norte,,,,,,,,,,,,,,,,,,0.01,,,
+Overall Spinach Production,0102900000,Ilocos Sur,,,,,,,,,,,2.26,,,0.02,,,,,0.06,,
+Overall Spinach Production,0103300000,La Union,0.5,0.97,0.37,0.56,0.54,1.0,0.41,0.59,0.48,1.1,0.43,0.57,0.43,0.89,0.38,0.59,0.52,0.94,0.31,0.5,0.57
+Overall Spinach Production,0105500000,Pangasinan,0.08,0.39,0.9,0.5,0.1,0.43,1.2,0.6,0.12,0.43,,0.55,0.09,0.31,0.17,0.52,0.08,0.3,0.02,0.48,0.07
+Overall Spinach Production,0200900000,Batanes,0.4,0.35,0.17,0.37,0.4,0.38,0.21,0.4,0.45,0.38,0.15,,0.5,0.42,0.35,,0.62,0.5,,,0.72
+Overall Spinach Production,0201500000,Cagayan,2.99,6.23,4.05,6.8,2.81,6.89,4.05,7.2,0.97,6.67,7.85,7.5,1.99,6.15,8.12,3.45,2.25,7.12,7.99,5.9,3.05
+Overall Spinach Production,0203100000,Isabela,12.4,11.57,17.24,6.12,10.2,10.21,17.9,6.1,9.45,10.0,16.0,6.0,8.95,9.45,11.54,5.8,10.05,10.15,10.84,4.65,9.48
+Overall Spinach Production,0205000000,Nueva Vizcaya,12.91,5.32,12.63,15.44,14.34,6.99,15.04,15.07,17.29,8.59,13.84,15.5,15.82,7.79,14.44,7.75,16.56,8.19,14.79,11.63,17.33
+Overall Spinach Production,0205700000,Quirino,1.08,3.18,1.86,0.55,1.2,3.97,2.03,0.54,1.16,4.61,2.04,0.65,1.11,3.92,2.15,0.54,1.25,4.17,2.38,0.58,1.27
+Overall Spinach Production,0300800000,Bataan,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,0301400000,Bulacan,,,,,,,,,,,,,0.42,9.64,,,0.43,9.64,0.6,0.3,0.43
+Overall Spinach Production,0304900000,Nueva Ecija,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,0305400000,Pampanga,7.0,1.69,1.79,1.19,6.9,1.9,2.06,1.24,7.01,2.49,2.04,1.34,7.6,2.63,1.98,1.45,7.17,2.78,2.03,1.46,7.17
+Overall Spinach Production,0306900000,Tarlac,5.64,9.75,4.61,0.59,5.25,8.9,4.33,0.45,4.08,9.15,5.03,,4.55,9.25,5.5,,,9.35,5.17,,4.33
+Overall Spinach Production,0307100000,Zambales,,,,,,,,,,,2.08,2.4,2.6,2.78,2.62,2.6,2.62,2.7,2.6,2.4,1.44
+Overall Spinach Production,0307700000,Aurora,,,,,,,,,,,0.03,,,1.61,0.03,,,,,0.41,0.86
+Overall Spinach Production,0401000000,Batangas,,,,,,,,,,,,,0.19,,,,,,,,
+Overall Spinach Production,0402100000,Cavite,,,,,,,,,,,,39.59,0.04,,0.01,42.06,3.07,,0.23,40.52,2.85
+Overall Spinach Production,0403400000,Laguna,,,,,,,,,,,,,,1.99,,,,2.0,,,
+Overall Spinach Production,0405600000,Quezon,,,,,,,,,,,,,0.05,0.2,0.01,,0.01,0.19,0.01,0.01,
+Overall Spinach Production,0405800000,Rizal,,,,,,,,,,,,,,0.02,,0.2,,0.03,,0.3,
+Overall Spinach Production,0500500000,Albay,,,,,,,,,,,,,,,,,,2.01,,,
+Overall Spinach Production,0501600000,Camarines Norte,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,0501700000,Camarines Sur,,,,,,,,,,,,,,,,,,,0.02,,
+Overall Spinach Production,0502000000,Catanduanes,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,0504100000,Masbate,,,,,,,,,,,,0.28,,,,,,,,,
+Overall Spinach Production,0506200000,Sorsogon,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,0600400000,Aklan,,0.03,,,,0.05,,,,0.04,,,,0.04,,,,,,,
+Overall Spinach Production,0600600000,Antique,13.0,6.7,16.04,25.21,14.24,5.86,15.8,25.0,14.0,5.79,16.21,23.85,12.25,5.65,,,0.1,,,,
+Overall Spinach Production,0601900000,Capiz,39.1,31.35,34.79,36.46,40.82,25.18,36.53,38.22,43.88,25.75,,35.15,,,,,,,,,
+Overall Spinach Production,0603000000,Iloilo,7.0,7.0,9.95,13.0,7.2,7.2,10.3,12.5,7.0,7.5,10.73,12.92,7.24,7.4,,,,,,,
+Overall Spinach Production,0607900000,Guimaras,,,,,,,,,,,,,,,,,,,0.12,,
+Overall Spinach Production,0701200000,Bohol,,,,,,,,,,,0.12,,,,,,,,,,
+Overall Spinach Production,0702200000,Cebu,8.5,3.5,10.4,8.5,8.3,4.0,11.0,9.0,8.4,3.13,11.58,8.5,3.91,3.1,11.0,8.0,6.44,3.41,11.14,8.5,6.25
+Overall Spinach Production,0802600000,Eastern Samar,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,0803700000,Leyte,,,,,,,,,,,,0.18,1.36,,1.32,0.19,,0.34,1.34,0.18,0.34
+Overall Spinach Production,0804800000,Northern Samar,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,0806000000,Samar (Western Samar),,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,0806400000,Southern Leyte,,,,,,,,,,,,,,,,0.02,,,,,
+Overall Spinach Production,0807800000,Biliran,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,0906600000,,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,0907200000,Zamboanga del Norte,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,0907300000,Zamboanga del Sur,,,0.03,,,,0.03,,,,,,,,0.03,,,,0.36,1.96,
+Overall Spinach Production,0907400000,Zamboanga City,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,0908300000,Zamboanga Sibugay,,,,,,,,,,,,,,0.01,,,,0.01,,,
+Overall Spinach Production,1001300000,Bukidnon,,0.35,1.2,,,0.3,1.18,,,0.33,1.2,8.79,3.03,0.3,1.21,8.5,3.05,0.28,1.2,8.4,3.04
+Overall Spinach Production,1001800000,Camiguin,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,1003500000,Lanao del Norte,5.0,0.6,,,4.65,0.65,,,4.5,0.7,,,4.4,0.67,,,4.5,0.66,,,4.41
+Overall Spinach Production,1004200000,Misamis Occidental,,,,,,,,,,,,,,,0.78,0.82,,,0.79,0.82,0.34
+Overall Spinach Production,1004300000,Misamis Oriental,1.52,2.4,1.85,9.6,1.54,2.78,1.5,10.0,1.88,2.65,1.8,8.0,3.14,2.0,1.58,7.78,3.1,3.05,1.56,8.2,3.0
+Overall Spinach Production,1102300000,Davao del Norte,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,1102400000,Davao del Sur,0.73,0.3,1.85,0.46,0.74,0.28,1.84,0.45,2.5,2.5,4.7,16.98,2.4,2.48,4.99,17.21,2.43,0.27,0.57,1.88,0.25
+Overall Spinach Production,1102500000,Davao Oriental,0.15,0.28,0.23,0.28,0.12,0.3,0.2,0.2,0.2,0.32,0.21,0.21,0.19,0.32,0.2,0.2,0.18,0.3,0.15,0.2,0.17
+Overall Spinach Production,1108200000,Davao de Oro (Compostela Valley),,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,1108600000,Davao Occidental,0.03,0.03,0.03,0.03,0.03,0.03,0.04,0.03,0.03,0.03,0.04,0.02,0.02,0.02,,,0.02,0.02,,,0.02
+Overall Spinach Production,1130700000,Davao City,1.86,2.38,2.8,16.5,1.87,2.35,2.8,16.5,,,,,,,,,,2.19,2.81,15.04,2.17
+Overall Spinach Production,1204700000,Cotabato (North Cotabato),1.5,1.46,3.1,6.8,1.47,1.43,3.05,6.6,1.45,1.4,4.21,3.3,0.73,1.38,4.28,4.54,0.66,1.45,2.86,3.7,0.74
+Overall Spinach Production,1206300000,South Cotabato,2.6,0.82,5.95,2.95,2.8,0.95,6.3,3.23,3.0,1.0,,10.86,,1.2,,6.28,,1.4,,5.36,
+Overall Spinach Production,1206500000,Sultan Kudarat,2.56,2.71,1.58,1.26,2.56,2.74,1.58,1.26,2.55,2.72,1.4,1.35,1.86,2.55,1.52,1.53,1.87,2.48,1.5,1.41,2.28
+Overall Spinach Production,1208000000,Sarangani,,1.66,,0.45,,1.65,,0.46,,1.64,0.36,0.33,,1.6,0.37,0.3,,,0.03,0.31,0.31
+Overall Spinach Production,1400100000,Abra,,,0.19,0.05,,,0.18,0.04,,,0.38,,,,0.2,0.1,,,,1.36,
+Overall Spinach Production,1401100000,Benguet,45.07,26.77,11.26,15.0,44.47,26.85,12.5,16.82,35.88,26.8,18.08,0.84,30.0,35.0,15.0,0.75,35.0,36.0,30.0,14.15,30.69
+Overall Spinach Production,1402700000,Ifugao,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,1403200000,Kalinga,1.0,0.18,2.99,0.3,1.1,0.22,3.84,,1.0,0.24,3.04,,,0.2,3.44,,,0.2,3.1,,
+Overall Spinach Production,1404400000,Mountain Province,0.03,0.05,,,0.04,0.05,,,0.04,0.04,,,0.03,0.03,,,0.07,1.6,,,
+Overall Spinach Production,1408100000,Apayao,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,1600200000,Agusan del Norte,,,,,,,,,,,,,0.05,0.05,,,0.05,,0.07,0.01,0.03
+Overall Spinach Production,1600300000,Agusan del Sur,,,,,,,,,,,,,,,,,3.84,3.84,2.5,2.1,0.48
+Overall Spinach Production,1606700000,Surigao del Norte,,,,,,,,,,,0.2,,,0.08,0.2,,1.38,0.1,,,1.38
+Overall Spinach Production,1606800000,Surigao del Sur,,,,,,,,,,,,,,,0.17,,,,,,
+Overall Spinach Production,1608500000,Dinagat Islands,,,,,,,,,,,,,,,,,,0.06,,,
+Overall Spinach Production,1630400000,Butuan City,,,,,,,,,,,,,,,,,,,,,0.02
+Overall Spinach Production,1704000000,Marinduque,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,1705100000,Occidental Mindoro,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,1705200000,Oriental Mindoro,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,1705300000,Palawan,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,1705900000,Romblon,,,,,,,,,,,0.28,,,,0.25,,3.82,,0.23,,3.52
+Overall Spinach Production,1731500000,Puerto Princesa City,,,,,,,,,,,,,,,,,,,,,0.1
+Overall Spinach Production,1804500000,Negros Occidental,5.93,7.97,9.0,3.26,4.0,8.83,11.04,4.28,4.83,13.76,17.2,6.67,4.75,10.18,,,,,,,
+Overall Spinach Production,1804600000,Negros Oriental,5.7,6.55,10.0,12.5,5.4,7.0,10.0,13.0,5.55,6.0,9.0,10.0,,5.0,5.9,9.3,,6.0,8.3,9.0,0.49
+Overall Spinach Production,1806100000,Siquijor,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,1830200000,Bacolod City,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,1900700000,Basilan,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,1903600000,Lanao del Sur,,,,,,,,,,,,,,,0.42,0.16,,,0.07,0.12,
+Overall Spinach Production,1907000000,Tawi-Tawi,,,,,,,,,,,,,,,,,,,,,
+Overall Spinach Production,1908700000,Maguindanao del Norte,,,,,,,,,,,,,,,,,,2.2,4.81,40.12,10.0
+Overall Spinach Production,1908800000,Maguindanao del Sur,3.25,1.3,1.1,1.9,3.3,1.32,1.12,1.92,3.3,1.32,1.12,1.95,2.44,1.25,1.75,2.5,,,,,

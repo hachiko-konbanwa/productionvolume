@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Banana,Cordillera Administrative Region (CAR),Abra,1400100000,0,0,0,0,0,3036.64,759.16
+Banana,Cordillera Administrative Region (CAR),Apayao,1408100000,0,0,0,0,0,2727.22,657.99
+Banana,Cordillera Administrative Region (CAR),Benguet,1401100000,0,0,0,0,0,1040,260
+Banana,Cordillera Administrative Region (CAR),Ifugao,1402700000,0,0,0,0,0,1653.2,380.05
+Banana,Cordillera Administrative Region (CAR),Kalinga,1403200000,0,0,0,0,0,1447.9,364.95
+Banana,Cordillera Administrative Region (CAR),Mountain Province,1404400000,0,0,0,0,0,465.56,116.97
+Banana,Region I (Ilocos Region),Ilocos Norte,0102800000,0,0,0,0,0,6631.8,1639.18
+Banana,Region I (Ilocos Region),Ilocos Sur,0102900000,0,0,0,0,0,5519.08,1379.77
+Banana,Region I (Ilocos Region),La Union,0103300000,0,0,0,0,0,4541.27,1122.19
+Banana,Region I (Ilocos Region),Pangasinan,0105500000,0,0,0,0,0,12230,3023
+Banana,Region II (Cagayan Valley),Batanes,0200900000,0,0,0,0,0,119.84,31.82
+Banana,Region II (Cagayan Valley),Cagayan,0201500000,0,0,0,0,0,17017.26,4262.15
+Banana,Region II (Cagayan Valley),Isabela,0203100000,0,0,0,0,0,45476.16,11369.04
+Banana,Region II (Cagayan Valley),Nueva Vizcaya,0205000000,0,0,0,0,0,8013.8,2124.36
+Banana,Region II (Cagayan Valley),Quirino,0205700000,0,0,0,0,0,33088.44,8226.36
+Banana,Region III (Central Luzon),Aurora,0307700000,0,0,0,0,0,1448.76,372.95
+Banana,Region III (Central Luzon),Bataan,0300800000,0,0,0,0,0,1860.85,550.14
+Banana,Region III (Central Luzon),Bulacan,0301400000,0,0,0,0,0,6481.4,1620.6
+Banana,Region III (Central Luzon),Nueva Ecija,0304900000,0,0,0,0,0,2517.12,618.14
+Banana,Region III (Central Luzon),Pampanga,0305400000,0,0,0,0,0,2086.54,559.12
+Banana,Region III (Central Luzon),Tarlac,0306900000,0,0,0,0,0,3448.79,862.79
+Banana,Region III (Central Luzon),Zambales,0307100000,0,0,0,0,0,2412.08,603.02
+Banana,Region IV-A (CALABARZON),Batangas,0401000000,0,0,0,0,0,21656.92,5414.23
+Banana,Region IV-A (CALABARZON),Cavite,0402100000,0,0,0,0,0,14171.1,3527.15
+Banana,Region IV-A (CALABARZON),Laguna,0403400000,0,0,0,0,0,25360,6331
+Banana,Region IV-A (CALABARZON),Quezon,0405600000,0,0,0,0,0,39194.79,9804.5
+Banana,Region IV-A (CALABARZON),Rizal,0405800000,0,0,0,0,0,5350.24,1236.88
+Banana,MIMAROPA Region,Marinduque,1704000000,0,0,0,0,0,2496,621.5
+Banana,MIMAROPA Region,Occidental Mindoro,1705100000,0,0,0,0,0,3442.68,862.61
+Banana,MIMAROPA Region,Oriental Mindoro,1705200000,0,0,0,0,0,60288.96,15073.12
+Banana,MIMAROPA Region,Palawan,1705300000,0,0,0,0,0,15889.94,2917.59
+Banana,MIMAROPA Region,Romblon,1705900000,0,0,0,0,0,5499.03,1332.05
+Banana,MIMAROPA Region,City of Puerto Princesa,1731500000,0,0,0,0,0,0,1307.57
+Banana,Region V (Bicol Region),Albay,0500500000,0,0,0,0,0,9905,2479
+Banana,Region V (Bicol Region),Camarines Norte,0501600000,0,0,0,0,0,13262.08,3315.52
+Banana,Region V (Bicol Region),Camarines Sur,0501700000,0,0,0,0,0,36918.84,9229.71
+Banana,Region V (Bicol Region),Catanduanes,0502000000,0,0,0,0,0,1805.79,459.45
+Banana,Region V (Bicol Region),Masbate,0504100000,0,0,0,0,0,4401.83,1066.14
+Banana,Region V (Bicol Region),Sorsogon,0506200000,0,0,0,0,0,7214,1790
+Banana,Region VI (Western Visayas),Aklan,0600400000,0,0,0,0,0,20091.48,5004.12
+Banana,Region VI (Western Visayas),Antique,0600600000,0,0,0,0,0,7171.33,1792.09
+Banana,Region VI (Western Visayas),Capiz,0601900000,0,0,0,0,0,7772,2043
+Banana,Region VI (Western Visayas),Guimaras,0607900000,0,0,0,0,0,2436.28,613.02
+Banana,Region VI (Western Visayas),Iloilo,0603000000,0,0,0,0,0,59028,14757
+Banana,Region VI (Western Visayas),Negros Occidental,1804500000,0,0,0,0,0,0,0
+Banana,Region VI (Western Visayas),Negros Occidental,1804500000,0,0,0,0,0,36656,9164
+Banana,Negros Island Region (NIR),Negros Oriental,1804600000,0,0,0,0,0,32818.52,8204.63
+Banana,Negros Island Region (NIR),Siquijor,1806100000,0,0,0,0,0,5162.28,1290.57
+Banana,Negros Island Region (NIR),City of Bacolod,1830200000,0,0,0,0,0,0,0.85
+Banana,Region VII (Central Visayas),Bohol,0701200000,0,0,0,0,0,13563.45,3325.55
+Banana,Region VII (Central Visayas),Cebu,0702200000,0,0,0,0,0,36822.4,9205.6
+Banana,Negros Island Region (NIR),Negros Oriental,1804600000,0,0,0,0,0,0,0
+Banana,Negros Island Region (NIR),Siquijor,1806100000,0,0,0,0,0,0,0
+Banana,Region VIII (Eastern Visayas),Biliran,0807800000,0,0,0,0,0,4238.2,870.51
+Banana,Region VIII (Eastern Visayas),Eastern Samar,0802600000,0,0,0,0,0,6590.08,1647.52
+Banana,Region VIII (Eastern Visayas),Leyte,0803700000,0,0,0,0,0,20142.5,4991.2
+Banana,Region VIII (Eastern Visayas),Northern Samar,0804800000,0,0,0,0,0,21577.64,5394.41
+Banana,Region VIII (Eastern Visayas),Samar,0806000000,0,0,0,0,0,33065.04,8266.26
+Banana,Region VIII (Eastern Visayas),Southern Leyte,0806400000,0,0,0,0,0,21960.61,5162.15
+Banana,Region IX (Zamboanga Peninsula),Sulu,0906600000,0,0,0,0,0,0,2578
+Banana,Region IX (Zamboanga Peninsula),Zamboanga del Norte,0907200000,0,0,0,0,0,36855,9215
+Banana,Region IX (Zamboanga Peninsula),Zamboanga del Sur,0907300000,0,0,0,0,0,27844.33,6218.5
+Banana,Region IX (Zamboanga Peninsula),Zamboanga Sibugay,0908300000,0,0,0,0,0,6919.48,1729.87
+Banana,Region IX (Zamboanga Peninsula),City of Zamboanga,0907400000,0,0,0,0,0,8729.01,2909.67
+Banana,Region X (Northern Mindanao),Bukidnon,1001300000,0,0,0,0,0,84606.06,20737
+Banana,Region X (Northern Mindanao),Camiguin,1001800000,0,0,0,0,0,4748.96,1173.72
+Banana,Region X (Northern Mindanao),Lanao del Norte,1003500000,0,0,0,0,0,34296,8604
+Banana,Region X (Northern Mindanao),Misamis Occidental,1004200000,0,0,0,0,0,21530.6,5382.65
+Banana,Region X (Northern Mindanao),Misamis Oriental,1004300000,0,0,0,0,0,69476,17163
+Banana,Region XI (Davao Region),Davao de Oro,1108200000,0,0,0,0,0,79804.83,19871.82
+Banana,Region XI (Davao Region),Davao del Norte,1102300000,0,0,0,0,0,135099.3,33484.28
+Banana,Region XI (Davao Region),Davao del Sur,1102400000,0,0,0,0,0,59458.07,13516.46
+Banana,Region XI (Davao Region),Davao Occidental,1108600000,0,0,0,0,0,17702.82,4425.04
+Banana,Region XI (Davao Region),Davao Oriental,1102500000,0,0,0,0,0,42800,10684
+Banana,Region XI (Davao Region),City of Davao,1130700000,0,0,0,0,0,15537.33,5179.11
+Banana,Region XII (SOCCSKSARGEN),Cotabato,1204700000,0,0,0,0,0,67918.84,16659.3
+Banana,Region XII (SOCCSKSARGEN),Sarangani,1208000000,0,0,0,0,0,14310.73,3545.5
+Banana,Region XII (SOCCSKSARGEN),Sultan Kudarat,1206500000,0,0,0,0,0,14240.6,2790.15
+Banana,Region XII (SOCCSKSARGEN),South Cotabato,1206300000,0,0,0,0,0,30403,7615.73
+Banana,Region XIII (Caraga),Agusan del Norte,1600200000,0,0,0,0,0,21690.16,3732.94
+Banana,Region XIII (Caraga),Agusan del Sur,1600300000,0,0,0,0,0,57761,14761
+Banana,Region XIII (Caraga),Dinagat Islands,1608500000,0,0,0,0,0,481.12,120.28
+Banana,Region XIII (Caraga),Surigao del Norte,1606700000,0,0,0,0,0,6480.32,1880.29
+Banana,Region XIII (Caraga),Surigao del Sur,1606800000,0,0,0,0,0,7404.12,1851.03
+Banana,Region XIII (Caraga),City of Butuan,1630400000,0,0,0,0,0,0,1776.16
+Banana,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)3,Basilan,1900700000,0,0,0,0,0,26229.04,6557.26
+Banana,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)4,Lanao del Sur,1903600000,0,0,0,0,0,21791.9,5615
+Banana,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)5,Maguindanao,1908800000,0,0,0,0,0,0,0
+Banana,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)6,Maguindanao del Norte,1908700000,0,0,0,0,0,32583.95,8145.15
+Banana,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)7,Maguindanao del Sur,1908800000,0,0,0,0,0,40026,10006.5
+Banana,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)8,Sulu,0906600000,0,0,0,0,0,10312,0
+Banana,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)9,Tawi-tawi,1907000000,0,0,0,0,0,5903.52,1483

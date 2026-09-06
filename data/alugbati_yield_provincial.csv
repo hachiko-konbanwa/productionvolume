@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Alugbati,CAR,Abra,1400100000,,,,,,3.37,0.64
+Alugbati,CAR,Apayao,1408100000,,,,,,0.26,0.12
+Alugbati,CAR,Benguet,1401100000,,,,,,2.70,0.46
+Alugbati,CAR,Ifugao,1402700000,,,,,,0.18,
+Alugbati,CAR,Kalinga,1403200000,,,,,,1.35,22.33
+Alugbati,CAR,Mountain Province,1404400000,,,,,,0.79,0.59
+Alugbati,Region I,Ilocos Norte,0102800000,,,,,,1.40,0.57
+Alugbati,Region I,Ilocos Sur,0102900000,,,,,,1.00,
+Alugbati,Region I,La Union,0103300000,,,,,,1.51,0.89
+Alugbati,Region I,Pangasinan,0105500000,,,,,,5.95,30.00
+Alugbati,Region II,Batanes,0200900000,,,,,,1.40,0.50
+Alugbati,Region II,Cagayan,0201500000,,,,,,1.43,2.34
+Alugbati,Region II,Isabela,0203100000,,,,,,1.43,1.23
+Alugbati,Region II,Nueva Vizcaya,0205000000,,,,,,0.75,0.91
+Alugbati,Region II,Quirino,0205700000,,,,,,1.71,2.58
+Alugbati,Region III,Aurora,0307700000,,,,,,2.49,0.00
+Alugbati,Region III,Bataan,0300800000,,,,,,4.73,
+Alugbati,Region III,Bulacan,0301400000,,,,,,5.35,4.01
+Alugbati,Region III,Nueva Ecija,0304900000,,,,,,2.89,
+Alugbati,Region III,Pampanga,0305400000,,,,,,1.99,4.79
+Alugbati,Region III,Tarlac,0306900000,,,,,,2.20,2.87
+Alugbati,Region III,Zambales,0307100000,,,,,,7.98,12.29
+Alugbati,Region IV-A,Batangas,0401000000,,,,,,20.97,
+Alugbati,Region IV-A,Cavite,0402100000,,,,,,3.10,2.88
+Alugbati,Region IV-A,Laguna,0403400000,,,,,,1.56,1.46
+Alugbati,Region IV-A,Quezon,0405600000,,,,,,1.70,2.67
+Alugbati,Region IV-A,Rizal,0405800000,,,,,,2.66,5.26
+Alugbati,MIMAROPA,Marinduque,1704000000,,,,,,,
+Alugbati,MIMAROPA,Occidental Mindoro,1705100000,,,,,,1.19,
+Alugbati,MIMAROPA,Oriental Mindoro,1705200000,,,,,,1.92,6.30
+Alugbati,MIMAROPA,Palawan,1705300000,,,,,,0.82,1.19
+Alugbati,MIMAROPA,City of Puerto Princesa,1731500000,,,,,,,1.73
+Alugbati,MIMAROPA,Romblon,1705900000,,,,,,1.32,1.00
+Alugbati,Region V,Albay,0500500000,,,,,,0.31,0.34
+Alugbati,Region V,Camarines Norte,0501600000,,,,,,,
+Alugbati,Region V,Camarines Sur,0501700000,,,,,,2.39,4.00
+Alugbati,Region V,Catanduanes,0502000000,,,,,,0.67,0.00
+Alugbati,Region V,Masbate,0504100000,,,,,,0.24,0.31
+Alugbati,Region V,Sorsogon,0506200000,,,,,,2.06,2.72
+Alugbati,Region VI,Aklan,0600400000,,,,,,20.13,11.17
+Alugbati,Region VI,Antique,0600600000,,,,,,4.82,5.08
+Alugbati,Region VI,Capiz,0601900000,,,,,,4.34,4.35
+Alugbati,Region VI,Guimaras,0607900000,,,,,,12.18,7.29
+Alugbati,Region VI,Iloilo,0603000000,,,,,,6.64,7.43
+Alugbati,NIR,Negros Occidental,1804500000,,,,,,,
+Alugbati,NIR,Negros Occidental,1804500000,,,,,,4.49,4.69
+Alugbati,NIR,City of Bacolod,1830200000,,,,,,,
+Alugbati,NIR,Negros Oriental,1804600000,,,,,,3.20,4.08
+Alugbati,NIR,Siquijor,1806100000,,,,,,6.79,8.63
+Alugbati,Region VII,Bohol,0701200000,,,,,,2.63,2.00
+Alugbati,Region VII,Cebu,0702200000,,,,,,3.17,7.34
+Alugbati,NIR,Negros Oriental,1804600000,,,,,,,
+Alugbati,NIR,Siquijor,1806100000,,,,,,,
+Alugbati,Region VIII,Biliran,0807800000,,,,,,1.17,0.69
+Alugbati,Region VIII,Eastern Samar,0802600000,,,,,,0.77,0.53
+Alugbati,Region VIII,Leyte,0803700000,,,,,,0.40,0.30
+Alugbati,Region VIII,Northern Samar,0804800000,,,,,,1.70,0.37
+Alugbati,Region VIII,Samar,0806000000,,,,,,1.77,53.02
+Alugbati,Region VIII,Southern Leyte,0806400000,,,,,,0.76,1.94
+Alugbati,Region IX,Sulu,0906600000,,,,,,,0.67
+Alugbati,Region IX,Zamboanga del Norte,0907200000,,,,,,6.63,1.16
+Alugbati,Region IX,Zamboanga del Sur,0907300000,,,,,,4.50,3.97
+Alugbati,Region IX,City of Zamboanga,0907400000,,,,,,7.00,6.58
+Alugbati,Region IX,Zamboanga Sibugay,0908300000,,,,,,4.22,2.20
+Alugbati,Region X,Bukidnon,1001300000,,,,,,11.35,9.52
+Alugbati,Region X,Camiguin,1001800000,,,,,,10.17,11.91
+Alugbati,Region X,Lanao del Norte,1003500000,,,,,,9.40,22.23
+Alugbati,Region X,Misamis Occidental,1004200000,,,,,,3.73,2.98
+Alugbati,Region X,Misamis Oriental,1004300000,,,,,,6.46,2.88
+Alugbati,Region XI,Davao de Oro,1108200000,,,,,,0.37,0.32
+Alugbati,Region XI,Davao del Norte,1102300000,,,,,,6.25,3.13
+Alugbati,Region XI,Davao del Sur,1102400000,,,,,,2.16,2.56
+Alugbati,Region XI,City of Davao,1130700000,,,,,,1.03,1.25
+Alugbati,Region XI,Davao Occidental,1108600000,,,,,,2.73,7.83
+Alugbati,Region XI,Davao Oriental,1102500000,,,,,,4.86,3.39
+Alugbati,Region XII,Cotabato,1204700000,,,,,,12.56,12.35
+Alugbati,Region XII,Sarangani,1208000000,,,,,,9.07,7.83
+Alugbati,Region XII,Sultan Kudarat,1206500000,,,,,,21.40,15.48
+Alugbati,Region XII,South Cotabato,1206300000,,,,,,8.47,9.09
+Alugbati,Region XIII,Agusan del Norte,1600200000,,,,,,2.78,1.78
+Alugbati,Region XIII,City of Butuan,1630400000,,,,,,,1.79
+Alugbati,Region XIII,Agusan del Sur,1600300000,,,,,,2.79,1.41
+Alugbati,Region XIII,Dinagat Islands,1608500000,,,,,,2.88,1.74
+Alugbati,Region XIII,Surigao del Norte,1606700000,,,,,,1.39,2.99
+Alugbati,Region XIII,Surigao del Sur,1606800000,,,,,,1.91,0.43
+Alugbati,BARMM,Basilan,1900700000,,,,,,0.02,
+Alugbati,BARMM,Lanao del Sur,1903600000,,,,,,1.75,2.08
+Alugbati,BARMM,Maguindanao,,,,,,,16.28,4.25
+Alugbati,BARMM,Maguindanao del Norte,1908700000,,,,,,18.77,2.60
+Alugbati,BARMM,Maguindanao del Sur,1908800000,,,,,,13.48,6.98
+Alugbati,BARMM,Sulu,0906600000,,,,,,1.42,
+Alugbati,BARMM,Tawi-tawi,1907000000,,,,,,0.85,1.31

@@ -1,0 +1,88 @@
+Commodity Type,ADM2_PCODE,Province,2021,2022,2023,2024,2025,2026
+Overall Eggplant Production,0102800000,Ilocos Norte,8227.65,8518.96,8338.17,8375.84,8675.82,7059.71
+Overall Eggplant Production,0102900000,Ilocos Sur,6886.41,7985.66,8373.01,8205.06,8955.13,5467.23
+Overall Eggplant Production,0103300000,La Union,2507.69,2435.27,2360.2,2285.49,2170.51,927.78
+Overall Eggplant Production,0105500000,Pangasinan,80137.4,81443.13,76209.99,71357.14,75563.06,19121.4
+Overall Eggplant Production,0200900000,Batanes,9.74,10.05,12.08,14.89,19.23,3.29
+Overall Eggplant Production,0201500000,Cagayan,6624.11,6607.91,6212.26,6030.9,6125.17,318.72
+Overall Eggplant Production,0203100000,Isabela,8665.35,8484.29,8504.16,8456.04,8221.19,2861.64
+Overall Eggplant Production,0205000000,Nueva Vizcaya,2226.21,2352.39,2311.09,2519.66,2459.32,710.32
+Overall Eggplant Production,0205700000,Quirino,411.7,428.45,432.97,427.66,458.14,76.25
+Overall Eggplant Production,0300800000,Bataan,1182.04,1258.97,1301.63,1297.15,1281.18,51.49
+Overall Eggplant Production,0301400000,Bulacan,2541.1,2962.55,2966.82,2536.35,2835.72,1659.95
+Overall Eggplant Production,0304900000,Nueva Ecija,9452.53,9370.71,8945.1,8421.12,8637.78,6264.62
+Overall Eggplant Production,0305400000,Pampanga,3025.65,3237.95,3369.74,3807.59,4117.22,1723.32
+Overall Eggplant Production,0306900000,Tarlac,11877.41,11975.92,10906.15,11161.13,11172.7,8164.9
+Overall Eggplant Production,0307100000,Zambales,1154.19,1170.82,1210.82,1045.81,554.24,316.78
+Overall Eggplant Production,0307700000,Aurora,289.01,263.76,276.44,224.93,242.38,19.77
+Overall Eggplant Production,0401000000,Batangas,2734.0,2806.88,2441.92,2346.0,2209.92,454.91
+Overall Eggplant Production,0402100000,Cavite,161.03,147.73,134.9,176.33,205.32,30.68
+Overall Eggplant Production,0403400000,Laguna,1658.73,1435.64,1217.12,1115.32,1412.27,390.77
+Overall Eggplant Production,0405600000,Quezon,19340.2,20040.79,18717.22,17648.06,20257.28,8280.42
+Overall Eggplant Production,0405800000,Rizal,550.35,645.16,878.09,857.77,894.17,502.6
+Overall Eggplant Production,0500500000,Albay,2846.17,3219.9,4108.4,3287.98,2591.44,830.49
+Overall Eggplant Production,0501600000,Camarines Norte,193.97,154.42,116.13,121.49,104.24,18.12
+Overall Eggplant Production,0501700000,Camarines Sur,2405.27,2272.19,1900.56,1243.78,1042.9,139.09
+Overall Eggplant Production,0502000000,Catanduanes,16.5,18.52,14.18,16.67,20.52,0.52
+Overall Eggplant Production,0504100000,Masbate,1660.46,1694.1,1779.97,1734.35,1766.54,132.18
+Overall Eggplant Production,0506200000,Sorsogon,134.72,108.79,126.43,126.7,95.11,11.47
+Overall Eggplant Production,0600400000,Aklan,250.34,283.42,245.72,256.81,281.2,49.24
+Overall Eggplant Production,0600600000,Antique,713.06,744.23,719.19,746.81,866.42,371.34
+Overall Eggplant Production,0601900000,Capiz,795.6,799.33,799.55,768.75,782.39,180.74
+Overall Eggplant Production,0603000000,Iloilo,12249.88,11006.45,10991.16,13372.78,12601.7,1903.04
+Overall Eggplant Production,0607900000,Guimaras,359.13,396.3,427.68,476.99,629.23,157.23
+Overall Eggplant Production,0701200000,Bohol,1285.51,1326.6,1626.84,1257.34,1359.84,128.03
+Overall Eggplant Production,0702200000,Cebu,5676.11,5469.0,5841.76,5401.0,5041.52,707.45
+Overall Eggplant Production,0802600000,Eastern Samar,80.62,93.82,485.27,385.38,808.29,27.75
+Overall Eggplant Production,0803700000,Leyte,1504.48,1578.6,1796.98,1773.95,1771.14,270.5
+Overall Eggplant Production,0804800000,Northern Samar,214.25,228.11,246.1,301.5,312.6,21.55
+Overall Eggplant Production,0806000000,Samar (Western Samar),218.39,226.76,299.21,314.99,304.65,8.8
+Overall Eggplant Production,0806400000,Southern Leyte,105.58,89.1,96.26,116.3,93.42,7.68
+Overall Eggplant Production,0807800000,Biliran,52.1,46.19,54.81,49.97,45.07,15.11
+Overall Eggplant Production,0906600000,,24.8,24.66,20.45,30.55,31.19,2.26
+Overall Eggplant Production,0907200000,Zamboanga del Norte,426.88,416.61,384.31,333.68,394.69,24.33
+Overall Eggplant Production,0907300000,Zamboanga del Sur,770.11,849.85,3947.29,3901.49,866.99,141.3
+Overall Eggplant Production,0907400000,Zamboanga City,3099.64,3112.17,,,1822.63,632.02
+Overall Eggplant Production,0908300000,Zamboanga Sibugay,479.31,464.54,527.72,529.64,625.03,124.56
+Overall Eggplant Production,1001300000,Bukidnon,1196.9,1158.49,1268.54,1234.25,1302.33,224.22
+Overall Eggplant Production,1001800000,Camiguin,171.09,180.49,97.08,96.92,124.21,16.83
+Overall Eggplant Production,1003500000,Lanao del Norte,1733.5,1753.12,1765.0,1758.0,1769.5,652.29
+Overall Eggplant Production,1004200000,Misamis Occidental,810.0,833.01,881.52,883.05,902.57,99.88
+Overall Eggplant Production,1004300000,Misamis Oriental,1841.0,2297.71,2296.44,2250.94,2226.29,218.71
+Overall Eggplant Production,1102300000,Davao del Norte,701.21,671.19,657.37,683.92,714.42,54.82
+Overall Eggplant Production,1102400000,Davao del Sur,492.7,476.82,3784.84,3794.69,1245.76,98.16
+Overall Eggplant Production,1102500000,Davao Oriental,227.13,227.58,238.94,238.58,233.08,36.43
+Overall Eggplant Production,1108200000,Davao de Oro (Compostela Valley),1956.83,1932.05,1847.4,1877.6,1877.58,61.12
+Overall Eggplant Production,1108600000,Davao Occidental,161.23,163.17,96.61,163.1,172.23,33.77
+Overall Eggplant Production,1130700000,Davao City,3483.29,3572.73,,,2064.24,743.57
+Overall Eggplant Production,1204700000,Cotabato (North Cotabato),4739.88,5072.21,3971.11,3129.23,2522.1,862.73
+Overall Eggplant Production,1206300000,South Cotabato,897.36,934.79,1035.73,901.11,900.05,445.73
+Overall Eggplant Production,1206500000,Sultan Kudarat,501.16,467.2,537.4,489.43,504.93,133.12
+Overall Eggplant Production,1208000000,Sarangani,521.68,531.0,413.42,492.0,487.0,85.33
+Overall Eggplant Production,1400100000,Abra,653.77,650.21,645.54,424.21,415.26,293.0
+Overall Eggplant Production,1401100000,Benguet,130.12,195.07,212.44,204.37,282.44,157.1
+Overall Eggplant Production,1402700000,Ifugao,33.48,32.67,35.09,63.66,101.35,35.49
+Overall Eggplant Production,1403200000,Kalinga,103.59,113.97,131.73,127.84,142.3,58.9
+Overall Eggplant Production,1404400000,Mountain Province,11.58,14.29,44.18,44.12,34.16,1.69
+Overall Eggplant Production,1408100000,Apayao,143.86,142.65,138.58,139.48,128.13,39.73
+Overall Eggplant Production,1600200000,Agusan del Norte,538.38,545.89,589.9,584.96,602.85,69.42
+Overall Eggplant Production,1600300000,Agusan del Sur,5842.86,5474.04,4086.75,3964.0,4141.03,240.01
+Overall Eggplant Production,1606700000,Surigao del Norte,63.7,77.64,80.58,88.89,90.01,12.68
+Overall Eggplant Production,1606800000,Surigao del Sur,1090.37,1542.53,1107.43,621.89,463.71,22.66
+Overall Eggplant Production,1608500000,Dinagat Islands,44.03,22.96,46.39,28.14,30.76,12.83
+Overall Eggplant Production,1630400000,Butuan City,,,,,,35.76
+Overall Eggplant Production,1704000000,Marinduque,786.15,748.2,952.41,737.86,722.82,34.69
+Overall Eggplant Production,1705100000,Occidental Mindoro,1558.71,1684.46,1591.74,527.02,1053.71,515.43
+Overall Eggplant Production,1705200000,Oriental Mindoro,1235.28,1688.01,1429.58,868.42,846.94,68.01
+Overall Eggplant Production,1705300000,Palawan,1304.82,1088.91,1192.61,1172.93,1254.17,431.91
+Overall Eggplant Production,1705900000,Romblon,591.44,568.33,444.7,398.89,434.44,113.43
+Overall Eggplant Production,1731500000,Puerto Princesa City,,,,,,60.31
+Overall Eggplant Production,1804500000,Negros Occidental,3162.0,2828.33,2911.73,2943.42,2865.97,1094.28
+Overall Eggplant Production,1804600000,Negros Oriental,1182.33,1340.93,1392.11,1433.89,1183.9,316.74
+Overall Eggplant Production,1806100000,Siquijor,91.01,91.28,94.7,85.89,90.31,3.79
+Overall Eggplant Production,1830200000,Bacolod City,,,,,,0.01
+Overall Eggplant Production,1900700000,Basilan,88.03,92.48,101.21,171.72,161.23,47.75
+Overall Eggplant Production,1903600000,Lanao del Sur,195.86,196.47,251.5,269.83,352.95,81.8
+Overall Eggplant Production,1907000000,Tawi-Tawi,72.07,78.1,81.63,94.75,117.95,6.72
+Overall Eggplant Production,1908700000,Maguindanao del Norte,,,,,654.58,248.92
+Overall Eggplant Production,1908800000,Maguindanao del Sur,450.8,455.8,467.43,409.56,881.15,862.07

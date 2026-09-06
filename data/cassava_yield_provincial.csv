@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Cassava,CAR,Abra,1400100000,,,,,,0.00,0.00
+Cassava,CAR,Apayao,1408100000,,,,,,23.11,4.66
+Cassava,CAR,Benguet,1401100000,,,,,,5.07,6.48
+Cassava,CAR,Ifugao,1402700000,,,,,,0.00,0.00
+Cassava,CAR,Kalinga,1403200000,,,,,,0.21,0.00
+Cassava,CAR,Mountain Province,1404400000,,,,,,0.00,0.00
+Cassava,Region I,Ilocos Norte,0102800000,,,,,,0.00,0.00
+Cassava,Region I,Ilocos Sur,0102900000,,,,,,0.00,0.00
+Cassava,Region I,La Union,0103300000,,,,,,0.00,0.00
+Cassava,Region I,Pangasinan,0105500000,,,,,,0.00,0.00
+Cassava,Region II,Batanes,0200900000,,,,,,0.00,0.00
+Cassava,Region II,Cagayan,0201500000,,,,,,4.96,5.52
+Cassava,Region II,Isabela,0203100000,,,,,,15.68,12.38
+Cassava,Region II,Nueva Vizcaya,0205000000,,,,,,11.73,15.30
+Cassava,Region II,Quirino,0205700000,,,,,,11.31,7.10
+Cassava,Region III,Aurora,0307700000,,,,,,0.00,0.00
+Cassava,Region III,Bataan,0300800000,,,,,,0.00,0.00
+Cassava,Region III,Bulacan,0301400000,,,,,,0.00,0.00
+Cassava,Region III,Nueva Ecija,0304900000,,,,,,0.00,0.00
+Cassava,Region III,Pampanga,0305400000,,,,,,6.84,3.37
+Cassava,Region III,Tarlac,0306900000,,,,,,0.00,0.00
+Cassava,Region III,Zambales,0307100000,,,,,,0.00,
+Cassava,Region IV-A,Batangas,0401000000,,,,,,0.00,0.00
+Cassava,Region IV-A,Cavite,0402100000,,,,,,0.00,0.00
+Cassava,Region IV-A,Laguna,0403400000,,,,,,0.00,0.00
+Cassava,Region IV-A,Quezon,0405600000,,,,,,0.00,0.00
+Cassava,Region IV-A,Rizal,0405800000,,,,,,0.00,0.00
+Cassava,MIMAROPA,Marinduque,1704000000,,,,,,0.00,0.00
+Cassava,MIMAROPA,Occidental Mindoro,1705100000,,,,,,2.46,0.40
+Cassava,MIMAROPA,Oriental Mindoro,1705200000,,,,,,0.20,0.17
+Cassava,MIMAROPA,Palawan,1705300000,,,,,,0.00,0.00
+Cassava,MIMAROPA,City of Puerto Princesa,1731500000,,,,,,,0.00
+Cassava,MIMAROPA,Romblon,1705900000,,,,,,0.00,0.00
+Cassava,Region V,Albay,0500500000,,,,,,0.01,0.03
+Cassava,Region V,Camarines Norte,0501600000,,,,,,0.00,0.06
+Cassava,Region V,Camarines Sur,0501700000,,,,,,0.00,0.00
+Cassava,Region V,Catanduanes,0502000000,,,,,,0.00,0.00
+Cassava,Region V,Masbate,0504100000,,,,,,0.00,0.00
+Cassava,Region V,Sorsogon,0506200000,,,,,,0.00,0.00
+Cassava,Region VI,Aklan,0600400000,,,,,,0.00,0.00
+Cassava,Region VI,Antique,0600600000,,,,,,0.00,0.00
+Cassava,Region VI,Capiz,0601900000,,,,,,0.00,0.00
+Cassava,Region VI,Guimaras,0607900000,,,,,,0.00,0.00
+Cassava,Region VI,Iloilo,0603000000,,,,,,0.00,0.00
+Cassava,NIR,Negros Occidental,1804500000,,,,,,,
+Cassava,NIR,Negros Occidental,1804500000,,,,,,0.00,0.00
+Cassava,NIR,City of Bacolod,1830200000,,,,,,,
+Cassava,NIR,Negros Oriental,1804600000,,,,,,4.83,22.39
+Cassava,NIR,Siquijor,1806100000,,,,,,2.31,2.01
+Cassava,Region VII,Bohol,0701200000,,,,,,1.28,0.41
+Cassava,Region VII,Cebu,0702200000,,,,,,3.07,3.11
+Cassava,NIR,Negros Oriental,1804600000,,,,,,,
+Cassava,NIR,Siquijor,1806100000,,,,,,,
+Cassava,Region VIII,Biliran,0807800000,,,,,,0.00,0.00
+Cassava,Region VIII,Eastern Samar,0802600000,,,,,,0.25,0.03
+Cassava,Region VIII,Leyte,0803700000,,,,,,4.32,6.07
+Cassava,Region VIII,Northern Samar,0804800000,,,,,,0.00,0.00
+Cassava,Region VIII,Samar,0806000000,,,,,,0.06,0.00
+Cassava,Region VIII,Southern Leyte,0806400000,,,,,,0.00,0.00
+Cassava,Region IX,Sulu,0906600000,,,,,,,0.00
+Cassava,Region IX,Zamboanga del Norte,0907200000,,,,,,6.17,2.84
+Cassava,Region IX,Zamboanga del Sur,0907300000,,,,,,5.98,6.51
+Cassava,Region IX,City of Zamboanga,0907400000,,,,,,2.78,2.79
+Cassava,Region IX,Zamboanga Sibugay,0908300000,,,,,,0.00,0.00
+Cassava,Region X,Bukidnon,1001300000,,,,,,22.80,25.90
+Cassava,Region X,Camiguin,1001800000,,,,,,0.00,0.00
+Cassava,Region X,Lanao del Norte,1003500000,,,,,,0.72,0.58
+Cassava,Region X,Misamis Occidental,1004200000,,,,,,0.00,0.00
+Cassava,Region X,Misamis Oriental,1004300000,,,,,,11.71,29.83
+Cassava,Region XI,Davao de Oro,1108200000,,,,,,0.00,0.00
+Cassava,Region XI,Davao del Norte,1102300000,,,,,,1.45,3.87
+Cassava,Region XI,Davao del Sur,1102400000,,,,,,4.45,7.44
+Cassava,Region XI,City of Davao,1130700000,,,,,,3.87,6.66
+Cassava,Region XI,Davao Occidental,1108600000,,,,,,5.76,13.30
+Cassava,Region XI,Davao Oriental,1102500000,,,,,,0.00,0.00
+Cassava,Region XII,Cotabato,1204700000,,,,,,5.55,9.61
+Cassava,Region XII,Sarangani,1208000000,,,,,,0.99,0.00
+Cassava,Region XII,Sultan Kudarat,1206500000,,,,,,14.88,0.00
+Cassava,Region XII,South Cotabato,1206300000,,,,,,24.97,24.83
+Cassava,Region XIII,Agusan del Norte,1600200000,,,,,,0.00,0.00
+Cassava,Region XIII,City of Butuan,1630400000,,,,,,,0.00
+Cassava,Region XIII,Agusan del Sur,1600300000,,,,,,0.00,0.00
+Cassava,Region XIII,Dinagat Islands,1608500000,,,,,,0.05,0.00
+Cassava,Region XIII,Surigao del Norte,1606700000,,,,,,0.00,0.00
+Cassava,Region XIII,Surigao del Sur,1606800000,,,,,,0.00,0.01
+Cassava,BARMM,Basilan,1900700000,,,,,,0.00,0.00
+Cassava,BARMM,Lanao del Sur,1903600000,,,,,,7.49,2.39
+Cassava,BARMM,Maguindanao,1908800000,,,,,,0.00,0.00
+Cassava,BARMM,Maguindanao del Norte,1908700000,,,,,,0.00,0.00
+Cassava,BARMM,Maguindanao del Sur,1908800000,,,,,,0.00,0.00
+Cassava,BARMM,Sulu,0906600000,,,,,,0.00,
+Cassava,BARMM,Tawi-tawi,1907000000,,,,,,0.00,0.00

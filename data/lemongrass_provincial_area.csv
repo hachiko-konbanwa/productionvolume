@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Lemon grass,CAR,Abra,1400100000,0,0,0,0,0,0.01,0.00
+Lemon grass,CAR,Apayao,1408100000,0,0,0,0,0,0.08,0.04
+Lemon grass,CAR,Benguet,1401100000,0,0,0,0,0,0.00,0.00
+Lemon grass,CAR,Ifugao,1402700000,0,0,0,0,0,0.00,0.00
+Lemon grass,CAR,Kalinga,1403200000,0,0,0,0,0,0.00,0.00
+Lemon grass,CAR,Mountain Province,1404400000,0,0,0,0,0,0.00,0.00
+Lemon grass,Region I,Ilocos Norte,0102800000,0,0,0,0,0,0.37,0.05
+Lemon grass,Region I,Ilocos Sur,0102900000,0,0,0,0,0,0.26,0.26
+Lemon grass,Region I,La Union,0103300000,0,0,0,0,0,3.25,1.01
+Lemon grass,Region I,Pangasinan,0105500000,0,0,0,0,0,0.07,0.04
+Lemon grass,Region II,Batanes,0200900000,0,0,0,0,0,0.00,0.00
+Lemon grass,Region II,Cagayan,0201500000,0,0,0,0,0,0.99,0.80
+Lemon grass,Region II,Isabela,0203100000,0,0,0,0,0,0.17,0.06
+Lemon grass,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,0.71,0.50
+Lemon grass,Region II,Quirino,0205700000,0,0,0,0,0,0.53,0.40
+Lemon grass,Region III,Aurora,0307700000,0,0,0,0,0,0.95,0.20
+Lemon grass,Region III,Bataan,0300800000,0,0,0,0,0,5.67,0.00
+Lemon grass,Region III,Bulacan,0301400000,0,0,0,0,0,32.52,5.23
+Lemon grass,Region III,Nueva Ecija,0304900000,0,0,0,0,0,8.53,2.00
+Lemon grass,Region III,Pampanga,0305400000,0,0,0,0,0,2.02,0.02
+Lemon grass,Region III,Tarlac,0306900000,0,0,0,0,0,0.00,0.00
+Lemon grass,Region III,Zambales,0307100000,0,0,0,0,0,0.04,0.00
+Lemon grass,Region IV-A,Batangas,0401000000,0,0,0,0,0,0.30,0.00
+Lemon grass,Region IV-A,Cavite,0402100000,0,0,0,0,0,1.62,1.50
+Lemon grass,Region IV-A,Laguna,0403400000,0,0,0,0,0,4.25,1.63
+Lemon grass,Region IV-A,Quezon,0405600000,0,0,0,0,0,3.60,0.00
+Lemon grass,Region IV-A,Rizal,0405800000,0,0,0,0,0,7.46,0.19
+Lemon grass,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,0.04,0.00
+Lemon grass,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,0.00,0.00
+Lemon grass,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,75.62,1.08
+Lemon grass,MIMAROPA,Palawan,1705300000,0,0,0,0,0,13.05,1.17
+Lemon grass,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0.00,0.08
+Lemon grass,MIMAROPA,Romblon,1705900000,0,0,0,0,0,2.75,1.20
+Lemon grass,Region V,Albay,0500500000,0,0,0,0,0,71.00,10.00
+Lemon grass,Region V,Camarines Norte,0501600000,0,0,0,0,0,0.32,0.70
+Lemon grass,Region V,Camarines Sur,0501700000,0,0,0,0,0,6.66,1.42
+Lemon grass,Region V,Catanduanes,0502000000,0,0,0,0,0,8.00,0.92
+Lemon grass,Region V,Masbate,0504100000,0,0,0,0,0,2.91,0.68
+Lemon grass,Region V,Sorsogon,0506200000,0,0,0,0,0,3.05,0.45
+Lemon grass,Region VI,Aklan,0600400000,0,0,0,0,0,28.55,4.27
+Lemon grass,Region VI,Antique,0600600000,0,0,0,0,0,30.92,9.45
+Lemon grass,Region VI,Capiz,0601900000,0,0,0,0,0,86.36,18.30
+Lemon grass,Region VI,Guimaras,0607900000,0,0,0,0,0,65.10,17.50
+Lemon grass,Region VI,Iloilo,0603000000,0,0,0,0,0,45.21,7.60
+Lemon grass,NIR,Negros Occidental,1804500000,0,0,0,0,0,0.00,0
+Lemon grass,NIR,Negros Occidental,1804500000,0,0,0,0,0,39.00,6.00
+Lemon grass,NIR,City of Bacolod,1830200000,0,0,0,0,0,0.00,0.01
+Lemon grass,NIR,Negros Oriental,1804600000,0,0,0,0,0,41.90,11.00
+Lemon grass,NIR,Siquijor,1806100000,0,0,0,0,0,7.54,0.60
+Lemon grass,Region VII,Bohol,0701200000,0,0,0,0,0,71.13,25.00
+Lemon grass,Region VII,Cebu,0702200000,0,0,0,0,0,161.27,14.61
+Lemon grass,NIR,Negros Oriental,1804600000,0,0,0,0,0,0.00,0
+Lemon grass,NIR,Siquijor,1806100000,0,0,0,0,0,0.00,0
+Lemon grass,Region VIII,Biliran,0807800000,0,0,0,0,0,5.62,2.67
+Lemon grass,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,5.20,1.30
+Lemon grass,Region VIII,Leyte,0803700000,0,0,0,0,0,10.47,2.25
+Lemon grass,Region VIII,Northern Samar,0804800000,0,0,0,0,0,5.19,1.40
+Lemon grass,Region VIII,Samar,0806000000,0,0,0,0,0,17.68,1.72
+Lemon grass,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,25.58,8.52
+Lemon grass,Region IX,Sulu,0906600000,0,0,0,0,0,0.00,0.25
+Lemon grass,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,16.86,2.10
+Lemon grass,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,18.00,4.00
+Lemon grass,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,17.03,5.53
+Lemon grass,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,20.80,5.80
+Lemon grass,Region X,Bukidnon,1001300000,0,0,0,0,0,87.19,9.00
+Lemon grass,Region X,Camiguin,1001800000,0,0,0,0,0,10.50,2.83
+Lemon grass,Region X,Lanao del Norte,1003500000,0,0,0,0,0,305.35,9.77
+Lemon grass,Region X,Misamis Occidental,1004200000,0,0,0,0,0,48.00,12.50
+Lemon grass,Region X,Misamis Oriental,1004300000,0,0,0,0,0,141.00,35.00
+Lemon grass,Region XI,Davao de Oro,1108200000,0,0,0,0,0,161.09,36.75
+Lemon grass,Region XI,Davao del Norte,1102300000,0,0,0,0,0,36.01,6.02
+Lemon grass,Region XI,Davao del Sur,1102400000,0,0,0,0,0,75.49,5.65
+Lemon grass,Region XI,City of Davao,1130700000,0,0,0,0,0,15.66,5.22
+Lemon grass,Region XI,Davao Occidental,1108600000,0,0,0,0,0,1.49,0.18
+Lemon grass,Region XI,Davao Oriental,1102500000,0,0,0,0,0,17.30,5.52
+Lemon grass,Region XII,Cotabato,1204700000,0,0,0,0,0,30.97,7.21
+Lemon grass,Region XII,Sarangani,1208000000,0,0,0,0,0,4.02,0.29
+Lemon grass,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,14.90,0.00
+Lemon grass,Region XII,South Cotabato,1206300000,0,0,0,0,0,11.32,0.16
+Lemon grass,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,54.00,9.24
+Lemon grass,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0.00,4.76
+Lemon grass,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,57.50,14.50
+Lemon grass,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,1.69,0.25
+Lemon grass,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,46.20,3.13
+Lemon grass,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,184.64,175.25
+Lemon grass,BARMM,Basilan,1900700000,0,0,0,0,0,4.48,0.40
+Lemon grass,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,1.56,0.00
+Lemon grass,BARMM,Maguindanao,,0,0,0,0,0,0.40,0.10
+Lemon grass,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,0.24,0.06
+Lemon grass,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,0.16,0.04
+Lemon grass,BARMM,Sulu,0906600000,0,0,0,0,0,0.43,0
+Lemon grass,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,19.65,5.80

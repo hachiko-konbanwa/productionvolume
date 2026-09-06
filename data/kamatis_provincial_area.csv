@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Kamatis,CAR,Abra,1400100000,0,0,0,0,0,93.43,46.08
+Kamatis,CAR,Apayao,1408100000,0,0,0,0,0,5.55,2.04
+Kamatis,CAR,Benguet,1401100000,0,0,0,0,0,138.00,40.00
+Kamatis,CAR,Ifugao,1402700000,0,0,0,0,0,424.40,156.00
+Kamatis,CAR,Kalinga,1403200000,0,0,0,0,0,20.00,2.22
+Kamatis,CAR,Mountain Province,1404400000,0,0,0,0,0,73.87,11.27
+Kamatis,Region I,Ilocos Norte,0102800000,0,0,0,0,0,785.74,321.10
+Kamatis,Region I,Ilocos Sur,0102900000,0,0,0,0,0,759.24,619.28
+Kamatis,Region I,La Union,0103300000,0,0,0,0,0,213.65,89.12
+Kamatis,Region I,Pangasinan,0105500000,0,0,0,0,0,1188.31,718.00
+Kamatis,Region II,Batanes,0200900000,0,0,0,0,0,4.55,1.65
+Kamatis,Region II,Cagayan,0201500000,0,0,0,0,0,109.73,53.00
+Kamatis,Region II,Isabela,0203100000,0,0,0,0,0,98.81,90.18
+Kamatis,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,1637.80,626.00
+Kamatis,Region II,Quirino,0205700000,0,0,0,0,0,45.70,20.00
+Kamatis,Region III,Aurora,0307700000,0,0,0,0,0,2.63,0.46
+Kamatis,Region III,Bataan,0300800000,0,0,0,0,0,101.76,51.68
+Kamatis,Region III,Bulacan,0301400000,0,0,0,0,0,227.52,193.52
+Kamatis,Region III,Nueva Ecija,0304900000,0,0,0,0,0,3178.97,1530.00
+Kamatis,Region III,Pampanga,0305400000,0,0,0,0,0,239.94,28.39
+Kamatis,Region III,Tarlac,0306900000,0,0,0,0,0,2017.00,841.44
+Kamatis,Region III,Zambales,0307100000,0,0,0,0,0,42.27,31.67
+Kamatis,Region IV-A,Batangas,0401000000,0,0,0,0,0,205.51,61.34
+Kamatis,Region IV-A,Cavite,0402100000,0,0,0,0,0,52.95,24.65
+Kamatis,Region IV-A,Laguna,0403400000,0,0,0,0,0,581.00,180.20
+Kamatis,Region IV-A,Quezon,0405600000,0,0,0,0,0,887.00,380.00
+Kamatis,Region IV-A,Rizal,0405800000,0,0,0,0,0,18.80,9.50
+Kamatis,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,15.46,4.44
+Kamatis,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,119.14,17.55
+Kamatis,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,115.40,9.37
+Kamatis,MIMAROPA,Palawan,1705300000,0,0,0,0,0,120.88,45.73
+Kamatis,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0.00,15.97
+Kamatis,MIMAROPA,Romblon,1705900000,0,0,0,0,0,21.88,8.20
+Kamatis,Region V,Albay,0500500000,0,0,0,0,0,260.00,35.00
+Kamatis,Region V,Camarines Norte,0501600000,0,0,0,0,0,13.28,0.90
+Kamatis,Region V,Camarines Sur,0501700000,0,0,0,0,0,71.05,8.13
+Kamatis,Region V,Catanduanes,0502000000,0,0,0,0,0,13.70,4.50
+Kamatis,Region V,Masbate,0504100000,0,0,0,0,0,30.11,7.30
+Kamatis,Region V,Sorsogon,0506200000,0,0,0,0,0,4.13,0.13
+Kamatis,Region VI,Aklan,0600400000,0,0,0,0,0,33.70,6.20
+Kamatis,Region VI,Antique,0600600000,0,0,0,0,0,97.34,52.13
+Kamatis,Region VI,Capiz,0601900000,0,0,0,0,0,55.02,19.00
+Kamatis,Region VI,Guimaras,0607900000,0,0,0,0,0,10.85,6.74
+Kamatis,Region VI,Iloilo,0603000000,0,0,0,0,0,1272.29,528.00
+Kamatis,NIR,Negros Occidental,1804500000,0,0,0,0,0,0.00,0
+Kamatis,NIR,Negros Occidental,1804500000,0,0,0,0,0,74.00,44.00
+Kamatis,NIR,City of Bacolod,1830200000,0,0,0,0,0,0.00,0.00
+Kamatis,NIR,Negros Oriental,1804600000,0,0,0,0,0,259.64,64.00
+Kamatis,NIR,Siquijor,1806100000,0,0,0,0,0,2.96,0.38
+Kamatis,Region VII,Bohol,0701200000,0,0,0,0,0,159.71,14.00
+Kamatis,Region VII,Cebu,0702200000,0,0,0,0,0,373.02,44.49
+Kamatis,NIR,Negros Oriental,1804600000,0,0,0,0,0,0.00,0
+Kamatis,NIR,Siquijor,1806100000,0,0,0,0,0,0.00,0
+Kamatis,Region VIII,Biliran,0807800000,0,0,0,0,0,9.53,0.62
+Kamatis,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,5.24,1.31
+Kamatis,Region VIII,Leyte,0803700000,0,0,0,0,0,51.20,8.57
+Kamatis,Region VIII,Northern Samar,0804800000,0,0,0,0,0,15.06,0.00
+Kamatis,Region VIII,Samar,0806000000,0,0,0,0,0,23.54,8.24
+Kamatis,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,45.51,8.53
+Kamatis,Region IX,Sulu,0906600000,0,0,0,0,0,0.00,2.75
+Kamatis,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,83.48,14.00
+Kamatis,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,168.97,40.00
+Kamatis,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,71.56,24.22
+Kamatis,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,67.78,15.05
+Kamatis,Region X,Bukidnon,1001300000,0,0,0,0,0,1586.81,300.47
+Kamatis,Region X,Camiguin,1001800000,0,0,0,0,0,10.93,0.11
+Kamatis,Region X,Lanao del Norte,1003500000,0,0,0,0,0,140.55,34.00
+Kamatis,Region X,Misamis Occidental,1004200000,0,0,0,0,0,92.00,23.00
+Kamatis,Region X,Misamis Oriental,1004300000,0,0,0,0,0,300.00,50.00
+Kamatis,Region XI,Davao de Oro,1108200000,0,0,0,0,0,208.93,51.65
+Kamatis,Region XI,Davao del Norte,1102300000,0,0,0,0,0,28.47,9.15
+Kamatis,Region XI,Davao del Sur,1102400000,0,0,0,0,0,546.10,105.03
+Kamatis,Region XI,City of Davao,1130700000,0,0,0,0,0,327.09,109.03
+Kamatis,Region XI,Davao Occidental,1108600000,0,0,0,0,0,21.35,5.34
+Kamatis,Region XI,Davao Oriental,1102500000,0,0,0,0,0,58.00,12.00
+Kamatis,Region XII,Cotabato,1204700000,0,0,0,0,0,379.17,62.13
+Kamatis,Region XII,Sarangani,1208000000,0,0,0,0,0,64.00,8.50
+Kamatis,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,142.58,33.54
+Kamatis,Region XII,South Cotabato,1206300000,0,0,0,0,0,411.45,60.75
+Kamatis,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,31.60,2.67
+Kamatis,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0.00,1.38
+Kamatis,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,125.00,26.32
+Kamatis,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,0.72,0.13
+Kamatis,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,2.59,0.06
+Kamatis,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,0.48,0.06
+Kamatis,BARMM,Basilan,1900700000,0,0,0,0,0,20.00,3.68
+Kamatis,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,312.22,27.30
+Kamatis,BARMM,Maguindanao,,0,0,0,0,0,229.42,81.21
+Kamatis,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,37.60,9.40
+Kamatis,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,191.82,71.81
+Kamatis,BARMM,Sulu,0906600000,0,0,0,0,0,10.17,0
+Kamatis,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,17.45,4.30

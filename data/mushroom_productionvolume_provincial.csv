@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Mushroom,CAR,Abra,1400100000,0.00,0.00,0.00,0.04,0.00,0.99,0.00
+Mushroom,CAR,Apayao,1408100000,0.00,0.00,0.00,0.00,0.00,0.50,0.00
+Mushroom,CAR,Benguet,1401100000,72.58,70.10,71.06,64.99,63.90,44.50,25.00
+Mushroom,CAR,Ifugao,1402700000,0.00,0.00,0.00,0.00,0.00,0.07,0.00
+Mushroom,CAR,Kalinga,1403200000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,CAR,Mountain Province,1404400000,1.12,0.90,0.95,1.05,0.98,1.18,0.00
+Mushroom,Region I,Ilocos Norte,0102800000,0.78,0.89,1.02,1.14,1.09,3.81,0.64
+Mushroom,Region I,Ilocos Sur,0102900000,10.73,9.85,11.65,8.85,0.00,9.43,0.20
+Mushroom,Region I,La Union,0103300000,62.17,69.92,73.23,78.74,82.68,88.18,48.21
+Mushroom,Region I,Pangasinan,0105500000,23.01,23.13,23.44,10.55,10.10,10.58,2.74
+Mushroom,Region II,Batanes,0200900000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region II,Cagayan,0201500000,3.07,3.10,2.25,2.52,2.65,3.67,1.18
+Mushroom,Region II,Isabela,0203100000,28.66,26.17,24.08,22.94,15.97,21.97,5.70
+Mushroom,Region II,Nueva Vizcaya,0205000000,68.24,74.33,77.16,71.55,65.59,69.47,38.85
+Mushroom,Region II,Quirino,0205700000,17.52,15.69,17.31,13.06,12.23,13.85,4.30
+Mushroom,Region III,Aurora,0307700000,1.20,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region III,Bataan,0300800000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region III,Bulacan,0301400000,0.00,0.00,0.00,0.00,0.75,0.74,0.24
+Mushroom,Region III,Nueva Ecija,0304900000,0.00,0.00,0.00,0.00,42.63,39.99,6.26
+Mushroom,Region III,Pampanga,0305400000,2.45,2.44,2.40,2.37,6.26,6.80,1.80
+Mushroom,Region III,Tarlac,0306900000,42.07,47.83,42.10,40.53,42.46,47.05,17.67
+Mushroom,Region III,Zambales,0307100000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region IV-A,Batangas,0401000000,0.00,1.70,1.04,1.65,0.00,0.00,1.47
+Mushroom,Region IV-A,Cavite,0402100000,22.12,20.03,26.08,26.62,170.17,171.21,19.76
+Mushroom,Region IV-A,Laguna,0403400000,12.50,12.62,14.82,15.45,16.10,0.00,6.23
+Mushroom,Region IV-A,Quezon,0405600000,0.00,0.00,0.00,0.00,0.20,4.75,0.00
+Mushroom,Region IV-A,Rizal,0405800000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,MIMAROPA,Marinduque,1704000000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,MIMAROPA,Occidental Mindoro,1705100000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,MIMAROPA,Oriental Mindoro,1705200000,1.51,2.69,5.09,4.35,4.02,4.85,0.16
+Mushroom,MIMAROPA,Palawan,1705300000,1.64,2.09,3.33,2.00,2.07,0.00,0.00
+Mushroom,MIMAROPA,City of Puerto Princesa,1731500000,0.00,0.00,0.00,0.00,0.00,0.00,0.08
+Mushroom,MIMAROPA,Romblon,1705900000,0.02,0.02,0.02,0.02,0.02,0.02,0.00
+Mushroom,Region V,Albay,0500500000,0.00,0.00,0.00,0.00,0.00,0.52,0.25
+Mushroom,Region V,Camarines Norte,0501600000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region V,Camarines Sur,0501700000,0.00,0.00,0.00,0.00,4.53,0.00,0.14
+Mushroom,Region V,Catanduanes,0502000000,0.00,0.00,0.00,0.00,0.00,0.36,0.07
+Mushroom,Region V,Masbate,0504100000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region V,Sorsogon,0506200000,0.00,0.00,0.00,0.00,0.02,0.00,0.00
+Mushroom,Region VI,Aklan,0600400000,0.21,0.18,0.21,0.10,0.05,0.06,0.06
+Mushroom,Region VI,Antique,0600600000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region VI,Capiz,0601900000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region VI,Guimaras,0607900000,2.08,2.43,3.84,4.22,3.95,2.44,1.24
+Mushroom,Region VI,Iloilo,0603000000,1.68,1.49,1.64,2.44,3.05,4.97,0.58
+Mushroom,NIR,Negros Occidental,1804500000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,NIR,Negros Occidental,1804500000,0.00,0.00,0.00,0.00,0.02,0.13,0.00
+Mushroom,NIR,City of Bacolod,1830200000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,NIR,Negros Oriental,1804600000,0.00,0.00,0.00,0.00,12.04,11.83,0.62
+Mushroom,NIR,Siquijor,1806100000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region VII,Bohol,0701200000,0.00,0.00,0.00,0.55,6.02,1.56,0.15
+Mushroom,Region VII,Cebu,0702200000,0.00,0.00,0.00,0.00,0.00,0.66,0.58
+Mushroom,NIR,Negros Oriental,1804600000,12.23,13.31,14.55,6.48,0.00,0.00,0.00
+Mushroom,NIR,Siquijor,1806100000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region VIII,Biliran,0807800000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region VIII,Eastern Samar,0802600000,0.00,0.00,0.00,0.00,0.00,10.08,0.00
+Mushroom,Region VIII,Leyte,0803700000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region VIII,Northern Samar,0804800000,2.87,2.92,2.95,1.52,0.00,0.00,0.00
+Mushroom,Region VIII,Samar,0806000000,2.57,2.91,3.97,1.00,0.00,0.00,0.00
+Mushroom,Region VIII,Southern Leyte,0806400000,0.00,0.00,0.00,0.00,0.10,0.00,0.00
+Mushroom,Region IX,Sulu,0906600000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region IX,Zamboanga del Norte,0907200000,0.00,0.00,0.00,0.00,0.00,0.00,0.45
+Mushroom,Region IX,Zamboanga del Sur,0907300000,0.00,0.00,0.00,0.98,0.00,0.00,0.00
+Mushroom,Region IX,City of Zamboanga,0907400000,3.67,2.33,2.36,0.00,0.00,2.61,1.01
+Mushroom,Region IX,Zamboanga Sibugay,0908300000,0.00,0.00,0.00,0.00,0.00,0.00,0.09
+Mushroom,Region X,Bukidnon,1001300000,68.98,85.15,87.00,59.36,59.40,60.27,13.40
+Mushroom,Region X,Camiguin,1001800000,0.09,0.12,0.08,0.08,0.02,0.00,0.00
+Mushroom,Region X,Lanao del Norte,1003500000,12.07,13.20,13.05,12.66,12.45,12.58,1.34
+Mushroom,Region X,Misamis Occidental,1004200000,0.30,0.43,0.41,0.41,0.34,0.22,0.06
+Mushroom,Region X,Misamis Oriental,1004300000,6.01,5.65,5.57,5.70,4.83,5.46,0.71
+Mushroom,Region XI,Davao de Oro,1108200000,4.13,3.95,3.94,3.84,3.72,3.27,0.17
+Mushroom,Region XI,Davao del Norte,1102300000,23.92,25.25,40.28,42.01,51.20,51.85,2.43
+Mushroom,Region XI,Davao del Sur,1102400000,14.96,15.32,15.10,29.88,31.02,16.51,2.84
+Mushroom,Region XI,City of Davao,1130700000,15.10,15.69,16.33,0.00,0.00,12.23,5.21
+Mushroom,Region XI,Davao Occidental,1108600000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region XI,Davao Oriental,1102500000,0.95,0.76,0.54,0.38,0.35,0.00,0.00
+Mushroom,Region XII,Cotabato,1204700000,17.65,17.23,16.90,13.50,10.25,6.98,1.77
+Mushroom,Region XII,Sarangani,1208000000,0.77,0.80,0.81,0.61,0.62,0.21,0.06
+Mushroom,Region XII,Sultan Kudarat,1206500000,9.65,9.75,10.59,10.77,10.58,10.74,1.89
+Mushroom,Region XII,South Cotabato,1206300000,8.35,8.38,8.65,9.29,13.29,11.83,1.68
+Mushroom,Region XIII,Agusan del Norte,1600200000,128.00,134.50,134.65,124.19,110.78,111.49,18.01
+Mushroom,Region XIII,City of Butuan,1630400000,0.00,0.00,0.00,0.00,0.00,0.00,9.28
+Mushroom,Region XIII,Agusan del Sur,1600300000,3.99,3.72,4.00,3.49,2.63,0.00,0.00
+Mushroom,Region XIII,Dinagat Islands,1608500000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region XIII,Surigao del Norte,1606700000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,Region XIII,Surigao del Sur,1606800000,0.34,0.35,0.35,0.15,0.00,0.00,0.00
+Mushroom,BARMM,Basilan,1900700000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,BARMM,Lanao del Sur,1903600000,9.22,9.08,9.08,9.06,1.03,0.04,0.00
+Mushroom,BARMM,Maguindanao,1908800000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,BARMM,Maguindanao del Norte,1908700000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,BARMM,Maguindanao del Sur,1908800000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,BARMM,Sulu,0906600000,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+Mushroom,BARMM,Tawi-tawi,1907000000,0.00,0.00,0.00,0.00,0.00,0.00,0.00

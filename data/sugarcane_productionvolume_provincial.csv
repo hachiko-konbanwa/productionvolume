@@ -30,7 +30,7 @@ Sugarcane,MIMAROPA Region,Marinduque,1704000000,0,0,0,0,0,0,0
 Sugarcane,MIMAROPA Region,Occidental Mindoro,1705100000,0,0,0,0,0,0,0
 Sugarcane,MIMAROPA Region,Oriental Mindoro,1705200000,0,0,0,0,0,1.27,0.65
 Sugarcane,MIMAROPA Region,Palawan,1705300000,0,0,0,0,0,0,0
-Sugarcane,MIMAROPA Region,City of Puerto Princesa,,0,0,0,0,0,0,0
+Sugarcane,MIMAROPA Region,City of Puerto Princesa,1731500000,0,0,0,0,0,0,0
 Sugarcane,MIMAROPA Region,Romblon,1705900000,0,0,0,0,0,0,0
 Sugarcane,Region V (Bicol Region),Albay,500500000,71605.8,66904.3,67517.34,68149.63,58582.9,46763.81,3399.82
 Sugarcane,Region V (Bicol Region),Camarines Norte,501600000,0,0,0,3.24,0,0,0.01
@@ -47,7 +47,7 @@ Sugarcane,Region VI (Western Visayas),Negros Occidental,1804500000,13305037,1385
 Sugarcane,Region VI (Western Visayas),Negros Occidental,1804500000,0,0,0,0,10058031.8,12619045.33,4237816.37
 Sugarcane,Negros Island Region (NIR),Negros Oriental,1804600000,0,0,0,0,1666876.06,2900454.6,1433025.56
 Sugarcane,Negros Island Region (NIR),Siquijor,1806100000,0,0,0,0,0,0,0
-Sugarcane,Negros Island Region (NIR),City of Bacolod,,0,0,0,0,0,0,653779.69
+Sugarcane,Negros Island Region (NIR),City of Bacolod,1830200000,0,0,0,0,0,0,653779.69
 Sugarcane,Region VII (Central Visayas),Bohol,701200000,0,0,0,10.43,1.35,1.49,0.02
 Sugarcane,Region VII (Central Visayas),Cebu,702200000,227823,202983,130662,84627.04,22687.63,123167.15,13289
 Sugarcane,Negros Island Region (NIR),Negros Oriental,1804600000,2143029.72,2406026.07,2127975.24,2083516.63,0,0,0
@@ -62,7 +62,7 @@ Sugarcane,Region IX (Zamboanga Peninsula),Sulu,906600000,0,0,0,0,2.25,0,0.11
 Sugarcane,Region IX (Zamboanga Peninsula),Zamboanga del Norte,907200000,7.4,5.45,3.8,3.07,3.49,3.6,1.16
 Sugarcane,Region IX (Zamboanga Peninsula),Zamboanga del Sur,907300000,5.8,6,6.06,66.67,43.87,8.84,1.9
 Sugarcane,Region IX (Zamboanga Peninsula),Zamboanga Sibugay,908300000,7.49,7.18,6.42,6.33,5.85,5.05,1.32
-Sugarcane,Region IX (Zamboanga Peninsula),City of Zamboanga,,71.34,71.71,68.94,0,0,0.05,0.05
+Sugarcane,Region IX (Zamboanga Peninsula),City of Zamboanga,0907400000,71.34,71.71,68.94,0,0,0.05,0.05
 Sugarcane,Region X (Northern Mindanao),Bukidnon,1001300000,3207693.05,3849897.8,3583685,3084445.3,3067764.7,4733828.15,1992481.55
 Sugarcane,Region X (Northern Mindanao),Camiguin,1001800000,0,0,0,0,0,0,0
 Sugarcane,Region X (Northern Mindanao),Lanao del Norte,1003500000,0,0,0,0,0,0,0
@@ -73,7 +73,7 @@ Sugarcane,Region XI (Davao Region),Davao del Norte,1102300000,49.14,47.93,47.86,
 Sugarcane,Region XI (Davao Region),Davao del Sur,1102400000,274930.98,301507.45,249152.32,203865.63,216628.55,297131.81,210943.47
 Sugarcane,Region XI (Davao Region),Davao Occidental,1108600000,0.21,0.21,0.21,0.13,0.17,0.16,0.03
 Sugarcane,Region XI (Davao Region),Davao Oriental,1102500000,4.27,4.43,4.47,4.32,4.44,4.56,1.46
-Sugarcane,Region XI (Davao Region),City of Davao,,0,0,0,0,0,0,0
+Sugarcane,Region XI (Davao Region),City of Davao,1130700000,0,0,0,0,0,0,0
 Sugarcane,Region XII (SOCCSKSARGEN),Cotabato,1204700000,515220.75,642940.29,529531.99,552460.44,582604.38,729010.96,343577.86
 Sugarcane,Region XII (SOCCSKSARGEN),Sarangani,1208000000,52949.03,56277.33,44803.3,37230.64,23420.29,43423.35,11103.94
 Sugarcane,Region XII (SOCCSKSARGEN),Sultan Kudarat,1206500000,98725.13,93647.43,78459.86,88511.25,89429.61,287932.34,87098.24
@@ -83,10 +83,10 @@ Sugarcane,Region XIII (Caraga),Agusan del Sur,1600300000,0,0,0,0,0,8,4.09
 Sugarcane,Region XIII (Caraga),Dinagat Islands,1608500000,3.3,0.5,0,1.75,1,0,0.08
 Sugarcane,Region XIII (Caraga),Surigao del Norte,1606700000,0.76,0.42,0.38,1.86,5.31,5.05,0.44
 Sugarcane,Region XIII (Caraga),Surigao del Sur,1606800000,1.05,1.07,1.07,0.95,2.61,0.8,0.31
-Sugarcane,Region XIII (Caraga),City of Butuan,,0,0,0,0,2.19,0,0
+Sugarcane,Region XIII (Caraga),City of Butuan,1630400000,0,0,0,0,2.19,0,0
 Sugarcane,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)3,Basilan,1900700000,0,0,0,0,0,0,0.02
 Sugarcane,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)4,Lanao del Sur,1903600000,126619.46,151969.65,141461.25,187796.61,121095.97,186862.32,78650.75
-Sugarcane,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)5,Maguindanao,,0.77,0.7,0.66,0.56,0.49,0,0
+Sugarcane,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)5,Maguindanao,1908800000,0.77,0.7,0.66,0.56,0.49,0,0
 Sugarcane,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)6,Maguindanao del Norte,1908700000,0,0,0,0,0,0.25,0
 Sugarcane,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)7,Maguindanao del Sur,1908800000,0,0,0,0,0,0,0
 Sugarcane,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)8,Sulu,906600000,0,0,0,0,0.1,0.1,0

@@ -31,7 +31,7 @@ Banana,MIMAROPA Region,Occidental Mindoro,1705100000,3278.05,3591.64,4106.25,397
 Banana,MIMAROPA Region,Oriental Mindoro,1705200000,20537.7,26918.73,39975.58,40368.11,61267.06,83627.87,793.08
 Banana,MIMAROPA Region,Palawan,1705300000,34298.57,32290.66,23602.48,24923.48,23512.71,23309.49,8920.28
 Banana,MIMAROPA Region,Romblon,1705900000,3911.7,4142.63,4383.15,3751.45,5287.28,6880.09,2248.7
-Banana,MIMAROPA Region,City of Puerto Princesa,,0,0,0,0,0,0,2105.42
+Banana,MIMAROPA Region,City of Puerto Princesa,1731500000,0,0,0,0,0,0,2105.42
 Banana,Region V (Bicol Region),Albay,500500000,9971.73,9906.52,11896.58,9255.89,6846.16,7434.81,1567.12
 Banana,Region V (Bicol Region),Camarines Norte,501600000,10098.13,12369.17,9978.11,4958.13,4782.57,4059.61,85.87
 Banana,Region V (Bicol Region),Camarines Sur,501700000,25168.8,17903.45,24017.77,22591.52,21058.3,24296.38,1464.05
@@ -47,7 +47,7 @@ Banana,Region VI (Western Visayas),Negros Occidental,1804500000,90605.42,89007.8
 Banana,Region VI (Western Visayas),Negros Occidental,1804500000,0,0,0,0,94485.89,92517.25,24950.32
 Banana,Negros Island Region (NIR),Negros Oriental,1804600000,0,0,0,0,67656.41,70595.49,23972.69
 Banana,Negros Island Region (NIR),Siquijor,1806100000,0,0,0,0,15007.97,15321.89,6769.56
-Banana,Negros Island Region (NIR),City of Bacolod,,0,0,0,0,0,0,1.24
+Banana,Negros Island Region (NIR),City of Bacolod,1830200000,0,0,0,0,0,0,1.24
 Banana,Region VII (Central Visayas),Bohol,701200000,31824.98,30184.24,6943.35,15498.35,25833.71,29747.47,8940.94
 Banana,Region VII (Central Visayas),Cebu,702200000,86217.86,86909.73,82383.64,85969.5,80542.35,82206.96,13550.67
 Banana,Negros Island Region (NIR),Negros Oriental,1804600000,74882.77,82915,61607.28,82518.07,0,0,0
@@ -62,7 +62,7 @@ Banana,Region IX (Zamboanga Peninsula),Sulu,906600000,0,0,0,0,0,0,2889.82
 Banana,Region IX (Zamboanga Peninsula),Zamboanga del Norte,907200000,83933.4,87398.86,88508.34,88104.42,84200.31,87840.85,10006.8
 Banana,Region IX (Zamboanga Peninsula),Zamboanga del Sur,907300000,81070.96,86097.57,91585.08,159670.78,151854.49,98161.36,12650.97
 Banana,Region IX (Zamboanga Peninsula),Zamboanga Sibugay,908300000,25475.21,25768.88,25927.5,26056.37,25472.96,26153.32,5761.87
-Banana,Region IX (Zamboanga Peninsula),City of Zamboanga,,65606.73,68294.21,70366.62,0,0,66049.75,25850.62
+Banana,Region IX (Zamboanga Peninsula),City of Zamboanga,0907400000,65606.73,68294.21,70366.62,0,0,66049.75,25850.62
 Banana,Region X (Northern Mindanao),Bukidnon,1001300000,1397155.27,1433671.55,1437720.94,1426480.88,1386301.07,1357495.71,331700.99
 Banana,Region X (Northern Mindanao),Camiguin,1001800000,4339.81,4771.4,3883.49,5728.54,4151.63,6343.8,610.24
 Banana,Region X (Northern Mindanao),Lanao del Norte,1003500000,282691,283178,283364,283859,284011,283603,96182.53
@@ -73,7 +73,7 @@ Banana,Region XI (Davao Region),Davao del Norte,1102300000,1476464.11,1443121.78
 Banana,Region XI (Davao Region),Davao del Sur,1102400000,443248.09,461222.38,455555.49,722301.56,704387.56,527592.4,100703.94
 Banana,Region XI (Davao Region),Davao Occidental,1108600000,165260.61,165126.16,168609.07,169044.53,167532.79,177056.98,36234.02
 Banana,Region XI (Davao Region),Davao Oriental,1102500000,166705.4,168042.54,167800.42,165543.57,159604.87,161980.3,28687.79
-Banana,Region XI (Davao Region),City of Davao,,299931.97,295261.14,280801.12,0,0,172495.22,50548.08
+Banana,Region XI (Davao Region),City of Davao,1130700000,299931.97,295261.14,280801.12,0,0,172495.22,50548.08
 Banana,Region XII (SOCCSKSARGEN),Cotabato,1204700000,504363.12,502168.69,488394.74,480532.42,456142.92,454820.57,83801.67
 Banana,Region XII (SOCCSKSARGEN),Sarangani,1208000000,200737.91,192565,184692.8,166216.66,158443.37,165286.13,39396
 Banana,Region XII (SOCCSKSARGEN),Sultan Kudarat,1206500000,173500.05,202520.27,213162.96,229555.87,208977.44,85824.22,7601.48
@@ -83,10 +83,10 @@ Banana,Region XIII (Caraga),Agusan del Sur,1600300000,90529.68,91576.09,88532.59
 Banana,Region XIII (Caraga),Dinagat Islands,1608500000,324.69,346.13,69.22,454.61,551.69,764,61.26
 Banana,Region XIII (Caraga),Surigao del Norte,1606700000,5549.6,5181.83,2495.44,2160.34,2168.16,3070.33,1092.33
 Banana,Region XIII (Caraga),Surigao del Sur,1606800000,148791.96,108470.15,88191.44,80470.04,111647.18,105157.37,22201.29
-Banana,Region XIII (Caraga),City of Butuan,,0,0,0,0,0,0,3439.44
+Banana,Region XIII (Caraga),City of Butuan,1630400000,0,0,0,0,0,0,3439.44
 Banana,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)3,Basilan,1900700000,21235.83,21193.92,21485.69,21692.54,19340.11,18882.29,3931.06
 Banana,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)4,Lanao del Sur,1903600000,112516.39,112566.75,112601.16,113404.67,113794.15,114624.12,36765.7
-Banana,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)5,Maguindanao,,437512.75,438033,441503.72,442352.77,347409.27,0,0
+Banana,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)5,Maguindanao,1908800000,437512.75,438033,441503.72,442352.77,347409.27,0,0
 Banana,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)6,Maguindanao del Norte,1908700000,0,0,0,0,0,161570.24,35398.73
 Banana,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)7,Maguindanao del Sur,1908800000,0,0,0,0,0,218610.09,60734.44
 Banana,Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)8,Sulu,906600000,15679.13,15780,15767,15915,15981,16853.81,0

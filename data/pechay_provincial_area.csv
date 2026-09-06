@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Pechay,CAR,Abra,1400100000,0,0,0,0,0,27.86,9.51
+Pechay,CAR,Apayao,1408100000,0,0,0,0,0,3.15,0.45
+Pechay,CAR,Benguet,1401100000,0,0,0,0,0,2817.42,830.00
+Pechay,CAR,Ifugao,1402700000,0,0,0,0,0,98.28,30.25
+Pechay,CAR,Kalinga,1403200000,0,0,0,0,0,23.03,0.35
+Pechay,CAR,Mountain Province,1404400000,0,0,0,0,0,268.32,21.50
+Pechay,Region I,Ilocos Norte,0102800000,0,0,0,0,0,120.21,51.67
+Pechay,Region I,Ilocos Sur,0102900000,0,0,0,0,0,33.07,10.06
+Pechay,Region I,La Union,0103300000,0,0,0,0,0,22.90,8.97
+Pechay,Region I,Pangasinan,0105500000,0,0,0,0,0,384.00,243.00
+Pechay,Region II,Batanes,0200900000,0,0,0,0,0,7.28,2.90
+Pechay,Region II,Cagayan,0201500000,0,0,0,0,0,480.20,210.10
+Pechay,Region II,Isabela,0203100000,0,0,0,0,0,279.56,158.60
+Pechay,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,220.35,54.75
+Pechay,Region II,Quirino,0205700000,0,0,0,0,0,26.74,11.91
+Pechay,Region III,Aurora,0307700000,0,0,0,0,0,24.27,2.21
+Pechay,Region III,Bataan,0300800000,0,0,0,0,0,17.63,5.67
+Pechay,Region III,Bulacan,0301400000,0,0,0,0,0,167.52,32.59
+Pechay,Region III,Nueva Ecija,0304900000,0,0,0,0,0,135.00,30.00
+Pechay,Region III,Pampanga,0305400000,0,0,0,0,0,83.18,35.05
+Pechay,Region III,Tarlac,0306900000,0,0,0,0,0,76.50,34.00
+Pechay,Region III,Zambales,0307100000,0,0,0,0,0,24.96,21.27
+Pechay,Region IV-A,Batangas,0401000000,0,0,0,0,0,59.65,12.26
+Pechay,Region IV-A,Cavite,0402100000,0,0,0,0,0,61.70,36.52
+Pechay,Region IV-A,Laguna,0403400000,0,0,0,0,0,144.32,67.21
+Pechay,Region IV-A,Quezon,0405600000,0,0,0,0,0,542.23,199.50
+Pechay,Region IV-A,Rizal,0405800000,0,0,0,0,0,136.22,10.00
+Pechay,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,33.98,16.62
+Pechay,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,13.89,2.47
+Pechay,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,122.92,17.55
+Pechay,MIMAROPA,Palawan,1705300000,0,0,0,0,0,74.07,45.77
+Pechay,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0.00,3.05
+Pechay,MIMAROPA,Romblon,1705900000,0,0,0,0,0,18.15,7.56
+Pechay,Region V,Albay,0500500000,0,0,0,0,0,734.56,70.00
+Pechay,Region V,Camarines Norte,0501600000,0,0,0,0,0,80.00,2.17
+Pechay,Region V,Camarines Sur,0501700000,0,0,0,0,0,99.71,54.21
+Pechay,Region V,Catanduanes,0502000000,0,0,0,0,0,51.26,12.79
+Pechay,Region V,Masbate,0504100000,0,0,0,0,0,57.26,9.33
+Pechay,Region V,Sorsogon,0506200000,0,0,0,0,0,17.38,3.00
+Pechay,Region VI,Aklan,0600400000,0,0,0,0,0,24.11,13.64
+Pechay,Region VI,Antique,0600600000,0,0,0,0,0,52.25,18.84
+Pechay,Region VI,Capiz,0601900000,0,0,0,0,0,59.50,13.50
+Pechay,Region VI,Guimaras,0607900000,0,0,0,0,0,20.70,9.00
+Pechay,Region VI,Iloilo,0603000000,0,0,0,0,0,104.39,42.04
+Pechay,NIR,Negros Occidental,1804500000,0,0,0,0,0,0.00,0
+Pechay,NIR,Negros Occidental,1804500000,0,0,0,0,0,128.06,46.00
+Pechay,NIR,City of Bacolod,1830200000,0,0,0,0,0,0.00,0.05
+Pechay,NIR,Negros Oriental,1804600000,0,0,0,0,0,127.95,22.00
+Pechay,NIR,Siquijor,1806100000,0,0,0,0,0,1.95,0.50
+Pechay,Region VII,Bohol,0701200000,0,0,0,0,0,69.11,20.26
+Pechay,Region VII,Cebu,0702200000,0,0,0,0,0,346.01,81.25
+Pechay,NIR,Negros Oriental,1804600000,0,0,0,0,0,0.00,0
+Pechay,NIR,Siquijor,1806100000,0,0,0,0,0,0.00,0
+Pechay,Region VIII,Biliran,0807800000,0,0,0,0,0,8.32,3.65
+Pechay,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,33.20,8.30
+Pechay,Region VIII,Leyte,0803700000,0,0,0,0,0,118.40,15.40
+Pechay,Region VIII,Northern Samar,0804800000,0,0,0,0,0,12.00,4.00
+Pechay,Region VIII,Samar,0806000000,0,0,0,0,0,48.94,6.25
+Pechay,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,151.08,6.14
+Pechay,Region IX,Sulu,0906600000,0,0,0,0,0,0.00,14.00
+Pechay,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,42.26,2.75
+Pechay,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,82.00,20.00
+Pechay,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,188.35,61.42
+Pechay,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,26.51,6.50
+Pechay,Region X,Bukidnon,1001300000,0,0,0,0,0,393.98,119.54
+Pechay,Region X,Camiguin,1001800000,0,0,0,0,0,15.38,1.73
+Pechay,Region X,Lanao del Norte,1003500000,0,0,0,0,0,332.35,92.00
+Pechay,Region X,Misamis Occidental,1004200000,0,0,0,0,0,108.00,35.00
+Pechay,Region X,Misamis Oriental,1004300000,0,0,0,0,0,152.00,17.50
+Pechay,Region XI,Davao de Oro,1108200000,0,0,0,0,0,56.50,14.10
+Pechay,Region XI,Davao del Norte,1102300000,0,0,0,0,0,79.33,10.87
+Pechay,Region XI,Davao del Sur,1102400000,0,0,0,0,0,184.94,19.92
+Pechay,Region XI,City of Davao,1130700000,0,0,0,0,0,16.91,5.71
+Pechay,Region XI,Davao Occidental,1108600000,0,0,0,0,0,37.25,7.14
+Pechay,Region XI,Davao Oriental,1102500000,0,0,0,0,0,42.00,11.00
+Pechay,Region XII,Cotabato,1204700000,0,0,0,0,0,85.54,16.64
+Pechay,Region XII,Sarangani,1208000000,0,0,0,0,0,11.96,1.25
+Pechay,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,13.60,1.75
+Pechay,Region XII,South Cotabato,1206300000,0,0,0,0,0,46.83,10.94
+Pechay,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,18.94,0.82
+Pechay,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0.00,0.42
+Pechay,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,130.58,33.88
+Pechay,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,2.37,0.45
+Pechay,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,14.09,1.19
+Pechay,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,5.60,0.00
+Pechay,BARMM,Basilan,1900700000,0,0,0,0,0,13.26,2.00
+Pechay,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,48.26,7.60
+Pechay,BARMM,Maguindanao,,0,0,0,0,0,66.78,26.09
+Pechay,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,5.20,1.30
+Pechay,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,61.58,24.79
+Pechay,BARMM,Sulu,0906600000,0,0,0,0,0,33.14,0
+Pechay,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,56.75,9.00

@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Bell pepper,CAR,Abra,1400100000,0,0,0,0,0,0.00,0.00
+Bell pepper,CAR,Apayao,1408100000,0,0,0,0,0,0.00,0.00
+Bell pepper,CAR,Benguet,1401100000,0,0,0,0,0,786.00,275.00
+Bell pepper,CAR,Ifugao,1402700000,0,0,0,0,0,56.92,2.50
+Bell pepper,CAR,Kalinga,1403200000,0,0,0,0,0,0.00,0.00
+Bell pepper,CAR,Mountain Province,1404400000,0,0,0,0,0,248.17,26.00
+Bell pepper,Region I,Ilocos Norte,0102800000,0,0,0,0,0,313.50,139.65
+Bell pepper,Region I,Ilocos Sur,0102900000,0,0,0,0,0,150.55,74.66
+Bell pepper,Region I,La Union,0103300000,0,0,0,0,0,4.43,1.50
+Bell pepper,Region I,Pangasinan,0105500000,0,0,0,0,0,1.97,0.96
+Bell pepper,Region II,Batanes,0200900000,0,0,0,0,0,2.35,0.70
+Bell pepper,Region II,Cagayan,0201500000,0,0,0,0,0,0.70,0.10
+Bell pepper,Region II,Isabela,0203100000,0,0,0,0,0,2.81,1.55
+Bell pepper,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,123.22,10.50
+Bell pepper,Region II,Quirino,0205700000,0,0,0,0,0,2.41,0.38
+Bell pepper,Region III,Aurora,0307700000,0,0,0,0,0,27.14,0.19
+Bell pepper,Region III,Bataan,0300800000,0,0,0,0,0,0.00,0.00
+Bell pepper,Region III,Bulacan,0301400000,0,0,0,0,0,4.09,1.15
+Bell pepper,Region III,Nueva Ecija,0304900000,0,0,0,0,0,70.18,32.09
+Bell pepper,Region III,Pampanga,0305400000,0,0,0,0,0,0.00,0.00
+Bell pepper,Region III,Tarlac,0306900000,0,0,0,0,0,0.00,0.00
+Bell pepper,Region III,Zambales,0307100000,0,0,0,0,0,0.01,1.15
+Bell pepper,Region IV-A,Batangas,0401000000,0,0,0,0,0,2.70,0.35
+Bell pepper,Region IV-A,Cavite,0402100000,0,0,0,0,0,21.67,2.50
+Bell pepper,Region IV-A,Laguna,0403400000,0,0,0,0,0,16.35,1.00
+Bell pepper,Region IV-A,Quezon,0405600000,0,0,0,0,0,0.31,0.04
+Bell pepper,Region IV-A,Rizal,0405800000,0,0,0,0,0,0.00,1.01
+Bell pepper,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,2.17,1.10
+Bell pepper,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,0.00,0.00
+Bell pepper,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,7.56,7.26
+Bell pepper,MIMAROPA,Palawan,1705300000,0,0,0,0,0,9.88,1.28
+Bell pepper,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0.00,0.97
+Bell pepper,MIMAROPA,Romblon,1705900000,0,0,0,0,0,0.74,0.55
+Bell pepper,Region V,Albay,0500500000,0,0,0,0,0,0.00,0.00
+Bell pepper,Region V,Camarines Norte,0501600000,0,0,0,0,0,0.13,0.03
+Bell pepper,Region V,Camarines Sur,0501700000,0,0,0,0,0,3.77,0.01
+Bell pepper,Region V,Catanduanes,0502000000,0,0,0,0,0,0.21,0.04
+Bell pepper,Region V,Masbate,0504100000,0,0,0,0,0,0.00,0.00
+Bell pepper,Region V,Sorsogon,0506200000,0,0,0,0,0,0.07,0.22
+Bell pepper,Region VI,Aklan,0600400000,0,0,0,0,0,7.40,0.28
+Bell pepper,Region VI,Antique,0600600000,0,0,0,0,0,19.96,7.70
+Bell pepper,Region VI,Capiz,0601900000,0,0,0,0,0,0.39,0.05
+Bell pepper,Region VI,Guimaras,0607900000,0,0,0,0,0,2.30,0.80
+Bell pepper,Region VI,Iloilo,0603000000,0,0,0,0,0,125.90,25.00
+Bell pepper,NIR,Negros Occidental,1804500000,0,0,0,0,0,0.00,0
+Bell pepper,NIR,Negros Occidental,1804500000,0,0,0,0,0,31.00,7.00
+Bell pepper,NIR,City of Bacolod,1830200000,0,0,0,0,0,0.00,0.01
+Bell pepper,NIR,Negros Oriental,1804600000,0,0,0,0,0,34.69,7.74
+Bell pepper,NIR,Siquijor,1806100000,0,0,0,0,0,2.22,0.50
+Bell pepper,Region VII,Bohol,0701200000,0,0,0,0,0,30.00,11.00
+Bell pepper,Region VII,Cebu,0702200000,0,0,0,0,0,86.99,20.20
+Bell pepper,NIR,Negros Oriental,1804600000,0,0,0,0,0,0.00,0
+Bell pepper,NIR,Siquijor,1806100000,0,0,0,0,0,0.00,0
+Bell pepper,Region VIII,Biliran,0807800000,0,0,0,0,0,14.47,2.01
+Bell pepper,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,7.92,1.98
+Bell pepper,Region VIII,Leyte,0803700000,0,0,0,0,0,59.93,15.00
+Bell pepper,Region VIII,Northern Samar,0804800000,0,0,0,0,0,0.00,0.00
+Bell pepper,Region VIII,Samar,0806000000,0,0,0,0,0,24.45,0.00
+Bell pepper,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,127.59,6.60
+Bell pepper,Region IX,Sulu,0906600000,0,0,0,0,0,0.00,0.00
+Bell pepper,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,29.94,3.50
+Bell pepper,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,40.27,11.00
+Bell pepper,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,33.60,11.30
+Bell pepper,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,9.51,2.55
+Bell pepper,Region X,Bukidnon,1001300000,0,0,0,0,0,179.58,44.00
+Bell pepper,Region X,Camiguin,1001800000,0,0,0,0,0,9.19,0.51
+Bell pepper,Region X,Lanao del Norte,1003500000,0,0,0,0,0,88.20,18.00
+Bell pepper,Region X,Misamis Occidental,1004200000,0,0,0,0,0,14.00,3.50
+Bell pepper,Region X,Misamis Oriental,1004300000,0,0,0,0,0,41.00,10.00
+Bell pepper,Region XI,Davao de Oro,1108200000,0,0,0,0,0,97.76,23.44
+Bell pepper,Region XI,Davao del Norte,1102300000,0,0,0,0,0,32.21,5.17
+Bell pepper,Region XI,Davao del Sur,1102400000,0,0,0,0,0,97.31,5.06
+Bell pepper,Region XI,City of Davao,1130700000,0,0,0,0,0,50.01,16.67
+Bell pepper,Region XI,Davao Occidental,1108600000,0,0,0,0,0,0.34,0.07
+Bell pepper,Region XI,Davao Oriental,1102500000,0,0,0,0,0,16.50,5.00
+Bell pepper,Region XII,Cotabato,1204700000,0,0,0,0,0,82.51,16.92
+Bell pepper,Region XII,Sarangani,1208000000,0,0,0,0,0,14.22,1.35
+Bell pepper,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,40.80,11.54
+Bell pepper,Region XII,South Cotabato,1206300000,0,0,0,0,0,28.56,13.80
+Bell pepper,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,20.90,0.79
+Bell pepper,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0.00,0.41
+Bell pepper,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,71.26,28.22
+Bell pepper,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,2.34,0.12
+Bell pepper,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,8.30,0.06
+Bell pepper,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,5.57,1.86
+Bell pepper,BARMM,Basilan,1900700000,0,0,0,0,0,12.00,3.46
+Bell pepper,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,19.40,4.02
+Bell pepper,BARMM,Maguindanao,,0,0,0,0,0,13.08,3.64
+Bell pepper,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,9.60,2.77
+Bell pepper,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,3.48,0.87
+Bell pepper,BARMM,Sulu,0906600000,0,0,0,0,0,0.00,0
+Bell pepper,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,0.00,0.00

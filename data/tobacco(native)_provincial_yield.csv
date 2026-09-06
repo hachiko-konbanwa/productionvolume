@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Tobacco (Native),CAR,Abra,1400100000,,,,,,0.34166667,
+Tobacco (Native),CAR,Apayao,1408100000,,,,,,,
+Tobacco (Native),CAR,Benguet,1401100000,,,,,,,
+Tobacco (Native),CAR,Ifugao,1402700000,,,,,,,
+Tobacco (Native),CAR,Kalinga,1403200000,,,,,,2.15000000,
+Tobacco (Native),CAR,Mountain Province,1404400000,,,,,,,
+Tobacco (Native),Region I,Ilocos Norte,0102800000,,,,,,1.72620221,2.00700935
+Tobacco (Native),Region I,Ilocos Sur,0102900000,,,,,,1.15864975,0.73377809
+Tobacco (Native),Region I,La Union,0103300000,,,,,,1.17176019,0.16171367
+Tobacco (Native),Region I,Pangasinan,0105500000,,,,,,1.45535318,1.60377358
+Tobacco (Native),Region II,Batanes,0200900000,,,,,,,
+Tobacco (Native),Region II,Cagayan,0201500000,,,,,,0.65394206,0.21250000
+Tobacco (Native),Region II,Isabela,0203100000,,,,,,1.91118415,1.01238001
+Tobacco (Native),Region II,Nueva Vizcaya,0205000000,,,,,,,
+Tobacco (Native),Region II,Quirino,0205700000,,,,,,,
+Tobacco (Native),Region III,Aurora,0307700000,,,,,,,
+Tobacco (Native),Region III,Bataan,0300800000,,,,,,,
+Tobacco (Native),Region III,Bulacan,0301400000,,,,,,,
+Tobacco (Native),Region III,Nueva Ecija,0304900000,,,,,,,
+Tobacco (Native),Region III,Pampanga,0305400000,,,,,,,
+Tobacco (Native),Region III,Tarlac,0306900000,,,,,,,
+Tobacco (Native),Region III,Zambales,0307100000,,,,,,,
+Tobacco (Native),Region IV-A,Batangas,0401000000,,,,,,,
+Tobacco (Native),Region IV-A,Cavite,0402100000,,,,,,,
+Tobacco (Native),Region IV-A,Laguna,0403400000,,,,,,,
+Tobacco (Native),Region IV-A,Quezon,0405600000,,,,,,,
+Tobacco (Native),Region IV-A,Rizal,0405800000,,,,,,,
+Tobacco (Native),MIMAROPA,Marinduque,1704000000,,,,,,,
+Tobacco (Native),MIMAROPA,Occidental Mindoro,1705100000,,,,,,,
+Tobacco (Native),MIMAROPA,Oriental Mindoro,1705200000,,,,,,,
+Tobacco (Native),MIMAROPA,Palawan,1705300000,,,,,,,
+Tobacco (Native),MIMAROPA,Romblon,1705900000,,,,,,0.10391566,0.21875000
+Tobacco (Native),MIMAROPA,City of Puerto Princesa,1731500000,,,,,,,
+Tobacco (Native),Region V,Albay,0500500000,,,,,,,
+Tobacco (Native),Region V,Camarines Norte,0501600000,,,,,,,
+Tobacco (Native),Region V,Camarines Sur,0501700000,,,,,,,
+Tobacco (Native),Region V,Catanduanes,0502000000,,,,,,,
+Tobacco (Native),Region V,Masbate,0504100000,,,,,,,
+Tobacco (Native),Region V,Sorsogon,0506200000,,,,,,,
+Tobacco (Native),Region VI,Aklan,0600400000,,,,,,,
+Tobacco (Native),Region VI,Antique,0600600000,,,,,,0.28444444,0.33333333
+Tobacco (Native),Region VI,Capiz,0601900000,,,,,,,
+Tobacco (Native),Region VI,Guimaras,0607900000,,,,,,,
+Tobacco (Native),Region VI,Iloilo,0603000000,,,,,,0.43336538,0.00765625
+Tobacco (Native),NIR,Negros Occidental,1804500000,,,,,,,
+Tobacco (Native),NIR,Negros Occidental,1804500000,,,,,,0.08815789,0.07368421
+Tobacco (Native),NIR,Negros Oriental,1804600000,,,,,,0.30458333,0.06637168
+Tobacco (Native),NIR,Siquijor,1806100000,,,,,,,
+Tobacco (Native),NIR,City of Bacolod,1830200000,,,,,,,
+Tobacco (Native),Region VII,Bohol,0701200000,,,,,,2.00000000,5.00000000
+Tobacco (Native),Region VII,Cebu,0702200000,,,,,,,
+Tobacco (Native),NIR,Negros Oriental,1804600000,,,,,,,
+Tobacco (Native),NIR,Siquijor,1806100000,,,,,,,
+Tobacco (Native),Region VIII,Biliran,0807800000,,,,,,0.12777778,0.04444444
+Tobacco (Native),Region VIII,Eastern Samar,0802600000,,,,,,,
+Tobacco (Native),Region VIII,Leyte,0803700000,,,,,,0.12348993,0.10689655
+Tobacco (Native),Region VIII,Northern Samar,0804800000,,,,,,,
+Tobacco (Native),Region VIII,Samar,0806000000,,,,,,,
+Tobacco (Native),Region VIII,Southern Leyte,0806400000,,,,,,,
+Tobacco (Native),Region IX,Sulu,0906600000,,,,,,,
+Tobacco (Native),Region IX,Zamboanga del Norte,0907200000,,,,,,0.05050000,0.03800000
+Tobacco (Native),Region IX,Zamboanga del Sur,0907300000,,,,,,,
+Tobacco (Native),Region IX,Zamboanga Sibugay,0908300000,,,,,,1.34010152,1.03061224
+Tobacco (Native),Region IX,City of Zamboanga,0907400000,,,,,,,
+Tobacco (Native),Region X,Bukidnon,1001300000,,,,,,,0.09090909
+Tobacco (Native),Region X,Camiguin,1001800000,,,,,,,
+Tobacco (Native),Region X,Lanao del Norte,1003500000,,,,,,,
+Tobacco (Native),Region X,Misamis Occidental,1004200000,,,,,,,
+Tobacco (Native),Region X,Misamis Oriental,1004300000,,,,,,1.20480147,0.04036471
+Tobacco (Native),Region XI,Davao de Oro,1108200000,,,,,,0.25957447,0.43478261
+Tobacco (Native),Region XI,Davao del Norte,1102300000,,,,,,0.32377049,0.22580645
+Tobacco (Native),Region XI,Davao del Sur,1102400000,,,,,,0.36165049,0.36538462
+Tobacco (Native),Region XI,Davao Occidental,1108600000,,,,,,,
+Tobacco (Native),Region XI,Davao Oriental,1102500000,,,,,,0.37333333,0.35909091
+Tobacco (Native),Region XI,City of Davao,1130700000,,,,,,0.50000000,
+Tobacco (Native),Region XII,Cotabato,1204700000,,,,,,,
+Tobacco (Native),Region XII,Sarangani,1208000000,,,,,,0.23469388,0.15668203
+Tobacco (Native),Region XII,Sultan Kudarat,1206500000,,,,,,0.11750000,0.04000000
+Tobacco (Native),Region XII,South Cotabato,1206300000,,,,,,1.39642857,1.27142857
+Tobacco (Native),Region XIII,Agusan del Norte,1600200000,,,,,,,
+Tobacco (Native),Region XIII,Agusan del Sur,1600300000,,,,,,,
+Tobacco (Native),Region XIII,Dinagat Islands,1608500000,,,,,,,
+Tobacco (Native),Region XIII,Surigao del Norte,1606700000,,,,,,,
+Tobacco (Native),Region XIII,Surigao del Sur,1606800000,,,,,,0.38000000,
+Tobacco (Native),Region XIII,City of Butuan,1630400000,,,,,,,
+Tobacco (Native),BARMM,Basilan,1900700000,,,,,,,0.11500000
+Tobacco (Native),BARMM,Lanao del Sur,1903600000,,,,,,,
+Tobacco (Native),BARMM,Maguindanao,1908800000,,,,,,,
+Tobacco (Native),BARMM,Maguindanao del Norte,1908700000,,,,,,2.00000000,3.12500000
+Tobacco (Native),BARMM,Maguindanao del Sur,1908800000,,,,,,95.15384615,8.59333333
+Tobacco (Native),BARMM,Sulu,0906600000,,,,,,,
+Tobacco (Native),BARMM,Tawi-tawi,1907000000,,,,,,,

@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Spring Onion,CAR,Abra,1400100000,,,,,,17.00,
+Spring Onion,CAR,Apayao,1408100000,,,,,,1.73,
+Spring Onion,CAR,Benguet,1401100000,,,,,,,
+Spring Onion,CAR,Ifugao,1402700000,,,,,,1.78,4.71
+Spring Onion,CAR,Kalinga,1403200000,,,,,,3.30,
+Spring Onion,CAR,Mountain Province,1404400000,,,,,,,
+Spring Onion,Region I,Ilocos Norte,0102800000,,,,,,,
+Spring Onion,Region I,Ilocos Sur,0102900000,,,,,,,
+Spring Onion,Region I,La Union,0103300000,,,,,,,
+Spring Onion,Region I,Pangasinan,0105500000,,,,,,,
+Spring Onion,Region II,Batanes,0200900000,,,,,,2.10,
+Spring Onion,Region II,Cagayan,0201500000,,,,,,1.88,0.85
+Spring Onion,Region II,Isabela,0203100000,,,,,,1.08,
+Spring Onion,Region II,Nueva Vizcaya,0205000000,,,,,,,
+Spring Onion,Region II,Quirino,0205700000,,,,,,0.00,
+Spring Onion,Region III,Aurora,0307700000,,,,,,,
+Spring Onion,Region III,Bataan,0300800000,,,,,,,
+Spring Onion,Region III,Bulacan,0301400000,,,,,,33.33,
+Spring Onion,Region III,Nueva Ecija,0304900000,,,,,,,
+Spring Onion,Region III,Pampanga,0305400000,,,,,,16.48,12.58
+Spring Onion,Region III,Tarlac,0306900000,,,,,,,
+Spring Onion,Region III,Zambales,0307100000,,,,,,,12.63
+Spring Onion,Region IV-A,Batangas,0401000000,,,,,,,
+Spring Onion,Region IV-A,Cavite,0402100000,,,,,,0.23,
+Spring Onion,Region IV-A,Laguna,0403400000,,,,,,4.55,6.35
+Spring Onion,Region IV-A,Quezon,0405600000,,,,,,4.54,
+Spring Onion,Region IV-A,Rizal,0405800000,,,,,,4.09,
+Spring Onion,MIMAROPA,Marinduque,1704000000,,,,,,,
+Spring Onion,MIMAROPA,Occidental Mindoro,1705100000,,,,,,,
+Spring Onion,MIMAROPA,Oriental Mindoro,1705200000,,,,,,,
+Spring Onion,MIMAROPA,Palawan,1705300000,,,,,,,
+Spring Onion,MIMAROPA,City of Puerto Princesa,1731500000,,,,,,,
+Spring Onion,MIMAROPA,Romblon,1705900000,,,,,,1.94,2.53
+Spring Onion,Region V,Albay,0500500000,,,,,,0.94,0.00
+Spring Onion,Region V,Camarines Norte,0501600000,,,,,,,
+Spring Onion,Region V,Camarines Sur,0501700000,,,,,,1.26,3.44
+Spring Onion,Region V,Catanduanes,0502000000,,,,,,1.61,2.29
+Spring Onion,Region V,Masbate,0504100000,,,,,,,
+Spring Onion,Region V,Sorsogon,0506200000,,,,,,,
+Spring Onion,Region VI,Aklan,0600400000,,,,,,0.67,
+Spring Onion,Region VI,Antique,0600600000,,,,,,6.77,5.92
+Spring Onion,Region VI,Capiz,0601900000,,,,,,3.05,2.92
+Spring Onion,Region VI,Guimaras,0607900000,,,,,,3.67,3.07
+Spring Onion,Region VI,Iloilo,0603000000,,,,,,6.55,6.60
+Spring Onion,NIR,Negros Occidental,1804500000,,,,,,,
+Spring Onion,NIR,Negros Occidental,1804500000,,,,,,7.32,8.02
+Spring Onion,NIR,City of Bacolod,1830200000,,,,,,,
+Spring Onion,NIR,Negros Oriental,1804600000,,,,,,3.81,3.15
+Spring Onion,NIR,Siquijor,1806100000,,,,,,8.77,4.87
+Spring Onion,Region VII,Bohol,0701200000,,,,,,3.52,3.64
+Spring Onion,Region VII,Cebu,0702200000,,,,,,10.83,13.50
+Spring Onion,NIR,Negros Oriental,1804600000,,,,,,,
+Spring Onion,NIR,Siquijor,1806100000,,,,,,,
+Spring Onion,Region VIII,Biliran,0807800000,,,,,,0.95,0.58
+Spring Onion,Region VIII,Eastern Samar,0802600000,,,,,,381.00,
+Spring Onion,Region VIII,Leyte,0803700000,,,,,,84.54,530.19
+Spring Onion,Region VIII,Northern Samar,0804800000,,,,,,,0.24
+Spring Onion,Region VIII,Samar,0806000000,,,,,,14.00,
+Spring Onion,Region VIII,Southern Leyte,0806400000,,,,,,11.34,7.62
+Spring Onion,Region IX,Sulu,0906600000,,,,,,,
+Spring Onion,Region IX,Zamboanga del Norte,0907200000,,,,,,3.04,5.00
+Spring Onion,Region IX,Zamboanga del Sur,0907300000,,,,,,0.00,0.00
+Spring Onion,Region IX,City of Zamboanga,0907400000,,,,,,,3.00
+Spring Onion,Region IX,Zamboanga Sibugay,0908300000,,,,,,1.61,1.67
+Spring Onion,Region X,Bukidnon,1001300000,,,,,,1.18,0.69
+Spring Onion,Region X,Camiguin,1001800000,,,,,,1.90,1.52
+Spring Onion,Region X,Lanao del Norte,1003500000,,,,,,1.33,1.94
+Spring Onion,Region X,Misamis Occidental,1004200000,,,,,,3.94,10.70
+Spring Onion,Region X,Misamis Oriental,1004300000,,,,,,4.20,
+Spring Onion,Region XI,Davao de Oro,1108200000,,,,,,,
+Spring Onion,Region XI,Davao del Norte,1102300000,,,,,,,
+Spring Onion,Region XI,Davao del Sur,1102400000,,,,,,4.00,
+Spring Onion,Region XI,City of Davao,1130700000,,,,,,,
+Spring Onion,Region XI,Davao Occidental,1108600000,,,,,,,
+Spring Onion,Region XI,Davao Oriental,1102500000,,,,,,,
+Spring Onion,Region XII,Cotabato,1204700000,,,,,,3.95,1.94
+Spring Onion,Region XII,Sarangani,1208000000,,,,,,,
+Spring Onion,Region XII,Sultan Kudarat,1206500000,,,,,,5.17,3.57
+Spring Onion,Region XII,South Cotabato,1206300000,,,,,,0.93,2.00
+Spring Onion,Region XIII,Agusan del Norte,1600200000,,,,,,12.78,8.00
+Spring Onion,Region XIII,City of Butuan,1630400000,,,,,,,
+Spring Onion,Region XIII,Agusan del Sur,1600300000,,,,,,1.14,0.37
+Spring Onion,Region XIII,Dinagat Islands,1608500000,,,,,,,
+Spring Onion,Region XIII,Surigao del Norte,1606700000,,,,,,2.79,
+Spring Onion,Region XIII,Surigao del Sur,1606800000,,,,,,3.27,6.04
+Spring Onion,BARMM,Basilan,1900700000,,,,,,,
+Spring Onion,BARMM,Lanao del Sur,1903600000,,,,,,3.46,0.26
+Spring Onion,BARMM,Maguindanao,,,,,,,6.31,7.00
+Spring Onion,BARMM,Maguindanao del Norte,1908700000,,,,,,,
+Spring Onion,BARMM,Maguindanao del Sur,1908800000,,,,,,6.31,7.00
+Spring Onion,BARMM,Sulu,0906600000,,,,,,0.34,
+Spring Onion,BARMM,Tawi-tawi,1907000000,,,,,,,

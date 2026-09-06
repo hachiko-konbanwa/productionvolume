@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Pineapple,CAR,Abra,1400100000,,,,,,4.240833,0.000000
+Pineapple,CAR,Apayao,1408100000,,,,,,4.168909,
+Pineapple,CAR,Benguet,1401100000,,,,,,1.370583,3.713000
+Pineapple,CAR,Ifugao,1402700000,,,,,,1.060313,0.000000
+Pineapple,CAR,Kalinga,1403200000,,,,,,0.433430,0.000000
+Pineapple,CAR,Mountain Province,1404400000,,,,,,17.363158,0.000000
+Pineapple,Region I,Ilocos Norte,0102800000,,,,,,1.934333,0.000000
+Pineapple,Region I,Ilocos Sur,0102900000,,,,,,1.677917,0.473333
+Pineapple,Region I,La Union,0103300000,,,,,,3.153254,0.042604
+Pineapple,Region I,Pangasinan,0105500000,,,,,,3.106776,6.315789
+Pineapple,Region II,Batanes,0200900000,,,,,,1.362791,
+Pineapple,Region II,Cagayan,0201500000,,,,,,9.637838,0.000000
+Pineapple,Region II,Isabela,0203100000,,,,,,8.908653,0.000000
+Pineapple,Region II,Nueva Vizcaya,0205000000,,,,,,10.869157,2.234155
+Pineapple,Region II,Quirino,0205700000,,,,,,2.905882,3.570000
+Pineapple,Region III,Aurora,0307700000,,,,,,1.525513,0.025715
+Pineapple,Region III,Bataan,0300800000,,,,,,12.250504,0.000000
+Pineapple,Region III,Bulacan,0301400000,,,,,,4.226915,0.000000
+Pineapple,Region III,Nueva Ecija,0304900000,,,,,,,
+Pineapple,Region III,Pampanga,0305400000,,,,,,,
+Pineapple,Region III,Tarlac,0306900000,,,,,,,
+Pineapple,Region III,Zambales,0307100000,,,,,,0.432927,0.000000
+Pineapple,Region IV-A,Batangas,0401000000,,,,,,4.705405,3.084000
+Pineapple,Region IV-A,Cavite,0402100000,,,,,,6.364366,1.617815
+Pineapple,Region IV-A,Laguna,0403400000,,,,,,2.048424,1.624788
+Pineapple,Region IV-A,Quezon,0405600000,,,,,,4.015560,1.143920
+Pineapple,Region IV-A,Rizal,0405800000,,,,,,3.572635,0.793043
+Pineapple,MIMAROPA,Marinduque,1704000000,,,,,,3.592500,0.000000
+Pineapple,MIMAROPA,Occidental Mindoro,1705100000,,,,,,2.895631,0.000000
+Pineapple,MIMAROPA,Oriental Mindoro,1705200000,,,,,,1.239247,0.095750
+Pineapple,MIMAROPA,Palawan,1705300000,,,,,,3.158611,3.108171
+Pineapple,MIMAROPA,Romblon,1705900000,,,,,,0.906576,0.236228
+Pineapple,MIMAROPA,City of Puerto Princesa,1731500000,,,,,,,4.500000
+Pineapple,Region V,Albay,0500500000,,,,,,1.842917,0.083667
+Pineapple,Region V,Camarines Norte,0501600000,,,,,,12.620565,36.299184
+Pineapple,Region V,Camarines Sur,0501700000,,,,,,0.161317,0.409243
+Pineapple,Region V,Catanduanes,0502000000,,,,,,9.636364,0.727273
+Pineapple,Region V,Masbate,0504100000,,,,,,4.598736,0.792295
+Pineapple,Region V,Sorsogon,0506200000,,,,,,1.060664,0.004286
+Pineapple,Region VI,Aklan,0600400000,,,,,,4.090595,0.064436
+Pineapple,Region VI,Antique,0600600000,,,,,,2.249377,2.552000
+Pineapple,Region VI,Capiz,0601900000,,,,,,2.803543,0.366667
+Pineapple,Region VI,Guimaras,0607900000,,,,,,1.662096,0.049610
+Pineapple,Region VI,Iloilo,0603000000,,,,,,13.037052,5.153086
+Pineapple,NIR,Negros Occidental,1804500000,,,,,,,
+Pineapple,NIR,Negros Occidental,1804500000,,,,,,2.983535,1.610000
+Pineapple,NIR,Negros Oriental,1804600000,,,,,,4.466830,4.260262
+Pineapple,NIR,Siquijor,1806100000,,,,,,7.450000,3.600000
+Pineapple,NIR,City of Bacolod,1830200000,,,,,,,
+Pineapple,Region VII,Bohol,0701200000,,,,,,2.135142,0.379455
+Pineapple,Region VII,Cebu,0702200000,,,,,,1.448155,0.407563
+Pineapple,NIR,Negros Oriental,1804600000,,,,,,,
+Pineapple,NIR,Siquijor,1806100000,,,,,,,
+Pineapple,Region VIII,Biliran,0807800000,,,,,,2.823625,1.093250
+Pineapple,Region VIII,Eastern Samar,0802600000,,,,,,7.075095,0.058216
+Pineapple,Region VIII,Leyte,0803700000,,,,,,2.947148,0.441388
+Pineapple,Region VIII,Northern Samar,0804800000,,,,,,0.709600,0.059444
+Pineapple,Region VIII,Samar,0806000000,,,,,,6.912943,3.661905
+Pineapple,Region VIII,Southern Leyte,0806400000,,,,,,2.232185,0.183478
+Pineapple,Region IX,Sulu,0906600000,,,,,,,1.245445
+Pineapple,Region IX,Zamboanga del Norte,0907200000,,,,,,0.891347,0.162308
+Pineapple,Region IX,Zamboanga del Sur,0907300000,,,,,,2.516149,2.537857
+Pineapple,Region IX,Zamboanga Sibugay,0908300000,,,,,,1.972930,0.307006
+Pineapple,Region IX,City of Zamboanga,0907400000,,,,,,2.777886,4.493780
+Pineapple,Region X,Bukidnon,1001300000,,,,,,14.727254,11.970883
+Pineapple,Region X,Camiguin,1001800000,,,,,,8.592857,1.885714
+Pineapple,Region X,Lanao del Norte,1003500000,,,,,,2.498288,2.328767
+Pineapple,Region X,Misamis Occidental,1004200000,,,,,,1.951000,0.418000
+Pineapple,Region X,Misamis Oriental,1004300000,,,,,,11.918703,7.130273
+Pineapple,Region XI,Davao de Oro,1108200000,,,,,,0.412043,0.240092
+Pineapple,Region XI,Davao del Norte,1102300000,,,,,,1.120946,0.492557
+Pineapple,Region XI,Davao del Sur,1102400000,,,,,,4.516722,4.552083
+Pineapple,Region XI,Davao Occidental,1108600000,,,,,,1.126736,1.400000
+Pineapple,Region XI,Davao Oriental,1102500000,,,,,,0.943590,0.728958
+Pineapple,Region XI,City of Davao,1130700000,,,,,,3.866964,4.517828
+Pineapple,Region XII,Cotabato,1204700000,,,,,,1.900194,2.103400
+Pineapple,Region XII,Sarangani,1208000000,,,,,,7.391232,5.673604
+Pineapple,Region XII,Sultan Kudarat,1206500000,,,,,,2.524968,2.904093
+Pineapple,Region XII,South Cotabato,1206300000,,,,,,8.572022,8.905515
+Pineapple,Region XIII,Agusan del Norte,1600200000,,,,,,5.614901,2.301088
+Pineapple,Region XIII,Agusan del Sur,1600300000,,,,,,2.371688,0.304727
+Pineapple,Region XIII,Dinagat Islands,1608500000,,,,,,0.349250,0.031000
+Pineapple,Region XIII,Surigao del Norte,1606700000,,,,,,1.196750,0.210000
+Pineapple,Region XIII,Surigao del Sur,1606800000,,,,,,2.549198,0.091132
+Pineapple,Region XIII,City of Butuan,1630400000,,,,,,,0.186275
+Pineapple,BARMM,Basilan,1900700000,,,,,,1.598143,0.702918
+Pineapple,BARMM,Lanao del Sur,1903600000,,,,,,5.117305,9.178526
+Pineapple,BARMM,Maguindanao,1908800000,,,,,,,
+Pineapple,BARMM,Maguindanao del Norte,1908700000,,,,,,0.000000,0.000000
+Pineapple,BARMM,Maguindanao del Sur,1908800000,,,,,,0.000000,0.000000
+Pineapple,Region IX,Sulu,0906600000,,,,,,1.229901,
+Pineapple,BARMM,Tawi-tawi,1907000000,,,,,,1.109524,0.555556

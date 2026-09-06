@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Potato,CAR,Abra,1400100000,,,,,,27.20,
+Potato,CAR,Apayao,1408100000,,,,,,,
+Potato,CAR,Benguet,1401100000,,,,,,20.78,22.39
+Potato,CAR,Ifugao,1402700000,,,,,,12.16,
+Potato,CAR,Kalinga,1403200000,,,,,,,
+Potato,CAR,Mountain Province,1404400000,,,,,,11.86,4.80
+Potato,Region I,Ilocos Norte,0102800000,,,,,,,
+Potato,Region I,Ilocos Sur,0102900000,,,,,,,
+Potato,Region I,La Union,0103300000,,,,,,,
+Potato,Region I,Pangasinan,0105500000,,,,,,,
+Potato,Region II,Batanes,0200900000,,,,,,2.75,
+Potato,Region II,Cagayan,0201500000,,,,,,,
+Potato,Region II,Isabela,0203100000,,,,,,,
+Potato,Region II,Nueva Vizcaya,0205000000,,,,,,8.32,9.67
+Potato,Region II,Quirino,0205700000,,,,,,3.23,
+Potato,Region III,Aurora,0307700000,,,,,,,
+Potato,Region III,Bataan,0300800000,,,,,,,
+Potato,Region III,Bulacan,0301400000,,,,,,,
+Potato,Region III,Nueva Ecija,0304900000,,,,,,,
+Potato,Region III,Pampanga,0305400000,,,,,,,
+Potato,Region III,Tarlac,0306900000,,,,,,,
+Potato,Region III,Zambales,0307100000,,,,,,,
+Potato,Region IV-A,Batangas,0401000000,,,,,,,
+Potato,Region IV-A,Cavite,0402100000,,,,,,,
+Potato,Region IV-A,Laguna,0403400000,,,,,,,
+Potato,Region IV-A,Quezon,0405600000,,,,,,0.00,
+Potato,Region IV-A,Rizal,0405800000,,,,,,,
+Potato,MIMAROPA,Marinduque,1704000000,,,,,,,
+Potato,MIMAROPA,Occidental Mindoro,1705100000,,,,,,,
+Potato,MIMAROPA,Oriental Mindoro,1705200000,,,,,,,
+Potato,MIMAROPA,Palawan,1705300000,,,,,,,
+Potato,MIMAROPA,City of Puerto Princesa,1731500000,,,,,,,
+Potato,MIMAROPA,Romblon,1705900000,,,,,,,
+Potato,Region V,Albay,0500500000,,,,,,,
+Potato,Region V,Camarines Norte,0501600000,,,,,,,
+Potato,Region V,Camarines Sur,0501700000,,,,,,,3.18
+Potato,Region V,Catanduanes,0502000000,,,,,,1.50,
+Potato,Region V,Masbate,0504100000,,,,,,,
+Potato,Region V,Sorsogon,0506200000,,,,,,,
+Potato,Region VI,Aklan,0600400000,,,,,,,
+Potato,Region VI,Antique,0600600000,,,,,,0.13,
+Potato,Region VI,Capiz,0601900000,,,,,,,
+Potato,Region VI,Guimaras,0607900000,,,,,,,
+Potato,Region VI,Iloilo,0603000000,,,,,,,
+Potato,NIR,Negros Occidental,1804500000,,,,,,,
+Potato,NIR,Negros Occidental,1804500000,,,,,,,
+Potato,NIR,City of Bacolod,1830200000,,,,,,,
+Potato,NIR,Negros Oriental,1804600000,,,,,,0.43,0.89
+Potato,NIR,Siquijor,1806100000,,,,,,,
+Potato,Region VII,Bohol,0701200000,,,,,,,
+Potato,Region VII,Cebu,0702200000,,,,,,,
+Potato,NIR,Negros Oriental,1804600000,,,,,,,
+Potato,NIR,Siquijor,1806100000,,,,,,,
+Potato,Region VIII,Biliran,0807800000,,,,,,,
+Potato,Region VIII,Eastern Samar,0802600000,,,,,,,
+Potato,Region VIII,Leyte,0803700000,,,,,,,
+Potato,Region VIII,Northern Samar,0804800000,,,,,,,
+Potato,Region VIII,Samar,0806000000,,,,,,,
+Potato,Region VIII,Southern Leyte,0806400000,,,,,,,
+Potato,Region IX,Sulu,0906600000,,,,,,,
+Potato,Region IX,Zamboanga del Norte,0907200000,,,,,,,
+Potato,Region IX,Zamboanga del Sur,0907300000,,,,,,,
+Potato,Region IX,City of Zamboanga,0907400000,,,,,,,
+Potato,Region IX,Zamboanga Sibugay,0908300000,,,,,,,
+Potato,Region X,Bukidnon,1001300000,,,,,,10.93,7.55
+Potato,Region X,Camiguin,1001800000,,,,,,,
+Potato,Region X,Lanao del Norte,1003500000,,,,,,,1.50
+Potato,Region X,Misamis Occidental,1004200000,,,,,,,
+Potato,Region X,Misamis Oriental,1004300000,,,,,,0.86,0.90
+Potato,Region XI,Davao de Oro,1108200000,,,,,,,
+Potato,Region XI,Davao del Norte,1102300000,,,,,,6.38,24.50
+Potato,Region XI,Davao del Sur,1102400000,,,,,,8.04,3.38
+Potato,Region XI,City of Davao,1130700000,,,,,,4.28,6.33
+Potato,Region XI,Davao Occidental,1108600000,,,,,,,
+Potato,Region XI,Davao Oriental,1102500000,,,,,,,
+Potato,Region XII,Cotabato,1204700000,,,,,,1.88,0.97
+Potato,Region XII,Sarangani,1208000000,,,,,,100.00,51.90
+Potato,Region XII,Sultan Kudarat,1206500000,,,,,,,
+Potato,Region XII,South Cotabato,1206300000,,,,,,11.23,12.93
+Potato,Region XIII,Agusan del Norte,1600200000,,,,,,49.90,
+Potato,Region XIII,City of Butuan,1630400000,,,,,,,
+Potato,Region XIII,Agusan del Sur,1600300000,,,,,,,
+Potato,Region XIII,Dinagat Islands,1608500000,,,,,,,
+Potato,Region XIII,Surigao del Norte,1606700000,,,,,,,
+Potato,Region XIII,Surigao del Sur,1606800000,,,,,,,
+Potato,BARMM,Basilan,1900700000,,,,,,,
+Potato,BARMM,Lanao del Sur,1903600000,,,,,,5.71,1.63
+Potato,BARMM,Maguindanao,,,,,,,7.35,12.08
+Potato,BARMM,Maguindanao del Norte,1908700000,,,,,,3.49,13.03
+Potato,BARMM,Maguindanao del Sur,1908800000,,,,,,10.37,11.71
+Potato,BARMM,Sulu,0906600000,,,,,,,
+Potato,BARMM,Tawi-tawi,1907000000,,,,,,0.62,

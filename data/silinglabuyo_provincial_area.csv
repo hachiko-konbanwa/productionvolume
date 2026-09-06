@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Siling Labuyo,CAR,Abra,1400100000,0,0,0,0,0,22.14,2.50
+Siling Labuyo,CAR,Apayao,1408100000,0,0,0,0,0,6.55,1.62
+Siling Labuyo,CAR,Benguet,1401100000,0,0,0,0,0,7.81,4.10
+Siling Labuyo,CAR,Ifugao,1402700000,0,0,0,0,0,9.76,1.21
+Siling Labuyo,CAR,Kalinga,1403200000,0,0,0,0,0,5.98,0.25
+Siling Labuyo,CAR,Mountain Province,1404400000,0,0,0,0,0,3.02,1.24
+Siling Labuyo,Region I,Ilocos Norte,0102800000,0,0,0,0,0,99.39,83.65
+Siling Labuyo,Region I,Ilocos Sur,0102900000,0,0,0,0,0,42.01,8.53
+Siling Labuyo,Region I,La Union,0103300000,0,0,0,0,0,10.93,4.45
+Siling Labuyo,Region I,Pangasinan,0105500000,0,0,0,0,0,172.50,106.58
+Siling Labuyo,Region II,Batanes,0200900000,0,0,0,0,0,0.18,0.00
+Siling Labuyo,Region II,Cagayan,0201500000,0,0,0,0,0,8.60,3.33
+Siling Labuyo,Region II,Isabela,0203100000,0,0,0,0,0,53.86,14.82
+Siling Labuyo,Region II,Nueva Vizcaya,0205000000,0,0,0,0,0,53.59,18.33
+Siling Labuyo,Region II,Quirino,0205700000,0,0,0,0,0,6.50,0.24
+Siling Labuyo,Region III,Aurora,0307700000,0,0,0,0,0,2.45,1.46
+Siling Labuyo,Region III,Bataan,0300800000,0,0,0,0,0,16.00,5.66
+Siling Labuyo,Region III,Bulacan,0301400000,0,0,0,0,0,10.76,2.18
+Siling Labuyo,Region III,Nueva Ecija,0304900000,0,0,0,0,0,150.16,32.23
+Siling Labuyo,Region III,Pampanga,0305400000,0,0,0,0,0,38.50,10.00
+Siling Labuyo,Region III,Tarlac,0306900000,0,0,0,0,0,16.24,3.50
+Siling Labuyo,Region III,Zambales,0307100000,0,0,0,0,0,2.84,0.00
+Siling Labuyo,Region IV-A,Batangas,0401000000,0,0,0,0,0,98.42,24.84
+Siling Labuyo,Region IV-A,Cavite,0402100000,0,0,0,0,0,7.77,3.75
+Siling Labuyo,Region IV-A,Laguna,0403400000,0,0,0,0,0,17.85,11.56
+Siling Labuyo,Region IV-A,Quezon,0405600000,0,0,0,0,0,165.55,43.55
+Siling Labuyo,Region IV-A,Rizal,0405800000,0,0,0,0,0,14.78,0.30
+Siling Labuyo,MIMAROPA,Marinduque,1704000000,0,0,0,0,0,0.02,0.00
+Siling Labuyo,MIMAROPA,Occidental Mindoro,1705100000,0,0,0,0,0,6.19,3.10
+Siling Labuyo,MIMAROPA,Oriental Mindoro,1705200000,0,0,0,0,0,63.90,16.08
+Siling Labuyo,MIMAROPA,Palawan,1705300000,0,0,0,0,0,5.62,1.32
+Siling Labuyo,MIMAROPA,City of Puerto Princesa,1731500000,0,0,0,0,0,0.00,0.56
+Siling Labuyo,MIMAROPA,Romblon,1705900000,0,0,0,0,0,9.14,4.50
+Siling Labuyo,Region V,Albay,0500500000,0,0,0,0,0,47.00,18.00
+Siling Labuyo,Region V,Camarines Norte,0501600000,0,0,0,0,0,7.60,13.42
+Siling Labuyo,Region V,Camarines Sur,0501700000,0,0,0,0,0,130.47,19.07
+Siling Labuyo,Region V,Catanduanes,0502000000,0,0,0,0,0,5.48,0.62
+Siling Labuyo,Region V,Masbate,0504100000,0,0,0,0,0,507.41,0.00
+Siling Labuyo,Region V,Sorsogon,0506200000,0,0,0,0,0,13.16,1.44
+Siling Labuyo,Region VI,Aklan,0600400000,0,0,0,0,0,6.28,2.00
+Siling Labuyo,Region VI,Antique,0600600000,0,0,0,0,0,17.68,1.95
+Siling Labuyo,Region VI,Capiz,0601900000,0,0,0,0,0,24.45,6.50
+Siling Labuyo,Region VI,Guimaras,0607900000,0,0,0,0,0,3.40,1.00
+Siling Labuyo,Region VI,Iloilo,0603000000,0,0,0,0,0,36.78,19.00
+Siling Labuyo,NIR,Negros Occidental,1804500000,0,0,0,0,0,0.00,0
+Siling Labuyo,NIR,Negros Occidental,1804500000,0,0,0,0,0,21.50,7.00
+Siling Labuyo,NIR,City of Bacolod,1830200000,0,0,0,0,0,0.00,0.04
+Siling Labuyo,NIR,Negros Oriental,1804600000,0,0,0,0,0,36.00,6.00
+Siling Labuyo,NIR,Siquijor,1806100000,0,0,0,0,0,6.89,0.80
+Siling Labuyo,Region VII,Bohol,0701200000,0,0,0,0,0,25.26,8.00
+Siling Labuyo,Region VII,Cebu,0702200000,0,0,0,0,0,57.50,7.45
+Siling Labuyo,NIR,Negros Oriental,1804600000,0,0,0,0,0,0.00,0
+Siling Labuyo,NIR,Siquijor,1806100000,0,0,0,0,0,0.00,0
+Siling Labuyo,Region VIII,Biliran,0807800000,0,0,0,0,0,0.69,0.26
+Siling Labuyo,Region VIII,Eastern Samar,0802600000,0,0,0,0,0,9.20,2.30
+Siling Labuyo,Region VIII,Leyte,0803700000,0,0,0,0,0,26.06,2.00
+Siling Labuyo,Region VIII,Northern Samar,0804800000,0,0,0,0,0,3.70,2.18
+Siling Labuyo,Region VIII,Samar,0806000000,0,0,0,0,0,10.26,0.29
+Siling Labuyo,Region VIII,Southern Leyte,0806400000,0,0,0,0,0,9.23,3.53
+Siling Labuyo,Region IX,Sulu,0906600000,0,0,0,0,0,0.00,27.00
+Siling Labuyo,Region IX,Zamboanga del Norte,0907200000,0,0,0,0,0,12.63,1.20
+Siling Labuyo,Region IX,Zamboanga del Sur,0907300000,0,0,0,0,0,32.70,3.65
+Siling Labuyo,Region IX,City of Zamboanga,0907400000,0,0,0,0,0,10.60,3.38
+Siling Labuyo,Region IX,Zamboanga Sibugay,0908300000,0,0,0,0,0,15.15,3.95
+Siling Labuyo,Region X,Bukidnon,1001300000,0,0,0,0,0,17.13,7.00
+Siling Labuyo,Region X,Camiguin,1001800000,0,0,0,0,0,1.77,0.80
+Siling Labuyo,Region X,Lanao del Norte,1003500000,0,0,0,0,0,110.12,19.00
+Siling Labuyo,Region X,Misamis Occidental,1004200000,0,0,0,0,0,11.00,2.75
+Siling Labuyo,Region X,Misamis Oriental,1004300000,0,0,0,0,0,36.50,6.00
+Siling Labuyo,Region XI,Davao de Oro,1108200000,0,0,0,0,0,298.50,75.00
+Siling Labuyo,Region XI,Davao del Norte,1102300000,0,0,0,0,0,102.15,8.83
+Siling Labuyo,Region XI,Davao del Sur,1102400000,0,0,0,0,0,47.42,4.51
+Siling Labuyo,Region XI,City of Davao,1130700000,0,0,0,0,0,2.79,0.93
+Siling Labuyo,Region XI,Davao Occidental,1108600000,0,0,0,0,0,6.62,1.69
+Siling Labuyo,Region XI,Davao Oriental,1102500000,0,0,0,0,0,60.00,15.00
+Siling Labuyo,Region XII,Cotabato,1204700000,0,0,0,0,0,7.46,0.68
+Siling Labuyo,Region XII,Sarangani,1208000000,0,0,0,0,0,8.00,2.20
+Siling Labuyo,Region XII,Sultan Kudarat,1206500000,0,0,0,0,0,7.83,6.00
+Siling Labuyo,Region XII,South Cotabato,1206300000,0,0,0,0,0,11.92,1.20
+Siling Labuyo,Region XIII,Agusan del Norte,1600200000,0,0,0,0,0,11.71,2.63
+Siling Labuyo,Region XIII,City of Butuan,1630400000,0,0,0,0,0,0.00,1.36
+Siling Labuyo,Region XIII,Agusan del Sur,1600300000,0,0,0,0,0,15.79,6.23
+Siling Labuyo,Region XIII,Dinagat Islands,1608500000,0,0,0,0,0,1.65,0.50
+Siling Labuyo,Region XIII,Surigao del Norte,1606700000,0,0,0,0,0,11.58,0.26
+Siling Labuyo,Region XIII,Surigao del Sur,1606800000,0,0,0,0,0,5.67,2.80
+Siling Labuyo,BARMM,Basilan,1900700000,0,0,0,0,0,20.18,5.04
+Siling Labuyo,BARMM,Lanao del Sur,1903600000,0,0,0,0,0,36.40,6.01
+Siling Labuyo,BARMM,Maguindanao,,0,0,0,0,0,51.64,15.03
+Siling Labuyo,BARMM,Maguindanao del Norte,1908700000,0,0,0,0,0,23.36,5.84
+Siling Labuyo,BARMM,Maguindanao del Sur,1908800000,0,0,0,0,0,28.28,9.19
+Siling Labuyo,Region IX,Sulu,0906600000,0,0,0,0,0,79.86,0
+Siling Labuyo,BARMM,Tawi-tawi,1907000000,0,0,0,0,0,1.51,0.95

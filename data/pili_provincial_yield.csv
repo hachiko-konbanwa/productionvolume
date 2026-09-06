@@ -1,0 +1,93 @@
+Commodity Type,Region,Province,ADM2_PCODE,2020,2021,2022,2023,2024,2025,2026
+Pili,CAR,Abra,1400100000,,,,,,,
+Pili,CAR,Apayao,1408100000,,,,,,,
+Pili,CAR,Benguet,1401100000,,,,,,,
+Pili,CAR,Ifugao,1402700000,,,,,,,
+Pili,CAR,Kalinga,1403200000,,,,,,,
+Pili,CAR,Mountain Province,1404400000,,,,,,,
+Pili,Region I,Ilocos Norte,0102800000,,,,,,,
+Pili,Region I,Ilocos Sur,0102900000,,,,,,,
+Pili,Region I,La Union,0103300000,,,,,,,
+Pili,Region I,Pangasinan,0105500000,,,,,,,
+Pili,Region II,Batanes,0200900000,,,,,,,
+Pili,Region II,Cagayan,0201500000,,,,,,,
+Pili,Region II,Isabela,0203100000,,,,,,0.00250000,0.00000000
+Pili,Region II,Nueva Vizcaya,0205000000,,,,,,,
+Pili,Region II,Quirino,0205700000,,,,,,,
+Pili,Region III,Aurora,0307700000,,,,,,0.00000000,0.00358974
+Pili,Region III,Bataan,0300800000,,,,,,,
+Pili,Region III,Bulacan,0301400000,,,,,,,
+Pili,Region III,Nueva Ecija,0304900000,,,,,,,
+Pili,Region III,Pampanga,0305400000,,,,,,,
+Pili,Region III,Tarlac,0306900000,,,,,,,
+Pili,Region III,Zambales,0307100000,,,,,,,
+Pili,Region IV-A,Batangas,0401000000,,,,,,0.00000000,0.00000000
+Pili,Region IV-A,Cavite,0402100000,,,,,,,
+Pili,Region IV-A,Laguna,0403400000,,,,,,0.00193750,0.00000000
+Pili,Region IV-A,Quezon,0405600000,,,,,,0.01683664,0.02200361
+Pili,Region IV-A,Rizal,0405800000,,,,,,0.00017500,0.00010000
+Pili,MIMAROPA,Marinduque,1704000000,,,,,,,
+Pili,MIMAROPA,Occidental Mindoro,1705100000,,,,,,,
+Pili,MIMAROPA,Oriental Mindoro,1705200000,,,,,,,
+Pili,MIMAROPA,Palawan,1705300000,,,,,,0.00213198,0.00228426
+Pili,MIMAROPA,Romblon,1705900000,,,,,,0.00875000,0.00125000
+Pili,MIMAROPA,City of Puerto Princesa,1731500000,,,,,,,
+Pili,Region V,Albay,0500500000,,,,,,0.02152097,0.03975536
+Pili,Region V,Camarines Norte,0501600000,,,,,,0.00227113,0.00037371
+Pili,Region V,Camarines Sur,0501700000,,,,,,0.00677376,0.00265368
+Pili,Region V,Catanduanes,0502000000,,,,,,0.00572059,0.00124183
+Pili,Region V,Masbate,0504100000,,,,,,0.00073879,0.00000000
+Pili,Region V,Sorsogon,0506200000,,,,,,0.00612461,0.00303418
+Pili,Region VI,Aklan,0600400000,,,,,,0.00000000,0.00000000
+Pili,Region VI,Antique,0600600000,,,,,,,
+Pili,Region VI,Capiz,0601900000,,,,,,,
+Pili,Region VI,Guimaras,0607900000,,,,,,0.00116477,0.00100000
+Pili,Region VI,Iloilo,0603000000,,,,,,0.00016667,0.00005000
+Pili,NIR,Negros Occidental,1804500000,,,,,,,
+Pili,NIR,Negros Occidental,1804500000,,,,,,0.00102679,0.00064286
+Pili,NIR,Negros Oriental,1804600000,,,,,,0.00168750,0.00000000
+Pili,NIR,Siquijor,1806100000,,,,,,,
+Pili,NIR,City of Bacolod,1830200000,,,,,,,
+Pili,Region VII,Bohol,0701200000,,,,,,,
+Pili,Region VII,Cebu,0702200000,,,,,,,
+Pili,NIR,Negros Oriental,1804600000,,,,,,,
+Pili,NIR,Siquijor,1806100000,,,,,,,
+Pili,Region VIII,Biliran,0807800000,,,,,,0.00000000,0.00000000
+Pili,Region VIII,Eastern Samar,0802600000,,,,,,0.00320875,0.00032115
+Pili,Region VIII,Leyte,0803700000,,,,,,0.00348101,0.00036364
+Pili,Region VIII,Northern Samar,0804800000,,,,,,0.07571146,0.13692615
+Pili,Region VIII,Samar,0806000000,,,,,,0.00599533,0.00000000
+Pili,Region VIII,Southern Leyte,0806400000,,,,,,,
+Pili,Region IX,Sulu,0906600000,,,,,,,
+Pili,Region IX,Zamboanga del Norte,0907200000,,,,,,,
+Pili,Region IX,Zamboanga del Sur,0907300000,,,,,,,
+Pili,Region IX,Zamboanga Sibugay,0908300000,,,,,,,
+Pili,Region IX,City of Zamboanga,0907400000,,,,,,,
+Pili,Region X,Bukidnon,1001300000,,,,,,0.00000000,0.00000000
+Pili,Region X,Camiguin,1001800000,,,,,,,
+Pili,Region X,Lanao del Norte,1003500000,,,,,,0.00315217,0.00000000
+Pili,Region X,Misamis Occidental,1004200000,,,,,,,
+Pili,Region X,Misamis Oriental,1004300000,,,,,,,
+Pili,Region XI,Davao de Oro,1108200000,,,,,,0.00181481,0.00125926
+Pili,Region XI,Davao del Norte,1102300000,,,,,,0.00151739,0.00958333
+Pili,Region XI,Davao del Sur,1102400000,,,,,,0.00316300,0.00269231
+Pili,Region XI,Davao Occidental,1108600000,,,,,,,
+Pili,Region XI,Davao Oriental,1102500000,,,,,,,
+Pili,Region XI,City of Davao,1130700000,,,,,,0.00217544,0.00210526
+Pili,Region XII,Cotabato,1204700000,,,,,,0.00114286,0.00083333
+Pili,Region XII,Sarangani,1208000000,,,,,,,
+Pili,Region XII,Sultan Kudarat,1206500000,,,,,,,
+Pili,Region XII,South Cotabato,1206300000,,,,,,,
+Pili,Region XIII,Agusan del Norte,1600200000,,,,,,,
+Pili,Region XIII,Agusan del Sur,1600300000,,,,,,,
+Pili,Region XIII,Dinagat Islands,1608500000,,,,,,,
+Pili,Region XIII,Surigao del Norte,1606700000,,,,,,,
+Pili,Region XIII,Surigao del Sur,1606800000,,,,,,,
+Pili,Region XIII,City of Butuan,1630400000,,,,,,,
+Pili,BARMM,Basilan,1900700000,,,,,,,
+Pili,BARMM,Lanao del Sur,1903600000,,,,,,,
+Pili,BARMM,Maguindanao,1908800000,,,,,,,
+Pili,BARMM,Maguindanao del Norte,1908700000,,,,,,,
+Pili,BARMM,Maguindanao del Sur,1908800000,,,,,,,
+Pili,BARMM,Sulu,0906600000,,,,,,,
+Pili,BARMM,Tawi-tawi,1907000000,,,,,,,
