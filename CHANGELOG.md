@@ -3,6 +3,24 @@
 All notable changes to the Production Atlas webmap. Newest first.
 Each entry: date · what changed · why (if not obvious).
 
+## 2026-09-07
+
+### Changed — Rounding note hidden from the footer
+
+- **Removed from view, not from the page.** The footer's `Rounding` term and its
+  paragraph are commented out in `index.html`, so restoring them is uncommenting
+  rather than rewriting. The footer's definition list now runs Data → Boundaries
+  → Metrics.
+
+- **The explanation still reaches the people who need it.** `#table-modal-note`,
+  above the data table, already says "Figures are PSA's, rounded to two decimals
+  per reporting period. Details may not sum exactly to totals." That is the one
+  place a quarters-vs-annual mismatch is actually visible, so the caveat now sits
+  where the discrepancy does instead of on every page view.
+
+- Nothing about the data changed. Figures are still PSA's own at PSA's precision,
+  still never re-rounded or adjusted.
+
 ## 2026-09-06
 
 ### Changed — Overall Banana hidden for now
