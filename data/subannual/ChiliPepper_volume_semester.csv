@@ -1,88 +1,88 @@
-Commodity Type,ADM2_PCODE,Province,2021S1,2021S2,2022S1,2022S2,2023S1,2023S2,2024S1,2024S2,2025S1,2025S2,2026S1
-Overall Chili Pepper Production,0102800000,Ilocos Norte,25.7,8.37,27.3,9.08,29.8,11.43,27.75,10.83,48.1,63.2,404.28
-Overall Chili Pepper Production,0102900000,Ilocos Sur,5.4,1.4,4.97,1.52,5.86,2.93,5.73,5.33,6.47,5.73,1.8
-Overall Chili Pepper Production,0103300000,La Union,6.74,5.54,7.04,5.57,6.51,5.64,7.2,6.29,7.23,4.41,5.17
-Overall Chili Pepper Production,0105500000,Pangasinan,158.6,7.4,156.33,7.2,145.57,24.53,139.77,25.63,155.16,24.86,33.14
-Overall Chili Pepper Production,0200900000,Batanes,0.08,0.01,0.08,0.02,0.09,0.03,0.12,,0.14,0.13,
-Overall Chili Pepper Production,0201500000,Cagayan,1.28,0.62,1.32,0.55,1.92,1.0,5.35,1.15,5.65,10.74,1.39
-Overall Chili Pepper Production,0203100000,Isabela,33.81,23.9,29.2,21.08,27.46,20.69,20.95,20.59,19.7,22.08,8.22
-Overall Chili Pepper Production,0205000000,Nueva Vizcaya,5.46,3.63,5.71,2.73,5.69,2.68,5.71,11.46,5.88,11.89,15.41
-Overall Chili Pepper Production,0205700000,Quirino,1.29,1.94,1.53,2.24,1.86,2.15,1.69,2.19,1.85,1.84,0.71
-Overall Chili Pepper Production,0300800000,Bataan,2.69,0.86,4.87,0.93,5.37,0.74,4.42,1.11,6.2,1.09,4.08
-Overall Chili Pepper Production,0301400000,Bulacan,16.0,,16.93,,17.89,18.29,18.91,19.3,19.63,19.36,66.57
-Overall Chili Pepper Production,0304900000,Nueva Ecija,12.02,78.68,13.53,77.49,11.79,91.26,12.89,99.2,13.86,116.21,2.42
-Overall Chili Pepper Production,0305400000,Pampanga,22.67,28.09,21.28,24.7,24.18,26.32,28.07,27.1,28.33,27.75,12.23
-Overall Chili Pepper Production,0306900000,Tarlac,16.57,5.61,17.5,7.02,17.1,6.92,15.8,7.27,17.58,7.35,6.5
-Overall Chili Pepper Production,0307100000,Zambales,,,,,,0.66,0.73,0.85,9.31,0.05,
-Overall Chili Pepper Production,0307700000,Aurora,14.93,17.57,18.34,17.72,15.12,15.37,18.18,15.44,1.59,0.4,
-Overall Chili Pepper Production,0401000000,Batangas,12.0,23.09,10.53,19.22,6.56,36.84,20.0,47.48,38.0,77.8,16.64
-Overall Chili Pepper Production,0402100000,Cavite,,5.77,,5.79,,6.45,5.45,10.41,5.42,9.36,5.1
-Overall Chili Pepper Production,0403400000,Laguna,25.06,25.4,23.45,15.13,21.7,18.24,20.7,13.92,23.5,12.82,48.25
-Overall Chili Pepper Production,0405600000,Quezon,233.0,168.11,230.22,165.99,237.92,170.05,246.45,202.77,242.94,236.39,200.17
-Overall Chili Pepper Production,0405800000,Rizal,,0.35,,0.49,,1.67,1.04,5.85,6.91,5.64,2.3
-Overall Chili Pepper Production,0500500000,Albay,5.76,385.57,7.01,333.42,3.19,184.7,7.88,151.27,9.0,204.07,9.29
-Overall Chili Pepper Production,0501600000,Camarines Norte,1.36,2.18,2.05,1.1,0.56,3.71,0.58,4.38,0.45,3.0,8.35
-Overall Chili Pepper Production,0501700000,Camarines Sur,26.64,96.81,27.36,121.17,36.62,123.6,25.65,55.88,23.3,28.63,14.68
-Overall Chili Pepper Production,0502000000,Catanduanes,2.51,1.06,2.61,0.87,2.52,1.08,1.99,1.01,1.55,0.74,0.08
-Overall Chili Pepper Production,0504100000,Masbate,,,,,,6.49,,8.15,,5.47,
-Overall Chili Pepper Production,0506200000,Sorsogon,16.42,7.58,13.63,6.59,10.56,7.06,8.57,5.43,10.03,3.4,4.07
-Overall Chili Pepper Production,0600400000,Aklan,2.48,3.19,2.58,3.5,2.67,3.18,2.57,3.28,4.56,2.75,3.21
-Overall Chili Pepper Production,0600600000,Antique,1.63,0.87,1.36,0.63,1.36,1.2,1.81,2.64,1.83,7.04,0.51
-Overall Chili Pepper Production,0601900000,Capiz,15.62,15.0,13.03,14.37,14.75,13.5,16.7,13.68,16.65,12.95,8.07
-Overall Chili Pepper Production,0603000000,Iloilo,1.7,5.77,1.55,5.15,1.55,5.22,1.42,4.77,26.64,63.88,141.17
-Overall Chili Pepper Production,0607900000,Guimaras,1.26,3.29,2.5,3.67,2.92,3.56,2.77,5.41,3.8,5.65,2.12
-Overall Chili Pepper Production,0701200000,Bohol,15.96,6.32,12.95,5.54,18.54,17.74,21.8,11.58,20.16,18.76,11.08
-Overall Chili Pepper Production,0702200000,Cebu,7.8,7.5,6.0,7.6,5.0,8.04,4.99,5.32,7.04,5.08,4.89
-Overall Chili Pepper Production,0802600000,Eastern Samar,1.18,0.09,1.17,0.85,1.52,3.1,1.53,3.72,1.65,2.46,0.9
-Overall Chili Pepper Production,0803700000,Leyte,1.09,3.2,1.02,2.91,1.01,109.08,5.69,3.7,5.64,3.7,5.05
-Overall Chili Pepper Production,0804800000,Northern Samar,10.2,9.16,10.22,9.21,10.49,9.22,10.46,9.12,10.37,8.9,1.38
-Overall Chili Pepper Production,0806000000,Samar (Western Samar),0.2,0.87,0.34,1.0,0.41,0.97,0.59,0.96,2.21,1.02,1.69
-Overall Chili Pepper Production,0806400000,Southern Leyte,0.95,1.14,0.49,1.11,0.57,1.21,0.65,3.52,1.83,5.49,0.44
-Overall Chili Pepper Production,0807800000,Biliran,0.18,1.1,0.29,1.25,0.4,1.05,0.33,0.39,0.31,0.42,0.21
-Overall Chili Pepper Production,0906600000,,,,,,,,13.8,2.41,14.19,5.01,2.02
-Overall Chili Pepper Production,0907200000,Zamboanga del Norte,2.75,4.65,2.68,3.66,2.47,4.81,2.66,4.38,2.71,4.43,0.77
-Overall Chili Pepper Production,0907300000,Zamboanga del Sur,1.65,3.13,1.68,3.43,30.26,19.98,27.41,19.95,13.73,6.9,2.3
-Overall Chili Pepper Production,0907400000,Zamboanga City,28.33,20.4,28.75,20.6,,,,,8.02,11.95,7.21
-Overall Chili Pepper Production,0908300000,Zamboanga Sibugay,4.46,5.75,5.25,4.51,4.62,4.79,4.48,4.82,4.69,8.08,2.19
-Overall Chili Pepper Production,1001300000,Bukidnon,8.02,20.73,7.6,20.8,7.65,19.33,9.54,20.0,10.88,49.93,9.38
-Overall Chili Pepper Production,1001800000,Camiguin,0.09,0.27,0.08,0.44,0.11,0.53,0.15,0.64,0.44,0.68,0.11
-Overall Chili Pepper Production,1003500000,Lanao del Norte,73.5,80.15,76.0,84.0,74.0,85.2,75.0,117.61,74.5,148.61,45.98
-Overall Chili Pepper Production,1004200000,Misamis Occidental,0.87,1.53,0.91,1.53,0.95,1.57,0.94,1.63,3.78,1.68,3.48
-Overall Chili Pepper Production,1004300000,Misamis Oriental,19.96,29.16,26.87,49.46,36.99,68.0,47.46,65.54,49.0,66.44,20.0
-Overall Chili Pepper Production,1102300000,Davao del Norte,7.26,9.38,7.08,9.52,6.84,9.71,6.65,9.67,7.26,17.81,2.19
-Overall Chili Pepper Production,1102400000,Davao del Sur,8.66,18.07,8.62,18.2,9.31,18.13,8.97,18.37,8.03,16.81,3.8
-Overall Chili Pepper Production,1102500000,Davao Oriental,22.21,232.02,28.68,246.52,29.48,250.73,29.24,251.9,29.49,256.19,8.1
-Overall Chili Pepper Production,1108200000,Davao de Oro (Compostela Valley),4.08,4.29,3.77,4.31,4.36,3.88,5.12,3.79,5.3,4.0,2.84
-Overall Chili Pepper Production,1108600000,Davao Occidental,0.12,0.13,0.12,0.13,0.1,0.13,1.41,1.39,1.37,1.29,1.24
-Overall Chili Pepper Production,1130700000,Davao City,0.85,1.07,1.7,1.05,,,,,0.38,0.42,0.44
-Overall Chili Pepper Production,1204700000,Cotabato (North Cotabato),2.74,3.45,2.75,3.5,2.81,3.03,2.49,4.05,3.38,4.22,2.6
-Overall Chili Pepper Production,1206300000,South Cotabato,1.39,2.35,1.51,2.48,1.6,3.73,4.62,6.2,5.92,15.51,3.28
-Overall Chili Pepper Production,1206500000,Sultan Kudarat,1.31,1.66,1.3,1.66,1.29,3.68,1.31,3.87,1.38,3.98,0.55
-Overall Chili Pepper Production,1208000000,Sarangani,1.45,1.92,1.47,1.95,1.48,1.24,1.45,1.4,1.53,1.44,0.54
-Overall Chili Pepper Production,1400100000,Abra,1.09,1.83,1.12,1.76,1.07,2.96,1.72,3.11,3.9,27.38,12.1
-Overall Chili Pepper Production,1401100000,Benguet,,,,,,14.83,8.28,15.75,8.29,20.96,8.86
-Overall Chili Pepper Production,1402700000,Ifugao,,,,,,0.52,1.1,0.11,3.1,3.84,1.7
-Overall Chili Pepper Production,1403200000,Kalinga,2.28,7.91,2.64,10.36,3.26,8.11,3.16,7.95,3.6,8.3,3.53
-Overall Chili Pepper Production,1404400000,Mountain Province,,,,,,,0.81,,1.19,2.34,0.47
-Overall Chili Pepper Production,1408100000,Apayao,0.83,0.54,0.61,0.47,0.73,1.86,1.59,1.5,1.43,1.1,0.51
-Overall Chili Pepper Production,1600200000,Agusan del Norte,0.01,0.1,,0.52,0.01,1.39,6.55,2.03,6.62,3.5,2.81
-Overall Chili Pepper Production,1600300000,Agusan del Sur,2.1,4.4,1.95,4.65,1.95,1.95,0.73,2.47,1.22,2.76,2.21
-Overall Chili Pepper Production,1606700000,Surigao del Norte,0.35,0.6,0.25,0.51,0.3,3.52,1.29,3.39,6.84,3.98,1.27
-Overall Chili Pepper Production,1606800000,Surigao del Sur,1.61,1.99,0.68,1.97,0.96,2.02,3.32,1.06,1.21,1.33,0.58
-Overall Chili Pepper Production,1608500000,Dinagat Islands,0.08,0.31,0.05,0.54,0.09,2.73,1.75,1.46,0.86,2.69,0.51
-Overall Chili Pepper Production,1630400000,Butuan City,,,,,,,,,,,1.45
-Overall Chili Pepper Production,1704000000,Marinduque,,,,,,0.15,,0.18,,0.19,
-Overall Chili Pepper Production,1705100000,Occidental Mindoro,0.93,0.29,1.08,0.27,1.03,0.32,5.24,0.4,5.72,0.43,4.97
-Overall Chili Pepper Production,1705200000,Oriental Mindoro,14.29,29.81,19.61,95.43,20.33,41.46,29.63,11.54,34.83,12.11,6.13
-Overall Chili Pepper Production,1705300000,Palawan,3.38,3.51,3.29,2.07,2.2,1.24,2.19,1.21,2.23,1.46,1.27
-Overall Chili Pepper Production,1705900000,Romblon,,,,,,3.43,1.39,2.53,1.61,2.46,1.56
-Overall Chili Pepper Production,1731500000,Puerto Princesa City,,,,,,,,,,,1.39
-Overall Chili Pepper Production,1804500000,Negros Occidental,1.84,1.01,2.01,1.26,2.6,2.7,3.28,3.4,4.0,12.44,4.54
-Overall Chili Pepper Production,1804600000,Negros Oriental,3.83,10.25,3.54,11.01,3.8,14.67,3.73,12.41,3.9,11.54,2.82
-Overall Chili Pepper Production,1806100000,Siquijor,2.17,5.3,1.92,5.33,1.99,4.73,1.23,5.12,1.32,5.08,0.95
-Overall Chili Pepper Production,1830200000,Bacolod City,,,,,,,,,,,0.02
-Overall Chili Pepper Production,1900700000,Basilan,0.56,0.58,0.59,0.61,0.55,1.29,2.8,4.01,4.51,9.86,3.68
-Overall Chili Pepper Production,1903600000,Lanao del Sur,38.77,29.39,38.79,31.0,38.98,120.22,41.5,200.2,48.98,211.84,22.34
-Overall Chili Pepper Production,1907000000,Tawi-Tawi,,1.97,,2.0,,2.25,,8.24,6.01,14.2,0.07
-Overall Chili Pepper Production,1908700000,Maguindanao del Norte,,,,,,,,,1.75,12.65,10.0
-Overall Chili Pepper Production,1908800000,Maguindanao del Sur,1.0,1.2,1.01,1.22,1.03,1.25,1.21,38.94,9.03,22.53,18.0
+Commodity Type,ADM2_PCODE,Province,2021S1,2021S2,2022S1,2022S2,2023S1,2023S2,2024S1,2024S2,2025S1,2025S2
+Overall Chili Pepper Production,0102800000,Ilocos Norte,25.7,8.37,27.3,9.08,29.8,11.43,27.75,10.83,48.1,63.2
+Overall Chili Pepper Production,0102900000,Ilocos Sur,5.4,1.4,4.97,1.52,5.86,2.93,5.73,5.33,6.47,5.73
+Overall Chili Pepper Production,0103300000,La Union,6.74,5.54,7.04,5.57,6.51,5.64,7.2,6.29,7.23,4.41
+Overall Chili Pepper Production,0105500000,Pangasinan,158.6,7.4,156.33,7.2,145.57,24.53,139.77,25.63,155.16,24.86
+Overall Chili Pepper Production,0200900000,Batanes,0.08,0.01,0.08,0.02,0.09,0.03,0.12,,0.14,0.13
+Overall Chili Pepper Production,0201500000,Cagayan,1.28,0.62,1.32,0.55,1.92,1.0,5.35,1.15,5.65,10.74
+Overall Chili Pepper Production,0203100000,Isabela,33.81,23.9,29.2,21.08,27.46,20.69,20.95,20.59,19.7,22.08
+Overall Chili Pepper Production,0205000000,Nueva Vizcaya,5.46,3.63,5.71,2.73,5.69,2.68,5.71,11.46,5.88,11.89
+Overall Chili Pepper Production,0205700000,Quirino,1.29,1.94,1.53,2.24,1.86,2.15,1.69,2.19,1.85,1.84
+Overall Chili Pepper Production,0300800000,Bataan,2.69,0.86,4.87,0.93,5.37,0.74,4.42,1.11,6.2,1.09
+Overall Chili Pepper Production,0301400000,Bulacan,16.0,,16.93,,17.89,18.29,18.91,19.3,19.63,19.36
+Overall Chili Pepper Production,0304900000,Nueva Ecija,12.02,78.68,13.53,77.49,11.79,91.26,12.89,99.2,13.86,116.21
+Overall Chili Pepper Production,0305400000,Pampanga,22.67,28.09,21.28,24.7,24.18,26.32,28.07,27.1,28.33,27.75
+Overall Chili Pepper Production,0306900000,Tarlac,16.57,5.61,17.5,7.02,17.1,6.92,15.8,7.27,17.58,7.35
+Overall Chili Pepper Production,0307100000,Zambales,,,,,,0.66,0.73,0.85,9.31,0.05
+Overall Chili Pepper Production,0307700000,Aurora,14.93,17.57,18.34,17.72,15.12,15.37,18.18,15.44,1.59,0.4
+Overall Chili Pepper Production,0401000000,Batangas,12.0,23.09,10.53,19.22,6.56,36.84,20.0,47.48,38.0,77.8
+Overall Chili Pepper Production,0402100000,Cavite,,5.77,,5.79,,6.45,5.45,10.41,5.42,9.36
+Overall Chili Pepper Production,0403400000,Laguna,25.06,25.4,23.45,15.13,21.7,18.24,20.7,13.92,23.5,12.82
+Overall Chili Pepper Production,0405600000,Quezon,233.0,168.11,230.22,165.99,237.92,170.05,246.45,202.77,242.94,236.39
+Overall Chili Pepper Production,0405800000,Rizal,,0.35,,0.49,,1.67,1.04,5.85,6.91,5.64
+Overall Chili Pepper Production,0500500000,Albay,5.76,385.57,7.01,333.42,3.19,184.7,7.88,151.27,9.0,204.07
+Overall Chili Pepper Production,0501600000,Camarines Norte,1.36,2.18,2.05,1.1,0.56,3.71,0.58,4.38,0.45,3.0
+Overall Chili Pepper Production,0501700000,Camarines Sur,26.64,96.81,27.36,121.17,36.62,123.6,25.65,55.88,23.3,28.63
+Overall Chili Pepper Production,0502000000,Catanduanes,2.51,1.06,2.61,0.87,2.52,1.08,1.99,1.01,1.55,0.74
+Overall Chili Pepper Production,0504100000,Masbate,,,,,,6.49,,8.15,,5.47
+Overall Chili Pepper Production,0506200000,Sorsogon,16.42,7.58,13.63,6.59,10.56,7.06,8.57,5.43,10.03,3.4
+Overall Chili Pepper Production,0600400000,Aklan,2.48,3.19,2.58,3.5,2.67,3.18,2.57,3.28,4.56,2.75
+Overall Chili Pepper Production,0600600000,Antique,1.63,0.87,1.36,0.63,1.36,1.2,1.81,2.64,1.83,7.04
+Overall Chili Pepper Production,0601900000,Capiz,15.62,15.0,13.03,14.37,14.75,13.5,16.7,13.68,16.65,12.95
+Overall Chili Pepper Production,0603000000,Iloilo,1.7,5.77,1.55,5.15,1.55,5.22,1.42,4.77,26.64,63.88
+Overall Chili Pepper Production,0607900000,Guimaras,1.26,3.29,2.5,3.67,2.92,3.56,2.77,5.41,3.8,5.65
+Overall Chili Pepper Production,0701200000,Bohol,15.96,6.32,12.95,5.54,18.54,17.74,21.8,11.58,20.16,18.76
+Overall Chili Pepper Production,0702200000,Cebu,7.8,7.5,6.0,7.6,5.0,8.04,4.99,5.32,7.04,5.08
+Overall Chili Pepper Production,0802600000,Eastern Samar,1.18,0.09,1.17,0.85,1.52,3.1,1.53,3.72,1.65,2.46
+Overall Chili Pepper Production,0803700000,Leyte,1.09,3.2,1.02,2.91,1.01,109.08,5.69,3.7,5.64,3.7
+Overall Chili Pepper Production,0804800000,Northern Samar,10.2,9.16,10.22,9.21,10.49,9.22,10.46,9.12,10.37,8.9
+Overall Chili Pepper Production,0806000000,Samar (Western Samar),0.2,0.87,0.34,1.0,0.41,0.97,0.59,0.96,2.21,1.02
+Overall Chili Pepper Production,0806400000,Southern Leyte,0.95,1.14,0.49,1.11,0.57,1.21,0.65,3.52,1.83,5.49
+Overall Chili Pepper Production,0807800000,Biliran,0.18,1.1,0.29,1.25,0.4,1.05,0.33,0.39,0.31,0.42
+Overall Chili Pepper Production,0906600000,,,,,,,,13.8,2.41,14.19,5.01
+Overall Chili Pepper Production,0907200000,Zamboanga del Norte,2.75,4.65,2.68,3.66,2.47,4.81,2.66,4.38,2.71,4.43
+Overall Chili Pepper Production,0907300000,Zamboanga del Sur,1.65,3.13,1.68,3.43,30.26,19.98,27.41,19.95,13.73,6.9
+Overall Chili Pepper Production,0907400000,Zamboanga City,28.33,20.4,28.75,20.6,,,,,8.02,11.95
+Overall Chili Pepper Production,0908300000,Zamboanga Sibugay,4.46,5.75,5.25,4.51,4.62,4.79,4.48,4.82,4.69,8.08
+Overall Chili Pepper Production,1001300000,Bukidnon,8.02,20.73,7.6,20.8,7.65,19.33,9.54,20.0,10.88,49.93
+Overall Chili Pepper Production,1001800000,Camiguin,0.09,0.27,0.08,0.44,0.11,0.53,0.15,0.64,0.44,0.68
+Overall Chili Pepper Production,1003500000,Lanao del Norte,73.5,80.15,76.0,84.0,74.0,85.2,75.0,117.61,74.5,148.61
+Overall Chili Pepper Production,1004200000,Misamis Occidental,0.87,1.53,0.91,1.53,0.95,1.57,0.94,1.63,3.78,1.68
+Overall Chili Pepper Production,1004300000,Misamis Oriental,19.96,29.16,26.87,49.46,36.99,68.0,47.46,65.54,49.0,66.44
+Overall Chili Pepper Production,1102300000,Davao del Norte,7.26,9.38,7.08,9.52,6.84,9.71,6.65,9.67,7.26,17.81
+Overall Chili Pepper Production,1102400000,Davao del Sur,8.66,18.07,8.62,18.2,9.31,18.13,8.97,18.37,8.03,16.81
+Overall Chili Pepper Production,1102500000,Davao Oriental,22.21,232.02,28.68,246.52,29.48,250.73,29.24,251.9,29.49,256.19
+Overall Chili Pepper Production,1108200000,Davao de Oro (Compostela Valley),4.08,4.29,3.77,4.31,4.36,3.88,5.12,3.79,5.3,4.0
+Overall Chili Pepper Production,1108600000,Davao Occidental,0.12,0.13,0.12,0.13,0.1,0.13,1.41,1.39,1.37,1.29
+Overall Chili Pepper Production,1130700000,Davao City,0.85,1.07,1.7,1.05,,,,,0.38,0.42
+Overall Chili Pepper Production,1204700000,Cotabato (North Cotabato),2.74,3.45,2.75,3.5,2.81,3.03,2.49,4.05,3.38,4.22
+Overall Chili Pepper Production,1206300000,South Cotabato,1.39,2.35,1.51,2.48,1.6,3.73,4.62,6.2,5.92,15.51
+Overall Chili Pepper Production,1206500000,Sultan Kudarat,1.31,1.66,1.3,1.66,1.29,3.68,1.31,3.87,1.38,3.98
+Overall Chili Pepper Production,1208000000,Sarangani,1.45,1.92,1.47,1.95,1.48,1.24,1.45,1.4,1.53,1.44
+Overall Chili Pepper Production,1400100000,Abra,1.09,1.83,1.12,1.76,1.07,2.96,1.72,3.11,3.9,27.38
+Overall Chili Pepper Production,1401100000,Benguet,,,,,,14.83,8.28,15.75,8.29,20.96
+Overall Chili Pepper Production,1402700000,Ifugao,,,,,,0.52,1.1,0.11,3.1,3.84
+Overall Chili Pepper Production,1403200000,Kalinga,2.28,7.91,2.64,10.36,3.26,8.11,3.16,7.95,3.6,8.3
+Overall Chili Pepper Production,1404400000,Mountain Province,,,,,,,0.81,,1.19,2.34
+Overall Chili Pepper Production,1408100000,Apayao,0.83,0.54,0.61,0.47,0.73,1.86,1.59,1.5,1.43,1.1
+Overall Chili Pepper Production,1600200000,Agusan del Norte,0.01,0.1,,0.52,0.01,1.39,6.55,2.03,6.62,3.5
+Overall Chili Pepper Production,1600300000,Agusan del Sur,2.1,4.4,1.95,4.65,1.95,1.95,0.73,2.47,1.22,2.76
+Overall Chili Pepper Production,1606700000,Surigao del Norte,0.35,0.6,0.25,0.51,0.3,3.52,1.29,3.39,6.84,3.98
+Overall Chili Pepper Production,1606800000,Surigao del Sur,1.61,1.99,0.68,1.97,0.96,2.02,3.32,1.06,1.21,1.33
+Overall Chili Pepper Production,1608500000,Dinagat Islands,0.08,0.31,0.05,0.54,0.09,2.73,1.75,1.46,0.86,2.69
+Overall Chili Pepper Production,1630400000,Butuan City,,,,,,,,,,
+Overall Chili Pepper Production,1704000000,Marinduque,,,,,,0.15,,0.18,,0.19
+Overall Chili Pepper Production,1705100000,Occidental Mindoro,0.93,0.29,1.08,0.27,1.03,0.32,5.24,0.4,5.72,0.43
+Overall Chili Pepper Production,1705200000,Oriental Mindoro,14.29,29.81,19.61,95.43,20.33,41.46,29.63,11.54,34.83,12.11
+Overall Chili Pepper Production,1705300000,Palawan,3.38,3.51,3.29,2.07,2.2,1.24,2.19,1.21,2.23,1.46
+Overall Chili Pepper Production,1705900000,Romblon,,,,,,3.43,1.39,2.53,1.61,2.46
+Overall Chili Pepper Production,1731500000,Puerto Princesa City,,,,,,,,,,
+Overall Chili Pepper Production,1804500000,Negros Occidental,1.84,1.01,2.01,1.26,2.6,2.7,3.28,3.4,4.0,12.44
+Overall Chili Pepper Production,1804600000,Negros Oriental,3.83,10.25,3.54,11.01,3.8,14.67,3.73,12.41,3.9,11.54
+Overall Chili Pepper Production,1806100000,Siquijor,2.17,5.3,1.92,5.33,1.99,4.73,1.23,5.12,1.32,5.08
+Overall Chili Pepper Production,1830200000,Bacolod City,,,,,,,,,,
+Overall Chili Pepper Production,1900700000,Basilan,0.56,0.58,0.59,0.61,0.55,1.29,2.8,4.01,4.51,9.86
+Overall Chili Pepper Production,1903600000,Lanao del Sur,38.77,29.39,38.79,31.0,38.98,120.22,41.5,200.2,48.98,211.84
+Overall Chili Pepper Production,1907000000,Tawi-Tawi,,1.97,,2.0,,2.25,,8.24,6.01,14.2
+Overall Chili Pepper Production,1908700000,Maguindanao del Norte,,,,,,,,,1.75,12.65
+Overall Chili Pepper Production,1908800000,Maguindanao del Sur,1.0,1.2,1.01,1.22,1.03,1.25,1.21,38.94,9.03,22.53

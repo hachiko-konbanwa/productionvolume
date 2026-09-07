@@ -1,88 +1,88 @@
-Commodity Type,ADM2_PCODE,Province,2021S1,2021S2,2022S1,2022S2,2023S1,2023S2,2024S1,2024S2,2025S1,2025S2,2026S1
-Overall Bell Pepper Production,0102800000,Ilocos Norte,987.55,9.52,974.78,9.06,992.63,11.22,995.82,11.15,1007.75,35.3,1037.86
-Overall Bell Pepper Production,0102900000,Ilocos Sur,744.56,50.0,767.62,57.96,786.12,58.04,738.43,59.69,764.89,59.88,733.81
-Overall Bell Pepper Production,0103300000,La Union,1.04,1.6,1.1,1.79,1.22,1.67,1.12,1.53,2.16,1.16,1.22
-Overall Bell Pepper Production,0105500000,Pangasinan,17.05,,15.76,,13.71,0.02,12.17,,12.41,,5.96
-Overall Bell Pepper Production,0200900000,Batanes,0.65,,0.91,,0.98,1.19,1.07,0.75,1.2,1.47,0.24
-Overall Bell Pepper Production,0201500000,Cagayan,0.18,,0.15,,0.16,0.75,0.48,0.66,0.48,0.39,0.29
-Overall Bell Pepper Production,0203100000,Isabela,4.75,0.98,2.77,0.62,2.55,0.41,1.91,0.37,1.8,0.65,1.57
-Overall Bell Pepper Production,0205000000,Nueva Vizcaya,162.51,109.12,170.83,109.96,186.17,115.78,169.52,224.94,183.85,228.29,46.84
-Overall Bell Pepper Production,0205700000,Quirino,1.23,0.56,1.48,0.55,1.35,0.62,1.0,0.61,1.1,0.61,0.06
-Overall Bell Pepper Production,0300800000,Bataan,,,,,,,,,,,
-Overall Bell Pepper Production,0301400000,Bulacan,19.72,47.4,17.15,45.38,17.0,45.71,13.87,42.26,12.43,43.98,5.27
-Overall Bell Pepper Production,0304900000,Nueva Ecija,121.83,2.69,114.49,2.55,102.69,2.37,98.61,2.48,88.05,2.21,25.41
-Overall Bell Pepper Production,0305400000,Pampanga,,,,,,,,,,,
-Overall Bell Pepper Production,0306900000,Tarlac,,,,,,,,,,,
-Overall Bell Pepper Production,0307100000,Zambales,25.73,,27.98,,29.58,,21.75,,0.05,,3.46
-Overall Bell Pepper Production,0307700000,Aurora,,,,,,,1.74,,0.72,,0.38
-Overall Bell Pepper Production,0401000000,Batangas,1.0,,1.2,1.0,2.4,6.33,3.97,5.5,5.45,3.86,1.96
-Overall Bell Pepper Production,0402100000,Cavite,54.79,88.71,59.81,82.67,71.19,76.88,77.06,93.14,81.52,95.43,10.12
-Overall Bell Pepper Production,0403400000,Laguna,,,1.0,15.25,0.88,0.02,2.27,0.01,2.33,0.27,6.23
-Overall Bell Pepper Production,0405600000,Quezon,,,,,,,,0.01,0.42,0.08,0.03
-Overall Bell Pepper Production,0405800000,Rizal,,,,,,,,,,,2.81
-Overall Bell Pepper Production,0500500000,Albay,,,,,,,,,,,
-Overall Bell Pepper Production,0501600000,Camarines Norte,,,,,,0.08,,0.13,,0.34,0.06
-Overall Bell Pepper Production,0501700000,Camarines Sur,,,,,,,0.21,9.44,2.41,0.32,0.02
-Overall Bell Pepper Production,0502000000,Catanduanes,,,,,,,0.88,0.06,0.36,0.69,0.04
-Overall Bell Pepper Production,0504100000,Masbate,,,,,,,,,,,
-Overall Bell Pepper Production,0506200000,Sorsogon,,,,,,,0.04,,0.05,0.15,0.16
-Overall Bell Pepper Production,0600400000,Aklan,5.87,4.12,6.01,3.68,5.62,5.92,5.45,6.16,5.55,6.06,0.16
-Overall Bell Pepper Production,0600600000,Antique,20.57,5.99,19.42,7.11,17.21,5.0,18.81,5.26,18.74,3.25,7.67
-Overall Bell Pepper Production,0601900000,Capiz,0.34,0.35,0.33,0.33,0.35,0.29,0.41,0.27,0.4,0.28,0.13
-Overall Bell Pepper Production,0603000000,Iloilo,181.71,96.19,195.68,81.06,210.12,88.94,192.58,81.68,359.94,346.45,247.5
-Overall Bell Pepper Production,0607900000,Guimaras,2.75,3.14,3.68,4.86,4.66,4.22,4.8,4.94,5.56,6.0,3.25
-Overall Bell Pepper Production,0701200000,Bohol,64.51,72.15,25.43,68.46,51.49,44.45,36.73,58.56,47.75,52.39,15.1
-Overall Bell Pepper Production,0702200000,Cebu,124.0,77.13,120.0,77.0,98.17,78.4,92.26,76.71,102.43,77.81,46.91
-Overall Bell Pepper Production,0802600000,Eastern Samar,10.62,1.64,14.89,1.96,17.22,0.75,17.95,1.81,17.55,1.69,0.31
-Overall Bell Pepper Production,0803700000,Leyte,63.27,50.55,60.07,48.17,55.37,48.05,50.01,45.8,48.55,43.9,1.37
-Overall Bell Pepper Production,0804800000,Northern Samar,,7.88,,8.0,,8.02,2.47,7.89,,4.0,
-Overall Bell Pepper Production,0806000000,Samar (Western Samar),9.49,3.25,9.78,3.68,17.16,3.96,15.01,4.22,15.12,4.17,
-Overall Bell Pepper Production,0806400000,Southern Leyte,12.42,11.92,8.97,11.82,9.76,13.28,10.88,18.54,8.54,13.79,0.86
-Overall Bell Pepper Production,0807800000,Biliran,8.85,4.26,7.87,4.18,5.81,4.34,10.04,3.56,9.2,3.88,1.34
-Overall Bell Pepper Production,0906600000,,,,,,,,,,,,
-Overall Bell Pepper Production,0907200000,Zamboanga del Norte,13.35,41.48,14.75,37.87,15.26,34.03,12.31,28.82,13.58,30.98,6.78
-Overall Bell Pepper Production,0907300000,Zamboanga del Sur,5.8,29.03,6.21,31.12,87.31,133.73,78.18,132.14,11.67,6.73,8.16
-Overall Bell Pepper Production,0907400000,Zamboanga City,66.19,89.96,64.13,86.39,,,,,58.95,51.0,26.64
-Overall Bell Pepper Production,0908300000,Zamboanga Sibugay,5.7,6.82,5.28,7.19,5.32,7.2,4.96,7.18,4.95,8.2,2.62
-Overall Bell Pepper Production,1001300000,Bukidnon,156.7,1745.44,144.0,1837.61,125.13,1784.79,240.44,1587.84,258.37,1548.75,204.91
-Overall Bell Pepper Production,1001800000,Camiguin,6.26,16.3,6.57,10.68,10.67,13.82,7.48,15.27,11.56,24.48,2.19
-Overall Bell Pepper Production,1003500000,Lanao del Norte,56.8,132.0,56.02,140.0,50.0,142.25,47.75,141.0,46.1,140.0,28.17
-Overall Bell Pepper Production,1004200000,Misamis Occidental,29.5,29.5,28.06,29.47,33.66,27.56,32.29,28.77,33.6,29.38,16.98
-Overall Bell Pepper Production,1004300000,Misamis Oriental,49.27,126.44,49.48,149.89,52.87,177.0,51.54,161.38,50.98,164.15,35.79
-Overall Bell Pepper Production,1102300000,Davao del Norte,13.44,33.87,12.86,32.8,12.74,31.1,12.99,30.08,13.59,31.15,4.81
-Overall Bell Pepper Production,1102400000,Davao del Sur,61.1,182.26,65.6,178.55,140.85,260.95,141.38,257.07,102.15,86.79,28.72
-Overall Bell Pepper Production,1102500000,Davao Oriental,3.28,15.38,3.03,13.93,3.19,14.15,3.16,14.25,3.23,14.1,2.77
-Overall Bell Pepper Production,1108200000,Davao de Oro (Compostela Valley),55.78,169.41,57.11,174.75,58.07,195.65,56.37,188.91,55.31,190.66,9.92
-Overall Bell Pepper Production,1108600000,Davao Occidental,0.26,0.1,0.24,0.09,0.3,0.05,0.26,0.04,0.31,0.47,0.2
-Overall Bell Pepper Production,1130700000,Davao City,76.04,95.27,82.6,97.75,,,,,36.9,124.94,54.5
-Overall Bell Pepper Production,1204700000,Cotabato (North Cotabato),21.29,117.72,20.14,97.55,19.68,95.35,23.21,47.18,26.74,47.66,28.47
-Overall Bell Pepper Production,1206300000,South Cotabato,23.1,50.52,25.95,91.08,36.95,150.2,46.32,108.87,65.83,141.49,96.59
-Overall Bell Pepper Production,1206500000,Sultan Kudarat,6.85,39.34,6.37,41.84,8.21,45.48,8.16,47.32,8.41,49.16,5.03
-Overall Bell Pepper Production,1208000000,Sarangani,4.69,16.25,4.71,16.42,4.74,16.0,4.4,18.15,4.52,18.0,2.11
-Overall Bell Pepper Production,1400100000,Abra,,,,,,,,,,,
-Overall Bell Pepper Production,1401100000,Benguet,4263.4,3284.32,4920.64,3846.51,4518.35,4257.0,4275.75,4768.34,4325.0,5582.23,4494.68
-Overall Bell Pepper Production,1402700000,Ifugao,17.88,13.25,23.6,16.71,23.75,25.8,31.01,36.56,37.15,167.43,20.37
-Overall Bell Pepper Production,1403200000,Kalinga,,,,,,,,,,,
-Overall Bell Pepper Production,1404400000,Mountain Province,347.59,682.46,357.13,711.63,337.35,576.33,307.45,590.81,338.86,574.33,16.31
-Overall Bell Pepper Production,1408100000,Apayao,,,,,,,,0.25,,,
-Overall Bell Pepper Production,1600200000,Agusan del Norte,9.2,15.47,8.7,15.51,8.26,18.42,8.8,18.26,8.9,18.3,2.75
-Overall Bell Pepper Production,1600300000,Agusan del Sur,21.12,152.02,18.75,160.01,13.88,95.47,11.6,93.0,10.5,97.97,5.23
-Overall Bell Pepper Production,1606700000,Surigao del Norte,1.58,2.25,0.91,6.4,1.07,0.63,1.09,0.92,3.8,5.74,0.2
-Overall Bell Pepper Production,1606800000,Surigao del Sur,5.4,19.4,8.96,24.55,12.12,9.08,4.81,1.67,16.28,3.83,4.15
-Overall Bell Pepper Production,1608500000,Dinagat Islands,3.07,3.67,3.14,3.58,5.49,9.29,15.31,2.26,0.99,9.99,0.54
-Overall Bell Pepper Production,1630400000,Butuan City,,,,,,,,,,,1.41
-Overall Bell Pepper Production,1704000000,Marinduque,0.58,0.71,0.58,0.57,0.73,0.46,0.54,0.55,0.42,0.46,0.19
-Overall Bell Pepper Production,1705100000,Occidental Mindoro,,,,,,,,,,,
-Overall Bell Pepper Production,1705200000,Oriental Mindoro,5.98,3.04,4.78,2.64,3.81,2.75,3.6,1.9,3.94,3.4,0.06
-Overall Bell Pepper Production,1705300000,Palawan,17.53,11.89,15.55,11.75,12.11,7.88,11.18,7.26,10.78,10.18,2.22
-Overall Bell Pepper Production,1705900000,Romblon,,,,,,2.82,0.29,2.6,0.74,2.48,0.54
-Overall Bell Pepper Production,1731500000,Puerto Princesa City,,,,,,,,,,,1.93
-Overall Bell Pepper Production,1804500000,Negros Occidental,20.93,38.42,19.36,36.62,17.86,32.5,15.86,31.76,32.0,51.72,22.0
-Overall Bell Pepper Production,1804600000,Negros Oriental,61.77,35.67,43.96,27.7,34.64,23.39,35.78,23.81,38.12,23.88,20.94
-Overall Bell Pepper Production,1806100000,Siquijor,5.75,7.58,4.81,7.73,5.86,8.05,5.45,8.61,5.48,9.03,3.78
-Overall Bell Pepper Production,1830200000,Bacolod City,,,,,,,,,,,0.03
-Overall Bell Pepper Production,1900700000,Basilan,0.78,,0.82,0.27,1.07,0.28,6.37,0.54,6.45,0.65,0.01
-Overall Bell Pepper Production,1903600000,Lanao del Sur,3.58,5.57,3.64,5.55,3.67,7.57,3.66,8.99,5.55,11.34,2.03
-Overall Bell Pepper Production,1907000000,Tawi-Tawi,,,,,,,,,,,
-Overall Bell Pepper Production,1908700000,Maguindanao del Norte,,,,,,,,,2.95,41.65,7.13
-Overall Bell Pepper Production,1908800000,Maguindanao del Sur,6.1,2.82,6.26,2.9,6.2,3.0,5.75,6.85,4.0,4.62,2.2
+Commodity Type,ADM2_PCODE,Province,2021S1,2021S2,2022S1,2022S2,2023S1,2023S2,2024S1,2024S2,2025S1,2025S2
+Overall Bell Pepper Production,0102800000,Ilocos Norte,987.55,9.52,974.78,9.06,992.63,11.22,995.82,11.15,1007.75,35.3
+Overall Bell Pepper Production,0102900000,Ilocos Sur,744.56,50.0,767.62,57.96,786.12,58.04,738.43,59.69,764.89,59.88
+Overall Bell Pepper Production,0103300000,La Union,1.04,1.6,1.1,1.79,1.22,1.67,1.12,1.53,2.16,1.16
+Overall Bell Pepper Production,0105500000,Pangasinan,17.05,,15.76,,13.71,0.02,12.17,,12.41,
+Overall Bell Pepper Production,0200900000,Batanes,0.65,,0.91,,0.98,1.19,1.07,0.75,1.2,1.47
+Overall Bell Pepper Production,0201500000,Cagayan,0.18,,0.15,,0.16,0.75,0.48,0.66,0.48,0.39
+Overall Bell Pepper Production,0203100000,Isabela,4.75,0.98,2.77,0.62,2.55,0.41,1.91,0.37,1.8,0.65
+Overall Bell Pepper Production,0205000000,Nueva Vizcaya,162.51,109.12,170.83,109.96,186.17,115.78,169.52,224.94,183.85,228.29
+Overall Bell Pepper Production,0205700000,Quirino,1.23,0.56,1.48,0.55,1.35,0.62,1.0,0.61,1.1,0.61
+Overall Bell Pepper Production,0300800000,Bataan,,,,,,,,,,
+Overall Bell Pepper Production,0301400000,Bulacan,19.72,47.4,17.15,45.38,17.0,45.71,13.87,42.26,12.43,43.98
+Overall Bell Pepper Production,0304900000,Nueva Ecija,121.83,2.69,114.49,2.55,102.69,2.37,98.61,2.48,88.05,2.21
+Overall Bell Pepper Production,0305400000,Pampanga,,,,,,,,,,
+Overall Bell Pepper Production,0306900000,Tarlac,,,,,,,,,,
+Overall Bell Pepper Production,0307100000,Zambales,25.73,,27.98,,29.58,,21.75,,0.05,
+Overall Bell Pepper Production,0307700000,Aurora,,,,,,,1.74,,0.72,
+Overall Bell Pepper Production,0401000000,Batangas,1.0,,1.2,1.0,2.4,6.33,3.97,5.5,5.45,3.86
+Overall Bell Pepper Production,0402100000,Cavite,54.79,88.71,59.81,82.67,71.19,76.88,77.06,93.14,81.52,95.43
+Overall Bell Pepper Production,0403400000,Laguna,,,1.0,15.25,0.88,0.02,2.27,0.01,2.33,0.27
+Overall Bell Pepper Production,0405600000,Quezon,,,,,,,,0.01,0.42,0.08
+Overall Bell Pepper Production,0405800000,Rizal,,,,,,,,,,
+Overall Bell Pepper Production,0500500000,Albay,,,,,,,,,,
+Overall Bell Pepper Production,0501600000,Camarines Norte,,,,,,0.08,,0.13,,0.34
+Overall Bell Pepper Production,0501700000,Camarines Sur,,,,,,,0.21,9.44,2.41,0.32
+Overall Bell Pepper Production,0502000000,Catanduanes,,,,,,,0.88,0.06,0.36,0.69
+Overall Bell Pepper Production,0504100000,Masbate,,,,,,,,,,
+Overall Bell Pepper Production,0506200000,Sorsogon,,,,,,,0.04,,0.05,0.15
+Overall Bell Pepper Production,0600400000,Aklan,5.87,4.12,6.01,3.68,5.62,5.92,5.45,6.16,5.55,6.06
+Overall Bell Pepper Production,0600600000,Antique,20.57,5.99,19.42,7.11,17.21,5.0,18.81,5.26,18.74,3.25
+Overall Bell Pepper Production,0601900000,Capiz,0.34,0.35,0.33,0.33,0.35,0.29,0.41,0.27,0.4,0.28
+Overall Bell Pepper Production,0603000000,Iloilo,181.71,96.19,195.68,81.06,210.12,88.94,192.58,81.68,359.94,346.45
+Overall Bell Pepper Production,0607900000,Guimaras,2.75,3.14,3.68,4.86,4.66,4.22,4.8,4.94,5.56,6.0
+Overall Bell Pepper Production,0701200000,Bohol,64.51,72.15,25.43,68.46,51.49,44.45,36.73,58.56,47.75,52.39
+Overall Bell Pepper Production,0702200000,Cebu,124.0,77.13,120.0,77.0,98.17,78.4,92.26,76.71,102.43,77.81
+Overall Bell Pepper Production,0802600000,Eastern Samar,10.62,1.64,14.89,1.96,17.22,0.75,17.95,1.81,17.55,1.69
+Overall Bell Pepper Production,0803700000,Leyte,63.27,50.55,60.07,48.17,55.37,48.05,50.01,45.8,48.55,43.9
+Overall Bell Pepper Production,0804800000,Northern Samar,,7.88,,8.0,,8.02,2.47,7.89,,4.0
+Overall Bell Pepper Production,0806000000,Samar (Western Samar),9.49,3.25,9.78,3.68,17.16,3.96,15.01,4.22,15.12,4.17
+Overall Bell Pepper Production,0806400000,Southern Leyte,12.42,11.92,8.97,11.82,9.76,13.28,10.88,18.54,8.54,13.79
+Overall Bell Pepper Production,0807800000,Biliran,8.85,4.26,7.87,4.18,5.81,4.34,10.04,3.56,9.2,3.88
+Overall Bell Pepper Production,0906600000,,,,,,,,,,,
+Overall Bell Pepper Production,0907200000,Zamboanga del Norte,13.35,41.48,14.75,37.87,15.26,34.03,12.31,28.82,13.58,30.98
+Overall Bell Pepper Production,0907300000,Zamboanga del Sur,5.8,29.03,6.21,31.12,87.31,133.73,78.18,132.14,11.67,6.73
+Overall Bell Pepper Production,0907400000,Zamboanga City,66.19,89.96,64.13,86.39,,,,,58.95,51.0
+Overall Bell Pepper Production,0908300000,Zamboanga Sibugay,5.7,6.82,5.28,7.19,5.32,7.2,4.96,7.18,4.95,8.2
+Overall Bell Pepper Production,1001300000,Bukidnon,156.7,1745.44,144.0,1837.61,125.13,1784.79,240.44,1587.84,258.37,1548.75
+Overall Bell Pepper Production,1001800000,Camiguin,6.26,16.3,6.57,10.68,10.67,13.82,7.48,15.27,11.56,24.48
+Overall Bell Pepper Production,1003500000,Lanao del Norte,56.8,132.0,56.02,140.0,50.0,142.25,47.75,141.0,46.1,140.0
+Overall Bell Pepper Production,1004200000,Misamis Occidental,29.5,29.5,28.06,29.47,33.66,27.56,32.29,28.77,33.6,29.38
+Overall Bell Pepper Production,1004300000,Misamis Oriental,49.27,126.44,49.48,149.89,52.87,177.0,51.54,161.38,50.98,164.15
+Overall Bell Pepper Production,1102300000,Davao del Norte,13.44,33.87,12.86,32.8,12.74,31.1,12.99,30.08,13.59,31.15
+Overall Bell Pepper Production,1102400000,Davao del Sur,61.1,182.26,65.6,178.55,140.85,260.95,141.38,257.07,102.15,86.79
+Overall Bell Pepper Production,1102500000,Davao Oriental,3.28,15.38,3.03,13.93,3.19,14.15,3.16,14.25,3.23,14.1
+Overall Bell Pepper Production,1108200000,Davao de Oro (Compostela Valley),55.78,169.41,57.11,174.75,58.07,195.65,56.37,188.91,55.31,190.66
+Overall Bell Pepper Production,1108600000,Davao Occidental,0.26,0.1,0.24,0.09,0.3,0.05,0.26,0.04,0.31,0.47
+Overall Bell Pepper Production,1130700000,Davao City,76.04,95.27,82.6,97.75,,,,,36.9,124.94
+Overall Bell Pepper Production,1204700000,Cotabato (North Cotabato),21.29,117.72,20.14,97.55,19.68,95.35,23.21,47.18,26.74,47.66
+Overall Bell Pepper Production,1206300000,South Cotabato,23.1,50.52,25.95,91.08,36.95,150.2,46.32,108.87,65.83,141.49
+Overall Bell Pepper Production,1206500000,Sultan Kudarat,6.85,39.34,6.37,41.84,8.21,45.48,8.16,47.32,8.41,49.16
+Overall Bell Pepper Production,1208000000,Sarangani,4.69,16.25,4.71,16.42,4.74,16.0,4.4,18.15,4.52,18.0
+Overall Bell Pepper Production,1400100000,Abra,,,,,,,,,,
+Overall Bell Pepper Production,1401100000,Benguet,4263.4,3284.32,4920.64,3846.51,4518.35,4257.0,4275.75,4768.34,4325.0,5582.23
+Overall Bell Pepper Production,1402700000,Ifugao,17.88,13.25,23.6,16.71,23.75,25.8,31.01,36.56,37.15,167.43
+Overall Bell Pepper Production,1403200000,Kalinga,,,,,,,,,,
+Overall Bell Pepper Production,1404400000,Mountain Province,347.59,682.46,357.13,711.63,337.35,576.33,307.45,590.81,338.86,574.33
+Overall Bell Pepper Production,1408100000,Apayao,,,,,,,,0.25,,
+Overall Bell Pepper Production,1600200000,Agusan del Norte,9.2,15.47,8.7,15.51,8.26,18.42,8.8,18.26,8.9,18.3
+Overall Bell Pepper Production,1600300000,Agusan del Sur,21.12,152.02,18.75,160.01,13.88,95.47,11.6,93.0,10.5,97.97
+Overall Bell Pepper Production,1606700000,Surigao del Norte,1.58,2.25,0.91,6.4,1.07,0.63,1.09,0.92,3.8,5.74
+Overall Bell Pepper Production,1606800000,Surigao del Sur,5.4,19.4,8.96,24.55,12.12,9.08,4.81,1.67,16.28,3.83
+Overall Bell Pepper Production,1608500000,Dinagat Islands,3.07,3.67,3.14,3.58,5.49,9.29,15.31,2.26,0.99,9.99
+Overall Bell Pepper Production,1630400000,Butuan City,,,,,,,,,,
+Overall Bell Pepper Production,1704000000,Marinduque,0.58,0.71,0.58,0.57,0.73,0.46,0.54,0.55,0.42,0.46
+Overall Bell Pepper Production,1705100000,Occidental Mindoro,,,,,,,,,,
+Overall Bell Pepper Production,1705200000,Oriental Mindoro,5.98,3.04,4.78,2.64,3.81,2.75,3.6,1.9,3.94,3.4
+Overall Bell Pepper Production,1705300000,Palawan,17.53,11.89,15.55,11.75,12.11,7.88,11.18,7.26,10.78,10.18
+Overall Bell Pepper Production,1705900000,Romblon,,,,,,2.82,0.29,2.6,0.74,2.48
+Overall Bell Pepper Production,1731500000,Puerto Princesa City,,,,,,,,,,
+Overall Bell Pepper Production,1804500000,Negros Occidental,20.93,38.42,19.36,36.62,17.86,32.5,15.86,31.76,32.0,51.72
+Overall Bell Pepper Production,1804600000,Negros Oriental,61.77,35.67,43.96,27.7,34.64,23.39,35.78,23.81,38.12,23.88
+Overall Bell Pepper Production,1806100000,Siquijor,5.75,7.58,4.81,7.73,5.86,8.05,5.45,8.61,5.48,9.03
+Overall Bell Pepper Production,1830200000,Bacolod City,,,,,,,,,,
+Overall Bell Pepper Production,1900700000,Basilan,0.78,,0.82,0.27,1.07,0.28,6.37,0.54,6.45,0.65
+Overall Bell Pepper Production,1903600000,Lanao del Sur,3.58,5.57,3.64,5.55,3.67,7.57,3.66,8.99,5.55,11.34
+Overall Bell Pepper Production,1907000000,Tawi-Tawi,,,,,,,,,,
+Overall Bell Pepper Production,1908700000,Maguindanao del Norte,,,,,,,,,2.95,41.65
+Overall Bell Pepper Production,1908800000,Maguindanao del Sur,6.1,2.82,6.26,2.9,6.2,3.0,5.75,6.85,4.0,4.62

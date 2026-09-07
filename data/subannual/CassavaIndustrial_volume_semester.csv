@@ -1,88 +1,88 @@
-Commodity Type,ADM2_PCODE,Province,2021S1,2021S2,2022S1,2022S2,2023S1,2023S2,2024S1,2024S2,2025S1,2025S2,2026S1
-Cassava Industrial Production,0102800000,Ilocos Norte,,,,,,,,,,,
-Cassava Industrial Production,0102900000,Ilocos Sur,,,,,,,,,,,
-Cassava Industrial Production,0103300000,La Union,,,,,,,,,,,
-Cassava Industrial Production,0105500000,Pangasinan,,,,,,,,,,,
-Cassava Industrial Production,0200900000,Batanes,,,,,,,,,,,
-Cassava Industrial Production,0201500000,Cagayan,5302.1,936.5,4869.24,868.77,5142.32,826.5,4562.0,774.13,3802.6,619.29,2135.08
-Cassava Industrial Production,0203100000,Isabela,69697.2,66276.15,62583.32,68017.92,61536.4,66276.39,56981.46,61158.85,55807.69,58672.64,22633.7
-Cassava Industrial Production,0205000000,Nueva Vizcaya,1874.9,1485.97,2055.0,1659.99,1735.59,1597.32,1613.34,1297.92,1501.76,1314.79,1032.54
-Cassava Industrial Production,0205700000,Quirino,17637.11,12822.24,16468.34,12483.51,17264.2,12606.11,16565.91,12544.81,14927.76,11343.28,9385.56
-Cassava Industrial Production,0300800000,Bataan,328.52,381.03,140.25,,,,,,,,
-Cassava Industrial Production,0301400000,Bulacan,,,,,,,,,,,
-Cassava Industrial Production,0304900000,Nueva Ecija,62.28,,,,,,,,,,
-Cassava Industrial Production,0305400000,Pampanga,3826.0,4720.4,4122.46,4816.54,3894.9,4810.73,4090.36,4926.08,4272.38,5111.08,1743.52
-Cassava Industrial Production,0306900000,Tarlac,,,,,,,,,,,
-Cassava Industrial Production,0307100000,Zambales,,,,,,,,,,,
-Cassava Industrial Production,0307700000,Aurora,,5.0,,10.0,,,,31.16,,,
-Cassava Industrial Production,0401000000,Batangas,,,,,,,,,,,
-Cassava Industrial Production,0402100000,Cavite,,,,,,,,,,,
-Cassava Industrial Production,0403400000,Laguna,,,,,,,,,,,
-Cassava Industrial Production,0405600000,Quezon,,,,,,,,,,,
-Cassava Industrial Production,0405800000,Rizal,,,,,,,,,,,
-Cassava Industrial Production,0500500000,Albay,2520.5,190.98,1625.0,118.27,988.75,39.56,326.14,28.92,6.92,,9.09
-Cassava Industrial Production,0501600000,Camarines Norte,20.0,,,,,,,,,,15.32
-Cassava Industrial Production,0501700000,Camarines Sur,2665.34,1654.7,2458.76,1487.0,2126.36,,1.91,,,,
-Cassava Industrial Production,0502000000,Catanduanes,,,,,,,,,,,
-Cassava Industrial Production,0504100000,Masbate,1461.98,3431.95,1702.12,2999.81,1403.83,2601.74,1390.56,2574.01,,,
-Cassava Industrial Production,0506200000,Sorsogon,,,,,,,,,,,
-Cassava Industrial Production,0600400000,Aklan,,,,,,,,,,,
-Cassava Industrial Production,0600600000,Antique,,,,,,,,,,,
-Cassava Industrial Production,0601900000,Capiz,,,,,,,,,,,
-Cassava Industrial Production,0603000000,Iloilo,,,,,,,,,,,
-Cassava Industrial Production,0607900000,Guimaras,,,,,,,,,,,
-Cassava Industrial Production,0701200000,Bohol,105.53,129.71,202.48,123.5,341.18,202.9,326.02,132.97,182.27,536.0,27.43
-Cassava Industrial Production,0702200000,Cebu,3567.45,4792.25,3285.0,5450.0,3405.6,5451.91,3315.67,5286.52,3312.85,4184.73,1376.27
-Cassava Industrial Production,0802600000,Eastern Samar,12.87,15.7,12.85,16.83,12.84,411.05,21.35,431.6,28.42,355.33,12.34
-Cassava Industrial Production,0803700000,Leyte,14469.59,16970.25,13891.53,16892.12,13452.7,16892.78,13331.0,16475.2,13287.0,16500.0,9432.0
-Cassava Industrial Production,0804800000,Northern Samar,,,,,,,,,,,1.15
-Cassava Industrial Production,0806000000,Samar (Western Samar),,,,,,29.41,118.31,26.93,110.91,26.04,
-Cassava Industrial Production,0806400000,Southern Leyte,,,,,,,,,0.18,,
-Cassava Industrial Production,0807800000,Biliran,,,,,,,,,,,
-Cassava Industrial Production,0906600000,,,,,,,,,,,,
-Cassava Industrial Production,0907200000,Zamboanga del Norte,5134.55,8621.21,5661.2,8512.01,3557.77,7300.65,3386.68,6964.27,2748.85,6449.67,1163.09
-Cassava Industrial Production,0907300000,Zamboanga del Sur,7212.91,16754.06,6642.76,16831.71,9103.99,15395.53,8111.18,13881.2,7214.72,9728.73,4933.6
-Cassava Industrial Production,0907400000,Zamboanga City,2615.08,3456.69,2639.78,3518.63,,,,,2730.03,5462.78,2731.71
-Cassava Industrial Production,0908300000,Zamboanga Sibugay,,,,,,,,,,,
-Cassava Industrial Production,1001300000,Bukidnon,253250.71,205244.13,264141.64,207497.61,297977.81,202724.03,255086.58,166983.54,251408.76,151066.78,133919.18
-Cassava Industrial Production,1001800000,Camiguin,,,,,,,,,,,
-Cassava Industrial Production,1003500000,Lanao del Norte,705.0,650.0,690.0,620.0,678.0,610.0,680.0,611.0,687.0,608.23,179.6
-Cassava Industrial Production,1004200000,Misamis Occidental,12500.0,2002.0,,,,,,,,,
-Cassava Industrial Production,1004300000,Misamis Oriental,133068.7,19897.45,139880.81,21701.03,143019.63,20456.0,143493.28,17686.28,141521.88,17822.64,36308.44
-Cassava Industrial Production,1102300000,Davao del Norte,544.46,206.11,475.07,203.2,456.24,201.93,468.11,173.96,449.1,167.81,302.65
-Cassava Industrial Production,1102400000,Davao del Sur,852.64,389.16,839.75,376.96,1834.41,1293.53,1687.98,1226.12,1155.69,410.04,309.77
-Cassava Industrial Production,1102500000,Davao Oriental,,,,,,,,,,,
-Cassava Industrial Production,1108200000,Davao de Oro (Compostela Valley),1.31,0.11,,,,,,,,,
-Cassava Industrial Production,1108600000,Davao Occidental,1387.56,561.37,1462.5,580.35,1445.65,575.59,1431.17,557.76,1401.31,550.56,1025.45
-Cassava Industrial Production,1130700000,Davao City,888.36,968.99,919.44,977.8,,,,,376.63,667.58,599.35
-Cassava Industrial Production,1204700000,Cotabato (North Cotabato),1864.87,2271.36,1727.65,2132.88,1571.81,1966.3,1300.94,2094.26,3909.82,2100.93,1520.59
-Cassava Industrial Production,1206300000,South Cotabato,51996.02,28890.89,53175.0,33014.5,56310.78,32024.07,40313.54,28622.19,36475.21,19953.06,16091.63
-Cassava Industrial Production,1206500000,Sultan Kudarat,0.26,3.03,,,,,,,188.17,,
-Cassava Industrial Production,1208000000,Sarangani,98.0,790.0,82.5,660.0,77.0,330.0,83.0,155.0,41.0,87.12,
-Cassava Industrial Production,1400100000,Abra,,,,,,,,,,,
-Cassava Industrial Production,1401100000,Benguet,163.74,592.26,122.03,432.0,138.93,355.0,89.75,345.0,136.73,335.67,226.75
-Cassava Industrial Production,1402700000,Ifugao,208.88,55.49,5.21,4.0,270.05,10.27,,,,,
-Cassava Industrial Production,1403200000,Kalinga,,,,,,,,,1.81,,
-Cassava Industrial Production,1404400000,Mountain Province,,,,,,,,,,,
-Cassava Industrial Production,1408100000,Apayao,8539.09,2864.65,8630.42,3016.94,9179.92,2854.0,9108.34,2703.0,8856.62,1785.75,502.32
-Cassava Industrial Production,1600200000,Agusan del Norte,,,,,,,,,,,
-Cassava Industrial Production,1600300000,Agusan del Sur,,,,,,,,,1.8,,
-Cassava Industrial Production,1606700000,Surigao del Norte,,,,,,,,,,,
-Cassava Industrial Production,1606800000,Surigao del Sur,,,,,,,,,,,0.65
-Cassava Industrial Production,1608500000,Dinagat Islands,703.14,57.17,,,,,,,,5.94,
-Cassava Industrial Production,1630400000,Butuan City,,,,,,,,,,,
-Cassava Industrial Production,1704000000,Marinduque,,,,,,,,,,,
-Cassava Industrial Production,1705100000,Occidental Mindoro,1484.6,,1407.42,35.75,1663.0,11.92,1642.66,16.44,1842.04,13.88,20.79
-Cassava Industrial Production,1705200000,Oriental Mindoro,242.77,102.65,178.16,77.1,124.51,61.98,123.95,56.58,108.0,31.2,15.0
-Cassava Industrial Production,1705300000,Palawan,,,,,,,,,,,
-Cassava Industrial Production,1705900000,Romblon,5.67,6.68,5.5,6.41,,,,,,,
-Cassava Industrial Production,1731500000,Puerto Princesa City,,,,,,,,,,,
-Cassava Industrial Production,1804500000,Negros Occidental,,,,,,,,,,,
-Cassava Industrial Production,1804600000,Negros Oriental,10627.52,4704.72,9405.3,4737.11,11538.62,5779.63,9860.88,4135.97,9481.83,4945.11,7465.55
-Cassava Industrial Production,1806100000,Siquijor,271.51,173.72,283.12,176.24,335.15,218.79,260.59,189.58,261.93,188.07,194.67
-Cassava Industrial Production,1830200000,Bacolod City,,,,,,,,,,,
-Cassava Industrial Production,1900700000,Basilan,,,,,,,,0.45,,,
-Cassava Industrial Production,1903600000,Lanao del Sur,157230.0,224179.0,157241.4,224200.0,157228.2,224491.0,155220.0,224522.0,164310.5,225308.0,34742.0
-Cassava Industrial Production,1907000000,Tawi-Tawi,,,,,,,,,1.74,,
-Cassava Industrial Production,1908700000,Maguindanao del Norte,,,,,,,,,,,
-Cassava Industrial Production,1908800000,Maguindanao del Sur,,,,,,,,,,,
+Commodity Type,ADM2_PCODE,Province,2021S1,2021S2,2022S1,2022S2,2023S1,2023S2,2024S1,2024S2,2025S1,2025S2
+Cassava Industrial Production,0102800000,Ilocos Norte,,,,,,,,,,
+Cassava Industrial Production,0102900000,Ilocos Sur,,,,,,,,,,
+Cassava Industrial Production,0103300000,La Union,,,,,,,,,,
+Cassava Industrial Production,0105500000,Pangasinan,,,,,,,,,,
+Cassava Industrial Production,0200900000,Batanes,,,,,,,,,,
+Cassava Industrial Production,0201500000,Cagayan,5302.1,936.5,4869.24,868.77,5142.32,826.5,4562.0,774.13,3802.6,619.29
+Cassava Industrial Production,0203100000,Isabela,69697.2,66276.15,62583.32,68017.92,61536.4,66276.39,56981.46,61158.85,55807.69,58672.64
+Cassava Industrial Production,0205000000,Nueva Vizcaya,1874.9,1485.97,2055.0,1659.99,1735.59,1597.32,1613.34,1297.92,1501.76,1314.79
+Cassava Industrial Production,0205700000,Quirino,17637.11,12822.24,16468.34,12483.51,17264.2,12606.11,16565.91,12544.81,14927.76,11343.28
+Cassava Industrial Production,0300800000,Bataan,328.52,381.03,140.25,,,,,,,
+Cassava Industrial Production,0301400000,Bulacan,,,,,,,,,,
+Cassava Industrial Production,0304900000,Nueva Ecija,62.28,,,,,,,,,
+Cassava Industrial Production,0305400000,Pampanga,3826.0,4720.4,4122.46,4816.54,3894.9,4810.73,4090.36,4926.08,4272.38,5111.08
+Cassava Industrial Production,0306900000,Tarlac,,,,,,,,,,
+Cassava Industrial Production,0307100000,Zambales,,,,,,,,,,
+Cassava Industrial Production,0307700000,Aurora,,5.0,,10.0,,,,31.16,,
+Cassava Industrial Production,0401000000,Batangas,,,,,,,,,,
+Cassava Industrial Production,0402100000,Cavite,,,,,,,,,,
+Cassava Industrial Production,0403400000,Laguna,,,,,,,,,,
+Cassava Industrial Production,0405600000,Quezon,,,,,,,,,,
+Cassava Industrial Production,0405800000,Rizal,,,,,,,,,,
+Cassava Industrial Production,0500500000,Albay,2520.5,190.98,1625.0,118.27,988.75,39.56,326.14,28.92,6.92,
+Cassava Industrial Production,0501600000,Camarines Norte,20.0,,,,,,,,,
+Cassava Industrial Production,0501700000,Camarines Sur,2665.34,1654.7,2458.76,1487.0,2126.36,,1.91,,,
+Cassava Industrial Production,0502000000,Catanduanes,,,,,,,,,,
+Cassava Industrial Production,0504100000,Masbate,1461.98,3431.95,1702.12,2999.81,1403.83,2601.74,1390.56,2574.01,,
+Cassava Industrial Production,0506200000,Sorsogon,,,,,,,,,,
+Cassava Industrial Production,0600400000,Aklan,,,,,,,,,,
+Cassava Industrial Production,0600600000,Antique,,,,,,,,,,
+Cassava Industrial Production,0601900000,Capiz,,,,,,,,,,
+Cassava Industrial Production,0603000000,Iloilo,,,,,,,,,,
+Cassava Industrial Production,0607900000,Guimaras,,,,,,,,,,
+Cassava Industrial Production,0701200000,Bohol,105.53,129.71,202.48,123.5,341.18,202.9,326.02,132.97,182.27,536.0
+Cassava Industrial Production,0702200000,Cebu,3567.45,4792.25,3285.0,5450.0,3405.6,5451.91,3315.67,5286.52,3312.85,4184.73
+Cassava Industrial Production,0802600000,Eastern Samar,12.87,15.7,12.85,16.83,12.84,411.05,21.35,431.6,28.42,355.33
+Cassava Industrial Production,0803700000,Leyte,14469.59,16970.25,13891.53,16892.12,13452.7,16892.78,13331.0,16475.2,13287.0,16500.0
+Cassava Industrial Production,0804800000,Northern Samar,,,,,,,,,,
+Cassava Industrial Production,0806000000,Samar (Western Samar),,,,,,29.41,118.31,26.93,110.91,26.04
+Cassava Industrial Production,0806400000,Southern Leyte,,,,,,,,,0.18,
+Cassava Industrial Production,0807800000,Biliran,,,,,,,,,,
+Cassava Industrial Production,0906600000,,,,,,,,,,,
+Cassava Industrial Production,0907200000,Zamboanga del Norte,5134.55,8621.21,5661.2,8512.01,3557.77,7300.65,3386.68,6964.27,2748.85,6449.67
+Cassava Industrial Production,0907300000,Zamboanga del Sur,7212.91,16754.06,6642.76,16831.71,9103.99,15395.53,8111.18,13881.2,7214.72,9728.73
+Cassava Industrial Production,0907400000,Zamboanga City,2615.08,3456.69,2639.78,3518.63,,,,,2730.03,5462.78
+Cassava Industrial Production,0908300000,Zamboanga Sibugay,,,,,,,,,,
+Cassava Industrial Production,1001300000,Bukidnon,253250.71,205244.13,264141.64,207497.61,297977.81,202724.03,255086.58,166983.54,251408.76,151066.78
+Cassava Industrial Production,1001800000,Camiguin,,,,,,,,,,
+Cassava Industrial Production,1003500000,Lanao del Norte,705.0,650.0,690.0,620.0,678.0,610.0,680.0,611.0,687.0,608.23
+Cassava Industrial Production,1004200000,Misamis Occidental,12500.0,2002.0,,,,,,,,
+Cassava Industrial Production,1004300000,Misamis Oriental,133068.7,19897.45,139880.81,21701.03,143019.63,20456.0,143493.28,17686.28,141521.88,17822.64
+Cassava Industrial Production,1102300000,Davao del Norte,544.46,206.11,475.07,203.2,456.24,201.93,468.11,173.96,449.1,167.81
+Cassava Industrial Production,1102400000,Davao del Sur,852.64,389.16,839.75,376.96,1834.41,1293.53,1687.98,1226.12,1155.69,410.04
+Cassava Industrial Production,1102500000,Davao Oriental,,,,,,,,,,
+Cassava Industrial Production,1108200000,Davao de Oro (Compostela Valley),1.31,0.11,,,,,,,,
+Cassava Industrial Production,1108600000,Davao Occidental,1387.56,561.37,1462.5,580.35,1445.65,575.59,1431.17,557.76,1401.31,550.56
+Cassava Industrial Production,1130700000,Davao City,888.36,968.99,919.44,977.8,,,,,376.63,667.58
+Cassava Industrial Production,1204700000,Cotabato (North Cotabato),1864.87,2271.36,1727.65,2132.88,1571.81,1966.3,1300.94,2094.26,3909.82,2100.93
+Cassava Industrial Production,1206300000,South Cotabato,51996.02,28890.89,53175.0,33014.5,56310.78,32024.07,40313.54,28622.19,36475.21,19953.06
+Cassava Industrial Production,1206500000,Sultan Kudarat,0.26,3.03,,,,,,,188.17,
+Cassava Industrial Production,1208000000,Sarangani,98.0,790.0,82.5,660.0,77.0,330.0,83.0,155.0,41.0,87.12
+Cassava Industrial Production,1400100000,Abra,,,,,,,,,,
+Cassava Industrial Production,1401100000,Benguet,163.74,592.26,122.03,432.0,138.93,355.0,89.75,345.0,136.73,335.67
+Cassava Industrial Production,1402700000,Ifugao,208.88,55.49,5.21,4.0,270.05,10.27,,,,
+Cassava Industrial Production,1403200000,Kalinga,,,,,,,,,1.81,
+Cassava Industrial Production,1404400000,Mountain Province,,,,,,,,,,
+Cassava Industrial Production,1408100000,Apayao,8539.09,2864.65,8630.42,3016.94,9179.92,2854.0,9108.34,2703.0,8856.62,1785.75
+Cassava Industrial Production,1600200000,Agusan del Norte,,,,,,,,,,
+Cassava Industrial Production,1600300000,Agusan del Sur,,,,,,,,,1.8,
+Cassava Industrial Production,1606700000,Surigao del Norte,,,,,,,,,,
+Cassava Industrial Production,1606800000,Surigao del Sur,,,,,,,,,,
+Cassava Industrial Production,1608500000,Dinagat Islands,703.14,57.17,,,,,,,,5.94
+Cassava Industrial Production,1630400000,Butuan City,,,,,,,,,,
+Cassava Industrial Production,1704000000,Marinduque,,,,,,,,,,
+Cassava Industrial Production,1705100000,Occidental Mindoro,1484.6,,1407.42,35.75,1663.0,11.92,1642.66,16.44,1842.04,13.88
+Cassava Industrial Production,1705200000,Oriental Mindoro,242.77,102.65,178.16,77.1,124.51,61.98,123.95,56.58,108.0,31.2
+Cassava Industrial Production,1705300000,Palawan,,,,,,,,,,
+Cassava Industrial Production,1705900000,Romblon,5.67,6.68,5.5,6.41,,,,,,
+Cassava Industrial Production,1731500000,Puerto Princesa City,,,,,,,,,,
+Cassava Industrial Production,1804500000,Negros Occidental,,,,,,,,,,
+Cassava Industrial Production,1804600000,Negros Oriental,10627.52,4704.72,9405.3,4737.11,11538.62,5779.63,9860.88,4135.97,9481.83,4945.11
+Cassava Industrial Production,1806100000,Siquijor,271.51,173.72,283.12,176.24,335.15,218.79,260.59,189.58,261.93,188.07
+Cassava Industrial Production,1830200000,Bacolod City,,,,,,,,,,
+Cassava Industrial Production,1900700000,Basilan,,,,,,,,0.45,,
+Cassava Industrial Production,1903600000,Lanao del Sur,157230.0,224179.0,157241.4,224200.0,157228.2,224491.0,155220.0,224522.0,164310.5,225308.0
+Cassava Industrial Production,1907000000,Tawi-Tawi,,,,,,,,,1.74,
+Cassava Industrial Production,1908700000,Maguindanao del Norte,,,,,,,,,,
+Cassava Industrial Production,1908800000,Maguindanao del Sur,,,,,,,,,,

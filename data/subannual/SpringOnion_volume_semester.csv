@@ -1,88 +1,88 @@
-Commodity Type,ADM2_PCODE,Province,2021S1,2021S2,2022S1,2022S2,2023S1,2023S2,2024S1,2024S2,2025S1,2025S2,2026S1
-Overall Spring Onion Production,0102800000,Ilocos Norte,,,,,,,,,,,
-Overall Spring Onion Production,0102900000,Ilocos Sur,,,,,,0.01,,,,,
-Overall Spring Onion Production,0103300000,La Union,,,,,,,,,,,
-Overall Spring Onion Production,0105500000,Pangasinan,,,,,,,,,,,
-Overall Spring Onion Production,0200900000,Batanes,,,,,,,,,0.03,0.18,
-Overall Spring Onion Production,0201500000,Cagayan,,,,,,0.99,,0.13,0.2,0.59,0.28
-Overall Spring Onion Production,0203100000,Isabela,,,,,,0.06,0.15,0.06,0.14,,
-Overall Spring Onion Production,0205000000,Nueva Vizcaya,,,,,,,,,,,
-Overall Spring Onion Production,0205700000,Quirino,,,,,,,,,,,
-Overall Spring Onion Production,0300800000,Bataan,,,,,,,,,,,
-Overall Spring Onion Production,0301400000,Bulacan,,,,,,,,,,1.0,
-Overall Spring Onion Production,0304900000,Nueva Ecija,,,,,,,,,,,
-Overall Spring Onion Production,0305400000,Pampanga,,,,,,9.63,1.4,10.36,22.27,10.37,1.51
-Overall Spring Onion Production,0306900000,Tarlac,,,,,,,,,,,
-Overall Spring Onion Production,0307100000,Zambales,,,,,,,,,,,2.02
-Overall Spring Onion Production,0307700000,Aurora,,,,,,,,,,,
-Overall Spring Onion Production,0401000000,Batangas,,,,,,,,,,,
-Overall Spring Onion Production,0402100000,Cavite,,,,,,,,0.03,0.03,0.04,
-Overall Spring Onion Production,0403400000,Laguna,34.54,166.09,33.28,141.22,39.7,68.77,40.87,150.77,42.87,140.97,33.08
-Overall Spring Onion Production,0405600000,Quezon,,,,,,,18.65,3.35,18.59,3.67,0.01
-Overall Spring Onion Production,0405800000,Rizal,,,,,,,,,0.45,,
-Overall Spring Onion Production,0500500000,Albay,,,,,,,0.07,18.66,1.18,12.86,0.01
-Overall Spring Onion Production,0501600000,Camarines Norte,,,,,,,,,,,
-Overall Spring Onion Production,0501700000,Camarines Sur,,,,,,0.69,3.45,29.54,2.21,6.14,0.31
-Overall Spring Onion Production,0502000000,Catanduanes,,,,,,,0.53,0.22,0.55,0.96,0.71
-Overall Spring Onion Production,0504100000,Masbate,,,,,,0.98,,,,,
-Overall Spring Onion Production,0506200000,Sorsogon,,,,,,,,0.03,,,
-Overall Spring Onion Production,0600400000,Aklan,0.87,4.5,0.9,4.11,1.15,4.39,0.97,4.33,1.11,5.24,0.15
-Overall Spring Onion Production,0600600000,Antique,11.12,11.81,10.55,11.15,12.59,11.7,12.98,11.41,12.9,10.87,6.57
-Overall Spring Onion Production,0601900000,Capiz,36.3,33.0,32.5,34.65,33.83,7.74,30.0,30.0,28.54,29.74,14.88
-Overall Spring Onion Production,0603000000,Iloilo,103.28,32.52,98.0,36.42,107.0,38.25,90.0,34.66,90.4,78.07,179.19
-Overall Spring Onion Production,0607900000,Guimaras,1.32,1.59,1.59,2.36,1.7,1.72,1.51,1.91,1.9,2.1,0.92
-Overall Spring Onion Production,0701200000,Bohol,205.92,372.44,194.66,371.42,237.61,263.63,198.87,265.0,171.2,330.55,61.91
-Overall Spring Onion Production,0702200000,Cebu,1590.0,941.21,1570.0,960.0,1403.9,987.67,1336.41,833.7,1477.04,1045.64,728.81
-Overall Spring Onion Production,0802600000,Eastern Samar,,,,,,,1.43,,1.46,2.35,
-Overall Spring Onion Production,0803700000,Leyte,,,,,,13.52,281.8,19.22,280.5,19.62,281.0
-Overall Spring Onion Production,0804800000,Northern Samar,,,,,,,0.28,,,,0.1
-Overall Spring Onion Production,0806000000,Samar (Western Samar),,,,,,,0.03,,,0.14,
-Overall Spring Onion Production,0806400000,Southern Leyte,,,,,,,20.97,14.1,17.41,5.05,13.72
-Overall Spring Onion Production,0807800000,Biliran,,,0.1,0.18,0.2,0.19,0.1,0.35,0.13,0.29,0.07
-Overall Spring Onion Production,0906600000,,,,,,,,2.03,,0.32,,
-Overall Spring Onion Production,0907200000,Zamboanga del Norte,,,,,,5.28,4.65,8.32,4.71,7.78,0.05
-Overall Spring Onion Production,0907300000,Zamboanga del Sur,,,,,,,,,,,
-Overall Spring Onion Production,0907400000,Zamboanga City,,,,,,,,,,,0.03
-Overall Spring Onion Production,0908300000,Zamboanga Sibugay,,,,,,0.12,0.58,0.1,0.78,0.09,0.65
-Overall Spring Onion Production,1001300000,Bukidnon,,,,,,6.43,26.52,56.49,27.38,60.04,14.78
-Overall Spring Onion Production,1001800000,Camiguin,0.49,0.21,0.35,0.22,0.37,0.3,0.97,0.46,1.52,0.88,0.64
-Overall Spring Onion Production,1003500000,Lanao del Norte,5.0,12.5,5.56,12.1,5.32,11.9,18.4,12.2,15.15,12.45,11.66
-Overall Spring Onion Production,1004200000,Misamis Occidental,,,,,,,,5.07,17.23,5.17,15.2
-Overall Spring Onion Production,1004300000,Misamis Oriental,,,,,,,,0.95,0.22,1.46,
-Overall Spring Onion Production,1102300000,Davao del Norte,,,,,,,0.61,,,,
-Overall Spring Onion Production,1102400000,Davao del Sur,,,,,,,0.03,,0.04,,
-Overall Spring Onion Production,1102500000,Davao Oriental,,,,,,,,,,,
-Overall Spring Onion Production,1108200000,Davao de Oro (Compostela Valley),,,,,,,,,,,
-Overall Spring Onion Production,1108600000,Davao Occidental,,,,,,,,,,,
-Overall Spring Onion Production,1130700000,Davao City,,,,,,,,,,,
-Overall Spring Onion Production,1204700000,Cotabato (North Cotabato),40.06,,35.64,,38.34,13.63,21.87,17.83,16.22,19.3,7.38
-Overall Spring Onion Production,1206300000,South Cotabato,24.35,30.1,33.23,32.44,35.37,26.6,50.67,41.39,7.43,19.38,5.21
-Overall Spring Onion Production,1206500000,Sultan Kudarat,41.97,39.97,44.59,39.97,42.87,42.02,39.77,42.22,41.2,43.41,17.86
-Overall Spring Onion Production,1208000000,Sarangani,,,,,,,,,,,
-Overall Spring Onion Production,1400100000,Abra,,,,,,,,,0.68,,
-Overall Spring Onion Production,1401100000,Benguet,,,,,,,,,,,
-Overall Spring Onion Production,1402700000,Ifugao,,,,,,8.26,5.45,18.77,0.49,2.53,3.53
-Overall Spring Onion Production,1403200000,Kalinga,,,,,,8.34,,,,0.89,
-Overall Spring Onion Production,1404400000,Mountain Province,,,,,,,,,,,
-Overall Spring Onion Production,1408100000,Apayao,,,,,,,,0.25,,0.26,
-Overall Spring Onion Production,1600200000,Agusan del Norte,,,,,,1.81,0.52,1.67,0.52,1.78,0.08
-Overall Spring Onion Production,1600300000,Agusan del Sur,,,,,,,2.52,2.48,1.69,7.89,1.53
-Overall Spring Onion Production,1606700000,Surigao del Norte,,0.02,,3.0,,2.08,1.45,1.64,0.81,1.98,0.03
-Overall Spring Onion Production,1606800000,Surigao del Sur,,0.01,,0.01,,,2.93,1.52,2.13,0.32,1.39
-Overall Spring Onion Production,1608500000,Dinagat Islands,,,,,,,,,,,
-Overall Spring Onion Production,1630400000,Butuan City,,,,,,,,,,,0.04
-Overall Spring Onion Production,1704000000,Marinduque,,,,,,,,,,,
-Overall Spring Onion Production,1705100000,Occidental Mindoro,,,,,,,,,,,
-Overall Spring Onion Production,1705200000,Oriental Mindoro,,,,,,,,,,,
-Overall Spring Onion Production,1705300000,Palawan,,,,,,,,,,,
-Overall Spring Onion Production,1705900000,Romblon,,,,,,,5.03,0.22,4.85,0.18,4.94
-Overall Spring Onion Production,1731500000,Puerto Princesa City,,,,,,,,,,,0.04
-Overall Spring Onion Production,1804500000,Negros Occidental,101.98,51.62,98.09,59.29,101.81,62.32,96.49,60.0,94.0,59.79,56.14
-Overall Spring Onion Production,1804600000,Negros Oriental,315.5,438.0,378.68,472.78,471.01,450.0,385.64,216.89,364.68,284.36,125.9
-Overall Spring Onion Production,1806100000,Siquijor,8.9,38.55,8.02,40.3,8.73,31.9,7.62,31.51,5.74,29.33,3.41
-Overall Spring Onion Production,1830200000,Bacolod City,,,,,,,,,,,
-Overall Spring Onion Production,1900700000,Basilan,,,,,,,,,,,
-Overall Spring Onion Production,1903600000,Lanao del Sur,,,,,,82.56,10.72,89.12,11.43,94.76,1.24
-Overall Spring Onion Production,1907000000,Tawi-Tawi,,,,,,,,,,,
-Overall Spring Onion Production,1908700000,Maguindanao del Norte,,,,,,,,,,,
-Overall Spring Onion Production,1908800000,Maguindanao del Sur,,,,,,,,,48.22,385.38,200.0
+Commodity Type,ADM2_PCODE,Province,2021S1,2021S2,2022S1,2022S2,2023S1,2023S2,2024S1,2024S2,2025S1,2025S2
+Overall Spring Onion Production,0102800000,Ilocos Norte,,,,,,,,,,
+Overall Spring Onion Production,0102900000,Ilocos Sur,,,,,,0.01,,,,
+Overall Spring Onion Production,0103300000,La Union,,,,,,,,,,
+Overall Spring Onion Production,0105500000,Pangasinan,,,,,,,,,,
+Overall Spring Onion Production,0200900000,Batanes,,,,,,,,,0.03,0.18
+Overall Spring Onion Production,0201500000,Cagayan,,,,,,0.99,,0.13,0.2,0.59
+Overall Spring Onion Production,0203100000,Isabela,,,,,,0.06,0.15,0.06,0.14,
+Overall Spring Onion Production,0205000000,Nueva Vizcaya,,,,,,,,,,
+Overall Spring Onion Production,0205700000,Quirino,,,,,,,,,,
+Overall Spring Onion Production,0300800000,Bataan,,,,,,,,,,
+Overall Spring Onion Production,0301400000,Bulacan,,,,,,,,,,1.0
+Overall Spring Onion Production,0304900000,Nueva Ecija,,,,,,,,,,
+Overall Spring Onion Production,0305400000,Pampanga,,,,,,9.63,1.4,10.36,22.27,10.37
+Overall Spring Onion Production,0306900000,Tarlac,,,,,,,,,,
+Overall Spring Onion Production,0307100000,Zambales,,,,,,,,,,
+Overall Spring Onion Production,0307700000,Aurora,,,,,,,,,,
+Overall Spring Onion Production,0401000000,Batangas,,,,,,,,,,
+Overall Spring Onion Production,0402100000,Cavite,,,,,,,,0.03,0.03,0.04
+Overall Spring Onion Production,0403400000,Laguna,34.54,166.09,33.28,141.22,39.7,68.77,40.87,150.77,42.87,140.97
+Overall Spring Onion Production,0405600000,Quezon,,,,,,,18.65,3.35,18.59,3.67
+Overall Spring Onion Production,0405800000,Rizal,,,,,,,,,0.45,
+Overall Spring Onion Production,0500500000,Albay,,,,,,,0.07,18.66,1.18,12.86
+Overall Spring Onion Production,0501600000,Camarines Norte,,,,,,,,,,
+Overall Spring Onion Production,0501700000,Camarines Sur,,,,,,0.69,3.45,29.54,2.21,6.14
+Overall Spring Onion Production,0502000000,Catanduanes,,,,,,,0.53,0.22,0.55,0.96
+Overall Spring Onion Production,0504100000,Masbate,,,,,,0.98,,,,
+Overall Spring Onion Production,0506200000,Sorsogon,,,,,,,,0.03,,
+Overall Spring Onion Production,0600400000,Aklan,0.87,4.5,0.9,4.11,1.15,4.39,0.97,4.33,1.11,5.24
+Overall Spring Onion Production,0600600000,Antique,11.12,11.81,10.55,11.15,12.59,11.7,12.98,11.41,12.9,10.87
+Overall Spring Onion Production,0601900000,Capiz,36.3,33.0,32.5,34.65,33.83,7.74,30.0,30.0,28.54,29.74
+Overall Spring Onion Production,0603000000,Iloilo,103.28,32.52,98.0,36.42,107.0,38.25,90.0,34.66,90.4,78.07
+Overall Spring Onion Production,0607900000,Guimaras,1.32,1.59,1.59,2.36,1.7,1.72,1.51,1.91,1.9,2.1
+Overall Spring Onion Production,0701200000,Bohol,205.92,372.44,194.66,371.42,237.61,263.63,198.87,265.0,171.2,330.55
+Overall Spring Onion Production,0702200000,Cebu,1590.0,941.21,1570.0,960.0,1403.9,987.67,1336.41,833.7,1477.04,1045.64
+Overall Spring Onion Production,0802600000,Eastern Samar,,,,,,,1.43,,1.46,2.35
+Overall Spring Onion Production,0803700000,Leyte,,,,,,13.52,281.8,19.22,280.5,19.62
+Overall Spring Onion Production,0804800000,Northern Samar,,,,,,,0.28,,,
+Overall Spring Onion Production,0806000000,Samar (Western Samar),,,,,,,0.03,,,0.14
+Overall Spring Onion Production,0806400000,Southern Leyte,,,,,,,20.97,14.1,17.41,5.05
+Overall Spring Onion Production,0807800000,Biliran,,,0.1,0.18,0.2,0.19,0.1,0.35,0.13,0.29
+Overall Spring Onion Production,0906600000,,,,,,,,2.03,,0.32,
+Overall Spring Onion Production,0907200000,Zamboanga del Norte,,,,,,5.28,4.65,8.32,4.71,7.78
+Overall Spring Onion Production,0907300000,Zamboanga del Sur,,,,,,,,,,
+Overall Spring Onion Production,0907400000,Zamboanga City,,,,,,,,,,
+Overall Spring Onion Production,0908300000,Zamboanga Sibugay,,,,,,0.12,0.58,0.1,0.78,0.09
+Overall Spring Onion Production,1001300000,Bukidnon,,,,,,6.43,26.52,56.49,27.38,60.04
+Overall Spring Onion Production,1001800000,Camiguin,0.49,0.21,0.35,0.22,0.37,0.3,0.97,0.46,1.52,0.88
+Overall Spring Onion Production,1003500000,Lanao del Norte,5.0,12.5,5.56,12.1,5.32,11.9,18.4,12.2,15.15,12.45
+Overall Spring Onion Production,1004200000,Misamis Occidental,,,,,,,,5.07,17.23,5.17
+Overall Spring Onion Production,1004300000,Misamis Oriental,,,,,,,,0.95,0.22,1.46
+Overall Spring Onion Production,1102300000,Davao del Norte,,,,,,,0.61,,,
+Overall Spring Onion Production,1102400000,Davao del Sur,,,,,,,0.03,,0.04,
+Overall Spring Onion Production,1102500000,Davao Oriental,,,,,,,,,,
+Overall Spring Onion Production,1108200000,Davao de Oro (Compostela Valley),,,,,,,,,,
+Overall Spring Onion Production,1108600000,Davao Occidental,,,,,,,,,,
+Overall Spring Onion Production,1130700000,Davao City,,,,,,,,,,
+Overall Spring Onion Production,1204700000,Cotabato (North Cotabato),40.06,,35.64,,38.34,13.63,21.87,17.83,16.22,19.3
+Overall Spring Onion Production,1206300000,South Cotabato,24.35,30.1,33.23,32.44,35.37,26.6,50.67,41.39,7.43,19.38
+Overall Spring Onion Production,1206500000,Sultan Kudarat,41.97,39.97,44.59,39.97,42.87,42.02,39.77,42.22,41.2,43.41
+Overall Spring Onion Production,1208000000,Sarangani,,,,,,,,,,
+Overall Spring Onion Production,1400100000,Abra,,,,,,,,,0.68,
+Overall Spring Onion Production,1401100000,Benguet,,,,,,,,,,
+Overall Spring Onion Production,1402700000,Ifugao,,,,,,8.26,5.45,18.77,0.49,2.53
+Overall Spring Onion Production,1403200000,Kalinga,,,,,,8.34,,,,0.89
+Overall Spring Onion Production,1404400000,Mountain Province,,,,,,,,,,
+Overall Spring Onion Production,1408100000,Apayao,,,,,,,,0.25,,0.26
+Overall Spring Onion Production,1600200000,Agusan del Norte,,,,,,1.81,0.52,1.67,0.52,1.78
+Overall Spring Onion Production,1600300000,Agusan del Sur,,,,,,,2.52,2.48,1.69,7.89
+Overall Spring Onion Production,1606700000,Surigao del Norte,,0.02,,3.0,,2.08,1.45,1.64,0.81,1.98
+Overall Spring Onion Production,1606800000,Surigao del Sur,,0.01,,0.01,,,2.93,1.52,2.13,0.32
+Overall Spring Onion Production,1608500000,Dinagat Islands,,,,,,,,,,
+Overall Spring Onion Production,1630400000,Butuan City,,,,,,,,,,
+Overall Spring Onion Production,1704000000,Marinduque,,,,,,,,,,
+Overall Spring Onion Production,1705100000,Occidental Mindoro,,,,,,,,,,
+Overall Spring Onion Production,1705200000,Oriental Mindoro,,,,,,,,,,
+Overall Spring Onion Production,1705300000,Palawan,,,,,,,,,,
+Overall Spring Onion Production,1705900000,Romblon,,,,,,,5.03,0.22,4.85,0.18
+Overall Spring Onion Production,1731500000,Puerto Princesa City,,,,,,,,,,
+Overall Spring Onion Production,1804500000,Negros Occidental,101.98,51.62,98.09,59.29,101.81,62.32,96.49,60.0,94.0,59.79
+Overall Spring Onion Production,1804600000,Negros Oriental,315.5,438.0,378.68,472.78,471.01,450.0,385.64,216.89,364.68,284.36
+Overall Spring Onion Production,1806100000,Siquijor,8.9,38.55,8.02,40.3,8.73,31.9,7.62,31.51,5.74,29.33
+Overall Spring Onion Production,1830200000,Bacolod City,,,,,,,,,,
+Overall Spring Onion Production,1900700000,Basilan,,,,,,,,,,
+Overall Spring Onion Production,1903600000,Lanao del Sur,,,,,,82.56,10.72,89.12,11.43,94.76
+Overall Spring Onion Production,1907000000,Tawi-Tawi,,,,,,,,,,
+Overall Spring Onion Production,1908700000,Maguindanao del Norte,,,,,,,,,,
+Overall Spring Onion Production,1908800000,Maguindanao del Sur,,,,,,,,,48.22,385.38

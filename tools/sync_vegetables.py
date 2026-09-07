@@ -59,6 +59,7 @@ Usage:  python tools/sync_vegetables.py [--apply] [--annual]
 
 import argparse
 import csv
+import re
 import os
 import sys
 from collections import defaultdict
@@ -227,6 +228,25 @@ def write(data, periods, paths, label, apply_changes):
     return written
 
 
+# A semester is Q1+Q2 or Q3+Q4. If only one of its quarters has been published,
+# summing gives a HALF semester that still looks like a whole one — 2026S1 for
+# 54 crops was exactly 2026Q1, and reading it against 2025S1 showed drops of up
+# to 94% that were pure arithmetic. A semester is emitted only when both of its
+# quarters are present.
+def complete_semesters(sem_periods, quarter_periods):
+    q = set(quarter_periods)
+    out = []
+    for p in sem_periods:
+        m = re.match(r'^(\d{4})S(\d)$', p)
+        if not m:
+            out.append(p)
+            continue
+        year, half = m.group(1), int(m.group(2))
+        need = ('%sQ1' % year, '%sQ2' % year) if half == 1 else ('%sQ3' % year, '%sQ4' % year)
+        if all(n in q for n in need):
+            out.append(p)
+    return out
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--apply', action='store_true', help='write the files')
@@ -245,9 +265,19 @@ def main():
     codes = S.province_codes()
     log('%d province -> PSGC codes harvested from data/' % len(codes))
 
+    quarter_periods = []
     for gran, fmt in (('quarter', lambda y, q: '%dQ%d' % (y, q)),
                       ('semester', lambda y, q: '%dS%d' % (y, 1 if q in (1, 2) else 2))):
         data, periods, unresolved = collect(rows, codes, fmt)
+        if gran == 'quarter':
+            quarter_periods = periods
+        else:
+            kept = complete_semesters(periods, quarter_periods)
+            dropped = [p for p in periods if p not in kept]
+            if dropped:
+                log('  dropped %d half-filled semester(s): %s'
+                    % (len(dropped), ', '.join(dropped)))
+            periods = kept
         if not periods:
             continue
         write(data, periods,

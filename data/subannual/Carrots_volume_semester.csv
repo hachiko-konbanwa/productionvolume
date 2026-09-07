@@ -1,88 +1,88 @@
-Commodity Type,ADM2_PCODE,Province,2021S1,2021S2,2022S1,2022S2,2023S1,2023S2,2024S1,2024S2,2025S1,2025S2,2026S1
-Overall Carrots Production,0102800000,Ilocos Norte,,,,,,,,,,,
-Overall Carrots Production,0102900000,Ilocos Sur,,,,,,,,,,,
-Overall Carrots Production,0103300000,La Union,,,,,,,,,,,
-Overall Carrots Production,0105500000,Pangasinan,,,,,,,,,,,
-Overall Carrots Production,0200900000,Batanes,4.0,,7.09,,7.71,,8.75,,11.87,,5.41
-Overall Carrots Production,0201500000,Cagayan,,,,,,,,,0.3,,0.46
-Overall Carrots Production,0203100000,Isabela,,,,,,,,,,,
-Overall Carrots Production,0205000000,Nueva Vizcaya,593.45,63.71,599.78,63.31,668.1,76.49,1093.8,216.56,921.92,222.05,916.6
-Overall Carrots Production,0205700000,Quirino,10.95,4.87,11.79,4.69,11.35,4.41,5.81,1.29,6.45,1.01,5.16
-Overall Carrots Production,0300800000,Bataan,,,,,,,,,,,
-Overall Carrots Production,0301400000,Bulacan,,,,,,,,,,,
-Overall Carrots Production,0304900000,Nueva Ecija,,,,,,,,,,,
-Overall Carrots Production,0305400000,Pampanga,,,,,,,,,,,
-Overall Carrots Production,0306900000,Tarlac,,,,,,,,,,,
-Overall Carrots Production,0307100000,Zambales,,,,,,,,,,,
-Overall Carrots Production,0307700000,Aurora,,,,,,,,,,,
-Overall Carrots Production,0401000000,Batangas,,,,,,,,,,,
-Overall Carrots Production,0402100000,Cavite,,,,,,,,0.03,,,0.01
-Overall Carrots Production,0403400000,Laguna,,,,,,,,,,,
-Overall Carrots Production,0405600000,Quezon,7.26,19.05,6.59,17.04,5.98,17.04,5.22,15.7,5.47,16.18,1.02
-Overall Carrots Production,0405800000,Rizal,,,,,,,,,,,
-Overall Carrots Production,0500500000,Albay,,,,,,,,,,,
-Overall Carrots Production,0501600000,Camarines Norte,,,,,,,,,,,
-Overall Carrots Production,0501700000,Camarines Sur,,,,,,,,,,,
-Overall Carrots Production,0502000000,Catanduanes,,,,,,,,,0.1,,
-Overall Carrots Production,0504100000,Masbate,,,,,,,,,,,
-Overall Carrots Production,0506200000,Sorsogon,,,,,,,,,,,
-Overall Carrots Production,0600400000,Aklan,,,,,,,,,,,
-Overall Carrots Production,0600600000,Antique,8.01,32.85,8.68,29.95,9.45,27.93,7.9,28.47,12.39,23.85,4.48
-Overall Carrots Production,0601900000,Capiz,,,,,,,,,,,
-Overall Carrots Production,0603000000,Iloilo,23.22,13.36,20.61,11.32,18.13,13.79,16.0,13.09,15.19,37.45,118.45
-Overall Carrots Production,0607900000,Guimaras,,,,,,,,,,,
-Overall Carrots Production,0701200000,Bohol,,,,,,0.02,,0.01,,,
-Overall Carrots Production,0702200000,Cebu,356.0,823.07,345.0,770.0,405.95,791.2,285.17,787.83,344.61,780.75,142.52
-Overall Carrots Production,0802600000,Eastern Samar,,,,,,,,,,,
-Overall Carrots Production,0803700000,Leyte,,0.57,,0.56,,0.37,,,,,
-Overall Carrots Production,0804800000,Northern Samar,,,,,,,,,,,
-Overall Carrots Production,0806000000,Samar (Western Samar),,,,,,,,,,0.33,
-Overall Carrots Production,0806400000,Southern Leyte,,,,,,,,,,,
-Overall Carrots Production,0807800000,Biliran,0.2,0.76,0.22,0.7,,,0.19,,,,
-Overall Carrots Production,0906600000,,,,,,,,,,,,
-Overall Carrots Production,0907200000,Zamboanga del Norte,7.14,50.8,8.71,39.52,7.15,25.69,6.38,24.91,7.06,26.87,3.1
-Overall Carrots Production,0907300000,Zamboanga del Sur,9.59,25.31,9.05,23.33,92.58,,84.06,52.1,24.43,8.45,4.3
-Overall Carrots Production,0907400000,Zamboanga City,90.04,120.33,88.45,119.16,,,,,260.4,128.94,45.1
-Overall Carrots Production,0908300000,Zamboanga Sibugay,6.07,14.98,6.25,13.53,6.0,13.11,5.45,13.07,5.17,12.73,3.72
-Overall Carrots Production,1001300000,Bukidnon,223.37,1125.31,217.0,1101.09,223.17,1126.05,725.0,1161.6,708.62,1163.4,439.43
-Overall Carrots Production,1001800000,Camiguin,,,,,,,,,,,
-Overall Carrots Production,1003500000,Lanao del Norte,,,,,,,,,,1.14,
-Overall Carrots Production,1004200000,Misamis Occidental,27.0,34.0,23.44,28.82,20.0,24.3,19.45,24.74,18.92,24.04,6.54
-Overall Carrots Production,1004300000,Misamis Oriental,21.18,6.0,20.99,7.03,21.96,13.5,14.37,12.26,28.5,12.0,14.0
-Overall Carrots Production,1102300000,Davao del Norte,,,,,,,,,,,
-Overall Carrots Production,1102400000,Davao del Sur,567.66,748.6,540.06,697.74,549.15,786.33,554.17,759.69,530.38,698.9,192.8
-Overall Carrots Production,1102500000,Davao Oriental,11.21,3.94,10.13,4.08,9.45,4.23,9.39,4.1,6.85,4.14,2.43
-Overall Carrots Production,1108200000,Davao de Oro (Compostela Valley),17.4,11.63,17.08,11.21,16.76,10.5,16.16,10.11,15.6,9.85,9.04
-Overall Carrots Production,1108600000,Davao Occidental,0.02,0.01,0.02,0.01,0.02,,,,,,
-Overall Carrots Production,1130700000,Davao City,24.91,62.22,26.36,61.0,,,,,17.16,37.6,9.34
-Overall Carrots Production,1204700000,Cotabato (North Cotabato),24.44,185.85,20.41,123.98,18.48,61.99,7.55,40.74,8.06,28.49,2.96
-Overall Carrots Production,1206300000,South Cotabato,35.2,73.85,29.03,93.9,29.41,107.72,37.36,191.03,40.72,137.62,253.84
-Overall Carrots Production,1206500000,Sultan Kudarat,13.34,29.79,13.96,30.13,13.57,30.97,12.8,30.3,13.45,30.47,7.41
-Overall Carrots Production,1208000000,Sarangani,22.75,105.0,23.1,107.0,23.25,70.0,22.3,73.0,25.0,70.0,11.0
-Overall Carrots Production,1400100000,Abra,,,,,,,1.3,,1.43,,
-Overall Carrots Production,1401100000,Benguet,19040.41,34425.45,18529.78,29089.0,18439.45,30925.0,12671.29,35515.0,13533.13,34472.42,31591.47
-Overall Carrots Production,1402700000,Ifugao,167.3,299.26,175.1,245.49,182.72,445.1,424.64,501.2,619.0,922.64,148.61
-Overall Carrots Production,1403200000,Kalinga,,,,,,,,,,,
-Overall Carrots Production,1404400000,Mountain Province,834.2,2056.3,830.8,2111.57,809.6,1822.67,785.23,1841.53,801.94,1692.5,98.1
-Overall Carrots Production,1408100000,Apayao,,,,,,,,,,,
-Overall Carrots Production,1600200000,Agusan del Norte,,,,,,,,,,,
-Overall Carrots Production,1600300000,Agusan del Sur,,,,,,,,,,,
-Overall Carrots Production,1606700000,Surigao del Norte,,,,,,,0.7,,,,
-Overall Carrots Production,1606800000,Surigao del Sur,,,,,,,,,,,
-Overall Carrots Production,1608500000,Dinagat Islands,0.05,0.15,,,,,,,,,
-Overall Carrots Production,1630400000,Butuan City,,,,,,,,,,,
-Overall Carrots Production,1704000000,Marinduque,,1.87,,1.13,,0.15,,0.05,,,
-Overall Carrots Production,1705100000,Occidental Mindoro,,,,,,,,,,,
-Overall Carrots Production,1705200000,Oriental Mindoro,,,,,,,,,,,
-Overall Carrots Production,1705300000,Palawan,,,,,,,,,,,
-Overall Carrots Production,1705900000,Romblon,,,,,,,,,,,
-Overall Carrots Production,1731500000,Puerto Princesa City,,,,,,,,,,,
-Overall Carrots Production,1804500000,Negros Occidental,,70.53,,63.19,,60.88,1.45,60.54,73.25,61.54,73.1
-Overall Carrots Production,1804600000,Negros Oriental,855.05,623.77,906.76,610.95,1138.12,790.35,1386.7,981.89,888.64,732.07,636.7
-Overall Carrots Production,1806100000,Siquijor,,,,,,,,,,,
-Overall Carrots Production,1830200000,Bacolod City,,,,,,,,,,,
-Overall Carrots Production,1900700000,Basilan,,,,,,,,,,,
-Overall Carrots Production,1903600000,Lanao del Sur,0.28,,0.26,,0.73,1.04,3.31,57.93,20.5,114.87,21.09
-Overall Carrots Production,1907000000,Tawi-Tawi,,,,,,,,,,,
-Overall Carrots Production,1908700000,Maguindanao del Norte,,,,,,,,,19.92,32.49,24.86
-Overall Carrots Production,1908800000,Maguindanao del Sur,,,,,,,,15.1,15.6,3.15,7.5
+Commodity Type,ADM2_PCODE,Province,2021S1,2021S2,2022S1,2022S2,2023S1,2023S2,2024S1,2024S2,2025S1,2025S2
+Overall Carrots Production,0102800000,Ilocos Norte,,,,,,,,,,
+Overall Carrots Production,0102900000,Ilocos Sur,,,,,,,,,,
+Overall Carrots Production,0103300000,La Union,,,,,,,,,,
+Overall Carrots Production,0105500000,Pangasinan,,,,,,,,,,
+Overall Carrots Production,0200900000,Batanes,4.0,,7.09,,7.71,,8.75,,11.87,
+Overall Carrots Production,0201500000,Cagayan,,,,,,,,,0.3,
+Overall Carrots Production,0203100000,Isabela,,,,,,,,,,
+Overall Carrots Production,0205000000,Nueva Vizcaya,593.45,63.71,599.78,63.31,668.1,76.49,1093.8,216.56,921.92,222.05
+Overall Carrots Production,0205700000,Quirino,10.95,4.87,11.79,4.69,11.35,4.41,5.81,1.29,6.45,1.01
+Overall Carrots Production,0300800000,Bataan,,,,,,,,,,
+Overall Carrots Production,0301400000,Bulacan,,,,,,,,,,
+Overall Carrots Production,0304900000,Nueva Ecija,,,,,,,,,,
+Overall Carrots Production,0305400000,Pampanga,,,,,,,,,,
+Overall Carrots Production,0306900000,Tarlac,,,,,,,,,,
+Overall Carrots Production,0307100000,Zambales,,,,,,,,,,
+Overall Carrots Production,0307700000,Aurora,,,,,,,,,,
+Overall Carrots Production,0401000000,Batangas,,,,,,,,,,
+Overall Carrots Production,0402100000,Cavite,,,,,,,,0.03,,
+Overall Carrots Production,0403400000,Laguna,,,,,,,,,,
+Overall Carrots Production,0405600000,Quezon,7.26,19.05,6.59,17.04,5.98,17.04,5.22,15.7,5.47,16.18
+Overall Carrots Production,0405800000,Rizal,,,,,,,,,,
+Overall Carrots Production,0500500000,Albay,,,,,,,,,,
+Overall Carrots Production,0501600000,Camarines Norte,,,,,,,,,,
+Overall Carrots Production,0501700000,Camarines Sur,,,,,,,,,,
+Overall Carrots Production,0502000000,Catanduanes,,,,,,,,,0.1,
+Overall Carrots Production,0504100000,Masbate,,,,,,,,,,
+Overall Carrots Production,0506200000,Sorsogon,,,,,,,,,,
+Overall Carrots Production,0600400000,Aklan,,,,,,,,,,
+Overall Carrots Production,0600600000,Antique,8.01,32.85,8.68,29.95,9.45,27.93,7.9,28.47,12.39,23.85
+Overall Carrots Production,0601900000,Capiz,,,,,,,,,,
+Overall Carrots Production,0603000000,Iloilo,23.22,13.36,20.61,11.32,18.13,13.79,16.0,13.09,15.19,37.45
+Overall Carrots Production,0607900000,Guimaras,,,,,,,,,,
+Overall Carrots Production,0701200000,Bohol,,,,,,0.02,,0.01,,
+Overall Carrots Production,0702200000,Cebu,356.0,823.07,345.0,770.0,405.95,791.2,285.17,787.83,344.61,780.75
+Overall Carrots Production,0802600000,Eastern Samar,,,,,,,,,,
+Overall Carrots Production,0803700000,Leyte,,0.57,,0.56,,0.37,,,,
+Overall Carrots Production,0804800000,Northern Samar,,,,,,,,,,
+Overall Carrots Production,0806000000,Samar (Western Samar),,,,,,,,,,0.33
+Overall Carrots Production,0806400000,Southern Leyte,,,,,,,,,,
+Overall Carrots Production,0807800000,Biliran,0.2,0.76,0.22,0.7,,,0.19,,,
+Overall Carrots Production,0906600000,,,,,,,,,,,
+Overall Carrots Production,0907200000,Zamboanga del Norte,7.14,50.8,8.71,39.52,7.15,25.69,6.38,24.91,7.06,26.87
+Overall Carrots Production,0907300000,Zamboanga del Sur,9.59,25.31,9.05,23.33,92.58,,84.06,52.1,24.43,8.45
+Overall Carrots Production,0907400000,Zamboanga City,90.04,120.33,88.45,119.16,,,,,260.4,128.94
+Overall Carrots Production,0908300000,Zamboanga Sibugay,6.07,14.98,6.25,13.53,6.0,13.11,5.45,13.07,5.17,12.73
+Overall Carrots Production,1001300000,Bukidnon,223.37,1125.31,217.0,1101.09,223.17,1126.05,725.0,1161.6,708.62,1163.4
+Overall Carrots Production,1001800000,Camiguin,,,,,,,,,,
+Overall Carrots Production,1003500000,Lanao del Norte,,,,,,,,,,1.14
+Overall Carrots Production,1004200000,Misamis Occidental,27.0,34.0,23.44,28.82,20.0,24.3,19.45,24.74,18.92,24.04
+Overall Carrots Production,1004300000,Misamis Oriental,21.18,6.0,20.99,7.03,21.96,13.5,14.37,12.26,28.5,12.0
+Overall Carrots Production,1102300000,Davao del Norte,,,,,,,,,,
+Overall Carrots Production,1102400000,Davao del Sur,567.66,748.6,540.06,697.74,549.15,786.33,554.17,759.69,530.38,698.9
+Overall Carrots Production,1102500000,Davao Oriental,11.21,3.94,10.13,4.08,9.45,4.23,9.39,4.1,6.85,4.14
+Overall Carrots Production,1108200000,Davao de Oro (Compostela Valley),17.4,11.63,17.08,11.21,16.76,10.5,16.16,10.11,15.6,9.85
+Overall Carrots Production,1108600000,Davao Occidental,0.02,0.01,0.02,0.01,0.02,,,,,
+Overall Carrots Production,1130700000,Davao City,24.91,62.22,26.36,61.0,,,,,17.16,37.6
+Overall Carrots Production,1204700000,Cotabato (North Cotabato),24.44,185.85,20.41,123.98,18.48,61.99,7.55,40.74,8.06,28.49
+Overall Carrots Production,1206300000,South Cotabato,35.2,73.85,29.03,93.9,29.41,107.72,37.36,191.03,40.72,137.62
+Overall Carrots Production,1206500000,Sultan Kudarat,13.34,29.79,13.96,30.13,13.57,30.97,12.8,30.3,13.45,30.47
+Overall Carrots Production,1208000000,Sarangani,22.75,105.0,23.1,107.0,23.25,70.0,22.3,73.0,25.0,70.0
+Overall Carrots Production,1400100000,Abra,,,,,,,1.3,,1.43,
+Overall Carrots Production,1401100000,Benguet,19040.41,34425.45,18529.78,29089.0,18439.45,30925.0,12671.29,35515.0,13533.13,34472.42
+Overall Carrots Production,1402700000,Ifugao,167.3,299.26,175.1,245.49,182.72,445.1,424.64,501.2,619.0,922.64
+Overall Carrots Production,1403200000,Kalinga,,,,,,,,,,
+Overall Carrots Production,1404400000,Mountain Province,834.2,2056.3,830.8,2111.57,809.6,1822.67,785.23,1841.53,801.94,1692.5
+Overall Carrots Production,1408100000,Apayao,,,,,,,,,,
+Overall Carrots Production,1600200000,Agusan del Norte,,,,,,,,,,
+Overall Carrots Production,1600300000,Agusan del Sur,,,,,,,,,,
+Overall Carrots Production,1606700000,Surigao del Norte,,,,,,,0.7,,,
+Overall Carrots Production,1606800000,Surigao del Sur,,,,,,,,,,
+Overall Carrots Production,1608500000,Dinagat Islands,0.05,0.15,,,,,,,,
+Overall Carrots Production,1630400000,Butuan City,,,,,,,,,,
+Overall Carrots Production,1704000000,Marinduque,,1.87,,1.13,,0.15,,0.05,,
+Overall Carrots Production,1705100000,Occidental Mindoro,,,,,,,,,,
+Overall Carrots Production,1705200000,Oriental Mindoro,,,,,,,,,,
+Overall Carrots Production,1705300000,Palawan,,,,,,,,,,
+Overall Carrots Production,1705900000,Romblon,,,,,,,,,,
+Overall Carrots Production,1731500000,Puerto Princesa City,,,,,,,,,,
+Overall Carrots Production,1804500000,Negros Occidental,,70.53,,63.19,,60.88,1.45,60.54,73.25,61.54
+Overall Carrots Production,1804600000,Negros Oriental,855.05,623.77,906.76,610.95,1138.12,790.35,1386.7,981.89,888.64,732.07
+Overall Carrots Production,1806100000,Siquijor,,,,,,,,,,
+Overall Carrots Production,1830200000,Bacolod City,,,,,,,,,,
+Overall Carrots Production,1900700000,Basilan,,,,,,,,,,
+Overall Carrots Production,1903600000,Lanao del Sur,0.28,,0.26,,0.73,1.04,3.31,57.93,20.5,114.87
+Overall Carrots Production,1907000000,Tawi-Tawi,,,,,,,,,,
+Overall Carrots Production,1908700000,Maguindanao del Norte,,,,,,,,,19.92,32.49
+Overall Carrots Production,1908800000,Maguindanao del Sur,,,,,,,,15.1,15.6,3.15

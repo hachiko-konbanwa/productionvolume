@@ -3,6 +3,40 @@
 All notable changes to the Production Atlas webmap. Newest first.
 Each entry: date · what changed · why (if not obvious).
 
+## 2026-09-08
+
+### Fixed — a semester built from one quarter is no longer offered
+
+- **`2026S1` was exactly `2026Q1` for 54 of 60 commodities.** Not approximately —
+  exactly, in all 3,265 province rows. The fruit and vegetable semester files are
+  summed from quarters rather than read from a semester row, and nothing checked
+  that both quarters existed. PSA has published only Q1 for those crops, so the
+  sum was Q1.
+
+- **It carried no warning**, because the code's rule was that only the annual
+  column can be partial — "a quarter of data is a whole quarter". True for a
+  quarter; false for a half-year assembled from one.
+
+- **What it did to the map.** Read against 2025S1, the 54 showed a median
+  **−46.3%** change, with 39 of 53 looking like a drop of more than 30% —
+  Asparagus −94.3%, Mango −85.4%, Dragon Fruit −85.3%, Cassava −59.0%.
+  Every one an artefact of comparing one quarter with two.
+
+- **Fix:** the `2026S1` column is removed from those 54 files, so the period is
+  not offered at all — in Semester view those crops now end at 2025S2. Verified
+  the removal touched nothing else: 58,643 surviving cells compared against the
+  committed files, zero discrepancies. Quarter view is unaffected and still
+  shows 2026Q1, which is real.
+
+- **Palay and Corn keep their 2026S1.** They come from Agristat, which publishes
+  a real Q2, and their S1 equals Q1+Q2 exactly in all 522 province rows.
+
+- **Stopped at source too:** `sync_fruits.py` and `sync_vegetables.py` now emit a
+  semester only when both of its quarters are present, and log any they drop.
+  Audited every other year: 2026S1 was the only affected period.
+
+- `DATA_VERSION` → `2026-09-08a`.
+
 ## 2026-09-07
 
 ### Changed — Rounding note hidden from the footer

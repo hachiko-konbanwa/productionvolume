@@ -1,79 +1,79 @@
-Commodity Type,ADM2_PCODE,Province,2021S1,2021S2,2022S1,2022S2,2023S1,2023S2,2024S1,2024S2,2025S1,2025S2,2026S1
-Overall Dragon Fruit Production,0102800000,Ilocos Norte,46.42,242.99,51.26,239.9,52.98,170.17,43.62,131.64,33.41,85.59,0.15
-Overall Dragon Fruit Production,0102900000,Ilocos Sur,49.66,188.98,51.67,213.78,64.73,170.99,51.93,188.6,46.19,192.25,0.39
-Overall Dragon Fruit Production,0103300000,La Union,2.34,7.31,2.07,6.89,1.57,8.53,2.01,8.79,2.19,8.62,0.15
-Overall Dragon Fruit Production,0105500000,Pangasinan,29.0,1.96,27.6,1.96,29.06,13.3,30.6,13.46,32.1,13.27,
-Overall Dragon Fruit Production,0200900000,Batanes,,,,,,0.08,,0.26,,0.27,
-Overall Dragon Fruit Production,0201500000,Cagayan,3.74,297.42,2.75,302.62,2.25,266.42,2.73,236.96,2.3,234.67,2.13
-Overall Dragon Fruit Production,0203100000,Isabela,,99.93,,101.9,,92.23,1.72,87.39,1.66,85.55,0.3
-Overall Dragon Fruit Production,0205000000,Nueva Vizcaya,12.98,40.09,13.95,41.41,14.1,40.31,14.03,41.49,14.07,68.8,0.04
-Overall Dragon Fruit Production,0205700000,Quirino,,1.28,,1.34,,1.2,0.52,2.71,0.53,2.68,
-Overall Dragon Fruit Production,0300800000,Bataan,0.64,15.06,0.68,15.61,0.7,15.21,0.67,14.12,0.75,12.25,3.0
-Overall Dragon Fruit Production,0301400000,Bulacan,70.72,11.49,101.4,11.86,101.49,11.91,97.78,14.01,100.22,12.97,2.44
-Overall Dragon Fruit Production,0304900000,Nueva Ecija,8.03,50.15,7.23,60.99,7.07,66.88,6.62,44.47,6.66,39.7,
-Overall Dragon Fruit Production,0305400000,Pampanga,,21.63,,24.36,,45.2,,46.28,,46.09,9.14
-Overall Dragon Fruit Production,0306900000,Tarlac,,15.14,,14.73,,18.34,0.03,18.4,,18.4,
-Overall Dragon Fruit Production,0307100000,Zambales,,,,,,0.35,0.47,1.08,0.03,0.04,
-Overall Dragon Fruit Production,0307700000,Aurora,1.95,44.75,2.19,46.13,2.2,32.79,3.16,43.23,24.13,47.78,
-Overall Dragon Fruit Production,0401000000,Batangas,0.96,9.69,0.7,10.22,0.48,18.0,2.87,21.42,3.97,18.82,0.38
-Overall Dragon Fruit Production,0402100000,Cavite,9.51,32.1,9.09,31.04,8.9,43.17,13.99,70.68,18.71,84.48,6.35
-Overall Dragon Fruit Production,0403400000,Laguna,,12.19,,13.84,,12.05,1.14,39.62,1.54,23.18,0.14
-Overall Dragon Fruit Production,0405600000,Quezon,,12.48,,12.23,,12.81,1.14,17.5,1.34,38.03,2.8
-Overall Dragon Fruit Production,0405800000,Rizal,12.0,96.13,11.39,86.41,11.05,73.35,12.0,70.2,11.5,63.98,
-Overall Dragon Fruit Production,0500500000,Albay,,,,,,0.19,1.52,15.84,2.12,3.72,
-Overall Dragon Fruit Production,0501600000,Camarines Norte,,,,,,0.93,4.23,,,,0.15
-Overall Dragon Fruit Production,0501700000,Camarines Sur,,,,,,9.97,2.9,4.18,3.37,10.33,0.41
-Overall Dragon Fruit Production,0502000000,Catanduanes,,,,,,,0.2,0.01,0.94,1.93,
-Overall Dragon Fruit Production,0504100000,Masbate,,,,,,,4.2,15.38,11.16,12.39,1.99
-Overall Dragon Fruit Production,0506200000,Sorsogon,,,,,,6.9,0.28,3.54,0.69,0.25,
-Overall Dragon Fruit Production,0600400000,Aklan,0.39,3.4,0.42,3.52,0.46,2.74,1.1,4.6,3.02,11.26,1.01
-Overall Dragon Fruit Production,0600600000,Antique,,2.62,1.24,2.8,2.35,4.26,3.24,6.05,3.25,9.46,1.04
-Overall Dragon Fruit Production,0601900000,Capiz,2.7,2.95,4.28,3.87,4.6,4.4,4.56,4.15,5.91,7.29,2.16
-Overall Dragon Fruit Production,0603000000,Iloilo,3.43,9.7,4.4,9.65,3.87,9.7,3.36,11.66,3.82,13.67,0.4
-Overall Dragon Fruit Production,0607900000,Guimaras,1.05,7.19,2.21,14.41,3.61,9.52,4.2,20.55,6.67,34.25,0.15
-Overall Dragon Fruit Production,0701200000,Bohol,10.26,43.53,7.12,40.22,6.51,25.51,10.57,30.15,10.93,45.84,0.5
-Overall Dragon Fruit Production,0702200000,Cebu,7.0,34.0,8.7,50.0,9.91,51.05,9.37,57.96,11.07,55.02,2.25
-Overall Dragon Fruit Production,0802600000,Eastern Samar,,1.0,3.0,1.43,3.5,8.55,3.72,9.44,,9.62,
-Overall Dragon Fruit Production,0803700000,Leyte,3.98,3.15,3.54,2.68,1.26,3.71,2.21,2.5,2.42,3.1,1.05
-Overall Dragon Fruit Production,0804800000,Northern Samar,,,,,,,4.16,,3.67,,
-Overall Dragon Fruit Production,0806000000,Samar (Western Samar),,0.67,,0.92,,1.05,,1.9,4.15,1.87,
-Overall Dragon Fruit Production,0806400000,Southern Leyte,,,,,,0.21,0.48,1.16,0.44,3.03,2.45
-Overall Dragon Fruit Production,0807800000,Biliran,0.15,1.06,0.19,1.91,0.22,2.28,0.3,3.22,0.31,2.47,0.08
-Overall Dragon Fruit Production,0906600000,,,,,,,,0.67,,,,
-Overall Dragon Fruit Production,0907200000,Zamboanga del Norte,4.04,5.03,6.08,9.77,6.33,43.71,7.21,41.48,6.48,12.82,6.35
-Overall Dragon Fruit Production,0907300000,Zamboanga del Sur,4.62,3.71,10.01,4.28,9.68,12.88,10.99,13.2,9.48,9.48,2.91
-Overall Dragon Fruit Production,0907400000,Zamboanga City,1.14,1.44,1.14,1.4,,,,,,,
-Overall Dragon Fruit Production,0908300000,Zamboanga Sibugay,,,,,,0.78,2.16,,,,
-Overall Dragon Fruit Production,1001300000,Bukidnon,21.63,36.0,20.0,36.5,19.67,39.83,18.68,37.04,17.8,39.43,4.5
-Overall Dragon Fruit Production,1001800000,Camiguin,,,,0.25,,2.77,,4.18,2.58,5.71,0.2
-Overall Dragon Fruit Production,1003500000,Lanao del Norte,5.63,11.0,5.47,16.5,8.85,18.61,8.2,18.75,8.4,21.7,0.82
-Overall Dragon Fruit Production,1004200000,Misamis Occidental,7.77,18.3,7.88,21.2,9.93,25.0,10.18,25.58,10.67,26.07,0.56
-Overall Dragon Fruit Production,1004300000,Misamis Oriental,0.16,12.0,0.6,14.5,0.67,408.73,0.78,145.58,0.79,144.5,0.21
-Overall Dragon Fruit Production,1102300000,Davao del Norte,,,,,,,0.01,1.6,0.1,0.16,0.02
-Overall Dragon Fruit Production,1102400000,Davao del Sur,,,,,,1.51,6.9,2.32,6.93,0.75,
-Overall Dragon Fruit Production,1102500000,Davao Oriental,,1.57,,1.8,,1.66,,1.68,,1.71,0.01
-Overall Dragon Fruit Production,1130700000,Davao City,,1.62,,1.3,,,,,2.93,1.67,4.0
-Overall Dragon Fruit Production,1204700000,Cotabato (North Cotabato),2.45,5.77,2.82,5.91,2.99,6.26,3.77,7.01,2.72,5.06,1.4
-Overall Dragon Fruit Production,1206300000,South Cotabato,,,0.75,3.8,7.5,21.0,14.0,30.5,38.0,90.0,15.0
-Overall Dragon Fruit Production,1206500000,Sultan Kudarat,,,2.25,,2.25,3.2,1.91,3.8,2.3,5.11,0.23
-Overall Dragon Fruit Production,1208000000,Sarangani,0.9,0.3,5.2,8.0,7.3,3.67,7.26,3.5,7.13,3.4,0.48
-Overall Dragon Fruit Production,1400100000,Abra,,,,,,0.25,0.83,0.23,0.72,3.15,
-Overall Dragon Fruit Production,1401100000,Benguet,1.05,155.0,2.0,187.0,2.25,190.0,,210.0,55.0,981.35,
-Overall Dragon Fruit Production,1402700000,Ifugao,6.05,46.84,3.63,52.44,4.2,45.46,2.58,10.82,3.72,17.11,
-Overall Dragon Fruit Production,1403200000,Kalinga,,4.4,,5.74,,4.93,,5.52,0.7,7.07,
-Overall Dragon Fruit Production,1404400000,Mountain Province,,1.64,,2.08,,1.71,3.82,1.47,4.01,1.6,
-Overall Dragon Fruit Production,1408100000,Apayao,3.0,3.82,3.9,3.89,3.76,3.9,3.5,3.86,0.87,3.65,
-Overall Dragon Fruit Production,1600200000,Agusan del Norte,0.59,0.56,0.95,0.62,1.4,0.52,1.39,11.41,1.46,9.7,0.33
-Overall Dragon Fruit Production,1600300000,Agusan del Sur,,,,,,1.4,0.14,0.96,0.16,1.01,0.69
-Overall Dragon Fruit Production,1606700000,Surigao del Norte,,,,,,,0.19,3.32,0.15,2.26,
-Overall Dragon Fruit Production,1606800000,Surigao del Sur,0.18,7.61,0.17,11.62,0.21,0.2,,0.24,,,
-Overall Dragon Fruit Production,1608500000,Dinagat Islands,9.03,39.78,0.4,15.16,0.65,24.57,1.17,1.18,1.38,3.02,
-Overall Dragon Fruit Production,1705100000,Occidental Mindoro,,0.1,,,,0.03,,,,0.05,
-Overall Dragon Fruit Production,1705200000,Oriental Mindoro,0.18,0.44,0.15,0.21,0.2,0.31,0.1,0.59,0.33,1.17,0.18
-Overall Dragon Fruit Production,1705300000,Palawan,,,,,,0.61,,0.58,0.09,0.55,0.08
-Overall Dragon Fruit Production,1705900000,Romblon,,,,,,5.66,6.02,8.38,4.22,14.58,3.36
-Overall Dragon Fruit Production,1731500000,Puerto Princesa City,,,,,,,,,,,0.95
-Overall Dragon Fruit Production,1804500000,Negros Occidental,,,0.8,3.55,0.89,4.95,0.85,4.57,1.17,15.38,0.03
-Overall Dragon Fruit Production,1804600000,Negros Oriental,,76.0,,80.0,,79.31,0.51,70.25,0.7,74.42,
-Overall Dragon Fruit Production,1806100000,Siquijor,0.09,2.6,4.26,1.23,2.32,2.4,0.89,2.49,1.9,3.1,0.38
-Overall Dragon Fruit Production,1903600000,Lanao del Sur,,,,,,,,,,0.01,
+Commodity Type,ADM2_PCODE,Province,2021S1,2021S2,2022S1,2022S2,2023S1,2023S2,2024S1,2024S2,2025S1,2025S2
+Overall Dragon Fruit Production,0102800000,Ilocos Norte,46.42,242.99,51.26,239.9,52.98,170.17,43.62,131.64,33.41,85.59
+Overall Dragon Fruit Production,0102900000,Ilocos Sur,49.66,188.98,51.67,213.78,64.73,170.99,51.93,188.6,46.19,192.25
+Overall Dragon Fruit Production,0103300000,La Union,2.34,7.31,2.07,6.89,1.57,8.53,2.01,8.79,2.19,8.62
+Overall Dragon Fruit Production,0105500000,Pangasinan,29.0,1.96,27.6,1.96,29.06,13.3,30.6,13.46,32.1,13.27
+Overall Dragon Fruit Production,0200900000,Batanes,,,,,,0.08,,0.26,,0.27
+Overall Dragon Fruit Production,0201500000,Cagayan,3.74,297.42,2.75,302.62,2.25,266.42,2.73,236.96,2.3,234.67
+Overall Dragon Fruit Production,0203100000,Isabela,,99.93,,101.9,,92.23,1.72,87.39,1.66,85.55
+Overall Dragon Fruit Production,0205000000,Nueva Vizcaya,12.98,40.09,13.95,41.41,14.1,40.31,14.03,41.49,14.07,68.8
+Overall Dragon Fruit Production,0205700000,Quirino,,1.28,,1.34,,1.2,0.52,2.71,0.53,2.68
+Overall Dragon Fruit Production,0300800000,Bataan,0.64,15.06,0.68,15.61,0.7,15.21,0.67,14.12,0.75,12.25
+Overall Dragon Fruit Production,0301400000,Bulacan,70.72,11.49,101.4,11.86,101.49,11.91,97.78,14.01,100.22,12.97
+Overall Dragon Fruit Production,0304900000,Nueva Ecija,8.03,50.15,7.23,60.99,7.07,66.88,6.62,44.47,6.66,39.7
+Overall Dragon Fruit Production,0305400000,Pampanga,,21.63,,24.36,,45.2,,46.28,,46.09
+Overall Dragon Fruit Production,0306900000,Tarlac,,15.14,,14.73,,18.34,0.03,18.4,,18.4
+Overall Dragon Fruit Production,0307100000,Zambales,,,,,,0.35,0.47,1.08,0.03,0.04
+Overall Dragon Fruit Production,0307700000,Aurora,1.95,44.75,2.19,46.13,2.2,32.79,3.16,43.23,24.13,47.78
+Overall Dragon Fruit Production,0401000000,Batangas,0.96,9.69,0.7,10.22,0.48,18.0,2.87,21.42,3.97,18.82
+Overall Dragon Fruit Production,0402100000,Cavite,9.51,32.1,9.09,31.04,8.9,43.17,13.99,70.68,18.71,84.48
+Overall Dragon Fruit Production,0403400000,Laguna,,12.19,,13.84,,12.05,1.14,39.62,1.54,23.18
+Overall Dragon Fruit Production,0405600000,Quezon,,12.48,,12.23,,12.81,1.14,17.5,1.34,38.03
+Overall Dragon Fruit Production,0405800000,Rizal,12.0,96.13,11.39,86.41,11.05,73.35,12.0,70.2,11.5,63.98
+Overall Dragon Fruit Production,0500500000,Albay,,,,,,0.19,1.52,15.84,2.12,3.72
+Overall Dragon Fruit Production,0501600000,Camarines Norte,,,,,,0.93,4.23,,,
+Overall Dragon Fruit Production,0501700000,Camarines Sur,,,,,,9.97,2.9,4.18,3.37,10.33
+Overall Dragon Fruit Production,0502000000,Catanduanes,,,,,,,0.2,0.01,0.94,1.93
+Overall Dragon Fruit Production,0504100000,Masbate,,,,,,,4.2,15.38,11.16,12.39
+Overall Dragon Fruit Production,0506200000,Sorsogon,,,,,,6.9,0.28,3.54,0.69,0.25
+Overall Dragon Fruit Production,0600400000,Aklan,0.39,3.4,0.42,3.52,0.46,2.74,1.1,4.6,3.02,11.26
+Overall Dragon Fruit Production,0600600000,Antique,,2.62,1.24,2.8,2.35,4.26,3.24,6.05,3.25,9.46
+Overall Dragon Fruit Production,0601900000,Capiz,2.7,2.95,4.28,3.87,4.6,4.4,4.56,4.15,5.91,7.29
+Overall Dragon Fruit Production,0603000000,Iloilo,3.43,9.7,4.4,9.65,3.87,9.7,3.36,11.66,3.82,13.67
+Overall Dragon Fruit Production,0607900000,Guimaras,1.05,7.19,2.21,14.41,3.61,9.52,4.2,20.55,6.67,34.25
+Overall Dragon Fruit Production,0701200000,Bohol,10.26,43.53,7.12,40.22,6.51,25.51,10.57,30.15,10.93,45.84
+Overall Dragon Fruit Production,0702200000,Cebu,7.0,34.0,8.7,50.0,9.91,51.05,9.37,57.96,11.07,55.02
+Overall Dragon Fruit Production,0802600000,Eastern Samar,,1.0,3.0,1.43,3.5,8.55,3.72,9.44,,9.62
+Overall Dragon Fruit Production,0803700000,Leyte,3.98,3.15,3.54,2.68,1.26,3.71,2.21,2.5,2.42,3.1
+Overall Dragon Fruit Production,0804800000,Northern Samar,,,,,,,4.16,,3.67,
+Overall Dragon Fruit Production,0806000000,Samar (Western Samar),,0.67,,0.92,,1.05,,1.9,4.15,1.87
+Overall Dragon Fruit Production,0806400000,Southern Leyte,,,,,,0.21,0.48,1.16,0.44,3.03
+Overall Dragon Fruit Production,0807800000,Biliran,0.15,1.06,0.19,1.91,0.22,2.28,0.3,3.22,0.31,2.47
+Overall Dragon Fruit Production,0906600000,,,,,,,,0.67,,,
+Overall Dragon Fruit Production,0907200000,Zamboanga del Norte,4.04,5.03,6.08,9.77,6.33,43.71,7.21,41.48,6.48,12.82
+Overall Dragon Fruit Production,0907300000,Zamboanga del Sur,4.62,3.71,10.01,4.28,9.68,12.88,10.99,13.2,9.48,9.48
+Overall Dragon Fruit Production,0907400000,Zamboanga City,1.14,1.44,1.14,1.4,,,,,,
+Overall Dragon Fruit Production,0908300000,Zamboanga Sibugay,,,,,,0.78,2.16,,,
+Overall Dragon Fruit Production,1001300000,Bukidnon,21.63,36.0,20.0,36.5,19.67,39.83,18.68,37.04,17.8,39.43
+Overall Dragon Fruit Production,1001800000,Camiguin,,,,0.25,,2.77,,4.18,2.58,5.71
+Overall Dragon Fruit Production,1003500000,Lanao del Norte,5.63,11.0,5.47,16.5,8.85,18.61,8.2,18.75,8.4,21.7
+Overall Dragon Fruit Production,1004200000,Misamis Occidental,7.77,18.3,7.88,21.2,9.93,25.0,10.18,25.58,10.67,26.07
+Overall Dragon Fruit Production,1004300000,Misamis Oriental,0.16,12.0,0.6,14.5,0.67,408.73,0.78,145.58,0.79,144.5
+Overall Dragon Fruit Production,1102300000,Davao del Norte,,,,,,,0.01,1.6,0.1,0.16
+Overall Dragon Fruit Production,1102400000,Davao del Sur,,,,,,1.51,6.9,2.32,6.93,0.75
+Overall Dragon Fruit Production,1102500000,Davao Oriental,,1.57,,1.8,,1.66,,1.68,,1.71
+Overall Dragon Fruit Production,1130700000,Davao City,,1.62,,1.3,,,,,2.93,1.67
+Overall Dragon Fruit Production,1204700000,Cotabato (North Cotabato),2.45,5.77,2.82,5.91,2.99,6.26,3.77,7.01,2.72,5.06
+Overall Dragon Fruit Production,1206300000,South Cotabato,,,0.75,3.8,7.5,21.0,14.0,30.5,38.0,90.0
+Overall Dragon Fruit Production,1206500000,Sultan Kudarat,,,2.25,,2.25,3.2,1.91,3.8,2.3,5.11
+Overall Dragon Fruit Production,1208000000,Sarangani,0.9,0.3,5.2,8.0,7.3,3.67,7.26,3.5,7.13,3.4
+Overall Dragon Fruit Production,1400100000,Abra,,,,,,0.25,0.83,0.23,0.72,3.15
+Overall Dragon Fruit Production,1401100000,Benguet,1.05,155.0,2.0,187.0,2.25,190.0,,210.0,55.0,981.35
+Overall Dragon Fruit Production,1402700000,Ifugao,6.05,46.84,3.63,52.44,4.2,45.46,2.58,10.82,3.72,17.11
+Overall Dragon Fruit Production,1403200000,Kalinga,,4.4,,5.74,,4.93,,5.52,0.7,7.07
+Overall Dragon Fruit Production,1404400000,Mountain Province,,1.64,,2.08,,1.71,3.82,1.47,4.01,1.6
+Overall Dragon Fruit Production,1408100000,Apayao,3.0,3.82,3.9,3.89,3.76,3.9,3.5,3.86,0.87,3.65
+Overall Dragon Fruit Production,1600200000,Agusan del Norte,0.59,0.56,0.95,0.62,1.4,0.52,1.39,11.41,1.46,9.7
+Overall Dragon Fruit Production,1600300000,Agusan del Sur,,,,,,1.4,0.14,0.96,0.16,1.01
+Overall Dragon Fruit Production,1606700000,Surigao del Norte,,,,,,,0.19,3.32,0.15,2.26
+Overall Dragon Fruit Production,1606800000,Surigao del Sur,0.18,7.61,0.17,11.62,0.21,0.2,,0.24,,
+Overall Dragon Fruit Production,1608500000,Dinagat Islands,9.03,39.78,0.4,15.16,0.65,24.57,1.17,1.18,1.38,3.02
+Overall Dragon Fruit Production,1705100000,Occidental Mindoro,,0.1,,,,0.03,,,,0.05
+Overall Dragon Fruit Production,1705200000,Oriental Mindoro,0.18,0.44,0.15,0.21,0.2,0.31,0.1,0.59,0.33,1.17
+Overall Dragon Fruit Production,1705300000,Palawan,,,,,,0.61,,0.58,0.09,0.55
+Overall Dragon Fruit Production,1705900000,Romblon,,,,,,5.66,6.02,8.38,4.22,14.58
+Overall Dragon Fruit Production,1731500000,Puerto Princesa City,,,,,,,,,,
+Overall Dragon Fruit Production,1804500000,Negros Occidental,,,0.8,3.55,0.89,4.95,0.85,4.57,1.17,15.38
+Overall Dragon Fruit Production,1804600000,Negros Oriental,,76.0,,80.0,,79.31,0.51,70.25,0.7,74.42
+Overall Dragon Fruit Production,1806100000,Siquijor,0.09,2.6,4.26,1.23,2.32,2.4,0.89,2.49,1.9,3.1
+Overall Dragon Fruit Production,1903600000,Lanao del Sur,,,,,,,,,,0.01

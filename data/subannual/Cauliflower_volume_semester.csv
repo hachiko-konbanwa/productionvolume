@@ -1,88 +1,88 @@
-Commodity Type,ADM2_PCODE,Province,2021S1,2021S2,2022S1,2022S2,2023S1,2023S2,2024S1,2024S2,2025S1,2025S2,2026S1
-Overall Cauliflower Production,0102800000,Ilocos Norte,1.39,1.04,1.52,1.01,1.61,1.21,1.65,1.11,1.69,,1.97
-Overall Cauliflower Production,0102900000,Ilocos Sur,4677.72,506.77,4466.13,503.45,4290.05,585.74,4426.84,558.31,4334.47,572.03,2816.7
-Overall Cauliflower Production,0103300000,La Union,,,,,,,,,,,
-Overall Cauliflower Production,0105500000,Pangasinan,,,,,,,,,,,
-Overall Cauliflower Production,0200900000,Batanes,2.0,,2.29,,2.82,,3.0,,3.2,,0.36
-Overall Cauliflower Production,0201500000,Cagayan,,,,,,,,,,,
-Overall Cauliflower Production,0203100000,Isabela,,,,,,,,,,,
-Overall Cauliflower Production,0205000000,Nueva Vizcaya,68.61,164.55,71.49,207.06,71.99,202.96,292.76,238.22,417.19,226.22,489.18
-Overall Cauliflower Production,0205700000,Quirino,3.12,,2.4,,2.64,,2.52,1.1,4.93,1.64,5.65
-Overall Cauliflower Production,0300800000,Bataan,,,,,,,,,,,
-Overall Cauliflower Production,0301400000,Bulacan,,,,,,,,,,,
-Overall Cauliflower Production,0304900000,Nueva Ecija,,,,,,,,,,,
-Overall Cauliflower Production,0305400000,Pampanga,,,,,,,,,,,
-Overall Cauliflower Production,0306900000,Tarlac,,,,,,,,,,,
-Overall Cauliflower Production,0307100000,Zambales,,,,,,,,,,,
-Overall Cauliflower Production,0307700000,Aurora,,,,,,,,,,,
-Overall Cauliflower Production,0401000000,Batangas,,,,,,,,,,,
-Overall Cauliflower Production,0402100000,Cavite,,,,,,,,,0.05,,0.05
-Overall Cauliflower Production,0403400000,Laguna,,,,,,,,,,,
-Overall Cauliflower Production,0405600000,Quezon,,,,,,,,,,,
-Overall Cauliflower Production,0405800000,Rizal,,,,,,,,,,,
-Overall Cauliflower Production,0500500000,Albay,,,,,,,,,,,
-Overall Cauliflower Production,0501600000,Camarines Norte,,,,,,,,,,,
-Overall Cauliflower Production,0501700000,Camarines Sur,,,,,,,,,,,
-Overall Cauliflower Production,0502000000,Catanduanes,,,,,,,,,,,
-Overall Cauliflower Production,0504100000,Masbate,,,,,,,,,,,
-Overall Cauliflower Production,0506200000,Sorsogon,,,,,,,,,,,
-Overall Cauliflower Production,0600400000,Aklan,,,,,,,,,,,
-Overall Cauliflower Production,0600600000,Antique,,,,,,,,,,,
-Overall Cauliflower Production,0601900000,Capiz,,,,,,,,,,,
-Overall Cauliflower Production,0603000000,Iloilo,49.5,29.83,48.5,31.3,48.2,36.49,45.15,31.71,43.0,76.08,83.87
-Overall Cauliflower Production,0607900000,Guimaras,,,,,,,,,,,
-Overall Cauliflower Production,0701200000,Bohol,,,,,,,,0.01,,0.05,
-Overall Cauliflower Production,0702200000,Cebu,56.85,37.6,46.0,35.4,54.55,35.93,43.02,31.0,41.12,21.32,34.78
-Overall Cauliflower Production,0802600000,Eastern Samar,,,,,,,,,,,
-Overall Cauliflower Production,0803700000,Leyte,,,,,,,3.82,,0.8,,
-Overall Cauliflower Production,0804800000,Northern Samar,,,,,,,,,,,
-Overall Cauliflower Production,0806000000,Samar (Western Samar),,,,0.51,,,,,,,
-Overall Cauliflower Production,0806400000,Southern Leyte,,,,,,,,,,,
-Overall Cauliflower Production,0807800000,Biliran,,,,,,,,,,,
-Overall Cauliflower Production,0906600000,,,,,,,,,,,,
-Overall Cauliflower Production,0907200000,Zamboanga del Norte,,,,,,,,,,,
-Overall Cauliflower Production,0907300000,Zamboanga del Sur,,,,,,,,,,,
-Overall Cauliflower Production,0907400000,Zamboanga City,2.34,2.12,,,,,,,,,
-Overall Cauliflower Production,0908300000,Zamboanga Sibugay,,,,,,,,,,,
-Overall Cauliflower Production,1001300000,Bukidnon,325.98,801.23,304.61,733.09,283.61,694.32,489.96,726.0,519.44,704.75,269.2
-Overall Cauliflower Production,1001800000,Camiguin,,0.35,,,,,,,,,
-Overall Cauliflower Production,1003500000,Lanao del Norte,,,,,,,,,,,
-Overall Cauliflower Production,1004200000,Misamis Occidental,,0.44,,,,,,,,,
-Overall Cauliflower Production,1004300000,Misamis Oriental,28.48,32.12,30.52,40.78,51.76,42.0,24.75,37.43,49.0,37.1,25.57
-Overall Cauliflower Production,1102300000,Davao del Norte,,,,,,,,,,,
-Overall Cauliflower Production,1102400000,Davao del Sur,17.56,19.08,17.46,19.09,43.79,49.08,42.59,44.62,31.3,15.75,9.3
-Overall Cauliflower Production,1102500000,Davao Oriental,,,,,,,,,,,
-Overall Cauliflower Production,1108200000,Davao de Oro (Compostela Valley),0.98,2.42,0.94,2.34,0.9,2.27,0.82,1.93,0.79,1.88,0.26
-Overall Cauliflower Production,1108600000,Davao Occidental,,,,,,,,,,,
-Overall Cauliflower Production,1130700000,Davao City,25.61,18.15,25.65,17.03,,,,,8.88,20.92,15.77
-Overall Cauliflower Production,1204700000,Cotabato (North Cotabato),26.36,37.7,23.65,26.37,21.91,16.19,8.2,13.32,7.01,8.65,4.72
-Overall Cauliflower Production,1206300000,South Cotabato,13.6,37.88,15.75,40.5,8.33,43.13,5.59,46.55,,54.97,5.83
-Overall Cauliflower Production,1206500000,Sultan Kudarat,,,,,,,,,,,
-Overall Cauliflower Production,1208000000,Sarangani,0.06,0.4,0.05,0.3,0.04,0.2,0.02,0.13,,,0.01
-Overall Cauliflower Production,1400100000,Abra,,,,,,,0.22,,0.29,,
-Overall Cauliflower Production,1401100000,Benguet,3239.78,1193.85,2310.37,1102.54,2102.44,1356.1,1331.19,5417.09,2874.75,5180.76,2845.3
-Overall Cauliflower Production,1402700000,Ifugao,,,,,,,,,,,
-Overall Cauliflower Production,1403200000,Kalinga,,,,,,,,,,,
-Overall Cauliflower Production,1404400000,Mountain Province,,3.07,,2.92,,1.5,,1.43,,1.29,
-Overall Cauliflower Production,1408100000,Apayao,,,,,,,,,,,
-Overall Cauliflower Production,1600200000,Agusan del Norte,,,,,,,,,,,
-Overall Cauliflower Production,1600300000,Agusan del Sur,,,,,,,,,,,
-Overall Cauliflower Production,1606700000,Surigao del Norte,,,,,,,,,,,
-Overall Cauliflower Production,1606800000,Surigao del Sur,,,,,,,,,,,
-Overall Cauliflower Production,1608500000,Dinagat Islands,,,,,,,,,,,
-Overall Cauliflower Production,1630400000,Butuan City,,,,,,,,,,,
-Overall Cauliflower Production,1704000000,Marinduque,,1.23,,,,,,,,,
-Overall Cauliflower Production,1705100000,Occidental Mindoro,,,,,,,,,,,
-Overall Cauliflower Production,1705200000,Oriental Mindoro,,,,,,,,,,,
-Overall Cauliflower Production,1705300000,Palawan,,,,,,,,,,,
-Overall Cauliflower Production,1705900000,Romblon,,,,,,,,,,,
-Overall Cauliflower Production,1731500000,Puerto Princesa City,,,,,,,,,,,
-Overall Cauliflower Production,1804500000,Negros Occidental,,,,,,,,,,,
-Overall Cauliflower Production,1804600000,Negros Oriental,11.1,4.04,8.12,3.34,10.61,4.02,10.9,3.99,8.85,3.78,8.27
-Overall Cauliflower Production,1806100000,Siquijor,,,,,,,,,,,
-Overall Cauliflower Production,1830200000,Bacolod City,,,,,,,,,,,
-Overall Cauliflower Production,1900700000,Basilan,,,,,,,,,,,
-Overall Cauliflower Production,1903600000,Lanao del Sur,,,,,,,,,,,
-Overall Cauliflower Production,1907000000,Tawi-Tawi,,,,,,,,,,,
-Overall Cauliflower Production,1908700000,Maguindanao del Norte,,,,,,,,,,,
-Overall Cauliflower Production,1908800000,Maguindanao del Sur,,,,,,,,,,,
+Commodity Type,ADM2_PCODE,Province,2021S1,2021S2,2022S1,2022S2,2023S1,2023S2,2024S1,2024S2,2025S1,2025S2
+Overall Cauliflower Production,0102800000,Ilocos Norte,1.39,1.04,1.52,1.01,1.61,1.21,1.65,1.11,1.69,
+Overall Cauliflower Production,0102900000,Ilocos Sur,4677.72,506.77,4466.13,503.45,4290.05,585.74,4426.84,558.31,4334.47,572.03
+Overall Cauliflower Production,0103300000,La Union,,,,,,,,,,
+Overall Cauliflower Production,0105500000,Pangasinan,,,,,,,,,,
+Overall Cauliflower Production,0200900000,Batanes,2.0,,2.29,,2.82,,3.0,,3.2,
+Overall Cauliflower Production,0201500000,Cagayan,,,,,,,,,,
+Overall Cauliflower Production,0203100000,Isabela,,,,,,,,,,
+Overall Cauliflower Production,0205000000,Nueva Vizcaya,68.61,164.55,71.49,207.06,71.99,202.96,292.76,238.22,417.19,226.22
+Overall Cauliflower Production,0205700000,Quirino,3.12,,2.4,,2.64,,2.52,1.1,4.93,1.64
+Overall Cauliflower Production,0300800000,Bataan,,,,,,,,,,
+Overall Cauliflower Production,0301400000,Bulacan,,,,,,,,,,
+Overall Cauliflower Production,0304900000,Nueva Ecija,,,,,,,,,,
+Overall Cauliflower Production,0305400000,Pampanga,,,,,,,,,,
+Overall Cauliflower Production,0306900000,Tarlac,,,,,,,,,,
+Overall Cauliflower Production,0307100000,Zambales,,,,,,,,,,
+Overall Cauliflower Production,0307700000,Aurora,,,,,,,,,,
+Overall Cauliflower Production,0401000000,Batangas,,,,,,,,,,
+Overall Cauliflower Production,0402100000,Cavite,,,,,,,,,0.05,
+Overall Cauliflower Production,0403400000,Laguna,,,,,,,,,,
+Overall Cauliflower Production,0405600000,Quezon,,,,,,,,,,
+Overall Cauliflower Production,0405800000,Rizal,,,,,,,,,,
+Overall Cauliflower Production,0500500000,Albay,,,,,,,,,,
+Overall Cauliflower Production,0501600000,Camarines Norte,,,,,,,,,,
+Overall Cauliflower Production,0501700000,Camarines Sur,,,,,,,,,,
+Overall Cauliflower Production,0502000000,Catanduanes,,,,,,,,,,
+Overall Cauliflower Production,0504100000,Masbate,,,,,,,,,,
+Overall Cauliflower Production,0506200000,Sorsogon,,,,,,,,,,
+Overall Cauliflower Production,0600400000,Aklan,,,,,,,,,,
+Overall Cauliflower Production,0600600000,Antique,,,,,,,,,,
+Overall Cauliflower Production,0601900000,Capiz,,,,,,,,,,
+Overall Cauliflower Production,0603000000,Iloilo,49.5,29.83,48.5,31.3,48.2,36.49,45.15,31.71,43.0,76.08
+Overall Cauliflower Production,0607900000,Guimaras,,,,,,,,,,
+Overall Cauliflower Production,0701200000,Bohol,,,,,,,,0.01,,0.05
+Overall Cauliflower Production,0702200000,Cebu,56.85,37.6,46.0,35.4,54.55,35.93,43.02,31.0,41.12,21.32
+Overall Cauliflower Production,0802600000,Eastern Samar,,,,,,,,,,
+Overall Cauliflower Production,0803700000,Leyte,,,,,,,3.82,,0.8,
+Overall Cauliflower Production,0804800000,Northern Samar,,,,,,,,,,
+Overall Cauliflower Production,0806000000,Samar (Western Samar),,,,0.51,,,,,,
+Overall Cauliflower Production,0806400000,Southern Leyte,,,,,,,,,,
+Overall Cauliflower Production,0807800000,Biliran,,,,,,,,,,
+Overall Cauliflower Production,0906600000,,,,,,,,,,,
+Overall Cauliflower Production,0907200000,Zamboanga del Norte,,,,,,,,,,
+Overall Cauliflower Production,0907300000,Zamboanga del Sur,,,,,,,,,,
+Overall Cauliflower Production,0907400000,Zamboanga City,2.34,2.12,,,,,,,,
+Overall Cauliflower Production,0908300000,Zamboanga Sibugay,,,,,,,,,,
+Overall Cauliflower Production,1001300000,Bukidnon,325.98,801.23,304.61,733.09,283.61,694.32,489.96,726.0,519.44,704.75
+Overall Cauliflower Production,1001800000,Camiguin,,0.35,,,,,,,,
+Overall Cauliflower Production,1003500000,Lanao del Norte,,,,,,,,,,
+Overall Cauliflower Production,1004200000,Misamis Occidental,,0.44,,,,,,,,
+Overall Cauliflower Production,1004300000,Misamis Oriental,28.48,32.12,30.52,40.78,51.76,42.0,24.75,37.43,49.0,37.1
+Overall Cauliflower Production,1102300000,Davao del Norte,,,,,,,,,,
+Overall Cauliflower Production,1102400000,Davao del Sur,17.56,19.08,17.46,19.09,43.79,49.08,42.59,44.62,31.3,15.75
+Overall Cauliflower Production,1102500000,Davao Oriental,,,,,,,,,,
+Overall Cauliflower Production,1108200000,Davao de Oro (Compostela Valley),0.98,2.42,0.94,2.34,0.9,2.27,0.82,1.93,0.79,1.88
+Overall Cauliflower Production,1108600000,Davao Occidental,,,,,,,,,,
+Overall Cauliflower Production,1130700000,Davao City,25.61,18.15,25.65,17.03,,,,,8.88,20.92
+Overall Cauliflower Production,1204700000,Cotabato (North Cotabato),26.36,37.7,23.65,26.37,21.91,16.19,8.2,13.32,7.01,8.65
+Overall Cauliflower Production,1206300000,South Cotabato,13.6,37.88,15.75,40.5,8.33,43.13,5.59,46.55,,54.97
+Overall Cauliflower Production,1206500000,Sultan Kudarat,,,,,,,,,,
+Overall Cauliflower Production,1208000000,Sarangani,0.06,0.4,0.05,0.3,0.04,0.2,0.02,0.13,,
+Overall Cauliflower Production,1400100000,Abra,,,,,,,0.22,,0.29,
+Overall Cauliflower Production,1401100000,Benguet,3239.78,1193.85,2310.37,1102.54,2102.44,1356.1,1331.19,5417.09,2874.75,5180.76
+Overall Cauliflower Production,1402700000,Ifugao,,,,,,,,,,
+Overall Cauliflower Production,1403200000,Kalinga,,,,,,,,,,
+Overall Cauliflower Production,1404400000,Mountain Province,,3.07,,2.92,,1.5,,1.43,,1.29
+Overall Cauliflower Production,1408100000,Apayao,,,,,,,,,,
+Overall Cauliflower Production,1600200000,Agusan del Norte,,,,,,,,,,
+Overall Cauliflower Production,1600300000,Agusan del Sur,,,,,,,,,,
+Overall Cauliflower Production,1606700000,Surigao del Norte,,,,,,,,,,
+Overall Cauliflower Production,1606800000,Surigao del Sur,,,,,,,,,,
+Overall Cauliflower Production,1608500000,Dinagat Islands,,,,,,,,,,
+Overall Cauliflower Production,1630400000,Butuan City,,,,,,,,,,
+Overall Cauliflower Production,1704000000,Marinduque,,1.23,,,,,,,,
+Overall Cauliflower Production,1705100000,Occidental Mindoro,,,,,,,,,,
+Overall Cauliflower Production,1705200000,Oriental Mindoro,,,,,,,,,,
+Overall Cauliflower Production,1705300000,Palawan,,,,,,,,,,
+Overall Cauliflower Production,1705900000,Romblon,,,,,,,,,,
+Overall Cauliflower Production,1731500000,Puerto Princesa City,,,,,,,,,,
+Overall Cauliflower Production,1804500000,Negros Occidental,,,,,,,,,,
+Overall Cauliflower Production,1804600000,Negros Oriental,11.1,4.04,8.12,3.34,10.61,4.02,10.9,3.99,8.85,3.78
+Overall Cauliflower Production,1806100000,Siquijor,,,,,,,,,,
+Overall Cauliflower Production,1830200000,Bacolod City,,,,,,,,,,
+Overall Cauliflower Production,1900700000,Basilan,,,,,,,,,,
+Overall Cauliflower Production,1903600000,Lanao del Sur,,,,,,,,,,
+Overall Cauliflower Production,1907000000,Tawi-Tawi,,,,,,,,,,
+Overall Cauliflower Production,1908700000,Maguindanao del Norte,,,,,,,,,,
+Overall Cauliflower Production,1908800000,Maguindanao del Sur,,,,,,,,,,

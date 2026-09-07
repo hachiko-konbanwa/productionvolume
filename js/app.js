@@ -9,7 +9,7 @@ function esc(s) {
 // Bump this whenever the data files change — it busts the browser's HTTP cache
 // once per release instead of on every single request (Date.now() defeated
 // caching entirely and re-downloaded every file on every crop click).
-const DATA_VERSION = '2026-09-05f';
+const DATA_VERSION = '2026-09-08a';
 
 // Boundaries get their OWN version, deliberately. DATA_VERSION bumps whenever
 // any file in data/ changes — a single crop CSV edit is enough — and the three
@@ -37,10 +37,20 @@ let YEARS = ANNUAL_YEARS.slice();
 // both. There is no one honest sub-title like "Q1-Q2" to put on it, so the
 // note says partial and refuses to imply a specific span.
 //
-// Only the ANNUAL 2026 column is partial. 2026Q1/Q2/S1 are complete periods in
-// their own right — a quarter of data is a whole quarter — so the sub-annual
-// views carry no warning, and the period lists there already stop at the last
-// period PSA actually published.
+// Only the ANNUAL 2026 column is partial. The sub-annual periods that DO appear
+// are complete ones — a quarter of data is a whole quarter — so those views
+// carry no warning, and the period lists stop at the last period PSA actually
+// published.
+//
+// That second half was not true until 2026-09-08. The fruit and vegetable
+// semester files are summed from quarters rather than read from a semester
+// row, and nothing checked that both quarters existed: with only Q1 published,
+// 2026S1 was emitted as exactly 2026Q1 for 54 of 60 crops. It carried no
+// warning because, by this rule, a semester is not partial — so the map showed
+// half a semester as a whole one, and against 2025S1 that read as a 46% median
+// collapse (Mango -85%, Asparagus -94%). The column is gone from those 54
+// files and both sync tools now refuse to emit a semester whose quarters are
+// not both present, which is what keeps this comment honest.
 const PARTIAL_ANNUAL_YEARS = { '2026': 'Partial year — incomplete, not comparable with earlier years' };
 
 function partialYearNote(period) {
